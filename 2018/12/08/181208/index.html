@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh">
+<html class="theme-next muse use-motion" lang="en">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -177,7 +177,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh">
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
   
   
@@ -223,7 +223,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -231,7 +231,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -247,7 +247,15 @@
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
-            Über
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-vocab">
+          <a href="/vocab/" rel="section">
+            
+            menu.vocab
           </a>
         </li>
       
@@ -258,7 +266,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-            Suche
+            Search
           </a>
         </li>
       
@@ -347,9 +355,9 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Updated at</span>
+                <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Updated at" itemprop="dateModified" datetime="2018-12-08T20:59:26+08:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2018-12-08T20:59:26+08:00">
                 2018-12-08
               </time>
             
@@ -510,7 +518,7 @@
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
                 <span class="site-state-item-count">6</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">posts</span>
               </a>
             </div>
           
@@ -523,7 +531,7 @@
             <div class="site-state-item site-state-tags">
               
                 <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">Tags</span>
+                <span class="site-state-item-name">tags</span>
               
             </div>
           
@@ -699,7 +707,7 @@
     var isfetched = false;
     var isXml = true;
     // Search DB path;
-    var search_path = "";
+    var search_path = "search.xml";
     if (search_path.length === 0) {
       search_path = "search.xml";
     } else if (/json$/i.test(search_path)) {

@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh">
+<html class="theme-next muse use-motion" lang="en">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -183,7 +183,7 @@ Spring exchange (during yr2 spring o">
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh">
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
   
   
@@ -229,7 +229,7 @@ Spring exchange (during yr2 spring o">
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -237,7 +237,7 @@ Spring exchange (during yr2 spring o">
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -253,7 +253,15 @@ Spring exchange (during yr2 spring o">
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
-            Über
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-vocab">
+          <a href="/vocab/" rel="section">
+            
+            menu.vocab
           </a>
         </li>
       
@@ -264,7 +272,7 @@ Spring exchange (during yr2 spring o">
             <a href="javascript:;" class="popup-trigger">
           
             
-            Suche
+            Search
           </a>
         </li>
       
@@ -353,9 +361,9 @@ Spring exchange (during yr2 spring o">
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Updated at</span>
+                <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Updated at" itemprop="dateModified" datetime="2019-01-25T14:09:47+08:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2019-01-25T14:09:47+08:00">
                 2019-01-25
               </time>
             
@@ -499,10 +507,10 @@ Spring exchange (during yr2 spring o">
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -523,7 +531,7 @@ Spring exchange (during yr2 spring o">
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
                 <span class="site-state-item-count">6</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">posts</span>
               </a>
             </div>
           
@@ -536,7 +544,7 @@ Spring exchange (during yr2 spring o">
             <div class="site-state-item site-state-tags">
               
                 <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">Tags</span>
+                <span class="site-state-item-name">tags</span>
               
             </div>
           
@@ -728,7 +736,7 @@ Spring exchange (during yr2 spring o">
     var isfetched = false;
     var isXml = true;
     // Search DB path;
-    var search_path = "";
+    var search_path = "search.xml";
     if (search_path.length === 0) {
       search_path = "search.xml";
     } else if (/json$/i.test(search_path)) {
