@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[linear-algebra]]></title>
+    <url>%2F191004-linear-algebra%2F</url>
+    <content type="text"><![CDATA[这两星期学linear algebra 学得有点懵逼，看了一下3b1b的视频，总结一下现在学到的知识。 MATRIX the essence of matrix - linear transformation 2-by-2 matrix - 2-D space 3-by-3 matrix - 3-D space not square matrix meaning of matrix multiplication Ax = b linearly transform x in the manner called A resulting in B A itself can be interpreted as a transformation of identity matrix, or unit basis factor in the space. INVERSE MATRIX undo the linear transformation conducted by the original matrix TRANSPOSE MATRIX DETERMINANT det(A) measure the change of linear transformation through show the change in area/volume of parallelogram/parallelepiped formed by the basis. DOT product of vector &amp; matrix production ==&gt; projection use symmetry to explain matrix &amp; projection CROSS production of vector and determinant ==&gt; area/volume for 2×2 matrix, det(A) = area of parallelogram = $\vec{a}\times\vec{b}$ for 3×3 matrix, det(A) = Volume of parallelepiped = $|\vec{a}\cdot ( \vec{b}\times\vec{c})|$, here $( \vec{b}\times\vec{c})$ shows a vector perpendicular to the plane spaned by b and c, whose length equals to the area. a projects on $\vec{b}\times\vec{c}$ and times the length of $\vec{b}\times\vec{c}$ VECTOR SPACE VECTOR SPACE in linear algebra is actually a larger and more abstract idea rather than a simple arrow in space. not necessarily in 3 dimensions. any numbers pile together and form a . From the aspect of computer science, vector just means a set of numbers. ==&gt; subsets fulfilling the same condition - subspace the ultimate characteristic of vector space - it is linear the characteristic of ‘linear’ - closed under addition and scalar multiplication(==&gt; zero vector is included). RANK is the dimension of the vector space of the linear transformation by a matrix NULL SPACE where space high dimension is transformed to zero (the original point) span of thos transformed basis vectors gives you all the possible outputs, which is called column space. Reference - MATH2111 Dr. Ho’s notes找到了MATH2111 Dr. Ho的note，虽然概念都是一样的，整理一下他的讲课思路看看对自己的理解有没有帮助 L1Linear equations -&gt; Linear system -&gt; Augmented Matrix -&gt; Elementary Row Operations × 3 (to solve equations) REF &amp; RREF -&gt; pivot position &amp; pivot column -&gt; (steps for RREF) -&gt; Free variable -&gt; （Particular solution &amp; (General solution)) L2Column vector in $R^n$ -&gt; Linear conbination -&gt; spanning Matrix multiplication (这里也出现得莫名其妙似乎没有前因后果，但是好歹后面还有个 $A\vec{v}=\sum_{i=0}^n a_iv_i$ 算是应用了一下) L3(Equivalent Forms) Solution structure of a linear system - Homogeneous system is $A\vec{x}=\vec{0}$ ; Trivial solution is $\vec{x}=\vec{0}$ ; Non-trivial solution is $\vec{x}\neq\vec{0}$ ; Non-homogeneous system is $A\vec{x}=\vec{b} $ where $\vec{b}\neq\vec{0}$ ; Genral forms of the solution: $\vec{p}+\vec{v_h}$ where $\vec{p}$is a particular solution and $\vec{v_h}$ is the genral form of solutions of $A\vec{x}=\vec{0}$ Linear Independence L4Linear transformation - a mapping T from a vector space to another vector space Standard unit vectors, standard basis, standard matrix for linear transformation T Composition Transpose]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[191002-lecture-graduate-school]]></title>
+    <url>%2F191002-lecture-graduate-school%2F</url>
+    <content type="text"><![CDATA[Basics GPA - US 3.0 average -MPhil top 15% IELTS/TOFEL take GRE now than later (before expiration extra curricular Research Full time work experience Drastically different Job experience helps u know what u lack Not required PS motivation essay Recommendation letters 2 to 3 Profs, FYP advisor Boss in internship better recommendation is no rush ask prof A about UROP ask prof B about FYP and list what you have done TimingFor Overseas Dec Selecting school Academic strength ​ - not most important Size of school Location ​ extremely important - working possibility​ Local a bit low rank &gt; better school far away Work permit / visa limitation ​ US hard language barrier - considering EU schools fundingFor USTPG Msc Including MBARPG Mphil Phd 50% working, with payment from boss, requirement higher For UKScience PHD 3-4 yrs but have to pay Changing fieldseg ECON phd Rank - Reach - Possible - Safety Personal StatementDO NOT write our your life storyseparate doc research plan for RPGnot necessarily account for the dream and future you promise WHY you want them ​ school, prof, program, why is it UNIQUE WHY they want you Tips packageBefore Do well Cultivate relationships for recommendation Standardized tests Relevant extra curricular activities, internships, research Research for school choice During Plan time Engage your recommenders early Strategize and finalize school choice After Explore plan B others…]]></content>
+      <categories>
+        <category>leture note</category>
+      </categories>
+      <tags>
+        <tag>graduate school</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[190927-story-seller]]></title>
+    <url>%2F190927-story-seller%2F</url>
+    <content type="text"><![CDATA[看到ibooks促销有川浩老师有几本书300日元一本，读了很多她的书想想应该不会踩雷就买了两本。 这本书分side A和B。主要都是讲的女主是作家，和上班族男主之间的故事。 不过side A是女主一开始自己偷偷摸摸写，被男主发现之后两人交往结婚，女主在男主的鼓励下投稿，得了大赏，女主遂辞职成为职业作家。 最后女主身患绝症不治身亡。 side B是女主本来就有出版书，机缘巧合被男主发现男主一直喜欢的作家是同事，然后结婚交往。男主说，写一部丈夫死掉的小说会很有趣，女主以为是开玩笑。最后男主因肿瘤身亡。 这里对于我来说有几个地方很注意，一个是side A女主得的病是那种思考得越多死得越快的病，最后女主留下了一封写满了喜欢的信之后死去。 用手机看书，滑到满页刷屏还怪吓人的。side A还有两次。 另外一个是side B。side B中间有很长一段好像讲的是女主的父亲的故事，但是我没有仔细看，因为当时我还是比较关心女主和男主的发展，所以可能理解不够透彻。 虽然没有《阪急电车》那么有趣，也算是不错的睡前读物吧。]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Organic vocab]]></title>
     <url>%2Fvocab-organic%2F</url>
     <content type="text"><![CDATA[1 Prefix Suffix alkyl- -ane alkenyl- -ene alkynyl- -yne phenyl- -benzene benzyl- -toluene 2 Prefix Suffix halo- halide fluoro- fluoride chloro- chloride bromo- bromode iodo- iodide 3 Prefix Suffix haloformyl- -oyll halide hydroxy- oll keto, oxo -one aldo- -al carbonate carboxy- -oic acid alkoxy- alkyl alkyl ether alkoxycarbonyl- alkyl alkanoate hydroperoxy- alkyl hydroperoxide peroxy- alkyl peroxide Prefix Suffix carboxamido- -amide amino- -amine ammonio- -ammonium imono- -imine imido- -imide pyridyl pyridine phosphino- phosphane 十以内 甲meth 乙eth 丙prop 丁but 戊pent 己hex 庚hept 辛oct 壬non 癸dec 单(一)mono 双bi 二di 三tri 四tetr 五pent 六hex 七hept 八oct 九non 十dec 除了甲乙丙丁和一二三四之外，后面几个是一样的。 举例：甲基methyl，乙醇ethanol，二丁基dibutyl，三乙基triethyl 二十以内 十一undec 十二dodec 十三tridec 十四tetradec 十五pentadec 十六hexadec 十七heptadec 十八octadec 十九nonadec 二十eicos 11~19的共同点是以dec（十）结尾，前面是个位数的词根，规律是19=9+10 个位数除了一和二之外，其他数字都是由规律的词根。 三十以内 二十一heneicos 二十二docos 二十三tricos 二十四tetracos 二十五pentacos 二十六hexacos 二十七heptacos 二十八octacos 二十九nonacos 三十triacont 21~29的共同点是一cos（二十）结尾，前面加个位数，规律是29=9+20 个位数中的一和十一里的不一样，变成了hen，而二依然是do 三十一~九十九 从这里开始就有规律了，是39=9+3×10 其中一hen 二do 三tri 四tetr 五pent 六hex 七hept 八oct 九non 十cont 所以三十八是octatriacont，四十四是tetratetracont，七十二烷（如果有的话）是dohetpacontane 一百以上 这部分我不知道 https://www.zhihu.com/question/31004338]]></content>
+      <categories>
+        <category>Vocab</category>
+      </categories>
+      <tags>
+        <tag>Chemistry</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[a-little-life]]></title>
@@ -14,6 +44,14 @@
     <title><![CDATA[《清单人生》]]></title>
     <url>%2F190907-britt-marie-var-har%2F</url>
     <content type="text"><![CDATA[“有人告诉我，喜欢足球是一种本能。要是街上有个球朝您滚过来，您会下意识地给它一脚，这跟您恋爱的时候是一样的，因为您不知道怎么躲开它。”警察笑着说，似乎还有点儿不好意思 黑暗卷进窗户，裹住布里特-玛丽，她也不开灯，而是从包里翻出一条毛巾，用它捂住脸，站着哭了一会儿。她不想坐在还没清理干净的床垫上。 所有婚姻都有不好的一面，因为所有人都有弱点。如果你和另外一个人一起生活，就要学会以各种方式应付这些弱点。比如，你可以把弱点当成沉重的家具，收拾房间时虽不能把它搬到一边，却可以围着它擦擦扫扫，保持一切都在你的掌控之中的错觉。 “对于人类来说，爱情不一定都意味着烟花和交响乐。如果你认为就应该是烟花和交响乐，当然也没有错，但对另一些人来说，爱情还可以是别的东西，理智的东西！” 晨曦温柔地叫醒了博格，仿佛用阳光和各种美好的承诺呼唤自己的爱人起床。曙光快活地落在羽绒被上，挠得人心发痒，像刚煮的咖啡和新烤的面包。然而它不该这样做。]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[常用vps命令]]></title>
+    <url>%2F%E5%B8%B8%E7%94%A8vps%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[wget –no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh chmod +x shadowsocks.sh ./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log]]></content>
   </entry>
   <entry>
     <title><![CDATA[VE-V1C2]]></title>
@@ -33,20 +71,23 @@
   </entry>
   <entry>
     <title><![CDATA[190421《植物图鉴》]]></title>
-    <url>%2F190421%2F</url>
+    <url>%2F190421-shokubutsu-zukan%2F</url>
     <content type="text"><![CDATA[《植物图鉴》 第一章的植物是ヘクソカズラ。讲了独身女主河野さやか把男主いつき捡回家过上同居生活的日子。女主有钱，男主会整顿家务会做饭简直不能再完美好吧。男主属性可以期待发展。 第二章是つくし和ふきのとう，前半部分就酱两个人的日常，说さやか工作不顺利的时候，如果是一个人住的话回家也只是忍着，因为哭了之后仍然是空虚，但是现在就会在いつき面前哭，いつき就会よしよし摸头（好甜!）。 然后介绍了一下两个人的同居细节，简直不能再理想：白天さやか上班，回到家吃做好的饭泡澡，然后いつき接着泡澡，等到さやか要睡了，いつき出门打工（平日的夜勤），いつき出门之后さやか把锁链挂上（いつき）多次叮嘱，さやか早上醒来いつき刚好打工回来就给开门，然后做早饭，いつき睡到中午然后下午去看看打折。周末的前一天さやか就不挂锁链免得起不来把いつき锁在外面，いつき回来尽量小动静地刷牙换衣服然后睡觉，醒来做两个人的brunch。就是各种小细节都心动得不得了！这样的同居人谁不想要！想结婚！ 后半回到植物的主题。いつき邀さやか散步，一开始さやか偷懒不想去，后来答应说走路去いつき骑自行车载她回来。两个人在河边发现了つくし和ふきのとう，さやか摘了很多，いつき拿回去做天妇罗，很苦ww 不应该先看后面剧透的啊啊啊啊啊。 第三章比较简单，先说了いつき第一次领到打工的十万工资，拿了四万给さやか，さやか又当作家事的报酬还给了他。然后又接着散步摘花草，这次是西洋芥子菜。いつき就说我喜欢你素颜blabla的骚话，さやか就买了透明粉底ww]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
   </entry>
   <entry>
-    <title><![CDATA[190402]]></title>
-    <url>%2F190402%2F</url>
+    <title><![CDATA[190402-tweet translation]]></title>
+    <url>%2F190402-tweet%20translation%2F</url>
     <content type="text"><![CDATA[The tweet almost made me cry and I felt obliged(?) to translate it. なんで今日ここに私がいないんだろう、 こはくと公演出たいメンバーたくさん居るけど私だってそのうちの1人なんだよ 稽古中ずっと1人で泣きそうになって我慢してたけど、この画像送られてきて、帰りの新幹線で1人で泣いてる(´•ω•̥`) 今日は今日しかないのに。 他界だ Why I was not there? I am one of the members that want to stand by kohaku. I have forborne crying throughout the rehearsal. Someone sent me these photos, then I cry alone on the way back. There is never another today though. Dying QAQ]]></content>
       <categories>
         <category>translation</category>
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[Translation for a tweet]]></title>
-    <url>%2F190329%2F</url>
+    <title><![CDATA[190329-tweet translation]]></title>
+    <url>%2F190329-tweet%20translation%2F</url>
     <content type="text"><![CDATA[When I first saw this tweet last night, I made up my mind to translate it. https://mobile.twitter.com/akane29_o8o/status/1111281934288576514 考えすぎない比べすぎない無理はしない君は君らしく。 Simple words with deep love. non-pensively incomparably unexcessively EGOistically About 「考えすぎない」 Searching for synonyms of ‘overthink’ but fail. Then get some inspiration from a forum: inordinately (over)contemplated (contemplative), pensive, introspective, Possible translation for the third word「無理」: unreasonable; unjust; impossible; unnatural; excessive; overwork Here personally prefer ‘excessive’ Seems like I made up some new words lol translating is so hard.]]></content>
       <categories>
         <category>translation</category>
@@ -73,10 +114,10 @@
   </entry>
   <entry>
     <title><![CDATA[190216 Liz and blue bird]]></title>
-    <url>%2F190216%2F</url>
+    <url>%2F190216-Liz-and-blue-bird%2F</url>
     <content type="text"><![CDATA[Liz and blue bird Which one of the two girls is actually Liz and which one is blue bird? It also happens in real life. Sometimes we think of ourselves to limit others. However, it is we ourselves that build up the wall in our soul. The relationship between girls is hard to figure out its insight. There is too much hidden inside the easily-broken heart, albeit everything shows on the unintentional reaction and emotion. Violet Evergarden First attracted by its name. I was not good at memorizing the name of characters, esp. when it’s of katakana(foreigner’s name). But since the personality in this animation is clear, and the main story goes smoothly, I had no trouble dealing with them. Heroine Violet live from the love from Shousa. Shousa saved her life, gave her the beautiful name, Violet, treated her as a real person instead of a war machine, and most tragically, sacrificed his own life in the hope of a better life for her. I actually cried in the plot of Ann’s mother send a letter to Ann on her birthday every year. Some comments say that Violet looks like Saber with mechanic arm. To a certain degree I agree to this idea, but we should know that they have thoroughly different background and personality.]]></content>
       <categories>
-        <category>Book Report</category>
+        <category>Movie Report</category>
       </categories>
   </entry>
   <entry>
