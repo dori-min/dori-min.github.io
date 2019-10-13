@@ -96,20 +96,26 @@
 
 <meta name="description" content="wget –no-check-certificate  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 chmod +x shadowsocks.sh
-./shadowsocks.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks.log">
+./shadowsocks.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks.log
+
+安装libsodiu">
 <meta property="og:type" content="article">
 <meta property="og:title" content="常用vps命令">
 <meta property="og:url" content="dori-min.github.io/常用vps命令/index.html">
 <meta property="og:site_name" content="Dori-min">
 <meta property="og:description" content="wget –no-check-certificate  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 chmod +x shadowsocks.sh
-./shadowsocks.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks.log">
-<meta property="og:updated_time" content="2019-10-11T03:46:36.364Z">
+./shadowsocks.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks.log
+
+安装libsodiu">
+<meta property="og:updated_time" content="2019-10-11T04:00:28.480Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="常用vps命令">
 <meta name="twitter:description" content="wget –no-check-certificate  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 chmod +x shadowsocks.sh
-./shadowsocks.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks.log">
+./shadowsocks.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks.log
+
+安装libsodiu">
 
 
 
@@ -334,7 +340,7 @@ chmod +x shadowsocks.sh
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2019-10-11T11:46:36+08:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2019-10-11T12:00:28+08:00">
                 2019-10-11
               </time>
             
@@ -373,6 +379,9 @@ chmod +x shadowsocks.sh
 <p>chmod +x shadowsocks.sh</p>
 <p>./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log</p>
 </blockquote>
+<p>安装libsodium - 用于chacha</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">yum -y groupinstall &quot;Development Tools&quot;</span><br><span class="line">wget https://github.com/jedisct1/libsodium/releases/download/1.0.15/libsodium-1.0.15.tar.gz</span><br><span class="line">tar xf libsodium-1.0.15.tar.gz &amp;&amp; cd libsodium-1.0.15</span><br><span class="line">./configure &amp;&amp; make -j2 &amp;&amp; make install</span><br><span class="line">echo /usr/local/lib &gt; /etc/ld.so.conf.d/usr_local_lib.conf</span><br><span class="line">ldconfig</span><br></pre></td></tr></table></figure>
+<p>备用参考：<a href="https://doubibackup.com/z2a4lk3l-3.html" target="_blank" rel="external">https://doubibackup.com/z2a4lk3l-3.html</a></p>
 
       
     </div>
@@ -479,7 +488,7 @@ chmod +x shadowsocks.sh
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">17</span>
+                <span class="site-state-item-count">18</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
