@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>COMP2011疑惑与笔记</title>
+    <url>/200315-C-plus-plus/</url>
+    <content><![CDATA[<h1 id="Cstring"><a href="#Cstring" class="headerlink" title="Cstring"></a>Cstring</h1><p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124800.png" alt=""></p>
+<hr>
+<h1 id="疑惑"><a href="#疑惑" class="headerlink" title="疑惑"></a>疑惑</h1><p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124853.png" alt=""></p>
+<hr>
+<h1 id="PBV"><a href="#PBV" class="headerlink" title="PBV"></a>PBV</h1><p>fcn1出不来因为是pbv，因为这个function return的是a的数值储存的内存地址，当运行到(x)的)之后这个function就已经完成了，a的内存地址也不存在了，这个句子就没有意义 fcn2让a当了x的别名，所以还是x的地址，所以没毛病</p>
+<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124938.png" alt=""></p>
+<hr>
+<h1 id="size的疑惑"><a href="#size的疑惑" class="headerlink" title="size的疑惑"></a>size的疑惑</h1><p>怎么size就变小了呢 为什么变小这么多呢 等学完pointer再回来看看有没有答案</p>
+<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125503.png" alt=""></p>
+<hr>
+<h1 id="String-的疑惑"><a href="#String-的疑惑" class="headerlink" title="String 的疑惑"></a>String 的疑惑</h1><p>为什么就不把他变成string再分成char，判断一下是不是0就好了 是因为char是ASCII所以要的memory更多？所以这样的比较高效？ 可是recursion也要不少memory啊 试一下写size of看一下哪个用的空间更大好了</p>
+<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125555.png" alt=""></p>
+<p>一边写一边思考人生</p>
+<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125606.png" alt=""></p>
+<hr>
+<h1 id="Array疑惑"><a href="#Array疑惑" class="headerlink" title="Array疑惑"></a>Array疑惑</h1><p>Adam那行 array不是不能直接assign的？ strcpy干啥</p>
+<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125731.png" alt=""></p>
+<h1 id="PBV-amp-PBR"><a href="#PBV-amp-PBR" class="headerlink" title="PBV &amp; PBR"></a>PBV &amp; PBR</h1><p>PBV - value is captured during the definition of function </p>
+<p>PBR - value is captured when called</p>
+<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125931.png" alt=""></p>
+<h1 id="指针讲解"><a href="#指针讲解" class="headerlink" title="指针讲解"></a>指针讲解</h1><p><a href="https://www.bilibili.com/video/av51454524" target="_blank" rel="external">https://www.bilibili.com/video/av51454524</a></p>
+<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130054.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130059.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130103.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130117.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130130.png" alt=""></p>
+<h1 id="内存-寄存器"><a href="#内存-寄存器" class="headerlink" title="内存 寄存器"></a>内存 寄存器</h1><p>这篇文章是我关于内存、寄存器的启蒙 </p>
+<p>翻译：<a href="https://t.co/0BzdjZkK1w?amp=1" target="_blank" rel="external">http://bbs.52miji.com/thread-12853-1-1.html…</a><br>原文：<a href="https://t.co/QdsyTLnTJd?amp=1" target="_blank" rel="external">http://forum.cheatengine.org/viewtopic.php?t=95363…</a><br>这篇文章介绍了命令、寄存器 我的理解，自动汇编Auto Assembler就是把人能看懂的code变成看不懂的命令。</p>
+<p><a href="https://t.co/Su3L16wk0K?amp=1" target="_blank" rel="external">这个视频</a>直观地介绍了堆&amp;栈 并且告诉了我们code其实在干什么 没错，正是在CEAA教程里学过的各种mov,push,add,call各种寄存器</p>
+<p>存储位置而言，在C/C++中 函数内部声明的局部变量以及形参存储在【栈】中，由操作系统在调用函数时自动分配并在函数结束时回收。 对于全局变量以及静态变量，存在【全局数据区】 通过alloc或new来动态分配的内存存储在【堆】中，堆的数量大，分配速度比栈慢，需要自己维护，容易出现内存泄漏和内存碎片</p>
+<p><a href="http://www.cleey.com/blog/single/id/776.html" target="_blank" rel="external">http://www.cleey.com/blog/single/id/776.html</a></p>
+<p><a href="https://blog.csdn.net/K346K346/article/details/80849966" target="_blank" rel="external">https://blog.csdn.net/K346K346/article/details/80849966</a></p>
+<p><a href="https://www.cnblogs.com/edisonchou/p/4669098.html" target="_blank" rel="external">https://www.cnblogs.com/edisonchou/p/4669098.html</a></p>
+<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125347.png" alt=""></p>
+<h1 id="Memory-Leak"><a href="#Memory-Leak" class="headerlink" title="Memory Leak"></a>Memory Leak</h1><p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/20200315130919.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>Lecture Note</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Khan Acadamy Internet 101</title>
     <url>/200315-Khan-Acadamy-Internet101/</url>
     <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
@@ -352,45 +391,6 @@
 <p>Length, distance</p>
 <p>Orthogonal</p>
 <h1 id="L13"><a href="#L13" class="headerlink" title="L13"></a>L13</h1><p>Orthogonal Projection</p>
-]]></content>
-      <categories>
-        <category>Lecture Note</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>COMP2011疑惑与笔记</title>
-    <url>/200315-C-plus-plus/</url>
-    <content><![CDATA[<h1 id="Cstring"><a href="#Cstring" class="headerlink" title="Cstring"></a>Cstring</h1><p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124800.png" alt=""></p>
-<hr>
-<h1 id="疑惑"><a href="#疑惑" class="headerlink" title="疑惑"></a>疑惑</h1><p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124853.png" alt=""></p>
-<hr>
-<h1 id="PBV"><a href="#PBV" class="headerlink" title="PBV"></a>PBV</h1><p>fcn1出不来因为是pbv，因为这个function return的是a的数值储存的内存地址，当运行到(x)的)之后这个function就已经完成了，a的内存地址也不存在了，这个句子就没有意义 fcn2让a当了x的别名，所以还是x的地址，所以没毛病</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124938.png" alt=""></p>
-<hr>
-<h1 id="size的疑惑"><a href="#size的疑惑" class="headerlink" title="size的疑惑"></a>size的疑惑</h1><p>怎么size就变小了呢 为什么变小这么多呢 等学完pointer再回来看看有没有答案</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125503.png" alt=""></p>
-<hr>
-<h1 id="String-的疑惑"><a href="#String-的疑惑" class="headerlink" title="String 的疑惑"></a>String 的疑惑</h1><p>为什么就不把他变成string再分成char，判断一下是不是0就好了 是因为char是ASCII所以要的memory更多？所以这样的比较高效？ 可是recursion也要不少memory啊 试一下写size of看一下哪个用的空间更大好了</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125555.png" alt=""></p>
-<p>一边写一边思考人生</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125606.png" alt=""></p>
-<hr>
-<h1 id="Array疑惑"><a href="#Array疑惑" class="headerlink" title="Array疑惑"></a>Array疑惑</h1><p>Adam那行 array不是不能直接assign的？ strcpy干啥</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125731.png" alt=""></p>
-<h1 id="PBV-amp-PBR"><a href="#PBV-amp-PBR" class="headerlink" title="PBV &amp; PBR"></a>PBV &amp; PBR</h1><p>PBV - value is captured during the definition of function </p>
-<p>PBR - value is captured when called</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125931.png" alt=""></p>
-<h1 id="指针讲解"><a href="#指针讲解" class="headerlink" title="指针讲解"></a>指针讲解</h1><p><a href="https://www.bilibili.com/video/av51454524" target="_blank" rel="external">https://www.bilibili.com/video/av51454524</a></p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130054.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130059.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130103.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130117.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130130.png" alt=""></p>
-<h1 id="内存-寄存器"><a href="#内存-寄存器" class="headerlink" title="内存 寄存器"></a>内存 寄存器</h1><p>这篇文章是我关于内存、寄存器的启蒙 </p>
-<p>翻译：<a href="https://t.co/0BzdjZkK1w?amp=1" target="_blank" rel="external">http://bbs.52miji.com/thread-12853-1-1.html…</a><br>原文：<a href="https://t.co/QdsyTLnTJd?amp=1" target="_blank" rel="external">http://forum.cheatengine.org/viewtopic.php?t=95363…</a><br>这篇文章介绍了命令、寄存器 我的理解，自动汇编Auto Assembler就是把人能看懂的code变成看不懂的命令。</p>
-<p><a href="https://t.co/Su3L16wk0K?amp=1" target="_blank" rel="external">这个视频</a>直观地介绍了堆&amp;栈 并且告诉了我们code其实在干什么 没错，正是在CEAA教程里学过的各种mov,push,add,call各种寄存器</p>
-<p>存储位置而言，在C/C++中 函数内部声明的局部变量以及形参存储在【栈】中，由操作系统在调用函数时自动分配并在函数结束时回收。 对于全局变量以及静态变量，存在【全局数据区】 通过alloc或new来动态分配的内存存储在【堆】中，堆的数量大，分配速度比栈慢，需要自己维护，容易出现内存泄漏和内存碎片</p>
-<p><a href="http://www.cleey.com/blog/single/id/776.html" target="_blank" rel="external">http://www.cleey.com/blog/single/id/776.html</a></p>
-<p><a href="https://blog.csdn.net/K346K346/article/details/80849966" target="_blank" rel="external">https://blog.csdn.net/K346K346/article/details/80849966</a></p>
-<p><a href="https://www.cnblogs.com/edisonchou/p/4669098.html" target="_blank" rel="external">https://www.cnblogs.com/edisonchou/p/4669098.html</a></p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125347.png" alt=""></p>
-<h1 id="Memory-Leak"><a href="#Memory-Leak" class="headerlink" title="Memory Leak"></a>Memory Leak</h1><p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/20200315130919.png" alt=""></p>
 ]]></content>
       <categories>
         <category>Lecture Note</category>
