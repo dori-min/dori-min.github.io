@@ -2,29 +2,28 @@
 <search>
   <entry>
     <title>Thermodynamics</title>
-    <url>/200320-thermodynamics/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>从明白到懵到明白。</p>
-<p>有些东西【只是数学关系】。有些东西比起【数学形式】更加需要思考【物理意义】</p>
-<p>英文能力有限，简单易懂第一。</p>
+    <url>/200320-Thermodynamics/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>有些东西【只是数学关系】。<br>有些东西比起【数学形式】更加需要思考【物理意义】.</p>
 <h1 id="Basics-Concepts"><a href="#Basics-Concepts" class="headerlink" title="Basics Concepts"></a>Basics Concepts</h1><p>Steady state = No accumulation</p>
 <p>Equilibrium = No change with time</p>
 <p>State Function = Path Independent</p>
-<p>State postulate，Intensive state(这个概念后来没有怎么提到过，所以没有什么直观的理解)</p>
-<p>Intensive/Extensive Properties = Wether properties change with mass/amount</p>
-<p>Gibbs’ Phase Rule 𝐹 = 2 + 𝑛 − 𝜋 − 𝑟（还没有用到）</p>
-<h1 id="Ideal-Gas"><a href="#Ideal-Gas" class="headerlink" title="Ideal Gas"></a>Ideal Gas</h1><p>理想气体方程不赘述了，不过这门课常用的PV=RT里注意V是molar volume，单位是L/mol。<br>虽然在大多数的数学中这样似乎画蛇添足，但是这样在物理上的意义就是就是从两个Extensive property变成了一个Intensive property，对于open system就可以在定义和气体的时候都当作一个intensive property去考虑，而不用考虑进进出出导致的变化。</p>
-<h1 id="First-Law"><a href="#First-Law" class="headerlink" title="First Law"></a>First Law</h1><p>U, W, Q的概念就不赘述了。不过注意U是状态量，W和Q是过程量。</p>
+<p>Intensive/Extensive Properties = Whether properties change with mass/amount</p>
+<p>State postulate，Intensive state，Gibbs’ Phase Rule 𝐹 = 2 + 𝑛 − 𝜋 − 𝑟 <em>(后来没有怎么提到过，所以没有什么直观的理解)</em></p>
+<h1 id="Ideal-Gas"><a href="#Ideal-Gas" class="headerlink" title="Ideal Gas"></a>Ideal Gas</h1><p>理想气体方程不赘述了，不过这门课常用的PV=RT里注意 $V$ 是molar volume，单位是L/mol。<br>虽然在大多数的数学中这样似乎画蛇添足，但是这样在【物理上的意义】就是就是从两个Extensive property变成了一个Intensive property，对于open system就可以在定义和气体的时候都当作一个intensive property去考虑，而不用考虑进进出出导致的变化。</p>
+<h1 id="First-Law"><a href="#First-Law" class="headerlink" title="First Law"></a>First Law</h1><p>U, W, Q的概念和式子本身就不赘述了。不过注意U是状态量，W和Q是过程量。</p>
 <p>Reversibility, Dissipation, Quasi-static这个适合在Second Law解释。</p>
 <p>值得一提的是，PV图上都是可逆过程，表示不出不可逆过程，不可逆过程最好看TS图。</p>
 <p>第一定律本身其实没有很多需要讲的，就是能量守恒。不过需要从宏观方程拓展到δ的微分方程。</p>
-<h2 id="Calculation-of-internal-energy"><a href="#Calculation-of-internal-energy" class="headerlink" title="Calculation of internal energy"></a>Calculation of internal energy</h2><p>为了【数学上的方便】，我们才有$C_V$和$C_P$！</p>
-<p>因为$U=U(T,V)$<em>（T是衡量平均分子动能的宏观量，V是衡量分子势能的宏观量）</em>，我们没有内能的表达式，所以我们用【微积分】的思想——不能直接算整体，那微分有没有办法。于是两边微分有了$dU=(\frac{\partial U}{\partial T})_V+(\frac{\partial U}{\partial V})_T$。</p>
+<hr>
+<p>为了【数学上的方便】，我们才有$C_V$和$C_P$！</p>
+<hr>
+<h2 id="Calculation-of-internal-energy"><a href="#Calculation-of-internal-energy" class="headerlink" title="Calculation of internal energy"></a>Calculation of internal energy</h2><p>因为$U=U(T,V)$<em>（T是衡量平均分子动能的宏观量，V是衡量分子势能的宏观量）</em>，我们没有内能的表达式，所以我们用【微积分】的思想——不能直接算整体，那就算算变化量，于是两边微分有了$dU=(\frac{\partial U}{\partial T})_V+(\frac{\partial U}{\partial V})_T$。</p>
 <p>其中对<strong>【理想气体】</strong>$U=U(T)$，$(\frac{\partial U}{\partial V})_T=0$</p>
-<p>上式的$(\frac{\partial U}{\partial T})_V$就是我们的$C_V$，所以说虽然叫constant-volume heat capacity，但是$dU=C_V dT$是个【普适】的计算式。只是因为计算偏微分的时候我们把另外一个变量当作constant。</p>
-<p>物理层面上再此理解，对于一个理想气体的两个状态方程$U_1, U_2$，状态方程的核心就是path independent，现实情况下（和大多数题目状态中）过程都是irreversible的，但是既然path independent，那我们可以模拟<del>脑补</del> 一个isobaric的可逆的状态。</p>
-<h2 id="Calculation-of-Work"><a href="#Calculation-of-Work" class="headerlink" title="Calculation of Work"></a>Calculation of Work</h2><p>要记得因为W其实是一个path independent的量$𝛿𝑊 = −𝑃𝑑\underline{V}$只适用于Quasi-static。如果是sudden expansion, </p>
+<p>上式的$(\frac{\partial U}{\partial T})_V$就是我们的$C_V$，所以说虽然叫constant-volume heat capacity，但是$dU=C_V dT$ 并不一定要恒容条件，而是个【普适】的计算式。只是因为计算偏微分的时候我们把另外一个变量当作constant。</p>
+<p>物理层面上再此理解，对于一个理想气体的两个状态方程$U_1, U_2$，状态方程的核心就是path independent，现实情况下<em>（和大多数题目状态中）</em> 过程都是irreversible的，但是既然path independent，那我们可以模拟 <del>脑补</del> 一个isobaric的可逆的状态，此过程的内能变化。</p>
+<h2 id="Calculation-of-Work"><a href="#Calculation-of-Work" class="headerlink" title="Calculation of Work"></a>Calculation of Work</h2><p>要记得因为W其实是一个path independent的量$𝛿𝑊 = −𝑃𝑑\underline{V}$只适用于Quasi-static。如果是sudden expansion, $P$ 就得要是环境的 $P$。</p>
 <h2 id="Calculation-of-Heat"><a href="#Calculation-of-Heat" class="headerlink" title="Calculation of Heat"></a>Calculation of Heat</h2><p>The trick of First Law lies in that you cannot calculate heat directly but only through First Law.</p>
-<h2 id="Enthalpy"><a href="#Enthalpy" class="headerlink" title="Enthalpy"></a>Enthalpy</h2><p>高中化学选修四对于所有的反应热都用的是$\Delta H$，但是我记得很清楚的是一定有恒压这个条件，反应焓变才等于反应热。上了大学之后才开始真正就见焓变到底是什么。</p>
+<h2 id="Enthalpy"><a href="#Enthalpy" class="headerlink" title="Enthalpy"></a>Enthalpy</h2><p><em>高中化学选修四对于所有的反应热都用的是$\Delta H$，但是我记得的是一定有恒压这个条件，反应焓变才等于反应热。上了大学之后才开始真正思考焓变到底是什么。</em></p>
 <p>最后发现这个问题压根没有意义。因为最好理解焓的方式就是把它当成一个为了【数学计算方便】而产生的量。</p>
 <p>具体来说，就是我们经常需要计算Q，所以我们就经常要算U+PV，嫌麻烦所以有了H，同样地，为了计算H的方便，所以才有了$C_P$，有了$dH=C_PdT$</p>
 <p>刚好在open system的first law也可以写成H的形式，形式简单，而且可以用$C_P$计算，何乐而不为。</p>
@@ -32,24 +31,23 @@
 <h1 id="Second-Law"><a href="#Second-Law" class="headerlink" title="Second Law"></a>Second Law</h1><p>Second Law mainly discussed about the <strong>direction</strong> of process, and how we define, describe and measure the process.</p>
 <h2 id="Heat-engine-and-Carnot"><a href="#Heat-engine-and-Carnot" class="headerlink" title="Heat engine and Carnot"></a>Heat engine and Carnot</h2><p>Heat engine = convert HEAT to WORK</p>
 <p>Carnot engine set up the maximum of efficiency for heat engine.</p>
-<p>卡诺热机的公式以及重要的$ |Q_H|/|Q_C| = T_H/T_C $。其实仔细想想这个公式还挺神奇的，Q是过程量，T是状态量，却能够在数量关系划等号。</p>
-<p>中间有一个重要的数学步骤就是四个状态的体积的比例关系。</p>
+<p>卡诺热机的公式以及重要的$ \frac{|Q_H|}{|Q_C|} = \frac{T_H}{T_C} $。其实仔细想想这个公式还挺神奇的，Q是过程量，T是状态量，却能够在数量关系划等号。中间有一个重要的【数学】步骤就是四个状态的体积的比例关系。</p>
 <p>这个体积关系在PV图上的几何意义是，不同等温线上的两点连线却是平行的。所以说一开始学卡诺的时候觉得很奇怪，因为以前至知道在PV图上横平竖直地走，比如迪赛尔，卡诺开始却要斜着跨过等温线，没有地方是直线的，而现在看来，“直线”其实是隐藏在其中的。</p>
-<p>另外关于卡诺热机为什么是天花板，不用反证法的话，<a href="https://www.zhihu.com/question/22702847" target="_blank" rel="external">这个解答</a>的解释比较好。</p>
-<h2 id="Entropy"><a href="#Entropy" class="headerlink" title="Entropy"></a>Entropy</h2><p>做定性分析，熵衡量混乱程度，越混乱则熵越大。<br>顺带一提，熵是一个状态量，这也很好理解，该有多乱有多乱，无论怎么变来变去，有这么乱就是这么乱。</p>
+<p>另外关于卡诺热机为什么是天花板，不用反证法的话，<a href="https://www.zhihu.com/question/22702847" target="_blank" rel="external">这个解答</a>的解释比较好——不能从PV图（因为PV图只能反映可逆过程），而是要从TS图中找到答案。</p>
+<h2 id="Entropy"><a href="#Entropy" class="headerlink" title="Entropy"></a>Entropy</h2><p>做定性分析，熵衡量混乱程度，越混乱则熵越大。<br>顺带一提，熵是一个状态量，这也很好理解，熵就是一个状态，该有多乱有多乱，无论怎么变来变去，有这么乱就是这么乱。</p>
 <p>这样很好理解，但是不定量分析的话，我们就无法衡量一个系统的混乱度有没有变化。</p>
-<p>微观的熵$\underline{S}=k_B ln \Omega$ 其中$\Omega$ 是微观状态的数目。对这个公式定性分析的话很好理解，可能情况越多那就意味着越混乱，<em>关于怎么和宏观联系起来我还在思考。</em></p>
+<p>微观的熵的表达式，$\underline{S}=k_B ln \Omega$ 其中$\Omega$ 是微观状态的数目。对这个公式定性分析的话很好理解，可能情况越多那就意味着越混乱，<em>关于怎么和宏观联系起来我还在思考。</em></p>
 <p>宏观的乍一看不知道怎么做，那就先假设有这样找一个熵不变的过程，找它的起始和终点，然后看看这个过程中有什么量不变，那它就是熵了。</p>
 <p>但是再我们量化熵之前，我们根本没法比较两个状态的熵是不是一样了，那我们只能跟原状态比较——既然熵是状态量，和自己比那肯定一样了吧。<br>那这样一个起点是自己、终点也是自己的过程，我们叫做一个cyclic process。于是，我们要找一个cyclic process中一个不变的状态量。</p>
 <p>很巧的是，卡诺循环是个cyclic process，卡诺定理我们发现 $\delta Q/T$ 是不变的，所以我们定义为熵。</p>
-<p><em>（这个自圆其说看上去强词夺理甚至有点无厘头，但是是我个人到此为止的一个理解了）</em></p>
-<p>虽然有了定义式，但是熵的计算也要讲究，一定要分成系统和reservoir两种情况，为什么呢，且看下文。</p>
+<p><em>（这个自圆其说看上去强词夺理甚至有点无厘头，但是是我到此为止的一个理解了）</em></p>
+<p>虽然有了定义式，但是熵的计算也要讲究，一定要分成系统和reservoir两种情况，原因且看下文。</p>
 <h2 id="Calculation-of-Second-law"><a href="#Calculation-of-Second-law" class="headerlink" title="Calculation of Second law"></a>Calculation of Second law</h2><p>回到最初的问题，我们要看系统的混乱度也就是熵有没有变化，那既然有了个等式就可以计算了。</p>
 <p>前人总结出了second law的文字表述，再把这个意思变成公式，一句话概括second law的公式就是【孤立系统熵增】。用公式表达就是$d\underline{S}&gt;=0$</p>
 <p>但是，我们生活中哪里有那么多孤立系统，那没办法，对于open system，只好把inflow和outflow带来的熵变、还有所研究的系统以外的整个宇宙的熵变也考虑进去，这样我们才能算出来系统的熵变。</p>
 <p>关于system本身的熵变，可以假设system进行的是reversible(in this case, quasi-static)的过程，这样 就可以用W=PV计算功，再假设ideal gas，U也可以算出来，就可以算出Q，就可以算出S。</p>
 <p>这个时候就要考虑到系统以外的整个宇宙——也就是所谓的环境，对于系统来说也就是reservoir——的熵变。直接算是不可能的，因为公式里的$\delta Q$ 得要用 $d\underline{U}$ 算吧，$d\underline{U}=NC_VdT$，对那么大的环境（宇宙）来说，$N\rightarrow \infty, dT\rightarrow 0$，没有办法直接算。<br>所以看系统给环境多少Q。<br>但是系统算 $Q$ 是我们假设reversible了，但是环境我们怎么知道是不是reversible呢。于是这里在note里定义了环境是mechanical reversible，这样就可以保证系统的 $Q$ 可以代进去算了。</p>
-<p>至于inflow和outflow，就分别算$S<em>{in}n</em>{in}, S<em>{out}n</em>{out}$就好了（题目会给）（装死.jpg）</p>
+<p>至于inflow和outflow，就分别算$S<em>{in}n</em>{in}, S<em>{out}n</em>{out}$就好了<em>（题目会给）（装死.jpg）</em></p>
 <h2 id="Exergy"><a href="#Exergy" class="headerlink" title="Exergy"></a>Exergy</h2><p>让我们先回到卡诺热机，为什么会有这个天花板在？有人就提出了，能量不仅有多少（量）也是有优劣（质）的。</p>
 <blockquote>
 <p>能量“质”的指标是根据它的做功能力来判断的，因此，可以根据能量转换能力将能量分为三种来行。</p>
@@ -60,7 +58,7 @@
 </ol>
 <p>（摘抄自《工程热力学》）</p>
 </blockquote>
-<p>于是除了按照能量的产生和存在分为机械能、电能、内能等以外，我们又有了新的区分能量的办法。<em>但是要注意这里还是人为的定义，是能源学科为了区分能源质量做出的定义。</em></p>
+<p>于是除了按照能量的产生和存在分为机械能、电能、内能等以外，我们又有了新的区分能量的办法。<em>（但是要注意这里还是人为的定义，是能源学科为了区分能源质量做出的定义。）</em></p>
 <blockquote>
 <p>能量=㶲+㷻</p>
 <p>Energy=Exergy+Anergy</p>
@@ -72,15 +70,18 @@
 <script type="math/tex; mode=display">
 \dot{W}_{ideal}=[(H_{out}-T_rS_{out})-(H_{in}-T_rS_{in})]\dot{n}</script><p>解释这个式子，就是inflow其实有点能量，但是outflow有更多㶲，过程可逆（没有能量耗散），所以这个差值乘 $\dot{n}$ 就是卡诺热机的有用功。也就是所谓的ideal shaft work。</p>
 <p>同时，我们把个表达式定义为㶲 $X$ ，在【数值上】等于$H-TS$。</p>
-<p>（我目前还没有get到这个式子的物理含义，因为我就没有get到H的物理意义，也没有get到S=δQ/T的物理意义，就姑且认为只是数学公式）</p>
+<p><em>（我目前还没有get到这个式子的物理含义，因为我就没有get到H的物理意义，也没有get到S=δQ/T的物理意义，就姑且认为只是数学公式）</em></p>
 <h2 id="Second-efficiency"><a href="#Second-efficiency" class="headerlink" title="Second efficiency"></a>Second efficiency</h2><p>如果说之前的efficiency我们在讨论总能量里的效率的话，这里讨论的就是相对于㶲的效率</p>
 <p>TBC</p>
 <hr>
 <p>我们永远没可能达到卡诺热机的效率，但是既然我们知道了天花板在哪里，我们就能不断逼近。这就是人类追求卓越的历程。</p>
 ]]></content>
       <categories>
-        <category>Lecture notes</category>
+        <category>Lecture note</category>
       </categories>
+      <tags>
+        <tag>Chemical Engineering</tag>
+      </tags>
   </entry>
   <entry>
     <title>COMP2011疑惑与笔记</title>
@@ -154,6 +155,62 @@
     <url>/200315-Logic-of-Finance/</url>
     <content><![CDATA[<h1 id="金融"><a href="#金融" class="headerlink" title="金融"></a>金融</h1><p>陈志武的《金融的逻辑》是找《市场的逻辑》这本书的时候顺便找到的。其中很多理论让我觉得很在理，比如说“养儿防老”和所谓的礼尚往来其实都是隐形的金融产品，等到我们的社会金融产业发达之后，这些不一定可靠的金融产品会被取代，到时候人们才是会真正注重情感的交流</p>
 <p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315123431.png" alt=""></p>
+<h1 id="价值、资本、金钱、财富"><a href="#价值、资本、金钱、财富" class="headerlink" title="价值、资本、金钱、财富"></a>价值、资本、金钱、财富</h1><p>也就是，只有相对于人的效用而言，才有价值这回事。</p>
+<p>价值由未来的收益而定，不是由过去的成本决定。</p>
+<p>有一点是肯定的，不管是古代，还是现代，单个人生存下去的能力是很低的，天灾人祸、身老病残时你都需要其他人的帮助。所以，为了能够更顺利地活下去，也为了生命的延续，个人必须跟其他人进行跨时间、跨空间的利益交换，即，人与人之间的金融交易是人类活下去的必须。</p>
+<p>金融交易一般不是现货交易，而是价值的跨期支付，不能是一锤子买卖，所以，没有互信、没有保证金融契约执行的制度基础，就没有金融交易的发展。</p>
+<p>都过多受利益驱使，使利益和感情无法分离。其结果只能是淡化家庭的情感功能，侵蚀亲情间的情感氛围。</p>
+<p>一个人可以因为“不孝”而处死，等于说人存在的唯一价值就是金融交易的载体，就是他的金融工具作用，就是体现“养子防老”，不承认超越金融交易载体的人权。</p>
+<p>什么是钱？资本？财富？<br>“钱”主要是一个货币的概念</p>
+<p>资本也是活的价值，尽管其“活”性较钱低，但它是能够生产价值的价值</p>
+<p>财富既包括流动性的，也包括不流动的价值，即死的有价物，一般的财富并不一定能产生财富</p>
+<p>从契约理论的角度讲，财富往往是物、是“东西”，货币是把“东西”卖掉之后的价值载体，而资本更多是“东西” 的“产权证”，它是广义的货币，是与具体的“东西”相对应的产权。</p>
+<p>股市这种未来收入折现机器</p>
+<p>贷款的质押物是房屋，但真正用来做支付保障的不是房屋，而是买主的未来工资收入，所以，住房按揭贷款体现的主要是买主未来劳动收入的资本价值，</p>
+<h1 id="中国的资本化"><a href="#中国的资本化" class="headerlink" title="中国的资本化"></a>中国的资本化</h1><p>如果简单点讲，是由于“改革开放”，但从更深的层面，我们可以从“钱化”和“资本化”的角度来理解中国这些年的经历。</p>
+<p>第一阶段是从1978至1990年代中期，其核心是给老百姓买卖东西的自由，他们有选择生产什么、到哪里卖、如何卖的自由，包括劳动力市场与创业市场上的自由，</p>
+<p>1990年代中期开始，特别是1998年之后的阶段，可以概括为“资本化”时期，就是让企业资产（包括有形资产和未来收入流）、土地和各类自然资源、劳动者未来收入流，都可通过产权化、证券化或者金融票据化转变成流通的金融资本</p>
+<p>第二阶段改革的直接效果是将以下四大类“财富”转换成“资本”，使中国的金融资本大增。第一是土地和自然资源，第二是企业财产和未来收入流，第三是社会个人和家庭的未来劳动收入，第四是政府未来财政收入。</p>
+<h1 id="资本化"><a href="#资本化" class="headerlink" title="资本化"></a>资本化</h1><p>为了使中国更有“钱”，土地和国有企业都应该私有，为进一步资本化开路。</p>
+<p>在原来由亲情、友情实现的互助互惠式隐性金融交易被钱化之后，而如果替代性的显性金融保险、信贷、养老、投资产品又无法跟上，中国人在钱多的同时，可能反而对未来更感到不安，不仅使中国的内需无法增长，使中国经济增长继续依赖出口，也让中国人的幸福感下降。</p>
+<p>在传统中国社会里，血缘是这些族内、亲情内部利益交换的信用基础，而儒家“三纲五常”名分等级秩序便是信用交易的具体文化制度保障。“孝”道文化是这种个人未来生活安全保障体系的另称。</p>
+<p>“养子防老”，亲戚间“礼尚往来”，生老病死时的相互帮助，这些都是保险、养老、信贷、投资等的具体实现形式，</p>
+<p>随着中国社会结构的转型、文化价值观的变化，原来靠血缘、亲情实现的隐性金融交易正在由金融市场以显性金融交易的形式取而代之。</p>
+<p>原因有几个方面：第一，人口流动大大增加</p>
+<p>由血缘、家族提供的经济保障和养老互助功能越来越不可靠，正式的金融交易产品必须取而代之</p>
+<p>第二，多年来所执行的独生子女政策也使单纯的家庭、家族养老互助体系无法胜任，效果越来越低</p>
+<p>第三，在文化价值观上，中国人越来越追求个人自由和经济独立，把未来的生活保障尽量掌握在自己的手里</p>
+<p>朋友之间有一个隐性的共识或默契，那就是在这次来帮忙的朋友下次也要搬家或者也要外出有行李时，张三必须也能随叫随到。</p>
+<p>而是友情，但实际上都是隐性的跨时间利益交换，具备投资、保险或信贷的经济功能</p>
+<p>“在外靠朋友”原来是市场不发达的结果！</p>
+<p>因为这类收入和投资原来就有，只是没有被“钱化”而已，是隐性的。今天在市场化发展深化之后，这些经济活动被市场取代了，同样的经济交易被显性化了。这就是为什么许多人在钱包鼓起来的同时，却并不一定感到更富有，原因在于市场化发展后“什么都要钱了”。</p>
+<p>当这些经济活动被逐步市场化、“钱化”之后，人们在家族、朋友网内的这些投入会越来越少，亲情和友情更多的会以感情交流为主，而不是以经济利益交易为核心</p>
+<p>这就好像在“打倒孔家店”后，如果金融市场的发展程度又没跟上，人们要么会惶惶不安，要么会重建“孔家店”。</p>
+<p>中国的金融发展水平总体还很低，投资和理财的选择空间很小，只有少数有限的投资渠道。这两方面挤在一起，特别是在政府高度管制金融和国有金融垄断的情况下，各种资产价格扭曲和畸形资产泡沫层出不穷，就不奇怪了。</p>
+<h1 id="沈南鹏"><a href="#沈南鹏" class="headerlink" title="沈南鹏"></a>沈南鹏</h1><p>1999年他创办携程，2003年在纳斯达克上市</p>
+<p>沈南鹏继而于2004年投资分众传媒、创建如家快捷连锁酒店等企业，其中，分众于2005年成功上市，如家快捷正在上市申请过程中</p>
+<p>他辞去携程的总裁和首席财务官职位，创办美国私人股权基金——红杉（Sequoia）在中国的分公司</p>
+<p>作为一种金属，白银本身没有太多的工业价值。但正因为许多国家在不同时期用白银作为货币，所以它就特别值“钱”。而之所以白银被用作“钱”，就是因为没有发展出支持票券信用的制度。换言之，只要有了便于金融票券交易的制度，金银作为“钱”的价值就没有了。</p>
+<p>所以，制度的优劣决定一个国家“钱”的多寡。</p>
+<h1 id="国家负债水平的政治体现"><a href="#国家负债水平的政治体现" class="headerlink" title="国家负债水平的政治体现"></a>国家负债水平的政治体现</h1><p>一国的民主法治似乎跟其政府负债水平高度相关</p>
+<p>当时，十三个州的政府本身就很小，没什么税收，没有政府军队，更没有州政府财产或者“国有企业”。美国中央政府又不存在，是真正的白手起家。所以，各届大陆会议只能靠印纸币、借债，来找到财务支持。这就是为什么美国从立国之初，就要靠金融和债务市场！</p>
+<p>具体来说，独立战争开支主要依靠以下来源，第一是由政府发行“大陆币”</p>
+<p>第二，由大陆会议政府发行债券，尽管谁都不知道那些债务将来靠什么偿还</p>
+<p>第三，十三州的份子贡献，由各州自己发行战争债提供；第四，从法国借来的贷款；再就是给士兵、供货商写欠条。</p>
+<h2 id="时代更迭"><a href="#时代更迭" class="headerlink" title="时代更迭"></a>时代更迭</h2><p>所以那种靠百姓武装革命达到改朝换代的时代已经结束</p>
+<p>正规军与老百姓间的武器不对称已达到极点</p>
+<h2 id="外债与稳定"><a href="#外债与稳定" class="headerlink" title="外债与稳定"></a>外债与稳定</h2><p>1990年代的亚洲国家、1930-40年代的民国中国以及过去20年里的拉美国家却因国债、外债而频繁出现危机和社会动乱，这是为什么呢？</p>
+<p>答案还在制度资本上，在对权力的制约以及政府预算过程是否透明上</p>
+<h1 id="中国文化与经济发展"><a href="#中国文化与经济发展" class="headerlink" title="中国文化与经济发展"></a>中国文化与经济发展</h1><p>除了要满足今天的物质消费和精神需求外，一个人面对的更重要的挑战是对未来生活的担忧，包括未来物质生活所需的收入的不确定性、身体健康的不确定性，</p>
+<p>第二，或许有没有以宗教或者理性学术支撑的精神文明不重要，更重要的是我们把生活重点放在精神追求上，而不是过分追求物质生活。中国人追求的精神生活或许不是宗教性的，而是家庭温暖和亲情。</p>
+<p>第三，中国文化的核心重点在于维护“家”的经济功能，轻视其社交与情感功能，这必然抑制中国文化的精神文明内涵。</p>
+<p>“五四”运动给中国带来了自由、民主、法治思想。回过头再看，当时的思想先驱至少在两方面存在盲点，其一是私有产权，其二是发展金融与保险市场，这二者是实现自由、民主、法治的经济基础。</p>
+<p>一些学者认为中国文化重视家庭，而西方文化则不然。——这显然是一种误解，实际上中国人和西方人都重视“家”，只是追求的“家”的境界不同。传统中国的“家”侧重强制性的经济交易功能，西方社会的“家”侧重基于自愿的感情交往功能。</p>
+<p>儒家学者说，中华文化比西方文化更侧重精神生活的境界。——这种结论很难站住</p>
+<p>中国传统学问存在根本性的“实证”盲点，让文人把中国过去一百多年的遭遇跟中国文化脱离开来，认为那些落后挨打不是传统中华文化所致，而是由外国人所致</p>
+<p>今天的情况跟那时期正好相反，中国经济今天正在崛起，这时我们只愿意把成功归功于自己，归结于中华文化，跟世界整体发展无关</p>
+<p>按照我们熟悉的政治经济学，只有劳动才创造价值。我们中国人的传统观念也如此，总觉得只有生产那些看得见摸得着的东西、制造实物，那才是真正在做事，在真正创造价值。</p>
+<p>比如，中国家庭里，老子说话时，孩子不可以还嘴。你从小就得养成这个习惯，每个父母亲在孩子出生之后就有责任给他们灌输这个概念：你要孝敬，要听话，哪怕这话是不合理的，你也只能听，不能还嘴。否则的话，等你长大之后你不是要无法无天、要随意犯上了吗？</p>
 ]]></content>
       <categories>
         <category>Book Report</category>
