@@ -1,27 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Internship briefing session</title>
+    <url>/200407-internship-briefing/</url>
+    <content><![CDATA[<p>Company Provided:</p>
+<p><a href="https://phasescientific.com/?lang=zh-hant" target="_blank" rel="external">Phase Scientific (biotech)</a> </p>
+<p><a href="http://www.taronsolutions.com/index.html" target="_blank" rel="external">Taron Solutions (biopharmaceutical)</a></p>
+<p><a href="https://aecom.com/" target="_blank" rel="external">AECOM (infrastructure)</a></p>
+<p><a href="http://www.irescglobal.com/" target="_blank" rel="external">IRECS (safety and risk)</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>请回答1988</title>
+    <url>/200322-Reply-1998/</url>
+    <content><![CDATA[<p>看了一个下午的1988算是咸鱼到极限了。 为了适当减少愧疚感，写一点观后感输出一下吧。 一开始是看木鱼水心的视频，其实没有特别喜欢，因为人物性格太过夸张，而且一开始见到这么多人还没有分清。但是后来接受了一系列设定之后就真香了。<br>个人最磕的还是宝拉善宇这一对，虽然有些恬不知耻，但是还是在宝拉身上看到了很多自己的影子，无论是在对待学习还是在对待感情。一开始其实最不喜欢宝拉，因为不喜欢小霸王的形象，以及动不动就打弟弟妹妹，所有人言听计从的大姐大形象，但是和后来恋爱中的女人形成了反差萌。</p>
+<p>德善一开始也觉得她太夸张了，尤其是对于善宇，不过后来发现了她的善解人意的一面，长大之后造型好看10倍之后，对阿泽的各种无微不至的关怀，还有对人情的心照不宣，让她能在男生圈子和女生圈子都混得很开。这个看上去疯疯癫癫的丫头实际上情商特别高。</p>
+<p>善宇是个挺理想的男生，他对宝拉会有占有欲，这一点一直体现到他给宝拉提三个条件的时候。不过结婚这个感觉是凑大结局需要，因为各种意义上说结婚还是有点突兀的。对这种懂事听话颜值海星的角色好感都不是特别低。</p>
+<p>前半对阿泽除了会下棋没有别的印象（大概率是和善宇搞混了）在围棋职业生涯中却压力重重，回到了双门洞就是一个再普通不过的纯情男孩，最后如其所愿地收获了喜欢的女孩，一开始也奇怪是不是看走眼了，不过看德善长大之后的真的觉得阿泽擅长投资潜力股，无论再性格还是在颜值都是破天荒。</p>
+<p>正焕在这部剧的造型不是我的type，说话也是真的狗，就这种做法，得不到德善也是理所当然的。但是他的各种小心翼翼也算是情商高的体现了。尤其是最后表白完心意之后那个开玩笑一般的表现，让在场所有人都不至于过于尴尬。而且看上去吊儿郎当的人最后去当了军官也是有点意外。</p>
+<p>其他家长基本就不过多评价了，不过家长里短里面，看似闲言闲语的家庭主妇之间在长时间的唠嗑也收获了姐妹真情。正焕的哥哥居然也捡到宝了（可怜正焕），看上去不靠谱的东龙做生意也有声有色，德善弟弟也算半个潜力股。各种意义算是比较圆满的HE。人物特色也很鲜明，是一部值得看的电视剧。</p>
+]]></content>
+      <categories>
+        <category>Drama Report</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Thermodynamics</title>
     <url>/200320-Thermodynamics/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>有些东西【只是数学关系】。<br>有些东西比起【数学形式】更加需要思考【物理意义】.</p>
+<p>简化测量，简化运算，自圆其说</p>
 <h1 id="Basics-Concepts"><a href="#Basics-Concepts" class="headerlink" title="Basics Concepts"></a>Basics Concepts</h1><p>Steady state = No accumulation</p>
 <p>Equilibrium = No change with time</p>
 <p>State Function = Path Independent</p>
 <p>Intensive/Extensive Properties = Whether properties change with mass/amount</p>
-<p>State postulate，Intensive state，Gibbs’ Phase Rule 𝐹 = 2 + 𝑛 − 𝜋 − 𝑟 <em>(后来没有怎么提到过，所以没有什么直观的理解)</em></p>
-<h1 id="Ideal-Gas"><a href="#Ideal-Gas" class="headerlink" title="Ideal Gas"></a>Ideal Gas</h1><p>理想气体方程不赘述了，不过这门课常用的PV=RT里注意 $V$ 是molar volume，单位是L/mol。<br>虽然在大多数的数学中这样似乎画蛇添足，但是这样在【物理上的意义】就是就是从两个Extensive property变成了一个Intensive property，对于open system就可以在定义和气体的时候都当作一个intensive property去考虑，而不用考虑进进出出导致的变化。</p>
-<h1 id="First-Law"><a href="#First-Law" class="headerlink" title="First Law"></a>First Law</h1><p>U, W, Q的概念和式子本身就不赘述了。不过注意U是状态量，W和Q是过程量。</p>
-<p>Reversibility, Dissipation, Quasi-static这个适合在Second Law解释。</p>
-<p>值得一提的是，PV图上都是可逆过程，表示不出不可逆过程，不可逆过程最好看TS图。</p>
-<p>第一定律本身其实没有很多需要讲的，就是能量守恒。不过需要从宏观方程拓展到δ的微分方程。</p>
+<p>Simple System assumption is necessary for almost all conclusion we make.</p>
+<p>State postulate，Intensive state，Gibbs’ Phase Rule 𝐹 = 2 + 𝑛 − 𝜋 − 𝑟 </p>
+<p>PV图上都是可逆过程，表示不出不可逆过程，不可逆过程最好看TS图。</p>
+<h1 id="Ideal-Gas"><a href="#Ideal-Gas" class="headerlink" title="Ideal Gas"></a>Ideal Gas</h1><p>For $PV=RT$ , $V$ is molar volume whose unit is $L/mol$.<br>Though mathematically it is extra step (since the exercises always give $\underline{V}$ and $N$ instead of $V$ directly. But the physical meaning is that in collaborate two Extensive property into a single Intensive property. For condition of well-mixed open system, we don’t have to consider the mole change if we use $V$.</p>
+<h1 id="First-Law"><a href="#First-Law" class="headerlink" title="First Law"></a>First Law</h1><p>Remember that U is state function and W,Q are process variable</p>
+<p>Reversibility, Dissipation, Quasi-static are better to be discussed in Second Law.</p>
 <hr>
-<p>为了【数学上的方便】，我们才有$C_V$和$C_P$！</p>
+<p>For MATHEMITICAL CONVENIENCE，we then derive $C_V$, $C_P$</p>
 <hr>
-<h2 id="Calculation-of-internal-energy"><a href="#Calculation-of-internal-energy" class="headerlink" title="Calculation of internal energy"></a>Calculation of internal energy</h2><p>因为$U=U(T,V)$<em>（T是衡量平均分子动能的宏观量，V是衡量分子势能的宏观量）</em>，我们没有内能的表达式，所以我们用【微积分】的思想——不能直接算整体，那就算算变化量，于是两边微分有了$dU=(\frac{\partial U}{\partial T})_V+(\frac{\partial U}{\partial V})_T$。</p>
-<p>其中对<strong>【理想气体】</strong>$U=U(T)$，$(\frac{\partial U}{\partial V})_T=0$</p>
-<p>上式的$(\frac{\partial U}{\partial T})_V$就是我们的$C_V$，所以说虽然叫constant-volume heat capacity，但是$dU=C_V dT$ 并不一定要恒容条件，而是个【普适】的计算式。只是因为计算偏微分的时候我们把另外一个变量当作constant。</p>
-<p>物理层面上再此理解，对于一个理想气体的两个状态方程$U_1, U_2$，状态方程的核心就是path independent，现实情况下<em>（和大多数题目状态中）</em> 过程都是irreversible的，但是既然path independent，那我们可以模拟 <del>脑补</del> 一个isobaric的可逆的状态，此过程的内能变化。</p>
-<h2 id="Calculation-of-Work"><a href="#Calculation-of-Work" class="headerlink" title="Calculation of Work"></a>Calculation of Work</h2><p>要记得因为W其实是一个path independent的量$𝛿𝑊 = −𝑃𝑑\underline{V}$只适用于Quasi-static。如果是sudden expansion, $P$ 就得要是环境的 $P$。</p>
+<h2 id="Calculation-of-internal-energy"><a href="#Calculation-of-internal-energy" class="headerlink" title="Calculation of internal energy"></a>Calculation of internal energy</h2><p>$U=U(T,V)$,<em>($T$ is the macroscopic value measuring average molecular kinetic energy，$V$ is the macroscopic value measuring average molecular kinetic energy)</em></p>
+<p>Here we still don’t know the expression for internal energy, but we can use the approach of <strong>【Derivative and Integration】</strong>, if we are not able to measure the whole value directly, then somehow we measure the changes.</p>
+<p>$dU=(\frac{\partial U}{\partial T})_V+(\frac{\partial U}{\partial V})_T$ . Then for <strong>【Ideal Gas】</strong>$U=U(T)$，$(\frac{\partial U}{\partial V})_T=0$</p>
+<p>Therefore $(\frac{\partial U}{\partial T})_V \equiv C_V$</p>
+<p>Though it is called <strong>constant-volume heat capacity</strong>，$dU=C_V dT$ not only applicable to isochoric condition. It is a <strong>UNIVERSAL</strong> expression. It is called <strong>CONSTANT-VOLUME</strong> only because when we calculate partial derivative, we need to set other variable to be constant.</p>
+<p>To understand its physical meaning,  in real life <em>（and in most exercise）</em> processes are irreversible. For two state of ideal gas $U_1, U_2$，the core of state function is <strong>PATH INDEPENDENT</strong>. Therefore we can imagine an isobaric reversible process and calculate the change of internal energy. It is same as the irreversible process, since they have same initial and final state.</p>
+<h2 id="Calculation-of-Work"><a href="#Calculation-of-Work" class="headerlink" title="Calculation of Work"></a>Calculation of Work</h2><p>Remember that W is path independent. So $𝛿𝑊 = −𝑃𝑑\underline{V}$ only applicable for Quasi-static。If it is sudden expansion, $P$ is environment pressure.</p>
 <h2 id="Calculation-of-Heat"><a href="#Calculation-of-Heat" class="headerlink" title="Calculation of Heat"></a>Calculation of Heat</h2><p>The trick of First Law lies in that you cannot calculate heat directly but only through First Law.</p>
 <h2 id="Enthalpy"><a href="#Enthalpy" class="headerlink" title="Enthalpy"></a>Enthalpy</h2><p><em>高中化学选修四对于所有的反应热都用的是$\Delta H$，但是我记得的是一定有恒压这个条件，反应焓变才等于反应热。上了大学之后才开始真正思考焓变到底是什么。</em></p>
 <p>最后发现这个问题压根没有意义。因为最好理解焓的方式就是把它当成一个为了【数学计算方便】而产生的量。</p>
@@ -72,12 +99,17 @@
 <p>同时，我们把个表达式定义为㶲 $X$ ，在【数值上】等于$H-TS$。</p>
 <p><em>（我目前还没有get到这个式子的物理含义，因为我就没有get到H的物理意义，也没有get到S=δQ/T的物理意义，就姑且认为只是数学公式）</em></p>
 <h2 id="Second-efficiency"><a href="#Second-efficiency" class="headerlink" title="Second efficiency"></a>Second efficiency</h2><p>如果说之前的efficiency我们在讨论总能量里的效率的话，这里讨论的就是相对于㶲的效率</p>
-<p>TBC</p>
+<h1 id="Non-ideal-gases"><a href="#Non-ideal-gases" class="headerlink" title="Non ideal gases"></a>Non ideal gases</h1><h2 id="勒让德变换——where-do-H-A-G-F-come-from"><a href="#勒让德变换——where-do-H-A-G-F-come-from" class="headerlink" title="勒让德变换——where do H, A, G, F come from"></a>勒让德变换——where do H, A, G, F come from</h2><blockquote>
+<p>自由能，它限制了系统对外可做的总功。</p>
+<p>吉布斯自由能，它限制了系统对外可做的非体积功。</p>
+<p>反过来说，无需外界做功驱动的热力学过程一定有dF&lt;=0; 无需外界做非体积功驱动的热力学过程，一定有dG&lt;=0。</p>
+<p>后者包括各类在恒定气压、恒定温度的环境中发生的化学反应，因为化学反应中物质改变体积，体积功是我们所不可控、也不用操心考虑的。故而吉布斯自由能可以作为化学反应能否在热力学意义上发生的判据。</p>
+</blockquote>
 <hr>
 <p>我们永远没可能达到卡诺热机的效率，但是既然我们知道了天花板在哪里，我们就能不断逼近。这就是人类追求卓越的历程。</p>
 ]]></content>
       <categories>
-        <category>Lecture note</category>
+        <category>Lecture Note</category>
       </categories>
       <tags>
         <tag>Chemical Engineering</tag>
@@ -151,6 +183,33 @@
       </tags>
   </entry>
   <entry>
+    <title>Pocket World in Figures 2019</title>
+    <url>/200315-Pocket-world-in-figures-2019/</url>
+    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
+<blockquote>
+<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
+</blockquote>
+<p>top consumers are </p>
+<blockquote>
+<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
+</blockquote>
+<hr>
+<p>top producers and consumers ranking are the same </p>
+<blockquote>
+<p>1 US 2 China 3 EU28 4 Brazil</p>
+</blockquote>
+<hr>
+<p>Foreign direct investment 2016(million) </p>
+<blockquote>
+<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
+<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
     <title>金融的逻辑</title>
     <url>/200315-Logic-of-Finance/</url>
     <content><![CDATA[<h1 id="金融"><a href="#金融" class="headerlink" title="金融"></a>金融</h1><p>陈志武的《金融的逻辑》是找《市场的逻辑》这本书的时候顺便找到的。其中很多理论让我觉得很在理，比如说“养儿防老”和所谓的礼尚往来其实都是隐形的金融产品，等到我们的社会金融产业发达之后，这些不一定可靠的金融产品会被取代，到时候人们才是会真正注重情感的交流</p>
@@ -211,33 +270,6 @@
 <p>今天的情况跟那时期正好相反，中国经济今天正在崛起，这时我们只愿意把成功归功于自己，归结于中华文化，跟世界整体发展无关</p>
 <p>按照我们熟悉的政治经济学，只有劳动才创造价值。我们中国人的传统观念也如此，总觉得只有生产那些看得见摸得着的东西、制造实物，那才是真正在做事，在真正创造价值。</p>
 <p>比如，中国家庭里，老子说话时，孩子不可以还嘴。你从小就得养成这个习惯，每个父母亲在孩子出生之后就有责任给他们灌输这个概念：你要孝敬，要听话，哪怕这话是不合理的，你也只能听，不能还嘴。否则的话，等你长大之后你不是要无法无天、要随意犯上了吗？</p>
-]]></content>
-      <categories>
-        <category>Book Report</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Pocket World in Figures 2019</title>
-    <url>/200315-Pocket-world-in-figures-2019/</url>
-    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
-<blockquote>
-<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
-</blockquote>
-<p>top consumers are </p>
-<blockquote>
-<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
-</blockquote>
-<hr>
-<p>top producers and consumers ranking are the same </p>
-<blockquote>
-<p>1 US 2 China 3 EU28 4 Brazil</p>
-</blockquote>
-<hr>
-<p>Foreign direct investment 2016(million) </p>
-<blockquote>
-<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
-<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
-</blockquote>
 ]]></content>
       <categories>
         <category>Book Report</category>
