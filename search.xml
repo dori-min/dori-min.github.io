@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>论中医</title>
+    <url>/200508-herb-medicine/</url>
+    <content><![CDATA[<p>其实化工的很多东西，比如热力学和动力学的一些公式，都是经验公式，没有太多的物理意义。 </p>
+<p>而对比中医，中医也只是经验模型，其实从这一点上两者差别不大。 那么我个人反感中医的原因是，知道是经验公式，还试图从其中挖掘原因，用五行阴阳等完全不属于现代科学的理论去解释，某种程度上很荒谬。 而且，化工的系统比生理系统简单，更容易被预测，很多解释虽然不是真正的科学，但是可以从实践和统计上被证明可行。还有，作为工程学，能够被量化是不可或缺的特性。</p>
+<p>看到这样一个说法觉得很有道理。 <strong><u>医学不等于科学</u></strong>，医学分两大类，基础医学和临床医学，两者有很大交集，但是目标不一样，基础医学是应用科学（化学、生物）的方法搞明白病理药理来从源头攻破，临床医学只有一个目的，就是把人治好，中医因为长期有大量有疗效的案例，所以才会被广泛采用。</p>
+<p>所以在这个时候，我们不谈论原理的科学与否，我们只关心这一套知识体系是否有疗效。换句话来说，西医也有很多力不从心的部分，这个时候没有优劣，能把人只好的就是对的，这是临床的逻辑。从这个角度来说，中医能够存续千年，也似乎是有道理的。</p>
+]]></content>
+      <tags>
+        <tag>Chemical Engineering</tag>
+        <tag>Herb</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Internship briefing session</title>
     <url>/200407-internship-briefing/</url>
     <content><![CDATA[<p>Company Provided:</p>
@@ -27,9 +40,9 @@
   <entry>
     <title>Thermodynamics</title>
     <url>/200320-Thermodynamics/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>有些东西【只是数学关系】。<br>有些东西比起【数学形式】更加需要思考【物理意义】.</p>
-<p>简化测量，简化运算，自圆其说。</p>
-<p>每一个artificial variable(those except for P, V, T, N)都是我们对每一件事背后真相的探索的里程碑。</p>
+    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>有些东西【只是数学关系】。<br>有些东西比起【数学形式】更加需要思考【物理意义】.</p>
+<p>工程原则：简化测量，简化运算，自圆其说。</p>
+<p>每一个“非自然变量”(除 V, T, N等等可以被自然获得和感知)，都是我们对每一件事背后真相的探索的里程碑。</p>
 <h1 id="Basics-Concepts"><a href="#Basics-Concepts" class="headerlink" title="Basics Concepts"></a>Basics Concepts</h1><p><u><strong>Steady state</strong></u> = No accumulation</p>
 <p><strong><u>Equilibrium</u></strong> = No change with time</p>
 <p><strong><u>State Function</u></strong> = Path Independent</p>
@@ -119,13 +132,25 @@
 <p>Finally, we are able to determine the properties of components of mixtures.</p>
 <p>Before ending, we will discuss about the physical meaning of chemical potential. In lecture notes, it write like this</p>
 <blockquote>
-<p>• It is related to (but not exactly) the “concentration” of a substance. <strong>Matter moves from region of high chemical potential to low chemical potential.</strong><br>• At diffusional equilibrium, the chemical potential is exactly balanced.<br>• Note the parallelism (𝑇 : thermal equilibrium : heat) :: (𝑃 : mechanical equilibrium : work) :: (𝜇 : diffusional equilibrium : flow of matter).</p>
+<p>• It is related to (but not exactly) the “concentration” of a substance. <strong>Matter moves from region of high chemical potential to low chemical potential.</strong><br>• At diffusional equilibrium, the chemical potential is exactly balanced.<br>• Note the parallelism<br>(𝑇 : thermal equilibrium : heat)<br>(𝑃 : mechanical equilibrium : work)<br>(𝜇 : diffusional equilibrium : flow of matter).</p>
 </blockquote>
 <p>Similar to voltage (or better understanding by Chinese terminology ‘electrical pressure’), current flow from high voltage to low voltage. Same as chemical potential. <u>matter flows</u> from high chemical potential to low chemical potential. Remind the change can be both chemical and physical <em>(fundamentally, not much difference from the aspect of energy changes, but people like to differentiate them)</em></p>
 <h1 id="Fugacity"><a href="#Fugacity" class="headerlink" title="Fugacity"></a>Fugacity</h1><p>First of all, fugacity is a surrogate function for the chemical potential because the drawbacks of chemical potential as followings:</p>
 <blockquote>
 <p>• It is negatively infinite when pressure approaches zero (i.e. at ideal gas limit).<br>• It is negatively infinite when the mole fraction approaches zero (i.e. at the infinite dilution limit).<br>• It is on an arbitrary scale like internal energy, and only the difference in chemical potential (not the absolute value) is meaningful.</p>
 </blockquote>
+<p>We seek for more practical appliance of what we have defined before, unfortunately, chemical potential is hard to be measured directly, but it is so important to obtain its value for calculating. Therefore, engineers define another property called <strong><u>fugacity</u></strong> to replace it. (1) Fugacity is attributed with the unit of pressure, make it fairly easy to be measured. (2) Fugacity is defined as the deviation of chemical potential <em>(RT and exponential can be simply treated as conversion of unit)</em> from $\mu<em>{ref}$, where $$\mu</em>{ref}=\mu^{ig}_i(T,P=1bar,y_i=1)=G^{ig}_i(T,P=1bar,y_i=1)$$ Again, we get back to G, we can be measured with the help of properties relation. Then we only need to measure fugacity to everything we want.</p>
+<p>The measurement of fugacity is divided to many cases. (1) For ideal gas, it simply equals to pressure at the same state<br>(2) for non-ideal gas, a revise parameter or <strong><u>fugacity coefficient $\phi$</u></strong> is multiplied to pressure<br>(3) For liquid, f is equal to vapor pressure at this temperature.<br>(4) For ideal mixtures, just multiplied by component. (remark: there is an idea called ‘gaseous ideal solutions’)<br>(5) For gases in non ideal mixtures, expression is more or less the same, while for liquids $\hat{f_i}=a_if_i$, where $a_i$ is the <strong><u>activity of i</u></strong>. It can also be expressed in $a_i = x_i\gamma_i$, where $\gamma_i$ the <strong><u>activity coefficient</u></strong> of 𝑖.</p>
+<p>Eventually, our approach to get the macroscopic properties of mixtures work, now we are going to analyze through, diagram. We look into P-x-y diagram and T-x-y diagram.</p>
+<p>In real life, sometimes we cannot determine component of mixture directly. <strong><u>Raoult’s Law</u></strong>, which illustrate the relationship of $y_i, x_i, P, P^{sat}$ <em>(where pressure are easily obtained)</em>give a convenient way to obtain component of Binary mixture. Basically, we have the Raoult’s Law for two of the components. Two unknown variables and two equations. We can easily solve for unknowns. Remark that Raoult’s Law has a bunch of restrictions so take care when applying.</p>
+<p>If we have more than two component, we can conduct what is called <strong><u>Flash Calculation</u></strong>, in which process we introduced variable $ℒ, 𝒱$, and $z_i=ℒx_i+𝒱y_i$. I personally regards it as mathematical tricks. So I will skips the formula here.</p>
+<p>We mentioned the strict restrictions for Raoult’s Law. For air and many other gases they actually violates the law. Therefore we introduce Henry’s Law, which is in similar form to Raoult’s Law, but $P^{sat}$ replaced by $ℋ_i$, Henry’s Constants, which we could find through literature.</p>
+<p>Realizing the strict condition of Raoult’s Law, we modified it for liquid a bit with $\gamma_i$.</p>
+<p>By the way for Azeotropes we have $x_i=y_i$</p>
+<h1 id="Chemical-reaction-and-equilibrium"><a href="#Chemical-reaction-and-equilibrium" class="headerlink" title="Chemical reaction and equilibrium"></a>Chemical reaction and equilibrium</h1><p>Finally, we chemical engineers build up the bridge between mechanical engineering and chemistry. We are to analyze how energy affect reaction. Actually this part should be the focus of another course called “reaction engineering” and now we are pathing our way to it.</p>
+<p>First, combining stoichiometry (actually, mass balance) and 1st law (energy balance) and require $d\underline{S}=0$, we realize that <u>Gibbs Free Energy</u> and <u>chemical potential</u> imply the direction of reaction. <em>(we may have already known this in high school, but we only learned about the conclusion but don’t know why then)</em>. Then we define <u>equilibrium constant K</u>, which can be obtained by standard <u>Gibbs free energy of reaction</u> $\Delta_rG^0$, which can be determined through <u>Gibbs free energy of formation and combustion</u></p>
+<p>Le Châtelier’s Principle</p>
+<p>tbc</p>
 ]]></content>
       <categories>
         <category>Lecture Note</category>
