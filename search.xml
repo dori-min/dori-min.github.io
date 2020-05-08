@@ -27,20 +27,21 @@
   <entry>
     <title>Thermodynamics</title>
     <url>/200320-Thermodynamics/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>有些东西【只是数学关系】。<br>有些东西比起【数学形式】更加需要思考【物理意义】.</p>
-<p>简化测量，简化运算，自圆其说</p>
-<h1 id="Basics-Concepts"><a href="#Basics-Concepts" class="headerlink" title="Basics Concepts"></a>Basics Concepts</h1><p>Steady state = No accumulation</p>
-<p>Equilibrium = No change with time</p>
-<p>State Function = Path Independent</p>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>有些东西【只是数学关系】。<br>有些东西比起【数学形式】更加需要思考【物理意义】.</p>
+<p>简化测量，简化运算，自圆其说。</p>
+<p>每一个artificial variable(those except for P, V, T, N)都是我们对每一件事背后真相的探索的里程碑。</p>
+<h1 id="Basics-Concepts"><a href="#Basics-Concepts" class="headerlink" title="Basics Concepts"></a>Basics Concepts</h1><p><u><strong>Steady state</strong></u> = No accumulation</p>
+<p><strong><u>Equilibrium</u></strong> = No change with time</p>
+<p><strong><u>State Function</u></strong> = Path Independent</p>
 <p>Intensive/Extensive Properties = Whether properties change with mass/amount</p>
-<p>Simple System assumption is necessary for almost all conclusion we make.</p>
-<p>State postulate，Intensive state，Gibbs’ Phase Rule 𝐹 = 2 + 𝑛 − 𝜋 − 𝑟 </p>
-<p>PV图上都是可逆过程，表示不出不可逆过程，不可逆过程最好看TS图。</p>
-<h1 id="Ideal-Gas"><a href="#Ideal-Gas" class="headerlink" title="Ideal Gas"></a>Ideal Gas</h1><p>For $PV=RT$ , $V$ is molar volume whose unit is $L/mol$.<br>Though mathematically it is extra step (since the exercises always give $\underline{V}$ and $N$ instead of $V$ directly. But the physical meaning is that in collaborate two Extensive property into a single Intensive property. For condition of well-mixed open system, we don’t have to consider the mole change if we use $V$.</p>
+<p><strong><u>Simple System assumption</u></strong> is necessary for almost all conclusion we make.</p>
+<p>State postulate，Intensive state</p>
+<p><em>PV图上都是可逆过程，表示不出不可逆过程，不可逆过程最好看TS图。</em></p>
+<h1 id="Ideal-Gas"><a href="#Ideal-Gas" class="headerlink" title="Ideal Gas"></a>Ideal Gas</h1><p>For $PV=RT$ , $V$ is molar volume whose unit is $L/mol$.<br>Though <u>mathematically</u> it is extra step (since the exercises always give $\underline{V}$ and $N$ instead of $V$ directly. But the <u>physical</u> meaning is that in collaborate <u>two Extensive Properties</u>  into <u>a single Intensive property</u>. For condition of well-mixed open system, we don’t have to consider the mole change if we use $V$.</p>
 <h1 id="First-Law"><a href="#First-Law" class="headerlink" title="First Law"></a>First Law</h1><p>Remember that U is state function and W,Q are process variable</p>
 <p>Reversibility, Dissipation, Quasi-static are better to be discussed in Second Law.</p>
 <hr>
-<p>For MATHEMITICAL CONVENIENCE，we then derive $C_V$, $C_P$</p>
+<p>For MATHEMITICAL CONVENIENCE，we then introduce $C_V$, $C_P$</p>
 <hr>
 <h2 id="Calculation-of-internal-energy"><a href="#Calculation-of-internal-energy" class="headerlink" title="Calculation of internal energy"></a>Calculation of internal energy</h2><p>$U=U(T,V)$,<em>($T$ is the macroscopic value measuring average molecular kinetic energy，$V$ is the macroscopic value measuring average molecular kinetic energy)</em></p>
 <p>Here we still don’t know the expression for internal energy, but we can use the approach of <strong>【Derivative and Integration】</strong>, if we are not able to measure the whole value directly, then somehow we measure the changes.</p>
@@ -107,6 +108,24 @@
 </blockquote>
 <hr>
 <p>我们永远没可能达到卡诺热机的效率，但是既然我们知道了天花板在哪里，我们就能不断逼近。这就是人类追求卓越的历程。</p>
+<h1 id="Phases"><a href="#Phases" class="headerlink" title="Phases"></a>Phases</h1><p>In the first half semester we have already discussed about purity(mainly gases) and mostly about intensive properties. Then we turn to liquid, and mixtures and how their properties change if we change their P, T, V etc.</p>
+<p>First thing to talk about is the deviation of <u>liquid</u> from ideal gas. We still hope to use ideal gas law (it is so convenient), therefore:<br>(1) we introduce $\beta$ and $\kappa$ mainly to discuss the incompressibility of liquid.<br>(2) since we usually regard liquid can not be compressed arbitrarily, we realize that the molar volume cannot be determined through ideal gas law. Empirical formula help us measure molar volume for liquid. </p>
+<p>(We seldom discuss solid here)Since we already have two phases, we now discuss <u>Phase Behavior</u>. We want to determine the properties(P,T,V) of each phase<br>(1)First of all Gibbs’ Phase Rule 𝐹 = 2 + 𝑛 − 𝜋 − 𝑟 tell us how many intensive properties we need to determine multiple phases(and even multiple components)<br>(2)We need to know the T or V or P where the two phases interchange. That gives us $P^{sat}$ (saturated)<strong><u>vapor pressure</u></strong> (can be determined through empirical formula called <u>Antoine Equation</u>), $T^{sat}$, or so-called <strong><u>boiling point</u></strong>.<br>(3) We have known the boundary,  then when the substance goes across the boundary of phases, it need to absorb/exert heat, which is called <u>latent heat</u>. It can be determined through <u>Clapeyron equation</u> and its empirical correlation.<br>(4) We learn from Chemistry before that everything process is actually incomplete. Somehow equilibrium exists. It is so for chemical reaction and same for phases interchange. Equilibrium means that even S does not change. By expressing $d\underline{S}=0$, we get $(\frac{\underline{G}^L}{T^L}-\frac{\underline{G}^V}{T^V})dN^L=0$</p>
+<p>(这里有个因果关系，因为括号里等于零(能量差)（这里不是真正意义上的能量，但是单位是能量的单位），所以才有平衡，才有dN=0)</p>
+<p>（还有一个就是我们之前定义的三个equilibrium在这里终于派上用场！其实我们想要的就是N平衡也就是diffusional equilibrium）</p>
+<p>By the way we learn to read those complicated thermodynamics diagram. Mainly, P-T and P-V diagrams.</p>
+<h1 id="Mixture"><a href="#Mixture" class="headerlink" title="Mixture"></a>Mixture</h1><p>For <strong><u>mixture</u></strong>, we (1) define  $x_i, y_i$ for liquid and gas components respectively, and (2)develop another idealized model called ideal gas mixture. (3)Since the properties are not same each part of the mixture, we finally need to turn to <u>extensive properties</u>. We compare the <u>fundamental equations</u> we derive for extensive properties and those for intensive ones, we found that they are different by  $(U+PV-TS)dN$. We call molar $U+PV-TS$ by <u>Chemical potential</u><em>(we will explain what does it physically mean later)</em> Now we can express extensive properties with chemical potential, which is more convenient.</p>
+<p>Then, how to find chemical potential for different states. We know that we can express it in U, G, A etc, holding different variable constant. In real situation, it is easiest for us to hold T and P constant, correspondingly, we can express chemical potential of ideal gas as $\mu^{ig}<em>{i} = G</em>{i}^{ig}+RTln(y_i)$ and similar form for ideal solution. For gases, we have residual properties to compensate the difference from ideal gas. Similarly, for liquid, we have <u>excess properties</u> to compensate the difference from ideal solution.</p>
+<p>Finally, we are able to determine the properties of components of mixtures.</p>
+<h1 id="Fugacity"><a href="#Fugacity" class="headerlink" title="Fugacity"></a>Fugacity</h1><p>First of all, fugacity is a surrogate function for the chemical potential.</p>
+<blockquote>
+<p>• It is negatively infinite when pressure approaches zero (i.e. at ideal gas limit).<br>• It is negatively infinite when the mole fraction approaches zero (i.e. at the infinite dilution limit).<br>• It is on an arbitrary scale like internal energy, and only the difference in chemical potential (not the absolute value) is meaningful.</p>
+</blockquote>
+<p>Before we talk about fugacity, we need to figure out the physical meaning of chemical potential.</p>
+<p>Lecture notes writes like this</p>
+<blockquote>
+<p>• It is related to (but not exactly) the “concentration” of a substance. <strong>Matter moves from region of high chemical potential to low chemical potential.</strong><br>• At diffusional equilibrium, the chemical potential is exactly balanced.<br>• Note the parallelism (𝑇 : thermal equilibrium : heat) :: (𝑃 : mechanical equilibrium : work) :: (𝜇 : diffusional equilibrium : flow of matter).</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Lecture Note</category>
