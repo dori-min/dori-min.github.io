@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>学期总结</title>
+    <url>/200525-Summary-of-19-20spring/</url>
+    <content><![CDATA[<p>本来想在所有考完之后再做一个所有课的repo，不过今天考完了4130有感就提前写一下。</p>
+<p>目前结束了的有分化、有机和刚刚考完的工厂设计与经济。</p>
+<hr>
+<p>分化最后的考试基本还是达到预期，就是“我能学进去这么多了，我也就考这么多”，因为的确这门课我没有get到太多的内容。唯一要感谢的就是他早早结束了final，减轻复习压力。</p>
+<hr>
+<p>有机的感觉也是类似，最后的几个章节过得比较快，很多东西都没记熟，但是偏偏有机就是要记得牢才能熟能生巧的学科，但是总体来说，翻看自己的笔记，还是有挺多收获，起码和高中的很多知识串起来了。</p>
+<hr>
+<p>工厂设计与经济的前半部分经济没有学懂，期中考试翻车；本来想着期末偏工程的部分要翻盘回来，但是感觉考试时间还是紧，好不容易MC终于突破60~70%的魔咒，从来都是要磨到最后三十秒才交的我这次提前五分钟就交了，结果也比较理想。<br>到了大题就开始吃紧——看到第一题是经济，果断跳过；<br>第二题是pressure relief，除了第二问比较陌生（但是也可以抄课件的内容）没有什么问题，第三题看着我就蒙了，因为这里我做的练习的确不多，只是看了答案都是代公式，但是我一直在纠结到底用哪个公式（plume/puff，which stability）然后又不明白在问什么，先跳过了。<br>第四题hazop就是写写写，感觉还行，小插曲是中途笔芯没了；<br>第五题的event tree比较懵的点是occur B times a year，要说one in XXX times我还能理解，但是这种表述是什么含义，在这一点又纠结了。第二问是经济，是我不擅长的部分，到最后要考虑Time value还是没算出来，到最后只剩下十分钟回去第三题的（这里的一个错误决策就是耗时间在最后一题第二问的经济，毕竟一个大题是20分，一个小题是10分，其实是不划算的，而且比起经济题目我应该更擅长工程类题目）所以收场的感觉就是时间分配不是很好，要是再多半小时可能plume/puff能做出来。所以说这门课还是有不少遗憾的吧，还是有没有学懂的地方。<br>做不到问心无愧，因为不能说尽了全力，只能说吸取教训再接再厉。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Thermodynamics</title>
     <url>/200513-Thermodynamics/</url>
     <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>有些东西【只是数学关系】。<br>有些东西比起【数学形式】更加需要思考【物理意义】.</p>
@@ -13,7 +26,7 @@
 <p><strong><u>Simple System assumption</u></strong> is necessary for almost all conclusion we make.</p>
 <p>State postulate，Intensive state</p>
 <p><em>PV图上都是可逆过程，表示不出不可逆过程，不可逆过程最好看TS图。</em></p>
-<h1 id="Ideal-Gas"><a href="#Ideal-Gas" class="headerlink" title="Ideal Gas"></a>Ideal Gas</h1><p>For $PV=RT$ , $V$ is molar volume whose unit is $L/mol$.<br>Though <u>mathematically</u> it is extra step (since the exercises always give $\underline{V}$ and $N$ instead of $V$ directly. But the <u>physical</u> meaning is that in collaborate <u>two Extensive Properties</u>  into <u>a single Intensive property</u>. For condition of well-mixed open system, we don’t have to consider the mole change if we use $V$.</p>
+<h1 id="Ideal-Gas-Law"><a href="#Ideal-Gas-Law" class="headerlink" title="Ideal Gas Law"></a>Ideal Gas Law</h1><p>For the famous formula $PV=RT$ , $V$ is molar volume whose unit is $L/mol$.<br>Though <u>mathematically</u> it is extra step (since the exercises always give $\underline{V}$ and $N$ instead of $V$ directly. But the <u>physical</u> meaning is that in collaborate <u>two Extensive Properties</u>  into <u>a single Intensive property</u>. For condition of well-mixed open system, we don’t have to consider the mole change if we use $V$.</p>
 <h1 id="First-Law"><a href="#First-Law" class="headerlink" title="First Law"></a>First Law</h1><p>Remember that U is state function and W,Q are process variable</p>
 <p>Reversibility, Dissipation, Quasi-static are better to be discussed in Second Law.</p>
 <hr>
@@ -123,6 +136,27 @@
       </tags>
   </entry>
   <entry>
+    <title>Korean</title>
+    <url>/200514-Korean/</url>
+    <content><![CDATA[<p>5<br>얼마여요</p>
+<p>비싸다<br>싿다</p>
+<p>원</p>
+<p>잉<br>일<br>이<br>삼<br>사<br>오<br>육<br>질<br>팔<br>구<br>심<br>백<br>친<br>만</p>
+<p>6<br>좋아요<br>모두 좋아요</p>
+<p>에<br>그것</p>
+<p>쉬위요 容易<br>주위요 冷<br>더위요 热<br>바빠 忙</p>
+<p>당신您<br>7<br>어서 请 오세요 进<br>반삼다高兴<br>앉다坐 an ju<br>커피를 디시겠어요<br>고맙다 谢谢<br>고맙습니다<br>넣다加</p>
+<p>들다吃<br>가다走<br>마시디喝</p>
+<p>물水</p>
+<p>要… 겠십니다</p>
+<p>8<br>폔찮아요<br>나쁘다坏</p>
+<p>아주 很<br>사람人<br>달다甜<br>맵다辣<br>요즘 最近</p>
+]]></content>
+      <tags>
+        <tag>Korean</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>论中医</title>
     <url>/200508-herb-medicine/</url>
     <content><![CDATA[<p>其实化工的很多东西，比如热力学和动力学的一些公式，都是经验公式，没有太多的物理意义。 </p>
@@ -132,18 +166,7 @@
 ]]></content>
       <tags>
         <tag>Chemical Engineering</tag>
-        <tag>Herb</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Internship briefing session</title>
-    <url>/200407-internship-briefing/</url>
-    <content><![CDATA[<p>Company Provided:</p>
-<p><a href="https://phasescientific.com/?lang=zh-hant" target="_blank" rel="external">Phase Scientific (biotech)</a> </p>
-<p><a href="http://www.taronsolutions.com/index.html" target="_blank" rel="external">Taron Solutions (biopharmaceutical)</a></p>
-<p><a href="https://aecom.com/" target="_blank" rel="external">AECOM (infrastructure)</a></p>
-<p><a href="http://www.irescglobal.com/" target="_blank" rel="external">IRECS (safety and risk)</a></p>
-]]></content>
   </entry>
   <entry>
     <title>请回答1988</title>
@@ -196,61 +219,6 @@
 ]]></content>
       <categories>
         <category>Lecture Note</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Khan Acadamy Internet 101</title>
-    <url>/200315-Khan-Acadamy-Internet101/</url>
-    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
-<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
-<li>data are divided in to Packets </li>
-<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
-<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
-</ol>
-<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
-<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
-<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
-<li>PC requests additional data(images,videos etc) that included in HTML </li>
-<li>Cookies are used to remember user information </li>
-<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
-<li>Servers need digital certificate to establish secured connection. </li>
-</ol>
-<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
-<p>Hackers’ methods: </p>
-<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
-]]></content>
-      <categories>
-        <category>Video Report</category>
-      </categories>
-      <tags>
-        <tag>Internet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Pocket World in Figures 2019</title>
-    <url>/200315-Pocket-world-in-figures-2019/</url>
-    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
-<blockquote>
-<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
-</blockquote>
-<p>top consumers are </p>
-<blockquote>
-<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
-</blockquote>
-<hr>
-<p>top producers and consumers ranking are the same </p>
-<blockquote>
-<p>1 US 2 China 3 EU28 4 Brazil</p>
-</blockquote>
-<hr>
-<p>Foreign direct investment 2016(million) </p>
-<blockquote>
-<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
-<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Book Report</category>
       </categories>
   </entry>
   <entry>
@@ -318,6 +286,61 @@
       <categories>
         <category>Book Report</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Pocket World in Figures 2019</title>
+    <url>/200315-Pocket-world-in-figures-2019/</url>
+    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
+<blockquote>
+<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
+</blockquote>
+<p>top consumers are </p>
+<blockquote>
+<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
+</blockquote>
+<hr>
+<p>top producers and consumers ranking are the same </p>
+<blockquote>
+<p>1 US 2 China 3 EU28 4 Brazil</p>
+</blockquote>
+<hr>
+<p>Foreign direct investment 2016(million) </p>
+<blockquote>
+<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
+<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Khan Acadamy Internet 101</title>
+    <url>/200315-Khan-Acadamy-Internet101/</url>
+    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
+<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
+<li>data are divided in to Packets </li>
+<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
+<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
+</ol>
+<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
+<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
+<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
+<li>PC requests additional data(images,videos etc) that included in HTML </li>
+<li>Cookies are used to remember user information </li>
+<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
+<li>Servers need digital certificate to establish secured connection. </li>
+</ol>
+<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
+<p>Hackers’ methods: </p>
+<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
+]]></content>
+      <categories>
+        <category>Video Report</category>
+      </categories>
+      <tags>
+        <tag>Internet</tag>
+      </tags>
   </entry>
   <entry>
     <title>online-bookmark</title>
@@ -402,9 +425,11 @@
 ]]></content>
   </entry>
   <entry>
-    <title>孤独六讲</title>
-    <url>/191230-six-lectures-of-loneliness/</url>
-    <content><![CDATA[<h1 id="情欲孤獨"><a href="#情欲孤獨" class="headerlink" title="情欲孤獨"></a>情欲孤獨</h1><p>家庭、伦理的束缚之巨大，远超于我们的想像。包括我自己，尽管说得冠冕堂皇，只要在八十四岁的妈妈面前，我又变回了小孩子，哪敢谈什么自我？谈什么情欲孤独？她照样站在门口和邻居聊我小时候尿床的糗事，讲得我无地自容，她只是若无其事地说：“这有什么不能说的？”</p>
+    <title>孤独六讲摘抄</title>
+    <url>/191230-six-lectures-on-loneliness/</url>
+    <content><![CDATA[<p><em>前言：蒋勋的这本书颇为有趣，在不同时候看有不同的体会，一个人吃饭的时候，看着社会新闻的时候，吃着狗粮的时候，思考的时候。</em></p>
+<hr>
+<h1 id="情欲孤獨"><a href="#情欲孤獨" class="headerlink" title="情欲孤獨"></a>情欲孤獨</h1><p>家庭、伦理的束缚之巨大，远超于我们的想像。包括我自己，尽管说得冠冕堂皇，只要在八十四岁的妈妈面前，我又变回了小孩子，哪敢谈什么自我？谈什么情欲孤独？她照样站在门口和邻居聊我小时候尿床的糗事，讲得我无地自容，她只是若无其事地说：“这有什么不能说的？”</p>
 <p>其实，我母亲和许多母亲一样，手上一直握有一把剪刀，专门剪孩子的头发，比中学时代教官手中那一把更厉害，这一把看不见的剪刀叫做“爱”或是“关心”。因为这把剪刀，母亲成为我走向孤独的最后一道关卡。</p>
 <p>在我们的文化中，以“爱”、“关心”或是“孝”之名，其所做的任何决定都是对的，不允许相对的讨论、怀疑──而没有怀疑就无法萌生孤独感，因为孤独感就是生命对生命本身采取怀疑的态度。</p>
 <p>這是一個非常典型的儒家思想，沒有人敢特立獨行，大家都遵守著「中庸之道」，不做第一，也不做最後。儒家思想歌頌的是一種群體文化，我要特別申明的是，並不是認為歌頌群體的文化不好，事實上儒家思想是以農業為基礎，一定和群體有關。所謂的群體是指大家要共同遵守一些規則，社群才能有其生存的條件，特別是在窮困的農業社會中。而特立獨行是在破壞群體，就會受到群體的譴責。</p>
@@ -482,7 +507,7 @@
   </entry>
   <entry>
     <title>巫师财经</title>
-    <url>/191212-wushi-finance/</url>
+    <url>/191212-wizard-finance/</url>
     <content><![CDATA[<p>昨天拖延症犯了，放下了手里的事情，在b站看了好多视频。总结一下看到的东西。</p>
 <p>首先是补完了<strong>巫师财经</strong>的视频。对于我一个金融小白的确是很重要的科普。</p>
 <p>主要是四个部分吧，第一个是我在油管看过的，关于金融行业收入和鄙视链的问题，让我反思现在我自己身处行业是不是同样有【买家&gt;卖家&gt;中间商】的思想。身在中间的我背负着前人的希望，想要往上跳，但是我觉得始终不能乱了阵脚，动摇了自己原本的商业模式和资金。而且我也秉承着一种商业的“工匠”精神，还是想要维护自己原本的业务。</p>
@@ -499,7 +524,7 @@
       </categories>
   </entry>
   <entry>
-    <title>191112-How we go on</title>
+    <title>How we go on</title>
     <url>/191112-how-we-go-on/</url>
     <content><![CDATA[<p>又名<strong>清水湾之殇</strong>。</p>
 <hr>
@@ -523,7 +548,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>linear algebra notes</title>
+    <title>Linear algebra notes</title>
     <url>/191004-linear-algebra/</url>
     <content><![CDATA[<p>这两星期学linear algebra 学得有点懵逼，看了一下3b1b的视频，总结一下现在学到的知识。</p>
 <hr>
@@ -1625,8 +1650,7 @@
   <entry>
     <title>植物图鉴</title>
     <url>/190421-shokubutsu-zukan/</url>
-    <content><![CDATA[<p>《植物图鉴》</p>
-<p>第一章的植物是ヘクソカズラ。讲了独身女主河野さやか把男主いつき捡回家过上同居生活的日子。女主有钱，男主会整顿家务会做饭简直不能再完美好吧。男主属性可以期待发展。</p>
+    <content><![CDATA[<p>第一章的植物是ヘクソカズラ。讲了独身女主河野さやか把男主いつき捡回家过上同居生活的日子。女主有钱，男主会整顿家务会做饭简直不能再完美好吧。男主属性可以期待发展。</p>
 <p>第二章是つくし和ふきのとう，前半部分就酱两个人的日常，说さやか工作不顺利的时候，如果是一个人住的话回家也只是忍着，因为哭了之后仍然是空虚，但是现在就会在いつき面前哭，いつき就会よしよし摸头（好甜!）。</p>
 <p>然后介绍了一下两个人的同居细节，简直不能再理想：白天さやか上班，回到家吃做好的饭泡澡，然后いつき接着泡澡，等到さやか要睡了，いつき出门打工（平日的夜勤），いつき出门之后さやか把锁链挂上（いつき）多次叮嘱，さやか早上醒来いつき刚好打工回来就给开门，然后做早饭，いつき睡到中午然后下午去看看打折。周末的前一天さやか就不挂锁链免得起不来把いつき锁在外面，いつき回来尽量小动静地刷牙换衣服然后睡觉，醒来做两个人的brunch。就是各种小细节都心动得不得了！这样的同居人谁不想要！想结婚！</p>
 <p>后半回到植物的主题。いつき邀さやか散步，一开始さやか偷懒不想去，后来答应说走路去いつき骑自行车载她回来。两个人在河边发现了つくし和ふきのとう，さやか摘了很多，いつき拿回去做天妇罗，很苦ww</p>
