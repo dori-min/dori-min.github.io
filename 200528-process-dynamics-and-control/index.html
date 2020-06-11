@@ -95,18 +95,30 @@
 
 
 <meta name="description" content="考前的一些迷惑总结
-Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的意思Direct Synthesis很简单粗暴，根据表达式，要求Gc就一定要先确定Y,Ysp,G，前两个虽然可以直接获得，但是不是它们想要多少就多少，而是我们有一个希望的(Y/Ysp)_d的比例，而G我们就需要算一个model G~代进去，">
+PID controller design - Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的意思
+以下内容对应DS和IM部分的图片一起看
+
+Direct Synthesis很简单粗暴，根据表达式，要求Gc就一定要先确定Y,Ysp,G，前两个虽然可以直接获得，但是不是它们想要多少就多少">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Process dynamics and control">
 <meta property="og:url" content="dori-min.github.io/200528-process-dynamics-and-control/index.html">
 <meta property="og:site_name" content="Dori-min">
 <meta property="og:description" content="考前的一些迷惑总结
-Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的意思Direct Synthesis很简单粗暴，根据表达式，要求Gc就一定要先确定Y,Ysp,G，前两个虽然可以直接获得，但是不是它们想要多少就多少，而是我们有一个希望的(Y/Ysp)_d的比例，而G我们就需要算一个model G~代进去，">
-<meta property="og:updated_time" content="2020-05-28T01:34:02.504Z">
+PID controller design - Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的意思
+以下内容对应DS和IM部分的图片一起看
+
+Direct Synthesis很简单粗暴，根据表达式，要求Gc就一定要先确定Y,Ysp,G，前两个虽然可以直接获得，但是不是它们想要多少就多少">
+<meta property="og:image" content="https://d3i71xaburhd42.cloudfront.net/fe7b95cdbf0c26c9fc05de227f10473b3b5fa2d8/2-Figure1-1.png">
+<meta property="og:image" content="https://ars.els-cdn.com/content/image/3-s2.0-B9781437778076100191-f19-10-9781437778076.jpg">
+<meta property="og:updated_time" content="2020-06-11T06:09:10.792Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Process dynamics and control">
 <meta name="twitter:description" content="考前的一些迷惑总结
-Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的意思Direct Synthesis很简单粗暴，根据表达式，要求Gc就一定要先确定Y,Ysp,G，前两个虽然可以直接获得，但是不是它们想要多少就多少，而是我们有一个希望的(Y/Ysp)_d的比例，而G我们就需要算一个model G~代进去，">
+PID controller design - Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的意思
+以下内容对应DS和IM部分的图片一起看
+
+Direct Synthesis很简单粗暴，根据表达式，要求Gc就一定要先确定Y,Ysp,G，前两个虽然可以直接获得，但是不是它们想要多少就多少">
+<meta name="twitter:image" content="https://d3i71xaburhd42.cloudfront.net/fe7b95cdbf0c26c9fc05de227f10473b3b5fa2d8/2-Figure1-1.png">
 
 
 
@@ -339,8 +351,8 @@ Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2020-05-28T09:34:02+08:00">
-                2020-05-28
+              <time title="Post modified" itemprop="dateModified" datetime="2020-06-11T14:09:10+08:00">
+                2020-06-11
               </time>
             
           </span>
@@ -396,11 +408,17 @@ Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的
 
       
         <p><em>考前的一些迷惑总结</em></p>
-<h1 id="Direct-Synthesis-amp-Internal-Model"><a href="#Direct-Synthesis-amp-Internal-Model" class="headerlink" title="Direct Synthesis &amp; Internal Model"></a>Direct Synthesis &amp; Internal Model</h1><p>controller tuning就是configuration的意思<br>Direct Synthesis很简单粗暴，根据表达式，要求Gc就一定要先确定Y,Ysp,G，前两个虽然可以直接获得，但是不是它们想要多少就多少，而是我们有一个希望的(Y/Ysp)_d的比例，而G我们就需要算一个model G~代进去，这里G可以用之前章节得内容测得K和τ(如果是2nd order就τ1,τ2)，经过一系列代入和简化得到了P11,P12上面controller的Kc和τ_I(&amp;τ_D)表达式，这个缺点就是换一个G就要重新算一遍。</p>
-<p>Internal Model的操作方法就是一边过着真实发生的的流程G，一边simulate着一个model G~，并且利用两者输出的差，经过反复实验和调整，使得G~完全等价于G，这个时候Gc方才上限，利用算出来的model G~可以算出Gc<em>，就是我们要的Gc</em>了<br>在流程上，G和G~是齐头并进，但是实际操作，G~和Gc<em>通过这一系列步骤组成了我们想要的controller，就算我们把G换掉，G~和Gc</em>的组合仍然能够通过着一系列操作获得我们想要的controller效果<br><a href="https://keep.google.com/#label/3110" target="_blank" rel="external">#3110</a> </p>
-<h1 id="PID"><a href="#PID" class="headerlink" title="PID"></a>PID</h1><p>P的offset就是因为P只看到了控制那个时候的情况，但是没有考虑过去，没有弥补error，所以永远达不到想要的目标<br>I可以看到过去，所以可以消除offset，但是会因为太执着弥补，所以会有wind up<br>D是冲动的急性子，所以不能单独/只和P搭配使用，因为看到一点error就会上天，一定要让I压着（补充）才能按耐住。</p>
+<h1 id="PID-controller-design-Direct-Synthesis-amp-Internal-Model"><a href="#PID-controller-design-Direct-Synthesis-amp-Internal-Model" class="headerlink" title="PID controller design - Direct Synthesis &amp; Internal Model"></a>PID controller design - Direct Synthesis &amp; Internal Model</h1><p>controller tuning就是configuration的意思</p>
+<p><em>以下内容对应DS和IM部分的图片一起看</em></p>
+<p><img src="https://d3i71xaburhd42.cloudfront.net/fe7b95cdbf0c26c9fc05de227f10473b3b5fa2d8/2-Figure1-1.png" alt="img"></p>
+<p>Direct Synthesis很简单粗暴，根据表达式，要求Gc就一定要先确定Y,Ysp,G，前两个虽然可以直接获得，但是不是它们想要多少就多少，而是我们有一个希望的(Y/Ysp)_d的比例，而G我们就需要算一个model G~代进去，这里G可以用之前章节得内容测得K和τ(如果是2nd order就τ1,τ2)，经过一系列代入和简化得到了P11,P12上面controller的Kc和τ_I(&amp;τ_D)表达式，这个缺点就是换一个G就要重新算一遍。</p>
+<p><img src="https://ars.els-cdn.com/content/image/3-s2.0-B9781437778076100191-f19-10-9781437778076.jpg" alt="img"></p>
+<p>Internal Model的操作方法就是一边过着真实发生的的流程G，一边simulate着一个model G~ ，并且利用两者输出的差，经过反复实验和调整，使得G~完全等价于G，这个时候Gc方才上限，利用算出来的model G~可以算出Gc<em>，就是我们要的Gc</em>了<br>在流程上，G和G~ 是齐头并进，但是实际操作，G~ 和Gc<em> 通过这一系列步骤组成了我们想要的controller，就算我们把G换掉，G~和Gc</em>的组合仍然能够通过着一系列操作获得我们想要的controller效果</p>
+<h1 id="Offset-of-controller"><a href="#Offset-of-controller" class="headerlink" title="Offset of controller"></a>Offset of controller</h1><p>P的offset就是因为P只看到了控制那个时候的情况，但是没有考虑过去，没有弥补error，所以永远达不到想要的目标<br>I可以看到过去，所以可以消除offset，但是会因为太执着弥补，所以会有wind up<br>D是冲动的急性子，所以不能单独/只和P搭配使用，因为看到一点error就会上天，一定要让I压着（补充）才能按耐住。</p>
 <h1 id="Integral-windup"><a href="#Integral-windup" class="headerlink" title="Integral windup"></a>Integral windup</h1><p>原因：真实控制器都有上限，比如电压上限是5V，但是超过5V的set point就没办法到达，但是controller又希望要这么高的电压来control error，所以integral controller就眼睁睁地看着error累计变多，它就更想要control了，就出现了用力过猛的现象</p>
+<blockquote>
 <p>若因為實際系統的限制，控制器的輸出無法再影響控制變數，此時即為積分飽和的情形，例如輸出為0-5V的系統，理想的輸出在5V和6V之間變化，但實際輸出均維持在5V，這段控制器的輸出無法再影響控制變數，即為積分飽和。需要等理想輸出低於5V以下時，實際輸出會隨理想輸出變化，控制器的輸出無法再影響控制變數。控制器中若有積分器，其累計輸出的變化會隨積分時間而不同，若積分時間長時，其變化較慢，因此此現象會很明顯。</p>
+</blockquote>
 
       
     </div>
@@ -431,8 +449,8 @@ Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/200525-Summary-of-19-20spring/" rel="next" title="学期总结">
-                <i class="fa fa-chevron-left"></i> 学期总结
+              <a href="/200525-Summary-of-19-20spring/" rel="next" title="19~20 Spring 学期总结">
+                <i class="fa fa-chevron-left"></i> 19~20 Spring 学期总结
               </a>
             
           </div>
@@ -522,7 +540,7 @@ Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">31</span>
+                <span class="site-state-item-count">30</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -544,7 +562,7 @@ Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
@@ -579,7 +597,7 @@ Direct Synthesis &amp;amp; Internal Modelcontroller tuning就是configuration的
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Direct-Synthesis-amp-Internal-Model"><span class="nav-text">Direct Synthesis & Internal Model</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PID"><span class="nav-text">PID</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Integral-windup"><span class="nav-text">Integral windup</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#PID-controller-design-Direct-Synthesis-amp-Internal-Model"><span class="nav-text">PID controller design - Direct Synthesis & Internal Model</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Offset-of-controller"><span class="nav-text">Offset of controller</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Integral-windup"><span class="nav-text">Integral windup</span></a></li></ol></div>
             
 
           </div>

@@ -94,62 +94,38 @@
 
 
 
-<meta name="description" content="Cstring
+<meta name="description" content="PBV &amp;amp; PBRPBV - value is captured during the definition of function 
+PBR - value is captured when called
+指针讲解https://www.bilibili.com/video/av51454524
 
-疑惑
-
-PBVfcn1出不来因为是pbv，因为这个function return的是a的数值储存的内存地址，当运行到(x)的)之后这个function就已经完成了，a的内存地址也不存在了，这个句子就没有意义 fcn2让a当了x的别名，所以还是x的地址，所以没毛病
-
-
-size的疑惑怎么size就变小了呢 为什么变小这么多呢 等学完pointer再回来看看有没有答案
-
-
-Strin">
+内存 寄存器这篇文章是我关于内存、寄存器的启蒙 
+翻译：http://bbs.52miji">
 <meta property="og:type" content="article">
-<meta property="og:title" content="COMP2011疑惑与笔记">
+<meta property="og:title" content="C++ Notes(pointer)">
 <meta property="og:url" content="dori-min.github.io/200315-C-plus-plus/index.html">
 <meta property="og:site_name" content="Dori-min">
-<meta property="og:description" content="Cstring
+<meta property="og:description" content="PBV &amp;amp; PBRPBV - value is captured during the definition of function 
+PBR - value is captured when called
+指针讲解https://www.bilibili.com/video/av51454524
 
-疑惑
-
-PBVfcn1出不来因为是pbv，因为这个function return的是a的数值储存的内存地址，当运行到(x)的)之后这个function就已经完成了，a的内存地址也不存在了，这个句子就没有意义 fcn2让a当了x的别名，所以还是x的地址，所以没毛病
-
-
-size的疑惑怎么size就变小了呢 为什么变小这么多呢 等学完pointer再回来看看有没有答案
-
-
-Strin">
-<meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124800.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124853.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124938.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125503.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125555.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125606.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125731.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125931.png">
+内存 寄存器这篇文章是我关于内存、寄存器的启蒙 
+翻译：http://bbs.52miji">
 <meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130054.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130059.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130103.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130117.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130130.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125347.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/20200315130919.png">
-<meta property="og:updated_time" content="2020-03-15T05:13:19.565Z">
+<meta property="og:updated_time" content="2020-06-11T05:58:44.561Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="COMP2011疑惑与笔记">
-<meta name="twitter:description" content="Cstring
+<meta name="twitter:title" content="C++ Notes(pointer)">
+<meta name="twitter:description" content="PBV &amp;amp; PBRPBV - value is captured during the definition of function 
+PBR - value is captured when called
+指针讲解https://www.bilibili.com/video/av51454524
 
-疑惑
-
-PBVfcn1出不来因为是pbv，因为这个function return的是a的数值储存的内存地址，当运行到(x)的)之后这个function就已经完成了，a的内存地址也不存在了，这个句子就没有意义 fcn2让a当了x的别名，所以还是x的地址，所以没毛病
-
-
-size的疑惑怎么size就变小了呢 为什么变小这么多呢 等学完pointer再回来看看有没有答案
-
-
-Strin">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124800.png">
+内存 寄存器这篇文章是我关于内存、寄存器的启蒙 
+翻译：http://bbs.52miji">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130054.png">
 
 
 
@@ -184,7 +160,7 @@ Strin">
 
 
 
-  <title>COMP2011疑惑与笔记 | Dori-min</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>C++ Notes(pointer) | Dori-min</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -366,7 +342,7 @@ Strin">
 
         
         
-          <h1 class="post-title" itemprop="name headline">COMP2011疑惑与笔记</h1>
+          <h1 class="post-title" itemprop="name headline">C++ Notes(pointer)</h1>
         
 
         <div class="post-meta">
@@ -382,8 +358,8 @@ Strin">
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2020-03-15T13:13:19+08:00">
-                2020-03-15
+              <time title="Post modified" itemprop="dateModified" datetime="2020-06-11T13:58:44+08:00">
+                2020-06-11
               </time>
             
           </span>
@@ -438,26 +414,8 @@ Strin">
       
 
       
-        <h1 id="Cstring"><a href="#Cstring" class="headerlink" title="Cstring"></a>Cstring</h1><p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124800.png" alt=""></p>
-<hr>
-<h1 id="疑惑"><a href="#疑惑" class="headerlink" title="疑惑"></a>疑惑</h1><p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124853.png" alt=""></p>
-<hr>
-<h1 id="PBV"><a href="#PBV" class="headerlink" title="PBV"></a>PBV</h1><p>fcn1出不来因为是pbv，因为这个function return的是a的数值储存的内存地址，当运行到(x)的)之后这个function就已经完成了，a的内存地址也不存在了，这个句子就没有意义 fcn2让a当了x的别名，所以还是x的地址，所以没毛病</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315124938.png" alt=""></p>
-<hr>
-<h1 id="size的疑惑"><a href="#size的疑惑" class="headerlink" title="size的疑惑"></a>size的疑惑</h1><p>怎么size就变小了呢 为什么变小这么多呢 等学完pointer再回来看看有没有答案</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125503.png" alt=""></p>
-<hr>
-<h1 id="String-的疑惑"><a href="#String-的疑惑" class="headerlink" title="String 的疑惑"></a>String 的疑惑</h1><p>为什么就不把他变成string再分成char，判断一下是不是0就好了 是因为char是ASCII所以要的memory更多？所以这样的比较高效？ 可是recursion也要不少memory啊 试一下写size of看一下哪个用的空间更大好了</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125555.png" alt=""></p>
-<p>一边写一边思考人生</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125606.png" alt=""></p>
-<hr>
-<h1 id="Array疑惑"><a href="#Array疑惑" class="headerlink" title="Array疑惑"></a>Array疑惑</h1><p>Adam那行 array不是不能直接assign的？ strcpy干啥</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125731.png" alt=""></p>
-<h1 id="PBV-amp-PBR"><a href="#PBV-amp-PBR" class="headerlink" title="PBV &amp; PBR"></a>PBV &amp; PBR</h1><p>PBV - value is captured during the definition of function </p>
+        <h1 id="PBV-amp-PBR"><a href="#PBV-amp-PBR" class="headerlink" title="PBV &amp; PBR"></a>PBV &amp; PBR</h1><p>PBV - value is captured during the definition of function </p>
 <p>PBR - value is captured when called</p>
-<p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125931.png" alt=""></p>
 <h1 id="指针讲解"><a href="#指针讲解" class="headerlink" title="指针讲解"></a>指针讲解</h1><p><a href="https://www.bilibili.com/video/av51454524" target="_blank" rel="external">https://www.bilibili.com/video/av51454524</a></p>
 <p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130054.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130059.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130103.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130117.png" alt=""><br><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315130130.png" alt=""></p>
 <h1 id="内存-寄存器"><a href="#内存-寄存器" class="headerlink" title="内存 寄存器"></a>内存 寄存器</h1><p>这篇文章是我关于内存、寄存器的启蒙 </p>
@@ -468,7 +426,6 @@ Strin">
 <p><a href="https://blog.csdn.net/K346K346/article/details/80849966" target="_blank" rel="external">https://blog.csdn.net/K346K346/article/details/80849966</a></p>
 <p><a href="https://www.cnblogs.com/edisonchou/p/4669098.html" target="_blank" rel="external">https://www.cnblogs.com/edisonchou/p/4669098.html</a></p>
 <p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315125347.png" alt=""></p>
-<h1 id="Memory-Leak"><a href="#Memory-Leak" class="headerlink" title="Memory Leak"></a>Memory Leak</h1><p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/20200315130919.png" alt=""></p>
 
       
     </div>
@@ -584,7 +541,7 @@ Strin">
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">31</span>
+                <span class="site-state-item-count">30</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -606,7 +563,7 @@ Strin">
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
@@ -641,7 +598,7 @@ Strin">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Cstring"><span class="nav-text">Cstring</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#疑惑"><span class="nav-text">疑惑</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PBV"><span class="nav-text">PBV</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#size的疑惑"><span class="nav-text">size的疑惑</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#String-的疑惑"><span class="nav-text">String 的疑惑</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Array疑惑"><span class="nav-text">Array疑惑</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PBV-amp-PBR"><span class="nav-text">PBV & PBR</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#指针讲解"><span class="nav-text">指针讲解</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#内存-寄存器"><span class="nav-text">内存 寄存器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Memory-Leak"><span class="nav-text">Memory Leak</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#PBV-amp-PBR"><span class="nav-text">PBV & PBR</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#指针讲解"><span class="nav-text">指针讲解</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#内存-寄存器"><span class="nav-text">内存 寄存器</span></a></li></ol></div>
             
 
           </div>
