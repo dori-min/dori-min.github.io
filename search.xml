@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>200910-injection-molding-platform</title>
+    <url>/200910-injection-molding-platform/</url>
+    <content><![CDATA[<h1 id="To-dos"><a href="#To-dos" class="headerlink" title="To-dos"></a>To-dos</h1><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><h2 id="WeChat-Mini-app"><a href="#WeChat-Mini-app" class="headerlink" title="WeChat Mini app"></a>WeChat Mini app</h2><p><a href="https://blog.csdn.net/qq_26230421/article/details/94588674" target="_blank" rel="external">Preview images</a></p>
+<p><a href="https://blog.csdn.net/yytfjtyphoon/article/details/98189022" target="_blank" rel="external">read local text</a></p>
+<p><a href="https://developers.weixin.qq.com/minigame/dev/wxcloud/guide/database/add.html" target="_blank" rel="external">request information from sql</a> </p>
+<p><a href="https://cloud.tencent.com/developer/article/1380912" target="_blank" rel="external">another</a> </p>
+]]></content>
+  </entry>
+  <entry>
     <title>语基与语法整理</title>
     <url>/200809-Korean-grammar-with-examples/</url>
     <content><![CDATA[<h1 id="语基"><a href="#语基" class="headerlink" title="语基"></a>语基</h1><ul>
@@ -1417,61 +1426,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Khan Acadamy Internet 101</title>
-    <url>/200315-Khan-Acadamy-Internet101/</url>
-    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
-<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
-<li>data are divided in to Packets </li>
-<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
-<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
-</ol>
-<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
-<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
-<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
-<li>PC requests additional data(images,videos etc) that included in HTML </li>
-<li>Cookies are used to remember user information </li>
-<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
-<li>Servers need digital certificate to establish secured connection. </li>
-</ol>
-<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
-<p>Hackers’ methods: </p>
-<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
-]]></content>
-      <categories>
-        <category>Video Report</category>
-      </categories>
-      <tags>
-        <tag>Internet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Pocket World in Figures 2019</title>
-    <url>/200315-Pocket-world-in-figures-2019/</url>
-    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
-<blockquote>
-<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
-</blockquote>
-<p>top consumers are </p>
-<blockquote>
-<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
-</blockquote>
-<hr>
-<p>top producers and consumers ranking are the same </p>
-<blockquote>
-<p>1 US 2 China 3 EU28 4 Brazil</p>
-</blockquote>
-<hr>
-<p>Foreign direct investment 2016(million) </p>
-<blockquote>
-<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
-<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Book Report</category>
-      </categories>
-  </entry>
-  <entry>
     <title>金融的逻辑</title>
     <url>/200315-Logic-of-Finance/</url>
     <content><![CDATA[<h1 id="金融"><a href="#金融" class="headerlink" title="金融"></a>金融</h1><p>陈志武的《金融的逻辑》是找《市场的逻辑》这本书的时候顺便找到的。其中很多理论让我觉得很在理，比如说“养儿防老”和所谓的礼尚往来其实都是隐形的金融产品，等到我们的社会金融产业发达之后，这些不一定可靠的金融产品会被取代，到时候人们才是会真正注重情感的交流</p>
@@ -1536,6 +1490,61 @@
       <categories>
         <category>Book Report</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Pocket World in Figures 2019</title>
+    <url>/200315-Pocket-world-in-figures-2019/</url>
+    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
+<blockquote>
+<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
+</blockquote>
+<p>top consumers are </p>
+<blockquote>
+<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
+</blockquote>
+<hr>
+<p>top producers and consumers ranking are the same </p>
+<blockquote>
+<p>1 US 2 China 3 EU28 4 Brazil</p>
+</blockquote>
+<hr>
+<p>Foreign direct investment 2016(million) </p>
+<blockquote>
+<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
+<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Khan Acadamy Internet 101</title>
+    <url>/200315-Khan-Acadamy-Internet101/</url>
+    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
+<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
+<li>data are divided in to Packets </li>
+<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
+<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
+</ol>
+<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
+<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
+<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
+<li>PC requests additional data(images,videos etc) that included in HTML </li>
+<li>Cookies are used to remember user information </li>
+<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
+<li>Servers need digital certificate to establish secured connection. </li>
+</ol>
+<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
+<p>Hackers’ methods: </p>
+<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
+]]></content>
+      <categories>
+        <category>Video Report</category>
+      </categories>
+      <tags>
+        <tag>Internet</tag>
+      </tags>
   </entry>
   <entry>
     <title>online-bookmark</title>
