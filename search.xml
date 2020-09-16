@@ -3,10 +3,24 @@
   <entry>
     <title>200910-injection-molding-platform</title>
     <url>/200910-injection-molding-platform/</url>
-    <content><![CDATA[<h1 id="To-dos"><a href="#To-dos" class="headerlink" title="To-dos"></a>To-dos</h1><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><h2 id="WeChat-Mini-app"><a href="#WeChat-Mini-app" class="headerlink" title="WeChat Mini app"></a>WeChat Mini app</h2><p><a href="https://blog.csdn.net/qq_26230421/article/details/94588674" target="_blank" rel="external">Preview images</a></p>
+    <content><![CDATA[<h1 id="To-dos"><a href="#To-dos" class="headerlink" title="To-dos"></a>To-dos</h1><h2 id="app"><a href="#app" class="headerlink" title="app"></a>app</h2><ul>
+<li>[ ] all page design(200913)</li>
+<li>[ ] request information from server and database</li>
+</ul>
+<h2 id="database-amp-PHP"><a href="#database-amp-PHP" class="headerlink" title="database&amp;PHP"></a>database&amp;PHP</h2><ul>
+<li>[ ] basic learning(200920)</li>
+<li>[ ] datatype setting</li>
+</ul>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><h2 id="WeChat-Mini-app"><a href="#WeChat-Mini-app" class="headerlink" title="WeChat Mini app"></a>WeChat Mini app</h2><p><strong><a href="https://www.w3cschool.cn/weixinapp/" target="_blank" rel="external">Official Documents</a></strong></p>
+<p><a href="https://blog.csdn.net/qq_26230421/article/details/94588674" target="_blank" rel="external">Preview images</a></p>
 <p><a href="https://blog.csdn.net/yytfjtyphoon/article/details/98189022" target="_blank" rel="external">read local text</a></p>
 <p><a href="https://developers.weixin.qq.com/minigame/dev/wxcloud/guide/database/add.html" target="_blank" rel="external">request information from sql</a> </p>
 <p><a href="https://cloud.tencent.com/developer/article/1380912" target="_blank" rel="external">another</a> </p>
+<p><a href="https://www.it120.cc/" target="_blank" rel="external">API factory</a></p>
+<p><a href="https://www.bilibili.com/video/BV1nE41117BQ" target="_blank" rel="external">Video tutorial</a></p>
+<h2 id="Learning"><a href="#Learning" class="headerlink" title="Learning"></a>Learning</h2><h3 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h3><p><a href="https://www.w3cschool.cn/javascript/js-output.html" target="_blank" rel="external">https://www.w3cschool.cn/javascript/js-output.html</a></p>
+<p><a href="https://www.w3cschool.cn/codecamp/list?pename=basic_javascript_camp" target="_blank" rel="external">https://www.w3cschool.cn/codecamp/list?pename=basic_javascript_camp</a></p>
+<h3 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h3><p><a href="https://www.w3cschool.cn/sql/sql-rcn831s0.html" target="_blank" rel="external">https://www.w3cschool.cn/sql/sql-rcn831s0.html</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -114,6 +128,17 @@
 <p>有点恶心的令人颤抖的巨神胎内，紫色的光芒，黏糊糊的心脏，还有毛茸茸的地面，随处可见的血。</p>
 <p>监狱岛是很特别的一个地方，有一股神庙（竞技场部分）和哥特（外型）结合的感觉。</p>
 <h1 id="有深度的系统"><a href="#有深度的系统" class="headerlink" title="有深度的系统"></a>有深度的系统</h1><p>任务系统、战斗系统、宝石系统、羁绊系统，每个都可以搞上三天三夜。</p>
+<hr>
+<p><em>200916</em></p>
+<p>通关之后大概两个月，殖民地6复兴100%，五个区域好感五星，打过105。</p>
+<p>每一个NPC都有一段或长或短、或直接或曲折的故事。</p>
+<p>让我耿耿于怀的一个NPC，是在坠落巨臂食指的那个人，他要我去找天使之泪送给喜欢的人，天使之泪要在雷雨天气的食指指尖的天涯才有，但是有一只九十几级的巨龙白天在那里，当时四十级的我肯定不敢接近，刷了几十次天气才刷出来雷雨夜。</p>
+<p>但是当时可能着急通关，没有回去NPC查任务，应该后续还有一个限时任务是把天使之泪送给她，但是我没有做。</p>
+<p>于是，几十个小时的游戏后，在殖民地6接到了要找精力茄子的任务，找来来去找不到这个能给我精力茄子的NPC，才发现因为错过了这个限时任务，除非二周目，不然永远找不到她了。</p>
+<p>我再去食指的海边，那个人孤独地坐在那里，好在旁边有个荷姆斯经常安慰他。</p>
+<p>可是安慰也没用，我没去救她，她回不来的。</p>
+<p>包括很多二选一而支线任务。海恩塔的银一家，因为当时选择了邀请妹妹安到殖民地6，所以姐姐只能永远在磷光之地的姐妹石像下。</p>
+<p>这就是选择，人生充满选择。</p>
 ]]></content>
   </entry>
   <entry>
@@ -447,98 +472,9 @@
       </categories>
   </entry>
   <entry>
-    <title>200617-Korean-grammar</title>
-    <url>/200617-Korean-grammar/</url>
-    <content><![CDATA[<h1 id="1-敬語"><a href="#1-敬語" class="headerlink" title="1 敬語"></a>1 敬語</h1><p>母音で終わる場合　語幹＋시다  (e.g. 하다→하시다)<br>「ㄹ」で終わる場合　(e.g. 살다→사시디)</p>
-<p>子音で終わる場合　語幹＋으시다  (e.g. 있다→있으시다)<br>「ㅂ」で終わる場合  (e.g.돕다→돕으시다→도브시다→도우시다)</p>
-<p>시다→세요(してください)</p>
-<h1 id="2-間接話法・伝聞・引用文"><a href="#2-間接話法・伝聞・引用文" class="headerlink" title="2 間接話法・伝聞・引用文"></a>2 間接話法・伝聞・引用文</h1><p><u>○○そうです</u><br>简化only</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th></th>
-<th>動詞(e.g. 가다, 결혼하다)</th>
-<th>形容詞(e.g.재미있다 , 에쁘다)</th>
-<th>名詞(e.g.천재,벙인)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>過去完了</td>
-<td>갔<u><strong>았</strong></u>대요<br>결혼했<u><strong>었</strong></u>네요</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>過去</td>
-<td>갔대요<br>결혼<strong>했</strong>대요</td>
-<td>재미있<strong><u>었</u></strong>대요<br>에쁘<strong><u>대요</u></strong></td>
-<td>천재<strong><u>였대요</u></strong><br>벙인<strong><u>이었대요</u></strong></td>
-</tr>
-<tr>
-<td>現在</td>
-<td>있대요<br>결혼<strong>한</strong>대요</td>
-<td>재미있<strong><u>대요</u></strong><br>에쁘<strong><u>대요</u></strong></td>
-<td>천재<strong><u>래요</u></strong><br>벙인<strong><u>이래요</u></strong></td>
-</tr>
-<tr>
-<td>未来</td>
-<td>名詞化<br><strong><u>갈</u></strong> 거래요<br>결혼<strong><u>할</u></strong>거래요</td>
-<td>재미있<strong>을</strong> <strong>거래</strong>요<br>에쁘<strong>거래</strong>요</td>
-<td>천재<strong><u>일 거래요</u></strong><br>벙인<u><strong>일 거래요</strong></u></td>
-</tr>
-<tr>
-<td>意志</td>
-<td>라<u><strong>겠</strong></u>대요<br>결혼하<u><strong>겠</strong></u>대요</td>
-<td>-</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>疑問：<br>뭐랬어요,뭐래요-&gt;뭐내요<br>언제에요-&gt;언제내요<br>어디에요-&gt;어디대요<br>뭐였습니까-&gt;뭐였내요<br>올 거에요-&gt;올거내요</p>
-<p>命令：<br>앉으세요-&gt;앉으래요<br>反対：앉지 마세요-&gt;앉지 말래요<br>행복하게  주세요 -&gt; 행복하게 해 잘했어요<br>공부하래요</p>
-<h1 id="3-希望・願望の表現"><a href="#3-希望・願望の表現" class="headerlink" title="3 希望・願望の表現"></a>3 希望・願望の表現</h1><p>～したい    ＝    ~고 십다</p>
-<p>～したらいいなと思う    ＝    았/었/였으면 좋겠다 </p>
-<p>～のを願う・望む    ＝    ~ 기를 바라다</p>
-<h1 id="4-可能形"><a href="#4-可能形" class="headerlink" title="4 可能形"></a>4 可能形</h1><p>母音で終わる場合：語幹＋ㄹ＋수 +있/없 +습니다 </p>
-<p>29 助词</p>
-<p>は＝을<em>（子音で終わる場合）</em>/늘<em>（母音で終わる場合）</em>  <em>再述</em></p>
-<p>が＝이（<em>子音で終わる場合）</em>/가<em>（母音で終わる場合）</em> <em>新情報，初述</em></p>
-<h1 id="初级语法"><a href="#初级语法" class="headerlink" title="初级语法"></a>初级语法</h1><p><em>from Zhihu</em></p>
-<ul>
-<li><strong>连接语尾（13个）</strong></li>
-</ul>
-<p><strong>-고：</strong>表示并列；表示在前面事实的情况之下进行后面的行为。<br><strong>-지만：</strong>表示对立转折。虽然 …但是。<br><strong>-아/어서/여서(계기)：</strong>表示两种行为在时间上是先后进行的。<br><strong>-아/어서/여서(이유)：</strong>表示原因、理由。<br><strong>-(으)니까：</strong>表示原因。<em>＝ですから</em><br><strong>-(으)ㄴ데：</strong>表示提示说明；表示轻微的转折；表示原因或根据。<br><strong>-거나：</strong>表示在罗列的多种情况中任选一个。<em>=でも</em><br><strong>-는데：</strong>表示对某事先提示相关背景情况，后面再做详细说明。<em>だが</em><br><strong>-(으)러：</strong>表示动作的目的。<br><strong>-(으)려고：</strong>表示意图。<br><strong>-(으)면서：</strong>表示两种以上的动作或状态并存 。<br><strong>-(으)면：</strong>表示条件或假设。<br><strong>-게：</strong>表示前一分句是后一分句的目的、标准、方式或程度。</p>
-<ul>
-<li><strong>终结语尾（19个）</strong></li>
-</ul>
-<p><strong>-ㅂ/습니까：</strong>尊敬阶直说法疑问式终结语尾<br><strong>-ㅂ/습니다：</strong>尊敬阶直说法陈述式终结语尾<br><strong>-아/어요(평서형)：</strong>准敬阶直说法陈述式终结词尾<br><strong>-아/어요(의문형)：</strong>准敬阶直说法疑问式终结词尾<br><strong>-아/어요(청유형)：</strong>准敬阶直说法共动式终结词尾<br><strong>-(이)지요?：</strong>准敬阶直说法终结形词位，用于疑问句，提问人已经知道，只是想再次确认。<br><strong>-지요：</strong>准敬阶直说法终结形词位，用于陈述句，说话人向对方叙述自己的意见或者提出建议。<br><strong>-고요：</strong>表示除了前面已叙述的内容外，还要补充叙述或询问其他内容。<br><strong>-(으)ㄹ까요：</strong>表示询问对方的意向、意见或提出自己的建议。<br><strong>-(으)ㄹ래요：</strong>表示询问对方对某件事或某种选择的意向、意见。<br><strong>-(으)ㅂ시다：</strong>表示要求对方一起做事；表示要求对方做事。<br><strong>-(으)세요：</strong>表示介绍、疑问、命令、请求或拜托对方做某事。<br><strong>-(으)십시오：</strong>尊敬阶终结词尾，表示命令。<br><strong>-(으)ㄹ게요：</strong>表示说话人要做某事的意图或向对方承诺做某事。<br><strong>-아/어서요：</strong>表示原因、理由。<br><strong>-(으)니까요：</strong>表示原因。<br><strong>-(으)ㄴ데(요)：</strong>表示对看到的情况略感惊讶或因意外而感叹。<br><strong>-(는)군요：</strong>表示感叹或确认。<br><strong>-네요：</strong>表示话者希望听者对自己的想法或感受作出确认。</p>
-<ul>
-<li><strong>惯用型（30个）</strong></li>
-</ul>
-<p><strong>-지 않다：</strong>用于动词或形容词词干后表否定。<br><strong>-지 못하다：</strong>用于动词词干后表否定。<br><strong>-지 말다：</strong>用于动词词干后表禁止。<br><strong>-고 싶다：</strong>表示愿望或意图，“想要……”。<br><strong>-(으)ㄴ/는 것 같다：</strong>表示说话人对某种事实或状况的推测。<br><strong>-(으)ㄹ 것 같다：</strong>表示说话人对某种事实或状况的推测。<br><strong>-(으)ㄴ 후에：</strong>“……之后”<br><strong>-(으)ㄹ 때：</strong>表示某种行为进行或某种状态持续的时候，“……的时候”。<br><strong>-기 전에：</strong>“……之前”<br><strong>-기 때문에：</strong> 表示理由、原因。<br><strong>-기 위해(서)：</strong>表示目的，“为了……”。<br><strong>-(으)ㄴ 지：</strong>表示疑问。<br><strong>-(으)러 가다：</strong>表示动作的目的，“去（做某事）…..”。<br><strong>-(으)러 오다：</strong>表示动作的目的，“来（做某事）…..”。<br><strong>-(으)려고 하다：</strong>表示目的或意图。<br><strong>-(으)ㄹ 수 있다：</strong>表示有能力或有可能，“能、会”。<br><strong>-(으)ㄹ 수 없다：</strong>表示没有能力或不可能，“不能、不会”。<br><strong>-아/어/여도 되다：</strong>表示允许做某事，“可以……”。<br><strong>-아/어/여야 되다：</strong>表示当为性，“必须、应该……”。<br><strong>-아/어/여야 하다：</strong>表示当为性，“必须、应该……”。<br><strong>-아/어/여 보다：</strong>表示尝试或经历，“试着……”。<br><strong>-아/어/여 주다：</strong>表示为别人做某事，“为、给、帮……”。<br><strong>-기로 하다：</strong>表示决定或约定做某事。<br><strong>-는 게 좋겠다：</strong>第一人称做主语时表示说话人的想法或打算；第二、三人称做主语时表示说话人的建议，“最后…..”。<br><strong>-았/었/였으면 좋겠다：</strong>表示说话人的愿望，“如果……就好了”。<br><strong>-(으)ㄴ 적이 있다：</strong>“曾经做过……”<br><strong>-(으)ㄴ 적이 없다：</strong>“未曾做过……”<br><strong>-(으)ㄹ까 봐：</strong>表示担心发生某事。<br><strong>-(으)ㄹ까 하다：</strong>表示说话人要做某事的意图或打算。<br><strong>-게 되다：</strong> 表示某种状况形成，或从一种状况变化到另一种状况。</p>
-<hr>
-<ul>
-<li><strong>助词（27个）</strong></li>
-</ul>
-<p><strong>에(장소)：</strong>表示人或物存在的位置。<br><strong>에(시간)：</strong>表示移动的目的地或到达的地点。<br><strong>에서：</strong>表示动作进行的场所；表示行为、状态的出发点或起点。<br><strong>서：</strong>“에서”的缩略形。<br><strong>에게：</strong>表示给予，“给…..”。<br><strong>한테：</strong>与“에게”意思相同，表示给予，“给…..”。（口语）<br><strong>께：</strong>“에게”的敬语，用于需要尊敬的对象。<br><strong>하고：</strong>表示并列连接两个对象，“和、跟”。（口语）<br><strong>(이)랑：</strong>表示并列连接两个对象，“和、跟”。（口语）<br><strong>와/과：</strong>表示并列连接两个对象，“和、跟”。<br><strong>으로：</strong>表示方向，去向。<br><strong>에게서：</strong>表示行动的出发点或出处。<br><strong>한테서：</strong>表示行动的出发点或出处。（口语）<br><strong>보다：</strong>表示比较的对象。<br><strong>처럼：</strong>表示比较或比喻的对象。<br><strong>까지：</strong>表示范围的终点或界限，“到……”。<br><strong>도：</strong>表示包含或补充添加，“也、还”。<br><strong>마다：</strong>表示全部包括，“每”。<br><strong>만：</strong>表示限定，“只、就”。<br><strong>밖에：</strong>表示没有其他的选择余地或可能性，“只”。<br><strong>부터：</strong>表示行为、状态在时间或位置上的起点，“从……”。<br><strong>은/는：</strong>表示句子的主题或要说明的对象。<br><strong>(이)나：</strong>表示从所列举的两个对象中选择一个；表示数量超出了预想的程度；表示大概的数量或陈谷，“大概、左右”。<br><strong>이/가：</strong>表示其前面的名词、代词或数量词在句子中作主语。<br><strong>께서：</strong>当需要尊敬的对象做主语是，要用“께서”代替“이/가”。<br><strong>을/를：</strong>表示其前面的名词、代词或数量词在句子中作宾语。<br><strong>의：</strong>示其前面的名词、代词或数量词在句子中作定语，“的”。</p>
-<hr>
-<ul>
-<li><strong>其他（10个）</strong></li>
-</ul>
-<p><strong>-았/었/였-：</strong>过去时制<br><strong>-겠-：</strong>将来时制<br><strong>-(으)시：</strong>表示对主体的尊敬。<br><strong>-(은)ㄴ：</strong>过去时定语词尾。<br><strong>-는：</strong>现在时定语词尾。<br><strong>-(으)ㄹ：</strong>将来时、或表推测定语词尾。<br><strong>-음/ㅁ：</strong>使其前面的内容在句子中用作名词，强调事实性。<br><strong>-기：</strong>使其前面的内容在句子中用作名词，强调过程性。<br><strong>안：</strong>用于动词或形容词前表示否定。<br><strong>못：</strong>用于动词前表示否定。</p>
-]]></content>
-      <tags>
-        <tag>Korean</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Korean grammar basic</title>
     <url>/200616-Korean-grammar-basic/</url>
-    <content><![CDATA[<p><a href="https://doringo.github.io/izone/izone-mail-translation-1/" target="_blank" rel="external">learn vocab from PM</a></p>
-<h1 id="0-基本の基本"><a href="#0-基本の基本" class="headerlink" title="0  基本の基本"></a>0  基本の基本</h1><h2 id="です"><a href="#です" class="headerlink" title="です"></a>です</h2><pre><code>母音で終わる場合＋에요
+    <content><![CDATA[<h1 id="0-基本の基本"><a href="#0-基本の基本" class="headerlink" title="0  基本の基本"></a>0  基本の基本</h1><h2 id="です"><a href="#です" class="headerlink" title="です"></a>です</h2><pre><code>母音で終わる場合＋에요
 子音で終わる場合＋이에요
 </code></pre><h2 id="語幹"><a href="#語幹" class="headerlink" title="語幹"></a>語幹</h2><pre><code>＝動詞・形容詞から「다」を除く部分
 種類：母音、子音、ㄹ(리을)
@@ -1134,10 +1070,10 @@
 <p>when 【asked about/ when it comes to/ faced with】…  </p>
 <p>the majority people 【clam/believe/argue】 that…, </p>
 <p>but other people 【regard/consider/conceive】 【as/differently】</p>
-<p>With the 【improvement/rise/growth of】【general recognition/realization/acknowledgement/common interest in】</p>
-<p>There is a 【general/much/public】【discussion/debate/controversy】on this issue</p>
+<p>With the 【improvement/rise/growth of】 【general recognition/realization/acknowledgement/common interest in】</p>
+<p>There is a 【general/much/public】 【discussion/debate/controversy】on this issue</p>
 <p>people 【advocate/favor/maintain】</p>
-<p>a(n) 【widely-held】【feeling/attitude/trend+towards // concern+over // awareness/realization/illusion+of】</p>
+<p>a(n) 【widely-held】 【feeling/attitude/trend+towards // concern+over // awareness/realization/illusion+of】</p>
 <h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>To begin with….</p>
 <h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p>In addition</p>
 <h2 id="4"><a href="#4" class="headerlink" title="4"></a>4</h2><p>To sum up</p>
@@ -1167,56 +1103,6 @@
       </categories>
       <tags>
         <tag>Chemical Engineering</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>19~20 Spring 学期总结</title>
-    <url>/200525-Summary-of-19-20spring/</url>
-    <content><![CDATA[<p>本来想在所有考完之后再做一个所有课的repo，不过今天考完了4130有感就提前写一下。</p>
-<p>目前结束了的有分化、有机和刚刚考完的工厂设计与经济。</p>
-<hr>
-<h1 id="分析化学"><a href="#分析化学" class="headerlink" title="分析化学"></a>分析化学</h1><p>最后的考试基本还是达到预期，就是“我能学进去这么多了，我也就考这么多”，因为的确这门课我没有get到太多的内容。唯一要感谢的就是他早早结束了final，减轻复习压力。</p>
-<hr>
-<h1 id="有机化学"><a href="#有机化学" class="headerlink" title="有机化学"></a>有机化学</h1><p>感觉也是类似，最后的几个章节过得比较快，很多东西都没记熟，但是偏偏有机就是要记得牢才能熟能生巧的学科，但是总体来说，翻看自己的笔记，还是有挺多收获，起码和高中的很多知识串起来了。</p>
-<p><em>最后final的分数还是比较满意的，合成做对了，选择题也没有错那么多，虽然网上看85以上就有绝对龟A+，最后给到A（最后只给了俩A+）也满意了</em></p>
-<hr>
-<h1 id="工厂设计与经济"><a href="#工厂设计与经济" class="headerlink" title="工厂设计与经济"></a>工厂设计与经济</h1><p>的前半部分经济没有学懂，期中考试翻车；本来想着期末偏工程的部分要翻盘回来，但是感觉考试时间还是紧，好不容易MC终于突破60~70%的魔咒，从来都是要磨到最后三十秒才交的我这次提前五分钟就交了，结果也比较理想。<br>到了大题就开始吃紧——看到第一题是经济，果断跳过；<br>第二题是pressure relief，除了第二问比较陌生（但是也可以抄课件的内容）没有什么问题，第三题看着我就蒙了，因为这里我做的练习的确不多，只是看了答案都是代公式，但是我一直在纠结到底用哪个公式（plume/puff，which stability）然后又不明白在问什么，先跳过了。<br>第四题hazop就是写写写，感觉还行，小插曲是中途笔芯没了；<br>第五题的event tree比较懵的点是occur B times a year，要说one in XXX times我还能理解，但是这种表述是什么含义，在这一点又纠结了。第二问是经济，是我不擅长的部分，到最后要考虑Time value还是没算出来，到最后只剩下十分钟回去第三题的（这里的一个错误决策就是耗时间在最后一题第二问的经济，毕竟一个大题是20分，一个小题是10分，其实是不划算的，而且比起经济题目我应该更擅长工程类题目）所以收场的感觉就是时间分配不是很好，要是再多半小时可能plume/puff能做出来。所以说这门课还是有不少遗憾的吧，还是有没有学懂的地方。<br>做不到问心无愧，因为不能说尽了全力，只能说吸取教训再接再厉。</p>
-<hr>
-<h1 id="流程动态与控制"><a href="#流程动态与控制" class="headerlink" title="流程动态与控制"></a>流程动态与控制</h1><p><strong>拉普拉斯套娃</strong></p>
-<p>应该是这学期学的最顺的课。一开始两节课觉得“这也太无聊了吧”，从拉普拉斯开始慢慢进入动态的世界，到各种TF，再到controller。</p>
-<p>这堂课最好的点在于，上课内容、作业、考试都是一脉相承，没有脱节，所以学起来就比较轻松，实属难得，最后final也不是很难，可能容错率会比较低。</p>
-<hr>
-<h1 id="热力学"><a href="#热力学" class="headerlink" title="热力学"></a>热力学</h1><p><em>记得积heat capacity里的T噢</em></p>
-<p>我觉得我没有“那么”用心——水着看过了很多video，但是第一次独立做对作业还是很欣喜的。教授是厉害的教授，可能是因为我水过了video，所以我对整套体系的理解其实并没有很顺利，中间经历了很多次卡壳，和隔壁流体力学相比，热力学的概念多样而且复杂，要把这些概念整理明白要工夫。也多亏了每堂课的quiz，所以虽然有卡壳但是也不是特别拖沓地学，总归来说还是挺好的一门课。而且像这门课这么完整的答案和例题实属难得（对比起来别的课的答案就写的跟什么一样）。</p>
-<p>最后final没考好，只过mean一点点点，主要炸的是化学平衡——本来我以为我最擅长的部分，只能说可惜吧。</p>
-<hr>
-<h1 id="流体力学"><a href="#流体力学" class="headerlink" title="流体力学"></a>流体力学</h1><p>一门不知道怎么说的课。一开始还在兴致勃勃听课，还在努力预习，到一般多就开始走自己的路了。上课、作业、考试完全是三回事。期中特别简单。期末就很魔鬼。魔鬼的地方在于：<br>1、其实主要就是control volume的概念，虽然平时都有强调，但是我不确定他这么教大家能不能真的明白怎么做，反正我是没明白；<br>2、作业只是代代数字，考试基本不用算什么数字，脱节很大。</p>
-<p>考试目前除了第一part的成绩，我觉得还算可以。最后大题我能写出结果的有四道半，这是多亏了从隔壁部门流体力学拿来的题目。因为我们自己给的pastpaper的答案太烂了，不仅错误百出，而且完全看不懂。隔壁的虽然也不如热力学那样天衣无缝，但是总归对CV一类问题的解答是有启发的，而且和final有一两道题目有特别相近的。</p>
-<p>毕竟到最后已经没有什么时间曲做系统的复习了，只能做exam oriented的学习，我觉得对此流体力学的应用效果是最明显的。我想这也是个考试的诀窍吧。</p>
-<p><em>200612：心心念念终于出龟了，这学期唯一一个A+我死而无憾（？）了</em></p>
-<hr>
-<h1 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h1><p>reg这门课就经历了“wl第10→进不去→实在进不去→狠心drop再reg”，开学之前看完了video，正式课上了两堂而已，但是lab和assignment都有好好做，起码99%内容都是独立做出来的，所以感觉自己debug能力之类的还是有。</p>
-<p>做到pp傻眼，因为很多概念不清楚，不过幸好这次没有MC和TF，所以逃过一劫，写大题的时候有时间分配上面的失策，下次注意吧。<em>出分补充一下：Pastpaper真的很重要！</em></p>
-<h1 id="Appendix-流体力学串讲"><a href="#Appendix-流体力学串讲" class="headerlink" title="Appendix 流体力学串讲"></a>Appendix 流体力学串讲</h1><p><em>复习的时候瞎写的</em></p>
-<p>流体力学串讲。实在需要整理了。</p>
-<p>两个核心，Mass Balance(Conservation)和Energy Balance。<br>思路：由静到动，2D&amp;3D。</p>
-<p>2 液体性质 3 液体压力——都是静态<br>4 kinematics 开始动起来了，但是也只是单纯研究速度和加速度<br>4.4祭出了大杀器RTT，RTT最重要的一点就是把CS和CV联系起来<br>其实我觉得CV是好测的，因为CS是会动的，CV你就搁那儿就好</p>
-<p>5其实就是用RTT把EB和MB表达一遍<br>然后伯努利横空出世。<br>伯努利的本质其实就是EB。<br>EB是个很大的饼，表达方式千百样，要看最适合眼下问题的是什么样。<br>伯努利就是最适合流体——为了流体应运而生的一种表达方式。<br>然后伯努利的各种变形，尤其是head形式，最重要的是为了应用和测量方便，参考之前说的head。</p>
-<blockquote>
-<p>以前一直不理解head这个概念是什么意思<br>现在似乎明白了<br>因为伯努利的能量形式，能量，看不见摸不到测不了<br>压力计其实也是转换<br>还不如来个直接的 head，长度单位，拿个管子一查，拿个尺子量一量就有了<br>妙啊</p>
-<p>我上初中的时候经常有这个问题——为什么存在【压强】的概念，压力不好用吗。 第一，无法测量，对于固体来说压力好理解，但是对于流体来说，流体压力的本质是流体分子的不断碰撞，这是很难测量的。<br>第二，可视化具体说明，针能扎得深是因为压强大，根据初中一系列海绵方块实验，压强是可以看到的。</p>
-</blockquote>
-<p>6Momentum。<br>其实动量是个很神奇的东西。<br>他是牛顿第二定律的另外一种表达形式，但是它存在一个“守恒”在里面。<br>就像我们不会有加速度守恒，也没有力的守恒，但是存在了动量守恒，真实不可思议。</p>
-<p>说到动量不让它转一转感觉过不去，毕竟大多数化工机械都是旋转的pump啦turbine啦，所以这里要讨论一下旋转的情况。</p>
-<p>7的dimensional analysis要不是看了油管影片真的是学的没头没脑。其实也是一个简化运算的过程。老板肯定希望省事的，最后model和prototype的similarity也是应用的体现。</p>
-<p>8 Internal flow我们终于终于进到管子里面啦，在管子里就和在外面不一样啦分laminar turbulent，会有各种摩擦 loss，这就很好理解啦。</p>
-<p>附赠一个copy的流体力学重点内容list：</p>
-<blockquote>
-<p>1.一些物理量：压强、粘性、应力、应变率、涡量…….<br>2.参考系和守恒律：欧拉参考系、雷诺输运定理、质量守恒、动量守恒、能量守恒……<br>3.控制方程：积分和微分形式的Navier-Stokes方程，以及相应的某些简化（不可压假设、无粘假设、定常假设……），边界条件的物理意义……<br>4.无量纲参数：雷诺数、马赫数……..<br>5.可压缩流动相关：激波、膨胀波、Laval喷管……<br>6.某些经典问题：边界层理论、湍流的雷诺平均……</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>Semester Review</tag>
       </tags>
   </entry>
   <entry>
@@ -1342,44 +1228,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Korean vocabulary</title>
-    <url>/200514-Korean-vocabulary/</url>
-    <content><![CDATA[<h1 id="5"><a href="#5" class="headerlink" title="5"></a>5</h1><p>얼마여요</p>
-<p>원</p>
-<h1 id="6"><a href="#6" class="headerlink" title="6"></a>6</h1><p>에<br>그것</p>
-<p>쉬위요 容易<br>주위요 冷<br>더위요 热<br>바빠 忙</p>
-<p>당신您</p>
-<h1 id="7"><a href="#7" class="headerlink" title="7"></a>7</h1><p>어서 请 오세요 进<br>반삼다高兴<br>앉다坐 an ju<br>커피를 디시겠어요<br>고맙다 谢谢<br>고맙습니다<br>넣다加</p>
-<p>들다吃<br>가다走<br>마시디喝</p>
-<p>물水</p>
-<p>要… 겠십니다</p>
-<h1 id="8"><a href="#8" class="headerlink" title="8"></a>8</h1><p>폔찮아요<br>나쁘다坏</p>
-<p>아주 很<br>사람人<br>달다甜<br>맵다辣<br>요즘 最近</p>
-<h1 id="9"><a href="#9" class="headerlink" title="9"></a>9</h1><p>单词</p>
-<p>얼마</p>
-<p>句型<br>주세요<br>어느 **요</p>
-<h1 id="10"><a href="#10" class="headerlink" title="10"></a>10</h1><p>아주 very much quite/亚洲<br>가끔 sometimes<br>내일 来日 tmr  future</p>
-<p>모레<br>시게<br>가위<br>오이<br>꽃병 </p>
-<p>助词 主题+은/는 表达主题/对比</p>
-<h1 id="11"><a href="#11" class="headerlink" title="11"></a>11</h1><p>저<br>들어오다<br>같이<br>오다</p>
-<p>过去式<br>ㅏ ㅗ 았 可缩写<br>ㅓ ㅡ ㅜ ㅣ었<br>하다 였 可缩写</p>
-<h1 id="12"><a href="#12" class="headerlink" title="12"></a>12</h1><p>불고기<br>맛<br>맛싰다<br>맛없다</p>
-<p>副词后缀게</p>
-<h1 id="13"><a href="#13" class="headerlink" title="13"></a>13</h1><p>언체<br>어체<br>오다<br>否定<br>1<br>안不<br>안합니다<br>2<br>뭇cannot<br>지 뭇했어요<br>3<br>지 안다<br>(않아요,않습니다 )<br>4<br>-어서<br>-아주<br>-여서</p>
-<h1 id="14"><a href="#14" class="headerlink" title="14"></a>14</h1><p>에 に</p>
-<p>星期几<br>方向<br>季节게절<br>폼<br>여름<br>가을<br>겨을</p>
-<h1 id="15"><a href="#15" class="headerlink" title="15"></a>15</h1><p>일<br>드릴 말씀<br>얘기하다<br>기다리다<br>자꾸<br>천만에요<br>그럼<br>대단히<br>급하다<br>하사다<br>가다<br>무슨<br>잠깐</p>
-<p>这课的敬语令人蒙蔽</p>
-<p>가요</p>
-<p>면서 ながら</p>
-<h1 id="16"><a href="#16" class="headerlink" title="16"></a>16</h1><p>기차(로</p>
-<p>십니까 </p>
-]]></content>
-      <tags>
-        <tag>Korean</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>论中医</title>
     <url>/200508-herb-medicine/</url>
     <content><![CDATA[<p>其实化工的很多东西，比如热力学和动力学的一些公式，都是经验公式，没有太多的物理意义。 </p>
@@ -1390,20 +1238,6 @@
       <tags>
         <tag>Chemical Engineering</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>请回答1988</title>
-    <url>/200322-Reply-1998/</url>
-    <content><![CDATA[<p>看了一个下午的1988算是咸鱼到极限了。 为了适当减少愧疚感，写一点观后感输出一下吧。 一开始是看木鱼水心的视频，其实没有特别喜欢，因为人物性格太过夸张，而且一开始见到这么多人还没有分清。但是后来接受了一系列设定之后就真香了。<br>个人最磕的还是宝拉善宇这一对，虽然有些恬不知耻，但是还是在宝拉身上看到了很多自己的影子，无论是在对待学习还是在对待感情。一开始其实最不喜欢宝拉，因为不喜欢小霸王的形象，以及动不动就打弟弟妹妹，所有人言听计从的大姐大形象，但是和后来恋爱中的女人形成了反差萌。</p>
-<p>德善一开始也觉得她太夸张了，尤其是对于善宇，不过后来发现了她的善解人意的一面，长大之后造型好看10倍之后，对阿泽的各种无微不至的关怀，还有对人情的心照不宣，让她能在男生圈子和女生圈子都混得很开。这个看上去疯疯癫癫的丫头实际上情商特别高。</p>
-<p>善宇是个挺理想的男生，他对宝拉会有占有欲，这一点一直体现到他给宝拉提三个条件的时候。不过结婚这个感觉是凑大结局需要，因为各种意义上说结婚还是有点突兀的。对这种懂事听话颜值海星的角色好感都不是特别低。</p>
-<p>前半对阿泽除了会下棋没有别的印象（大概率是和善宇搞混了）在围棋职业生涯中却压力重重，回到了双门洞就是一个再普通不过的纯情男孩，最后如其所愿地收获了喜欢的女孩，一开始也奇怪是不是看走眼了，不过看德善长大之后的真的觉得阿泽擅长投资潜力股，无论再性格还是在颜值都是破天荒。</p>
-<p>正焕在这部剧的造型不是我的type，说话也是真的狗，就这种做法，得不到德善也是理所当然的。但是他的各种小心翼翼也算是情商高的体现了。尤其是最后表白完心意之后那个开玩笑一般的表现，让在场所有人都不至于过于尴尬。而且看上去吊儿郎当的人最后去当了军官也是有点意外。</p>
-<p>其他家长基本就不过多评价了，不过家长里短里面，看似闲言闲语的家庭主妇之间在长时间的唠嗑也收获了姐妹真情。正焕的哥哥居然也捡到宝了（可怜正焕），看上去不靠谱的东龙做生意也有声有色，德善弟弟也算半个潜力股。各种意义算是比较圆满的HE。人物特色也很鲜明，是一部值得看的电视剧。</p>
-]]></content>
-      <categories>
-        <category>Drama Report</category>
-      </categories>
   </entry>
   <entry>
     <title>C++ Notes(pointer)</title>
@@ -1426,9 +1260,37 @@
       </categories>
   </entry>
   <entry>
+    <title>Internet 101</title>
+    <url>/200315-Khan-Acadamy-Internet101/</url>
+    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
+<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
+<li>data are divided in to Packets </li>
+<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
+<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
+</ol>
+<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
+<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
+<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
+<li>PC requests additional data(images,videos etc) that included in HTML </li>
+<li>Cookies are used to remember user information </li>
+<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
+<li>Servers need digital certificate to establish secured connection. </li>
+</ol>
+<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
+<p>Hackers’ methods: </p>
+<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
+]]></content>
+      <categories>
+        <category>Video Report</category>
+      </categories>
+      <tags>
+        <tag>Internet</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>金融的逻辑</title>
     <url>/200315-Logic-of-Finance/</url>
-    <content><![CDATA[<h1 id="金融"><a href="#金融" class="headerlink" title="金融"></a>金融</h1><p>陈志武的《金融的逻辑》是找《市场的逻辑》这本书的时候顺便找到的。其中很多理论让我觉得很在理，比如说“养儿防老”和所谓的礼尚往来其实都是隐形的金融产品，等到我们的社会金融产业发达之后，这些不一定可靠的金融产品会被取代，到时候人们才是会真正注重情感的交流</p>
+    <content><![CDATA[<p>陈志武的《金融的逻辑》是找《市场的逻辑》这本书的时候顺便找到的。其中很多理论让我觉得很在理，比如说“养儿防老”和所谓的礼尚往来其实都是隐形的金融产品，等到我们的社会金融产业发达之后，这些不一定可靠的金融产品会被取代，到时候人们才是会真正注重情感的交流</p>
 <p><img src="https://raw.githubusercontent.com/dori-min/dori-min-pics/master/img/20200315123431.png" alt=""></p>
 <h1 id="价值、资本、金钱、财富"><a href="#价值、资本、金钱、财富" class="headerlink" title="价值、资本、金钱、财富"></a>价值、资本、金钱、财富</h1><p>也就是，只有相对于人的效用而言，才有价值这回事。</p>
 <p>价值由未来的收益而定，不是由过去的成本决定。</p>
@@ -1519,35 +1381,7 @@
       </categories>
   </entry>
   <entry>
-    <title>Khan Acadamy Internet 101</title>
-    <url>/200315-Khan-Acadamy-Internet101/</url>
-    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
-<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
-<li>data are divided in to Packets </li>
-<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
-<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
-</ol>
-<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
-<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
-<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
-<li>PC requests additional data(images,videos etc) that included in HTML </li>
-<li>Cookies are used to remember user information </li>
-<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
-<li>Servers need digital certificate to establish secured connection. </li>
-</ol>
-<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
-<p>Hackers’ methods: </p>
-<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
-]]></content>
-      <categories>
-        <category>Video Report</category>
-      </categories>
-      <tags>
-        <tag>Internet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>online-bookmark</title>
+    <title>My Online Bookmark</title>
     <url>/200229-online-bookmark/</url>
     <content><![CDATA[<p>Too many bookmarks saved in chrome bookmarks.</p>
 <p>Some are useful but not used for a long time.(i.e. less than once a week) In case I couldn’t find them after words, I am going to save them here.</p>
@@ -1638,7 +1472,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>孤独六讲摘抄</title>
+    <title>孤独六讲</title>
     <url>/191230-six-lectures-on-loneliness/</url>
     <content><![CDATA[<p><em>前言：蒋勋的这本书颇为有趣，在不同时候看有不同的体会，一个人吃饭的时候，看着社会新闻的时候，吃着狗粮的时候，思考的时候。</em></p>
 <hr>
@@ -1929,7 +1763,7 @@
   <entry>
     <title>Story Seller</title>
     <url>/190927-story-seller/</url>
-    <content><![CDATA[<p>看到ibooks促销有川浩老师有几本书300日元一本，读了很多她的书想想应该不会踩雷就买了两本。</p>
+    <content><![CDATA[<p>ibooks促销有川浩老师有几本书300日元一本，读了很多她的书想想应该不会踩雷就买了两本。</p>
 <p>这本书分side A和B。主要都是讲的女主是作家，和上班族男主之间的故事。</p>
 <p>不过side A是女主一开始自己偷偷摸摸写，被男主发现之后两人交往结婚，女主在男主的鼓励下投稿，得了大赏，女主遂辞职成为职业作家。</p>
 <p>最后女主身患绝症不治身亡。</p>
@@ -2165,702 +1999,6 @@
       </categories>
   </entry>
   <entry>
-    <title>VE-V1C2</title>
-    <url>/VE/VE-V1C2/</url>
-    <content><![CDATA[<h1 id="P1"><a href="#P1" class="headerlink" title="P1"></a>P1</h1><p>I… remember._</p>
-<p><em>That she had come around.</em></p>
-<p><em>That sitting there, quietly, she would write letters.</em></p>
-<p><em>I… remember.</em></p>
-<p><em>The figures of that person, and of my kindly smiling mother.</em></p>
-<p><em>That sight… surely…</em></p>
-<p><em>I would not forget even in death.</em></p>
-<hr>
-<p><strong>The Girl and the Auto-Memories Doll</strong></p>
-<hr>
-<p><strong>Ghostwriting</strong> was a profession that had existed since ancient times. It had once come to a point of decay due to the popularization of Auto-Memories Dolls, yet professions with long-standing history were loved and protected by no small amount of people. The increase in number of copyist machine dolls was precisely what caused <strong><u>nostalgic</u></strong> hobbyists to claim that old-fashioned professions were better off keeping their charm.</p>
-<p>The mother of Ann Magnolia used to be one of those people with a fascinatingly old-fashioned taste.</p>
-<p>With her naturally wavy dark hair, <strong><u>freckle</u></strong>s and slender body, Ann’s mother had been almost exactly like Ann herself in looks, as well as someone who had come from a wealthy household. Raised as an elite woman, she had gotten married, and, even after aging, something about her had still resembled a ‘young lady’. The gentle smile she would wear whenever letting out a high-pitched laughter was childish to whomever saw it.</p>
-<p>Looking back on how her mother used to be, even now, Ann thought she that was like a little girl. Vigorous in spite of being a clumsy person, whenever she would enthusiastically assert, “I wish to give this a try!”, Ann would <strong><u>retort</u></strong> with, “My, my, again?”. She had been fond of boat rides and dog races, as well as oriental flower arrangements found in quilt <strong><u>embroidery</u></strong>. She was a person who used to love learning and had a hobbyist side to her, and whenever she went to the theaters, it would be definitely to watch romance plays. Keen as she had been on laces and ribbons, her dresses and one-pieces were mostly similar to those of princesses from fairytales. She used to impose them on her daughter, as she fancied parent-child matching outfits. Ann would sometimes wonder what could be wrong with her mother for wearing ribbons at her age, but had never once voiced it.</p>
-<p>Ann had treasured her mother more than anyone in the world – even more than her own existence. Albeit being a small child, she used to deem herself as the only one that could protect her mother, who was not a strong person by any means.</p>
-<p>She had loved her mother that blindly.</p>
-<p>Around the time when her mother had fallen ill and the date of her passing was approaching, Ann had her first meeting with an Auto-Memories Doll. Even though she had countless memories with her mother, the ones Ann would recall were always about the days when they had welcomed a mysterious visitor.</p>
-<hr>
-<p>‘It’ showed up on a very sunny spring day.</p>
-<p>The road bathed in abundant sunrays of a beautiful spring. Next to it, the flowers that had started to bloom from within the thaw swayed along the feeble wind, their tips shaking.</p>
-<p>From her home’s garden, Ann was observing the way ‘it’ walked.</p>
-<p>Ann’s mother lived in the uppermost left side of an old but stylish western-architecture building, which she had inherited from her family. With its white walls and blue roof tiles, surrounded by huge birch trees, the place was like an illustration from a children’s book.</p>
-<p>The residence was <strong><u>peripheral</u></strong>, having been built <strong><u>secluded</u></strong> and quite far from their prospering town. Even if one were to search in every direction, no neighboring houses could be found. That was why, were there ever any guests coming, they could easily be sighted through the windows.</p>
-<p>“What… is that?”</p>
-<p>Clad in a smock one-piece that had a large, cyan-striped ribbon collar, Ann looked a bit ordinary yet lovely. It almost seemed her dark brown eyes would jump out of her head, given how wide-open they were.</p>
-<p>Ann then <strong><u>peeled</u></strong> her pupils off ‘it’, which marched towards her direction under the sunlight, and hurried out of the garden and back into her house with her flowery enamel shoes. She passed the huge front entrance, climbed the spiral staircase filled with family portraits and burst open a door decorated with a lease made out of pink roses.</p>
-<p>“Mom!”</p>
-<p>As her daughter breathlessly <strong><u>barged</u></strong> in, the mother <strong><u>reprehend</u></strong>ed, raising her body a little on her bed, “Ann, do I not always tell you that you must knock before entering someone’s room? Also, you should give your greetings.”</p>
-<p>Upon being lectured, Ann <strong><u>inwardly</u></strong> <strong><u>huffed</u></strong>, yet lowered her hips, pinched her skirt’s <strong><u>hem</u></strong> and bowed regardless.</p>
-<p>Did the action stem from her so-called “little lady side”? In actuality, Ann was a mere infant. It had been no longer than seven years ever since she had been born. Her limbs and face still appeared soft.</p>
-<p>“Mom, excuse me.”</p>
-<p>“Very well. Then, what is it? Did you find a <strong><u>peculiar</u></strong> insect outside again? Do not show it to Mom, all right?”</p>
-<p>“It’s not a bug! A doll is walking over. Erm, it was really big for a doll, though, and it looked like one of those bisque dolls from that photo collection you like, Mom,” with her limited vocabulary, Ann spoke as though having a coughing fit.</p>
-<p>The mother clicked her tongue at her with a “tsk, tsk”. “A ‘young female doll’, right?”</p>
-<p>“Come on, Mom!”</p>
-<p>“You are a daughter of the Magnolia family, so your wording should be more graceful. Okay, one more time.”</p>
-<p>Puffing her cheeks, Ann reluctantly fixed her manner of speech, “There’s this young female doll, you see! She’s walking!”</p>
-<p>“My, is that so?”</p>
-<p>“Only cars pass by our house all the time, right? If she’s on foot, it means she got off at the nearby railroad terminal. People who come from that terminal are bound to be our visitors, right?”</p>
-<p>“That is correct.”</p>
-<p>“Like, nothing ever happens around here! It must mean that woman will be coming to this place!” Ann added, “I… have a feeling that’s not a good thing.”</p>
-<p>“So we are playing detective today, huh?” in contrast with the frantic Ann, her mother concluded leisurely.</p>
-<p>“I’m not playing around! Hey, let’s close every door and window… Let’s make it so that this doll… this young female doll… won’t come inside! It’s alright, I’ll protect Mom.”</p>
-<p>The mother gave Ann, who determinedly snuffled through her nose, a strained smile. She probably believed that her child was but <strong>spout</strong>ing nonsense. Even so, she decided to go along with the game at the very least, getting up in a <strong><u>lethargic</u></strong> fashion. With the hem of her peach-colored <strong>negligee</strong> dragging along the floor, she stood next to the window. Under the natural light, the silhouette of her slim body could be seen from beneath the fabric.</p>
-<p>“My, isn’t that an Auto-Memories Doll? Come to think of it, she was supposed to arrive today!”</p>
-<p>“What’s an ‘Auto-Memories Doll’…?”</p>
-<p>“I will explain later, Ann. Help me get ready!”</p>
-<p>A few minutes thereafter, the mother sought her daughter to arrange her in the stylishness demanded from the Magnolia family. Ann did not change her clothes, but had a ribbon that matched the color of her smock one-piece placed on her head. Her mother, on the other hand, put on an ivory-colored dress with double-layered lace frills, as well as a light yellow <strong>shawl</strong> over her shoulders and rose-shaped earrings. She sprayed a perfume made of thirty different types of flowers in the air and spun around, enveloping her body with the fragrance.</p>
-<p>“Mom, are you excited?”</p>
-<p>“Even more than if I were to meet a foreign prince.”</p>
-<p>That had not been a joke. The outfit her mother had chosen was the kind she would only wear for important occasions. Watching her in such state caused Ann to fidget.</p>
-<p><em>——I don’t like this… It would have been fine if there weren’t any guests coming…</em></p>
-<p>Ann’s <strong><u>fidgeting</u></strong> was not out of delight.</p>
-<p>Children would normally look forward to visitors while feeling a bit nervous, but Ann was different. That was because, from the moment she had become aware of the things around her, she had deducted that any visitors coming for her innocent mother would fool her to get their hands on her money. Her mother was a carefree person and visits always made her happy, so she was quick to trust anyone. Ann loved her mother, but the latter’s poor <strong><u>monetary</u></strong> management abilities and scarce sense of danger were troublesome.</p>
-<p>There was no guarantee that even the person with doll-like looks was not after the possession of their residence. Yet what Ann felt more <strong><u>wary</u></strong> of was how she could tell with just a glance that the woman’s appearance resonated with her mother’s taste. To Ann, her mother being invested in anyone other than herself was nothing but unpleasant.</p>
-<p>Since her mother had claimed, “I want to hurry and meet her!” and not listened to Ann, the two of them had come outside to greet the guest. Ann assisted her mother, who was out of breath just from descending the stairs, as they walked outside.</p>
-<p>The world overflowed with sunlight pouring from the gaps between tree branches and leaves. The whiteness from the pale skin of her mother, who usually only moved around inside the mansion, stood out too much.</p>
-<p><em>——Mom is… somewhat smaller than she used to be.</em></p>
-<p>She could not clearly see her mother’s face in the excess of brightness, but had a feeling that her wrinkles had increased. Ann then squeezed her chest tightly.</p>
-<p>No one could stop death from reaching out to a sickly hand.</p>
-<p>Although Ann was a small child, she was the Magnolia family’s sole successor after her mother. <strong><u>Medics</u></strong> had already warned that her mother’s life would be short. She had also been told to prepare herself. God was not easy even on seven-year-olds.</p>
-<p><em>——If that’s the case, I want Mom all for myself until the very end.</em></p>
-<p>If her mother’s time was running out, Ann wanted to use it entirely for her sake. Into the world of the girl who had such a mindset, a stranger intruded.</p>
-<p>“Pardon me.”</p>
-<p>Something even more radiant emerged from the sun-bathed green road. As soon as Ann saw ‘it’, her bad feeling was confirmed.</p>
-<p><em>——Aah, she’s someone that will rob Mom from me.</em></p>
-<p>Why did she have such a thought? Upon looking at ‘its’ figure, she could only say that it had been her intuition speaking.</p>
-<p>‘It’ was a bewitchingly beautiful doll.</p>
-<p>Golden hair that shone as though born out of moonlight. Blue <strong><u>orbs</u></strong> that glowed like gems. Bright <strong>rouge-colored</strong> lips so <strong>plump</strong> as to seem they had been pressed hard. A Prussian-blue jacket under a ribbon-tie snow-white dress that bore a mismatched emerald brooch. Cocoa-brown knit-up boots that stepped steadily onto the ground.</p>
-<p>Resting a <strong>frilly</strong>, white and cyan-striped umbrella and bag onto the grass, ‘it’ displayed an etiquette much more elegant than Ann in front of the two. “Pleased to make your acquaintance. I rush to anywhere my customers might desire. I am from the Auto-Memories Dolls service, Violet Evergarden,” ‘its’ voice, just as exquisite as ‘its’ appearance, resounded in their ears.</p>
-<p>After overcoming her shock from being overwhelmed by such beauty, Ann looked at her mother, who was at ease next to her. Expression painted like a little girl that had just fallen in love, stars twinkled in her eyes out of amazement.</p>
-<p><em>——And, as expected, that’s no good.</em></p>
-<p>Ann thought of the stunning guest as someone bound to steal her mother away from her.</p>
-<h1 id="P2"><a href="#P2" class="headerlink" title="P2"></a>P2</h1><hr>
-<p>Violet Evergarden was a woman who worked as a so-called “Auto-Memories Doll” in the ghostwriting business. Ann questioned her mother as to why she had hired someone of that sort.</p>
-<p>“I wish to write letters to someone, but they will take too long, so I wanted her to write in my stead,” her mother laughed.</p>
-<p>Indeed, she lately relied on her maid even when bathing. Writing for an extended period would certainly be too extreme for her.</p>
-<p>“Still, why that person…?”</p>
-<p>“She’s pretty, isn’t she?”</p>
-<p>“She is, but…”</p>
-<p>“She is a celebrity in the industry. The fact that she is so attractive and doll-like is one of the reasons of her fame, but she is rumored to do really a good job as well! Moreover, having a woman write letters for me while we are by ourselves, and having to recite it to her aloud… one does not need to be a man for this to cause shudders!”</p>
-<p>Her mother valued the beautiful, and Ann was convinced that was the main motive why the young woman had been chosen.</p>
-<p>“If it’s just letters, I could do the writing.”</p>
-<p>At Ann’s statement, her mother giggled nervously. “Ann cannot possibly write difficult words yet. Besides… these are letters that I cannot have you write.”</p>
-<p>With her last sentence, it was clear who the one doing the writing would be.</p>
-<p><em>——Surely, she intends to write to Dad, huh…</em></p>
-<p>Ann’s father was, simply put, a family abandoner. He had never stayed home albeit not working so much, prospering in taking over the family’s main business. Apparently, her mother had married him out of love, but Ann did not believe it in the slightest. Not once had he visited her mother after she had become ill, and just when they had thought that he was going to come back after some time had passed, he had actually only stopped by to take vases and paintings from the house and sell them, as he was a pitiful man who took refuge in gambling and alcohol.</p>
-<p>It seemed he had been a family heir with a promising future in the past. Yet a few years after getting married, his side of the family had faced minor commercial issues and crumbled, and the finances had become dependent on the Magnolias. From what Ann had heard, it would seem that the reason behind said minor commercial issues had been her father himself.</p>
-<p>Ann swallowed down all the circumstances and despised her father. Even though he had collapsed once due to business failure, should he not have continued to do his best? Not only had he not done so, but he had also turned a blind eye to her mother’s disease and necessities, continuously running away. That was why Ann’s expression would distort just by hearing the word “father” coming out of her mother’s mouth.</p>
-<p>“Making this kind of face again… What a waste of your cute features.”</p>
-<p>A massaging thumb stretched out the creasing between Ann’s eyebrows. Her mother seemed to lament the hatred towards her father. It appeared that her affection for him had remained even while being treated so terribly.</p>
-<p>“Do not think severely of your father. Bad things do not last. This is just what he wishes to do at the moment. He has lived his whole life seriously. That is the truth. Although our paths slightly differ now, if we wait, he will properly return to us someday.”</p>
-<p>Ann was aware that such days would not come. Even if they did, she had no intention to welcome them warmly. Should things turn out the way her unwittingly wavering mother had predicted, the fact that he did not come see his wife even as she had become terminally sick and repeatedly found herself hospitalized was not an escapism from reality, but an act of love.</p>
-<p>At the very least, he supposedly knew that she did not have much time left.</p>
-<p><em>——It’s fine without Dad around.</em></p>
-<p>It was as if he had not been there from the start. For Ann, her mother was the only one who classified in the word “family”. Moreover, those who saddened her mother were her enemies, even if one of them was her own father. Anyone who would steal her time with her mother, too. And should that apply to the Auto-Memories Doll who had come as per her mother’s request, she would be an enemy as well.</p>
-<p><em>——Mom is mine.</em></p>
-<p>Ann marked anything that could destroy hers and her mother’s world as a foe.</p>
-<hr>
-<p>Her mother and Violet started the process of writing letters seated at a table on antique white benches under an umbrella arranged in the garden. Their contract period was of one week. It seemed that her mother really did intend to make Violet write incredibly long letters. Perhaps they were addressed to several people.</p>
-<p>Back when she was healthy, her mother used to often throw salon parties and invite many friends over to the manor. However, she currently had no contact or involvement with those people anymore.</p>
-<p>“So there’s no meaning in writing them…”</p>
-<p>Ann did not come near the two, spying on their actions while hiding behind the curtains instead. She had been told to not disturb when her mother’s letters were being written.</p>
-<p><em>“There’s need for privacy even between parents and children, right?”</em></p>
-<p>It was a cruel demand for Ann, who had always been glued to her mother.</p>
-<p>“I wonder what they’re talking about. Who is she writing it to? I’m curious…” She squeezed her cheek against the window frame.</p>
-<p>Serving them tea and snacks was not up to Ann, but to the maid. Therefore, she was unable to put on a good girl façade for the sake of eavesdropping on their internal affairs. All she could do was watch, just as she could not do anything about her mother’s illness.</p>
-<p>“I wonder why life has to be like this…” she attempted to spew out an adult-like line, but since she was a seven-year-old, it did not have any effect.</p>
-<p>As she continued observing them with an unkempt facial expression, she was able to take notice of many things. The two worked very quietly, yet they occasionally seemed to either become quite solemn or be enjoying themselves a great deal. During the fun moments, her mother would laugh loudly and smack her hand down with force. During the sad ones, she would wipe her tears with a handkerchief lent by Violet.</p>
-<p>Her mother was a person of intense emotional vicissitudes. Even so, Ann thought, was she not opening her heart too much to someone she had barely just met?</p>
-<p><em>——Mom will be deceived again…</em></p>
-<p>Ann had learned the ruthlessness, indifference, betrayal and greed of people through her mother. She worried tremendously about the latter, who was too fast to confide in anyone. She wished her mother would simply figure out how to be suspicious of others. Yet, perhaps her mother did intend to entrust that Auto-Memories Doll, Violet Evergarden, with whatever mystery was hidden within her heart.</p>
-<hr>
-<p>During her stay, Violet was introduced in the household as a guest.</p>
-<p>At mealtime, the mother had invited the young woman to join them but was declined. When Ann asked why, Violet had coldly replied, “Because I wish to eat by myself, Young Mistress.”</p>
-<p>Ann found her odd. Whenever her mother was hospitalized, no matter how warm the meals prepared by the maid were, they tasted of nothing. Food that she had to eat alone was purely too irksome.</p>
-<p>That was what meals were about.</p>
-<p>As she caught the maid off to deliver Violet’s dinner to her room, Ann claimed that she would be the one to do so. In order to know the enemy, she first needed to interact with her.</p>
-<p>The menu was soft bread, vegetable soup with chicken and colorful beans, fried potatoes and onions garnished with salt, garlic and pepper, roasted beef with sauce and pear sherbet as dessert. That was the usual in the Magnolia house. Although it could be considered rather luxurious, as Ann had grown up in a wealthy environment, it felt plain to her.</p>
-<p>“There’s no helping that Mom overlooked this. We need to increase the amount of meat for tomorrow. And no sherbets; it has to be a cake. In a way… she’s a guest.”</p>
-<p>Not forgetting about hospitality regardless of anything was the gift of good families.</p>
-<p>As she reached an oak wood door – the one of the guest room –, she called, as her hands were occupied with a tray, “Heeey, it’s dinner time.”</p>
-<p>Rustling sounds came from inside, and, after a pause, Violet opened the door and poked her head out.</p>
-<p>As she did so, Ann grumbled, “It’s heavy. Hurry and take it!”</p>
-<p>“I am terribly sorry, Young Mistress,” she immediately accepted the tray with an apology, but as her expression was too apathetic, in the eyes of a child, she looked eerie.</p>
-<p>Ann peeked through the open door from behind Violet, who placed the tray on a desk. Since the maid cleaned the room regularly, it was arranged neatly. Ann then noticed the luggage lying conspicuously on the bed. It was a leather trolley bag clammily filled with customs clearance stickers from various countries. The bag was open, a small pistol protruding from within.</p>
-<p>In the split moment that an “ah” crossed her mind, Violet returned. Just as would happen in a pantomime show, the two of them continuously moved in perfect synchrony. Eventually, Violet lost her wit.</p>
-<p>“Young Mistress, is a gun something usual for you?”</p>
-<p>“What’s up with that? Hey, is it a real one?”</p>
-<p>As Ann inquired excitedly, Violet answered, “Self-defense is a necessity for women who travel alone, after all.”</p>
-<p>“What’s ‘self-defense’?”</p>
-<p>“To protect oneself, Young Mistress.”</p>
-<p>As Violet narrowed her eyes slightly, Ann’s body trembled at the movement of her lips. Had she been a little older, the girl would probably have recognized her own reaction as a sign of fascination.</p>
-<p>A woman capable of numbing people with her voice and gestures was a magical one. Ann felt far more threatened by Violet’s charms than the fact that she carried firearm.</p>
-<p>“So you… shoot that thing?”</p>
-<p>As she imitated the shape of a pistol with her hands, Violet straightened her arm immediately. “Please enclose the sides more. If your hand is loose, you become unable to withstand the recoil.”</p>
-<p>“This isn’t the real deal. It’s a finger.”</p>
-<p>“Even so, it should be enough to serve as practice for a time when you could possibly need it.”</p>
-<p>What was that Auto-Memories Doll saying to an infant?</p>
-<p>“Don’t you know? Women aren’t supposed to use these kinds of things.”</p>
-<p>“There is no separating women from men when it comes to possessing guns,” Violet replied without hesitation, and Ann thought she was the coolest.</p>
-<p>“Why do you have that with you?”</p>
-<p>“The next place I will be dispatched to is an area of conflict… Be at ease. I shall not use it here.”</p>
-<p>“Obviously!”</p>
-<p>At Ann’s sharp attitude, Violet lightly forced a question out of curiosity, “Is there no such arming in this mansion?”</p>
-<p>“Normal homes don’t have that.”</p>
-<p>Violet gave her a puzzled look. “Then what do you do in case a thief ever appears…?” Seeming truly doubtful, she tilted her head. As she did so, her doll-like features stood out even further.</p>
-<p>“If someone like that shows up, everyone will know right away. This is the countryside, after all. It was the same when you arrived.”</p>
-<p>“I see. This could explain the low crime rate in depopulate areas.” Nodding as if that had been a lesson, she looked like a child despite being an adult.</p>
-<p>“You’re… kinda… weird,” Ann declared tensely, pointing an index finger at Violet.</p>
-<p>Although she had merely said so out of spite, at that instant, the corners of Violet’s mouth rose just a little for the first time. “Young Mistress, should you not be going to sleep? Staying up late is prejudicial for women.”</p>
-<p>Due to the unexpected smile, Ann was blown away to a certain degree and could say nothing else. Tinted red, her cheeks denounced the truth behind her palpitations.</p>
-<p>“I-I willsleep. You should sleep too, or else, Mom will scold you.”</p>
-<p>“Yes.”</p>
-<p>“If you stay up even later than this, monsters will come to tell you that you have to go sleep.”</p>
-<p>“Goodnight, Young Mistress.”</p>
-<p>Ann could not bear staying there or even standing on her feet anymore, leaving the place in a rush. However, as she walked away, she found herself curious no matter what, glancing backwards the very next second. She could see Violet holding the gun beyond the door that was still half-open. Violet’s expressions were mostly deadpan, and so, it was hard to tell her mood changes. Nevertheless, even the all-too-young Ann could understand what she had seemed to feel at that moment with just a look.</p>
-<p><em>——Ah, somewhat…</em></p>
-<p>She was somewhat lonely.</p>
-<p>Incompatible with her current appearance, she held onto a brutal, fierce weapon. Ann could hardly imagine growing attached to her, yet she was becoming familiar with the black gloves covering Violet’s hands. Using those two hands, Violet pressed the rib part of the gun that she was gripping against her forehead with a bump. Her figure was similar to someone uttering a prayer, which pilgrims would often do. Before Ann turned around the hall’s corner, her ears were able to catch said prayer.</p>
-<p>“Please, give me an order,”she asked somebody.</p>
-<p>Ann’s chest suddenly began to thump faster.</p>
-<p><em>——My face is hot. It stings.</em></p>
-<p>She did not understand very well why her heart beat so rapidly, but it was because she had caught a glimpse of a woman’s adult side from Violet.</p>
-<p><em>——How strange. Even though I don’t like that person, I’m interested in her.</em></p>
-<p>Interest was just a step behind of romantic love. Ann did not yet know that, sometimes, feelings such as ‘like’ and ‘dislike’ could easily reverse.</p>
-<hr>
-<p>Ann’s observation of Violet went on even after that. The progress of writing letters seemed to be doing well, for the bundle of envelopes had increased. Violet would glance discreetly at her direction every now and then, causing her to wonder if the woman was aware of her peeking through the window. At those moments, Ann’s heart would throb. She ended up acquiring the habit of grabbing onto her chest, to the point her clothes crumpled in that spot.</p>
-<p>The little girl continued to change.</p>
-<p>“Hey, hey. Hey, I said. Put a ribbon on my hair.”</p>
-<p>“Understood.”</p>
-<p>Although she was sad about her mother being monopolized, she could not bring herself to feel angry.</p>
-<p>“What’s a bread so hard that you can’t bite through?”</p>
-<p>“I believe any will soften if dipped into soup; is that not the case?”</p>
-<p>During the breaks in-between the letters’ writing, Ann would inadvertently chase after and spend time with her.</p>
-<p>“Violet, Violet.”</p>
-<p>“Yes, Young Mistress?”</p>
-<p>Before realizing, instead of being referred to with a demeaning “you”, she was being called by her name.</p>
-<p>“Violet, read me books, dance with me and catch bugs with me outside!”</p>
-<p>“Please state the priority order, Young Mistress.”</p>
-<p>Violet was challenging to stick with, but did not neglect her in any way.</p>
-<p><em>——What a weird person. I kind of also become weird when I’m with her.</em></p>
-<p>Albeit resenting it, Ann became obsessed with Violet.</p>
-<hr>
-<p>The peaceful times met a sudden end later on.</p>
-<p>Ann’s mother had become a little healthier a couple of days after Violet’s arrival, but her already poor physical condition gradually worsened. Perhaps it had been a mistake to expose herself to the wind outside. She had a fever, and the fuss over it came to the point that a doctor was called over to the manor. But even in such a situation, she and Violet did not halt their work. The mother lay on her bed while Violet resumed typing the letters, sitting next to it.</p>
-<p>Uneasy at the change in her mother’s condition, Ann worriedly came to see how things were going in the room and to persuade her. She meant to make her stop writing the letters.</p>
-<p>It would be a problem if she let the flame of what life she had left dissipate because of mere letters. That was most definitely unacceptable. Even as Ann was negated to, she forcefully entered the room with continuous objections.</p>
-<p>“Why do you push yourself so hard to write these letters? The doctors say it’s useless…”</p>
-<p>“If I do not write them now, I might never be able to. It is all right. See, it is… because my head is not doing so well that, when I was reciting, I ended up having this psychological fever. How unpleasant…”</p>
-<p>Her mother smiled weakly, but she was unable to reciprocate. It was a smile that pierced Ann’s heart.</p>
-<p>The joyful moments had disappeared as if they had been a lie and the bitter reality had abruptly come back.</p>
-<p>“Mom, stop it already.”</p>
-<p>Although her mother had been fine ten seconds before, she could stop breathing in a matter of three or so minutes. The sorrow of living with someone in such circumstances wound up resurfacing.</p>
-<p>“Please, don’t write these letters anymore.”</p>
-<p>If doing so would earn her fevers… if doing so would shorten her life…</p>
-<p>“Please, please…”</p>
-<p>…even were it something that her mother wished for, Ann did not wish her to do it.</p>
-<p>“Just stop it!”</p>
-<p>Her accumulated anxiety and depression burst out at that instant. Even Ann herself was surprised by her own voice, which had come out much louder than she had imagined it would.</p>
-<p>In that moment, she ended up spewing at once the selfishness that she would normally not vent out, “Mom, why don’t you ever listen to me? Do you prefer being with Violet over me? Why do you not look at me?!”</p>
-<p>It might have been better for her to have said it in a more lovable manner. She had accidentally let her distress show.</p>
-<p>With a shaky tone, she wound up asking in an accusing way, “Am I… not needed?”</p>
-<p>All she had wanted was to be looked after.</p>
-<p>Her mother shook her head with wide eyes at those words. “That is not it. There is no way that would be the case. What is the matter, Ann?” She panicked in an attempt to lift the mood.</p>
-<p>Ann evaded the hand that stretched out to pat her head. She did not want to be touched.</p>
-<p>“You don’t listen at all to anything I say.”</p>
-<p>“That’s because I’m writing these letters.”</p>
-<p>“Are the letters more important than me?”</p>
-<p>“Ann, there’s nothing more important than you.”</p>
-<p>“Liar…!”</p>
-<p>“It’s not a lie.”</p>
-<p>Her mother’s voice was internal and full of grief. Still, Ann did not stop her arguments from coming. Her resentment towards how things were not going the way she hoped bled out of her.</p>
-<p>“Liar! You’ve always been a liar! Every time… Every time, it’s only lies! Mom, you haven’t recovered in the slightest! Even though you said you’d get better again!”</p>
-<p>After having said it, as it was something she should not have uttered, Ann immediately regretted it. Such was the kind of line that would normally be said in a fight devoid of love between parent and child. But that day was an exception. Her mother, red-faced from the fever, remained smiling while growing silent.</p>
-<p>“Mom, hey…” Ann called out to her in that state. The spur-of-momentum heat was suddenly gone. Yet, as she tried to speak, her mouth was covered by a touch.</p>
-<p>“Ann, please, leave for a bit.”</p>
-<p>Tears spilled from the eyes of her whispering mother. The large droplets quivered loose and eventually cascaded down her cheeks. Ann was shocked that her mother, who perpetually smiled despite the pain she had to endure from her disease, was actually letting her tears be seen.</p>
-<p><em>——Mom is crying.</em></p>
-<p>Since her mother was not the type to cry, Ann had believed adults to be creatures that never shed tears. After realizing that was not the case, the fact she had done something terrible rang within her mind.</p>
-<p><em>——I’ve hurt Mom.</em></p>
-<p>Even though Ann knew that she, more than anyone, was not supposed to place herself before her mother, and even though she was convinced that the task of protecting her mother the most was up to her, she had made the latter cry.</p>
-<p>“M-Mo…” she attempted to apologize, but was driven away by Violet, who proceeded to drag her out of the room as if dealing with a dog cub. “Stop! Let go! Let go!” Ann exclaimed, left alone in the corridor as she was unable to put up resistance.</p>
-<p>Her mother’s sobs could be heard from the other side of the closed door.</p>
-<p>“M… Mom…” She clung to the door, distraught. “Hey, Mom …”</p>
-<p><em>——Sorry. Sorry for making you cry. That wasn’t my intention.</em></p>
-<p>“Mom! Mom!”</p>
-<p><em>——I just wanted you to take care of your own body. So that… So that… I could be with you even for a second longer, if possible.</em></p>
-<p>“Mom…”</p>
-<p><em>——That was it.</em></p>
-<p>“Mom, hey!”</p>
-<p><em>——Is this… my fault?</em></p>
-<p>Due to the frustration from not receiving any response, her loneliness reverberated. She tried banging her fists against the door violently. However, even without hurting, her hands became weak and numbly fell down.</p>
-<p><em>——Was I being selfish?</em></p>
-<p>A mother who was at death’s doorstep. A daughter that would be left on her own.</p>
-<p><em>——Was being together with her… something so bad to wish for?</em></p>
-<p>A mother who kept writing letters, for she might not be able to do so in the future. A daughter that hated it.</p>
-<p>The tears that had dried out were on the verge of overflowing again. Ann inhaled deeply and yelled in one breath, “Is someone else more important to Mom than me?!” As her shouts came out, she started bawling. Her voice was muffled, her timbre cracking. “Mom, don’t be writing letters and spend time with me!” the child begged.</p>
-<p>Wailing when their requests could not be fulfilled was simply what children did.</p>
-<p>“Without Mom, I’ll be alone! All by myself! How long will this last? I want to be with Mom for as much time as I can. If I’ll be on my own after this, stop writing these letters… For now, be with me! With me!”</p>
-<p>That was it; Ann was but a child.</p>
-<p>“Be with me…”</p>
-<p>Still too young to be able to do anything, she was a mere child that had lived for barely seven years and adored her mother.</p>
-<p>“I want to… be with you…”</p>
-<p>She was someone who, in fact, had always, always wept over the fate granted to her by God.</p>
-<p>“Young Mistress.”</p>
-<p>Violet came out of the room. She stared down at Ann, whose face was wet with tears. Just as the girl had thought that was clearly a cold treatment, a hand made its way to her shoulder. The warmth of the act abated her hostility.</p>
-<p>“There is a reason for me to be robbing your time with your mother. Please do not resent her.”</p>
-<p>“But… But… But…!”</p>
-<p>Violet crouched down to meet the small Ann’s line of sight. “It is evident that Young Mistress is strong. Even with such a small body, you have already acknowledged your mother’s disease. Children usually will not complain or care for someone to this extent. You are a highly respectable person, Young Mistress Ann.”</p>
-<p>“That’s not it. That’s not it at all… I just… wanted to be with Mom for a little more…”</p>
-<p>“Madam feels the same way.”</p>
-<p>Violet’s words sounded like nothing but pity.</p>
-<p>“Lies, lies, lies, lies… I mean… she’s concerned about those letters for someone that I don’t know rather than about me. Even though there’s no one else in this house that really worries for Mom!”</p>
-<p><em>——Everyone, <strong>everyone</strong> is all about money.</em></p>
-<p>“I’m the only one… I’m the only one who cares for Mom!”</p>
-<p>The way her dark brown eyes saw it, adults and everything related to them were wrapped in fabrications.</p>
-<p>Her shoulders shivered as her tears trickled to the floor. Distorted by said tears, her vision was as blurry as the world felt to her. Just how many things in that world were actually real?</p>
-<p>“Even so…”</p>
-<p>The young girl believed that, regardless of how long she would live afterwards, if the world was filled with so much hypocrisy and treachery from the very start of one’s life, the future did not have to come.</p>
-<p>“Even so…”</p>
-<p>The amount of things Ann deemed as true could be counted with one hand. They shone unrelentingly in such a false world. With them, she could tolerate any sort of dread.</p>
-<p>“This is how it is… but even so…”</p>
-<p><em>——Even though I wouldn’t need anything else as long as Mom was with me…</em></p>
-<p>“Even so, Mom doesn’t love me the most!”</p>
-<p>As Ann yelled, Violet placed an index finger against her lips at a speed that could not be perceived by human eyes. Ann’s body quivered for a moment. Her voice ceased seamlessly. In the quiet corridor, her mother’s sobs could still be heard from behind the door.</p>
-<p>“If it is about me, you can be as angry as you will. Hit me, kick me; I will not mind whatever you feel like doing. However… please refrain from using words that would sadden your beloved, honorable mother, for your own sake as well.”</p>
-<p>As Ann was told so with a severe face, tears started to rapidly form in her eyes again. The cries that she suppressed and swallowed back in were fresh and painful.</p>
-<p>“Am I in the wrong?”</p>
-<p>“No, there is not a single thing that you are to blame for.”</p>
-<p>“Because I’m a bad child, Mom became sick, and… will soon…”</p>
-<p><em>——…die?</em></p>
-<p>Violet answered Ann’s question in a whisper with a tone that was still a little dispassionate but unperturbed, “No.”</p>
-<p>The tears poured from Ann’s stroppy eyes.</p>
-<p>“No, Young Mistress is a very kind person. Illnesses are unrelated to this. It is… something that no one can predict or do anything about. Just as I can no longer have a skin as soft as yours in place of my robotic arms, it is something that cannot be helped.”</p>
-<p>“Then, is it God’s fault?”</p>
-<p>“Even if it were, even if it were not… we can only concentrate in how we should live the lives that we have been granted.”</p>
-<p>“What… should I do?”</p>
-<p>“For now, Young Mistress… you are free to cry.” Violet opened her arms, her machine parts letting out a faint noise. “If you will not hit me, is it all right if I lend you my body instead?”</p>
-<p>That could be interpreted as “you can jump on and hug me”, even though she did not seem like the type to say such things. Ann could cry securely, so to speak. Without hesitation, she embraced Violet.</p>
-<p>Was she wearing any perfume? She smelled of several different flowers.</p>
-<p>“Violet, don’t take Mom away from me,” she said as she tightly pressed her face against Violet’s chest, soaking it with tears, “Don’t steal my time with Mom, Violet.”</p>
-<p>“Please forgive it for only a few more days.”</p>
-<p>“Then, at least tell Mom that it’s okay if I stay by her side while you’re writing. It’s fine if you two ignore me; I just want to be close to her. I want to be by her side and squeeze her hand tight.”</p>
-<p>“I apologize, but my client is Madam, not Young Mistress Ann. There is nothing I can do to change this.”</p>
-<p>_——I really can’t stand adults after all, _Ann thought.</p>
-<p>“I hate you… Violet.”</p>
-<p>“My deepest apologies, Young Mistress.”</p>
-<p>“Why do you write letters?”</p>
-<p>“Because people have feelings that they wish to deliver to others.”</p>
-<p>Ann knew she was not the center of the world. Regardless, the fact that things never went as she desired caused more tears to pour down out of frustration.</p>
-<p>“Things like that don’t need to be delivered…”</p>
-<p>Violet merely continued to hug the frowning Ann, who bit her lip out of displeasure. “There is no such thing as a letter that needn’t be delivered, Young Mistress.”</p>
-<p>It seemed her words were directed at herself rather than at the girl. Ann pondered over why. Because of that, the phrase was somehow strikingly engraved in her mind.</p>
-<hr>
-<p>The time that Ann Magnolia spent together with Violet Evergarden was of only a week. Her mother managed to finish writing the letters one way or another, and Violet reticently left the mansion once the contract period was over.</p>
-<p>“You’re going somewhere dangerous, right?”</p>
-<p>“Yes, since someone awaits me there.”</p>
-<p>“Aren’t you scared?”</p>
-<p>“I rush anywhere a client might desire. This is what the Auto-Memories Doll Violet Evergarden is about.”</p>
-<p>“Can I call you over if I someday meet someone I’d want to write letters to?” was what Ann could not bring herself to inquire.</p>
-<p>What if the woman died at the place her next client was? Even should she not, what if Ann ended up never finding someone she would like to write to? Thinking about that, she was unable to ask it.</p>
-<p>While being seen off, Violet turned around only once and waved at her.</p>
-<hr>
-<p>It was several months after the woman had left that the disease of Ann’s mother reached its worst. She soon passed away. The ones who took care of her in her last moments were Ann and her maid.</p>
-<p>Until she closed her eyes, Ann continuously whispered, “I love you, Mom.”</p>
-<p>Her mother simply nodded slowly. “Yes, yes.”</p>
-<p>On a calm day of a quiet spring, her dear mother passed away.</p>
-<p>From that point on, Ann became extremely busy. In regards of her heirloom, after a discussion with lawyers, she decided to freeze the family’s multiple bank accounts until she was of age, summoned a private tutor to the manor and studied hard. As it was difficult for her to part ways with the land that bore deep memories of her mother, she obtained qualification for a bachelor’s degree through correspondence education.</p>
-<p>She never again saw her father. He had attended the funeral, but they had barely exchanged two or three words.</p>
-<p>After her mother died, he completely stopped coming home. His recklessness with money ended as well. Ann did not ask directly the reason behind his change of mindset, but believed it to have been a good one.</p>
-<p>Ann opened a law counseling office at home after graduating. She did not earn that much, but she no longer had a maid, so it was about enough for her to sustain herself. She was also in the middle of a small love affair with a young entrepreneur who often came for counseling.</p>
-<p>As she did not succumb to sorrow even after having lost her mother at seven years of age, people would ask, “How come you don’t break down?”</p>
-<p>To that, Ann would answer, “Because my mother is always looking after me.”</p>
-<p>Her mother was, of course, deceased. Her bones resided in a family grave where their relatives had been buried for generations.</p>
-<p>Yet Ann would say, “My mother has been rectifying and guiding me all this time. Even now.”</p>
-<p>There was a reason why she would affirm that while smiling. It was connected all the way to the time that she had spent with Violet Evergarden.</p>
-<p>Ann’s eighth birthday had been the first after her mother had passed on. A package had arrived for her on said day. It had contained a big stuffed bear with a red ribbon. The name of the sender was of her late mother, the present accompanied by a letter.</p>
-<p><em>Happy 8th birthday, Ann. Many sad things might have happened. There may be several others to work hard on. But do not give in. Although you might be lonely and crying desolately, do not forget: Mom will always love you, Ann.</em></p>
-<p>It had been unmistakably her mother’s handwriting. At that instant, the image of Violet Evergarden had resurfaced in the back of Ann’s mind. Had it gotten mixed with the letters she had ghostwritten? If that were the case, it would be unnatural. In the past, although her mother had said that she was going to write letters, everything had been penned by Violet Evergarden. Could it be that the Auto-Memories Doll had gone as far as imitating her mother’s handwriting?</p>
-<p>In shock, upon questioning the postal agency that had delivered it, Ann had been informed that the company had signed a long-term contract with her mother and was supposed to send gifts on her birthday every year. Moreover, the certain someone who had written the letter was Violet Evergarden, and all the other letters transcribed by her had been carefully stored.</p>
-<p>Ann did not receive an answer when asking for how long the letters would be delivered due to contractual secrecy, but they had arrived every single following year. Even as she had turned 14.</p>
-<p><em>You have already become a wonderful lady by now. I wonder if you have found a young man that you like. Your way of speaking and attitude are a little boyish, so be careful.</em></p>
-<p><em>I cannot give advices regarding romance, but I shall protect you so that you do not become involved with a bad boy. This is about Ann, who has always been firmer than me, after all. Even if I do not do that, surely, if you are the one choosing, it will be a truly great person. Do not be afraid of love.</em></p>
-<p>Even as she had turned 16.</p>
-<p><em>Have you ridden in a car by now? Would you be surprised if Mom told you that I actually could ride in cars too? I used to drive a lot in the past. But I would be stopped by the people riding with me. They would go blue.</em></p>
-<p><em>My gift for your birthday is a car of a color that suits you. Just use the enclosed key. But I wonder if it is now considered a classic model. Do not call it ‘lame’, okay? Mom is looking forward to you becoming able to see various different worlds.</em></p>
-<p>Even as she had turned 18.</p>
-<p><em>I wonder if you are married by now. What do I do? To become a wife at a young age is troublesome in many ways. But your child will definitely be cute, no matter if it is a boy or a girl. Mom guarantees that.</em></p>
-<p><em>I do not mean to say precipitously that parenting is rough, but… the things you did that made me happy, the things you did that made me sad… I want you to raise your child with them in mind. It is all right. Regardless of how insecure you might become, I am here. I shall be by your side. Even as you become a mother, you are still my daughter, so it is fine to let out a screech sometimes. I love you.</em></p>
-<p>Even as she had turned 20.</p>
-<p><em>You have already lived 20 years now. Amazing! To think the little baby that was born from me would become so big! Life is truly whimsical. I am saddened that I could not see you grow into a pretty young woman. No, but I shall be watching over you from heaven.</em></p>
-<p><em>Today, tomorrow, the day after; you will always remain a beauty, my Ann. Even if disagreeable people discourage you, I can affirm this with a puffed-out chest: you are gorgeous and the coolest young lady. Have confidence and move forward with full responsibility towards society.</em></p>
-<p><em>You have managed to live this long because you have been taken care of by countless people. This is thanks to the structure of the community you are in. You have been helped out a lot without knowing. From now on, in order to pay back for it, please work even for my part.</em></p>
-<p><em>I am kidding, sorry. You are a hard worker, so saying something like this is overdoing it. Have strength and enjoy life, my dearest. I love you.</em></p>
-<p>The letters kept reaching her forever. The words her mother had written were recited in Ann’s mind by a voice that she would occasionally forget.</p>
-<p>Back in the old days, the feelings of her sick mother had all been addressed to her. Each and every one of them were future birthday cards to her beloved daughter. Meaning that the one Ann had been jealous of was herself.</p>
-<p>_“There is no such thing as a letter that needn’t be delivered, Young Mistress,” _Violet’s words echoed in Ann’s ears beyond the borders of time.</p>
-<p>The letters continued finding their way to her, even as she married and had a child of her own. She – a woman of long, wavy black hair, who lived in an enormous peripheral mansion of her possession, located far from town – would make sure to go outside in the morning on a certain day of a certain month. She would wait while taking in the scenery that spread out before her.</p>
-<p>As her ears picked the noise of the bike ridden by a postman clad in a green frock coat, she stood up with her eyes shining. Her figure as she anxiously waited while thinking, “Is it now? Is it now?” was certainly similar to that of her late mother.</p>
-<p>The postman arrived at the residence, handing to her an enormous package with a smirk. He, who knew about the gifts sent to her every year, offered warm words of his own as well, “Congratulations for your birthday, Ma’am.”</p>
-<p>She replied with slightly wet dark brown eyes, “Thank you.” And, at last, she asked what she had been wanting to for a long time, “Say, do you know Violet Evergarden?”</p>
-<p>The post office and the ghostwriting industry had a close relationship. Once Ann inquired with her heart pounding “what-if”, the postman replied while grinning, “Yes, since she’s famous. She’s still active. Well, then…”</p>
-<p>Ann watched as the postman took his leave, caressing the gift with a smile. Her tears slowly poured down. Still smiling, she whimpered a little.</p>
-<p><em>——Ah… Mom, did you hear this just now?</em></p>
-<p>That woman was still working as an Auto-Memories Doll. The person she had shared a part of her time with was still doing well, carrying on the same occupation.</p>
-<p><em>——I’m happy. I’m really happy, Violet Evergarden.</em></p>
-<p>From within the mansion, she could hear a call, “Mom!”</p>
-<p>She turned to the direction of the voice. Someone waved from the window that she used to be at when observing her mother and Violet. It was a girl with slightly wavy hair that keenly resembled Ann herself.</p>
-<p>“Another present from Grandma~?”</p>
-<p>Ann nodded at her innocently smiling daughter. “Yes, it has arrived!” answering enthusiastically, Ann returned the wave.</p>
-<p>Inside the house, her daughter and husband were about to commence her birthday party. She had to hurry back. Crying softly, she walked towards the mansion. As she did so, she was deep in thought.</p>
-<p><em>——Hey, Mom. You said before that you wanted me to give my child all the happiness you’d once experienced, right? Those words… made me incredibly happy. They really resonated with me, is what I thought. That’s why I’ll do what you did. This isn’t an excuse to see that person, though. It’s part of the reason, but not all. I, too… have feelings that I want to convey. Even many years after our first meeting, I have a hunch that she definitely won’t have changed a thing. With her beautiful eyes and voice that has a sweet ring to it, she will write about my love for my own daughter. Violet Evergarden is that kind of woman – the one that does not disappoint. On the contrary, she was the type of Auto-Memories Doll that one would want to witness doing her work once more. When I see her again, I shall thank her and apologize to her without reserve. After all, I’m no longer that girl who could do nothing but cry.</em></p>
-<p>Ann Magnolia would never forget the woman that had embraced her back when she was young.</p>
-<hr>
-<p><em>I… remember.</em></p>
-<p><em>That she had come around.</em></p>
-<p><em>That sitting there, quietly, she would write letters.</em></p>
-<p><em>I… remember.</em></p>
-<p><em>The figures of that person, and of my kindly smiling mother.</em></p>
-<p><em>That sight… surely…</em></p>
-<p><em>I would not forget even in death.</em></p>
-]]></content>
-      <tags>
-        <tag>Violet Evergarden</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VE-V1C1</title>
-    <url>/VE/VE-V1C1/</url>
-    <content><![CDATA[<h1 id="prologue"><a href="#prologue" class="headerlink" title="[prologue]"></a>[prologue]</h1><p>Prologue <a href="https://nanodesutranslations.org/evergarden/1/" target="_blank" rel="external">⇖</a></p>
-<p><strong><em>Violet Evergarden</em></strong> written by Akatsuki Kana</p>
-<p>From the author: I’m writing this letter from the north. Snow Country is a place as quiet as the dead of night. Because of the cold outside, I grew into an adult who <strong>indulges</strong> in movies and stories when at home. I hope that the scenes here, drawn from my imagination, might float with you on your sea of words.</p>
-<p><strong>Prologue: “The Auto Memories Doll”</strong></p>
-<p>Some time has passed since this term was all the rage. The first one was created by Dr. Orlando, the world’s authority on automatons. It all began when his wife Molly, a novelist, complained of her clouding vision. Molly, having devoted most of her life to her words, was <strong>crestfallen</strong> as they faded away from her. Once reduced to blindness, it seemed as if her strength also was wasting away. Dr. Orlando could not bear to see his dear wife this way, and as such he devised the Auto Memories Doll. It was a <strong>contraption</strong>capable of recording a person’s spoken words: a “borrowed pen,” as it were. At the time, the doctor had meant it merely a creation for his dearest, but the model quickly spread, and soon such dolls were acting to support <strong>myriad</strong> other people. Today Auto Memories Dolls are widely known, even available for rental at a modest price.</p>
-<hr>
-<h1 id="C1P1"><a href="#C1P1" class="headerlink" title="[C1P1]"></a>[C1P1]</h1><p>The Novelist and the Doll, Part 1 <a href="https://nanodesutranslations.org/evergarden/1/1/" target="_blank" rel="external">⇖</a></p>
-<p>Chapter 1: “The Novelist and the Doll”</p>
-<p>Roswell was a city of green, <strong><u>ensconced</u></strong> in the beauty of nature. It bared itself among the foothills of tall mountains. Among those of ample resource, Roswell was known as a summer <strong><u>retreat</u></strong>; a town of villas and cottages, homes away from home.</p>
-<p>In spring, the landscapes burst with flowers, bringing light to their admirers’ eyes. In summer, hikers there sought a moment of respite beside the city’s famed waterfall, well-loved for ages. In autumn, the rain of leaves softened the heart, and in winter the world itself was <strong><u>bestowed</u></strong> a mute <strong><u>tranquility</u></strong>. Each season’s flourish on stage was distinct; it was a land <strong><u>magnanimous</u></strong> upon the eyes of visitors at any time of year.</p>
-<p>Vacation homes throughout the town formed a <strong><u>swatch</u></strong> of <strong><u>variegated</u></strong> wooden rooftops, both big and small. Land there was not cheap. Simply owning a home in Roswell was a sufficient sign of affluence.</p>
-<p>In the city’s heart, countless shops courted one main throughway and catered to endless tourists. During holidays, this corridor was inevitably thronged with shoppers, and the people created a fabric of <strong><u>cacophony</u></strong> appropriate to city life, each weaving his happy <strong><u>bustle</u></strong> into the song of the street. The wares set out were nothing to <strong><u>scoff</u></strong> at–far from so, in fact, given the town’s remote location.</p>
-<p>Most residents of Roswell sought convenience and so built their villas in the city proper. Those who settled elsewhere were the town eccentrics.</p>
-<p>It was now autumn in Roswell. <strong><u>Cirrocumulus</u></strong> <strong><u>wafted</u></strong> in <strong><u>ripples</u></strong> high up in the sky. Far removed from the <strong><u>foothills</u></strong> was a small lake, an almost forgotten stop along the town’s busy tourist circuit. One small cottage stood quietly by its waters.</p>
-<p>Viewed with kindness, it was a vintage home bearing a distinguished <strong><u>facade</u></strong>. To less forgiving eyes, the house was a monument to disrepair, long abandoned by human hands. One first had to pass under its arched gates, white now only by virtue of their long companionship with the sun. From there, a short path led through a garden buried in weeds and nameless flowers. Finally, at the path’s end, the home itself came into view.</p>
-<p>The red brick walls were in such decay that one could only conclude the owner had no intent of ever patching them. Here and there a roof tile was split, once-orderly ranks now cruelly dismembered.</p>
-<p>Immediately next to the entrance, vines had coiled themselves in knots about a swing, ensuring that it would swing no more. It was both evidence of a child and evidence that the child was certainly here no longer.</p>
-<p>The owner of the house was a man in the prime of life. His name was Oscar.</p>
-<p>He was a screenwriter working without <strong><u>pretense</u></strong> of <strong><u>nom de plume</u></strong>. His hair was red with a curl, and his black-rimmed glasses could hardly contain the thick lenses with which they had been charged. Oscar’s back was slightly <strong><u>hunched</u></strong>, but his face was fresh, lending him an air of youthfulness belying his real age. Sensitive to the cold, he was never without a sweater. All in all, Oscar was an unremarkable man, hardly seeming fit to be the hero of any story.</p>
-<p>To Oscar, this house was not a villa. Quite simply, Roswell was home, and it was in this house that Oscar lived.</p>
-<p>It was built to house not him alone, but also his wife and young daughter. The rooms had been quite spacious for three, but now they were used by only one. Oscar lived alone. Both his wife and child had already departed for the other world.</p>
-<p>The wife had <strong><u>succumbed</u></strong> to an illness with a name so <strong><u>meandering</u></strong> it was hard to even remember.</p>
-<p>To put it simply, her blood had <strong><u>coagulated</u></strong> in her veins, blocking them. Death quickly followed. The condition was genetic. Her father, too, had suffered that fate.</p>
-<p>Oscar had known his wife was an orphan. He’d heard her <strong><u>plaintive</u></strong> story of the many from her family who had died young. But it was not until after she died that he grasped the true reason for this.</p>
-<p>At the funeral, her close friend had <strong><u>confided</u></strong> in Oscar. “She was frightened. She thought if it were known, no one would ever want to marry her. So she kept it hidden.” When the words hit Oscar’s ears, only one thought echoed through his mind: “Why?”</p>
-<p>“Why? Why? Why?”</p>
-<p><em>All you had to do was say it. You could have shared anything with me.</em></p>
-<p><em>There’s so much we could have done. We could have searched together for a cure. We had all this useless excess of money to throw at it.</em></p>
-<p>It was clear that Oscar’s wife had not married him for his money. They’d met before his break as a screenwriter. She was a librarian at the library he frequented. And in any case, it was Oscar himself who first began to stare.</p>
-<p><em>How pretty</em>, he’d thought.</p>
-<p><em>And she’s the one in charge of the new arrivals corner. It always has such good books.</em></p>
-<p>As he fell in love with her books, so too did he fall in love with her.</p>
-<p>“Why?” The question echoed some hundred million times. It buaround his mind, then finally vanished.</p>
-<p>His wife’s friend was an accomplished woman. While Oscar’s heart <strong><u>floundered</u></strong> in the wake of loss, she worked vigorously to attend to the young daughter who had been left in Oscar’s care. Left to himself, the man would go all day without eating, so she brought warm food to their home. The girl, in turn, sobbed for her missing mother, so with her she sat, gently tying the girl’s hair in braids as her mother used to do.</p>
-<p>Perhaps, for a brief moment, there had been a spark of love between Oscar and this woman. Late one night, when Oscar’s daughter had been sick in bed with a fever and had suddenly begun to <strong><u>vomit</u></strong> uncontrollably, it was she who rushed the girl to the hospital. And it was she, not Oscar, who first learned that the girl was <strong><u>afflicted</u></strong> with the same <strong><u>ailment</u></strong>.</p>
-<p>From there, the disease progressed gradually. But for Oscar, it was all much too fast.</p>
-<hr>
-<h1 id="C1P2"><a href="#C1P2" class="headerlink" title="[C1P2]"></a>[C1P2]</h1><p>Desperate to avoid a repeat of their recent tragedy, Oscar turned to the finest physicians from across the land. They moved from one great hospital to the next. Oscar implored each doctor they met, and through his appeals learned of a new, experimental treatment. The decision seemed an easy one.</p>
-<p>Yet every herb has its <strong>demons</strong>. The girl <strong>clamored</strong> with each swallow, a sight which ate away at her <strong>doting</strong> father as the days of treatment stretched on.</p>
-<p>The new treatment seemed to have no effect on her symptoms. Having no further recourse, the doctors declared it a lost cause and withdrew from the fight.</p>
-<p>Oscar became <strong>plagued</strong> with the <strong>absurd</strong> notion that his lonely wife was <strong>beckon</strong>ing to their daughter from the world beyond. He <strong>wailed</strong> at her grave, “Don’t take her from me!” But the dead speak no words.</p>
-<p>Oscar was <strong>teetering</strong> on the edge. Perhaps unexpectedly, it was his wife’s friend who broke first. Exhausted by endless <strong>fret</strong>ting as the girl <strong>hung in limbo</strong>, she appeared less and less often at the hospital, then finally stopped coming altogether. Oscar and his daughter were now truly alone. The girl’s extensive medication had left her <strong>emaciated</strong>. Her once-milky skin was a sickly yellow and her once-rosy cheeks <strong>pallid</strong>.</p>
-<p>Her honeyed hair, too, was now falling out.</p>
-<p>Oscar could no longer bear to look at her.</p>
-<p>After endlessly pushing fruitless questions upon the doctors, he finally <strong>relent</strong>ed. The girl would continue on <strong>analgesics</strong> alone. All other treatment would stop. Oscar resolved that if nothing else, his daughter’s short life would not end in suffering.</p>
-<p>The next while was peaceful. They spent happy days together. He saw his daughter smile for the first time in months. So continued their last few days of light.</p>
-<p>It was glorious autumn outside on the day that she died. Color was slipping from the world drip by drip, but the sky was bright blue and cloudless. From the window, one caught <strong>candid</strong> glimpses of trees dressed in reds and yellows. A fountain stood in the hospital grounds, offering <strong>respite</strong> to the <strong>weary</strong>. Fallen leaves floated soundlessly across its pool.</p>
-<p>Each leaf there had fallen to the water’s surface and <strong>drifted</strong> there until finally pulled into a <strong>clump</strong> of <strong>comrade</strong>s. Now they floated aimlessly together. New leaves were always pulled in, almost as if by magnet. Thus, even in their <strong>wreckage</strong>, lives lost to the season, they emerged in beautiful <strong>synchronization</strong>.</p>
-<p>On seeing them, the girl spoke. “How pretty.</p>
-<p>“The way the water’s blue and the color of the leaves mix together. It’s so pretty. Father, if a person stepped on those leaves, do you think they’d walk across the pond without falling in?”</p>
-<p>Ah, the innocence of a child. Surely gravity and weight would conspire to bring one’s body plunging in, but Oscar could deny his daughter no more.</p>
-<p>“And if you held an umbrella, my sweet, you could use the wind and perhaps even float just above it.”</p>
-<p>His tone was playful. He longed so badly to dote on his helpless daughter just a little more. And as she listened to his words, her eyes sparkled. “Yes. Yes, that’s just what I’ll do. I’ll dance across the water for you.”</p>
-<p><em>Someday I’ll dance for you. On the lake, by our home now far away. When the leaves drift across the water in autumn.</em></p>
-<p>Shortly after, she fell into a coughing fit. One cough, two, then several more. And then, as if stolen away, she was gone.</p>
-<p>She had been but nine years old.</p>
-<p>When Oscar brought his arms under the <strong>husk</strong> she had left behind, it felt dreadfully light. Too light, even for a body now short a soul.</p>
-<p>Had she ever even been alive? Had it just been one long dream? Tears came to his eyes.</p>
-<p>The girl was buried alongside her mother. Oscar returned to the house built for three, and there he began his life of silence.</p>
-<p>Oscar had financial means enough to live on without working. A royalty system brought in money each time his widely-used scripts were employed. He would never <strong>scrape</strong> the bottom of his savings, and he would never go hungry.</p>
-<p>After several years of mourning for his wife and daughter, a long-lost work acquaintance reached out to Oscar. Wouldn’t he try his hand at one more script?</p>
-<p>It was <strong>at the behest of</strong> an elite performing <strong>troupe</strong>, one which any actor would clamor to be a part of. For Oscar, whose past work was known but who had all but vanished from the industry, it was an honor simply to be asked.</p>
-<p>He’d spent so many days <strong>languishing</strong> in <strong>sloth</strong>, <strong>wallowing</strong> in sadness, <strong>indulging</strong> in self-pity.</p>
-<p>Man is a thing that tires. Whether happiness or sadness, he cannot bear to live always with that alone. That is how he is built.</p>
-<p>Oscar agreed to the job in his second reply, determined to lift his pen once more.</p>
-<p>But here the trouble began. In desperation to escape his <strong>harsh</strong> reality, Oscar had turned to–no, embraced–the bottle. And with it came a <strong>smattering</strong> of drugs to ensure happy thoughts at least in dreams. With the help of his doctor he had somehow managed to conquer the drink and drugs themselves, yet in their wake, his hands were left forever trembling.</p>
-<p>Whether words laid on paper or struck with keys, his efforts to push forward seemed hopeless.</p>
-<p>His breast was full with words; he merely needed to find the way to bring them forth.</p>
-<p>He turned once more to his acquaintance to ask for advice.</p>
-<p>“I’ve just the thing.</p>
-<p>“We need to get you an Auto Memories Doll.”</p>
-<p>“What’s that?”</p>
-<p>“Ah, my friend, you’ve been away from the world too long… I’m worried about you. Auto Memories Dolls. Everybody knows about them. You can even rent them out. Hardly costs a thing anymore. Yes, that’s what we’ll do. I’ll have one sent over for you to try out.”</p>
-<p>“I’m going to get help from a… doll?”</p>
-<p>“Hah! A special kind of doll, to be sure.”</p>
-<p>And that was how Oscar came to use a new kind of tool, one whose name he’d only just learned. Oscar and the “Auto Memories Doll.” This was the beginning of their fates <strong>entwined</strong>.</p>
-<hr>
-<h1 id="C1P3"><a href="#C1P3" class="headerlink" title="[C1P3]"></a>[C1P3]</h1><p>A woman made her way up the mountain path.</p>
-<p>Her bangs hung freely. <strong><u>Braids</u></strong> laced the crown of her head, held together with a ribbon of deep, <strong><u>velvety</u></strong> red. Her slender frame was wrapped in a snowy white summer dress tied at the waist.</p>
-<p>The dress’ silk, <strong><u>pleated</u></strong> skirt <strong><u>fluttered</u></strong> <strong><u>angelically</u></strong> with each step she took. The <u>emerald</u> <strong><u>brooch</u></strong> <strong><u>affix</u></strong>ed at her <strong><u>bosom</u></strong>&lt;/u&gt; <u><strong>sparkled</strong></u>.</p>
-<p>Over the dress, she wore a <strong><u>sleek</u></strong>, Prussian blue jacket. Her long boots had deepened into a cocoa brown with age. And on this day, as she passed under the white arch of Oscar’s home, she held in her hand a heavy-looking <strong><u>trunk</u></strong>.</p>
-<p>Just as the woman stepped into the front garden, a <strong><u>gust</u></strong> of autumn wind <strong><u>bellowed</u></strong>, bringing red, yellow, and brown leaves <strong><u>swirling</u></strong> about her in dancing rings. Her vision seemed to <strong><u>falter</u></strong>, as if these swirling <strong><u>remnants</u></strong> of autumn had pulled a curtain down before her. She reached a hand to the brooch affixed at her breast, squeezed it tight, and <strong><u>intoned</u></strong> in a low voice some words that were <strong><u>eclipse</u></strong>d by those wings of autumn as they continued to flutter excitedly. Having reached no ears, the spoken words melted away into space.</p>
-<p>When the <strong><u>mischievous</u></strong> wind died down, the woman seemed to set aside her recent display of uncertainty. She continued on to the entryway with purpose. There she pressed on the buzzer with one finger of a hand <strong><u>encased</u></strong> in black glove.</p>
-<p>The house’s bell <strong><u>reverberated</u></strong> like a screech escaped from hell. A moment later, the door opened. The house’s red-haired owner <strong><u>peer</u></strong>ed out from the gap. It was hard to tell whether he’d just woken up or whether he’d not slept at all. In either case, he was clearly in no state to be receiving guests. His clothing and face were both <strong><u>disheveled</u></strong>. On seeing the woman, Oscar let slip a slight look of surprise. He seemed to have <strong><u>been taken aback</u></strong> by the woman’s most <strong><u>peculiar</u></strong> appearance.</p>
-<p>Or perhaps he had been caught off guard by her singular beauty. Whatever the case, he found himself, for a moment, short of breath.</p>
-<p>“You’re… the ‘Auto Memories Doll’?”</p>
-<p>“That is correct. Please inform me of any assistance you might require, and I will be happy to oblige. Auto Memories Doll Violet Evergarden, at your service.”</p>
-<p>The storybook blonde-haired, blue-eyed beauty spoke these words with no trace of <strong><u>obsequiousness</u></strong>. Rather, they <strong><u>emanated</u></strong> from her lips with the deep clarity of a well-polished gemstone.</p>
-<p>The woman who had identified herself as Violet Evergarden carried herself in quiet beauty, the very <strong>essence</strong> of a doll. Her blue eyes, <u>lace</u>d by eyelashes of golden thread, sparkled with the mysteries of the seabed. From the milk-white skin of her cheek blushed the <strong><u>splendor</u></strong> of cherry petals at their peak. Her <strong><u>rouge-tinted lips</u></strong> <strong><u>glistened</u></strong> invitingly.</p>
-<p>Nothing about her was lacking. <u>Her beauty was as full as the moon at its peak.</u></p>
-<p>Had she not blinked, one would have thought she was a static work of art.</p>
-<p>Oscar knew nothing about Auto Memories Dolls. The arrangements for Violet’s arrival had been handled entirely by the same friend who had convinced Oscar to take on this new writing job.</p>
-<p>“It’ll be delivered in a few days,” he’d said.</p>
-<p>And here she was at last.</p>
-<p>From the way his friend spoke, Oscar had assumed some small package would arrive at his door, care of the postman. He’d open up the box and inside would be a small, mechanical doll. He was hardly prepared for this thing so lifelike, this… <strong><u>automaton</u></strong>.</p>
-<p><em>How far has civilization progressed while I’ve <u>holed myself up</u> here?</em></p>
-<p>Oscar had never shown particular interest in any of the ways of the world. He read no newspapers or magazines, and he rarely socialized. If it weren’t for the friends who showed concern for him, perhaps his only interaction would have been with the deliveryman from the grocer’s.</p>
-<p>Already Oscar was regretting his hasty decision. Clearly he should have spent more time looking into the matter of the doll before giving his consent. The mere thought of having another person in the house meant only for that long-lost family of three did not sit well with him. It was like an unpleasant aftertaste. Another person… or something that resembled one, anyway.</p>
-<p>Oscar felt as if he were somehow betraying his family.</p>
-<p>Violet, perfectly unaware of any of these thoughts <u>swirling</u> about Oscar’s head, followed him into the living room and set herself down on the sofa when invited. When Oscar offered her tea, she drank it. These modern automatons seemed to be quite advanced.</p>
-<p>“What happens to the tea after you drink it?”</p>
-<p>Sensing Oscar’s tone of disbelief, Violet gently tipped her head to one side as she answered. “Ultimately it is discharged from my body, after which I believe it returns to the Earth.”</p>
-<p>An answer befitting of a machine.</p>
-<p>“To tell the truth… I’m at a bit of a loss right now. You’re a bit… different from what I expected.”</p>
-<p>Violet glanced down as if to confirm her own appearance, then abruptly stood up from the sofa and returned Oscar’s stare.</p>
-<p>“Is there something about me which does not meet your expectations?”</p>
-<p>“Uh… well, it’s not exactly my expectations…”</p>
-<p>“If the additional wait would not inconvenience you, I can arrange for the <strong><u>dispatch</u></strong> of a different doll, one more suitable to your needs.”</p>
-<p>“Ah, no… that’s not what I’m trying to say. Uh, well… let’s just try this out, I suppose. If you can do the work, that’s all that matters. You seem un<strong><u>obtrusive</u></strong> enough.”</p>
-<p>“If it pleases you, I will restrict my respiration to the minimally required level.”</p>
-<p>“Ah, no, that won’t be necessary.”</p>
-<hr>
-<h1 id="C1P4"><a href="#C1P4" class="headerlink" title="[C1P4]"></a>[C1P4]</h1><p>“I have been dispatched here to fulfill your need for a scribe. I will perform my duties to your utmost satisfaction so as to not sully the Auto Memories Doll name. It matters not whether my tools are pen and paper or typewriter. Please make use of me as planned.”</p>
-<p>Violet uttered these words with her large, jewel-like eyes affixed firmly on Oscar’s. It made Oscar feel a bit <strong>fidgety</strong>, but he managed to answer with an awkward nod.</p>
-<p>The doll had been requested for a period of two weeks. They had only that much time to complete one full script.</p>
-<p>Oscar composed himself and led Violet into his study, intending to begin work immediately.</p>
-<p>However, on arrival there, it became clear that Violet’s first duties would not be as a scribe but as a housekeeper.</p>
-<p>Oscar had pulled everything necessary into one room for it to double as both an office and a bedroom. <strong>Strewn</strong> about the floor were dirtied clothes and dishes filled with half-eaten meals. It was a miserable <strong>spectacle</strong>. Such was the mess that one could hardly find space to walk across the floor.</p>
-<p>Violet remained silent as she again trained her blue eyes upon Oscar. The eyes themselves seemed to accuse. <em>Did you do anything at all to prepare for my arrival?</em></p>
-<p>“…I’m sorry.”</p>
-<p>Oscar himself knew that it was not a room befitting a working man. Since beginning his days alone, Oscar had hardly touched the living room. As a result, that room had remained in quite a <strong>presentable</strong> state. But the <strong>well-trodden</strong> rooms of his house–this office, the washroom, and the bathroom–had all fallen into a most <strong>wretched</strong> state.</p>
-<p>He suddenly felt quite grateful that Violet was an automaton.</p>
-<p>Her physical appearance suggested a young woman at the twilight of her teens, or perhaps in her early twenties. Oscar could think of any number of other torturous things he would prefer to endure than the situation of having to show a real girl of that age this embarrassment of an office. It was un<strong>chivalrous</strong>, and Oscar’s advancing years were no excuse.</p>
-<p>“Sir, I must respectfully remind you that I am here to act as a scribe, not as a maid.”</p>
-<p>Yet even as she spoke, Violet pulled from her trunk a white, frilled apron and began cleaning the room with a certain zeal. Thus passed their first day.</p>
-<p>On the second, they finally managed to both seat themselves in the office and set about the real work ahead.</p>
-<p>To be more precise, Oscar reclined on the bed, and Violet sat in the office’s lone chair. She rested her hands on the typewriter stationed at the desk.</p>
-<p>“She spoke–”</p>
-<p>As Oscar began to dictate his story, Violet’s hands moved over the keys with a flurry of speed. Her strokes were yet quiet, and of course performed perfectly from memory. Oscar’s eyes grew wide with surprise.</p>
-<p>“You’re quite… fast, aren’t you?”</p>
-<p>On receiving the compliment, Violet rolled up her sleeve and removed the black glove from one hand. She held the exposed arm up for Oscar to see. It ticked and whirred. A completely mechanical arm. The fingers and knuckles were of especially sturdy construction, finished with only a rudimentary coat of paint. “My parts have been chosen for maximum utility while still simulating human form. These were produced by Estark. They are renowned for their durability. They also boast a range of movement and compressive strength far exceeding that of human hands. They will suffice in allowing me to record your words precisely as you dictate.”</p>
-<p>“Is that so… Uh, well, you don’t need to write down what I’m saying now. Just the words in the script.”</p>
-<p>Oscar resumed his dictation. They took several breaks, but for the first day of writing, it seemed to go quite well.</p>
-<p>Of course, he’d already had the play structured out somewhere in his mind. So far it had seemed quite easy to find the words.</p>
-<p>And as he spoke, Oscar realized that Violet was a superb <strong>conduit</strong> and scribe. From the beginning, he’d noted her quiet appearance, and as they began to work she was every bit faithful to this impression. Though he hadn’t gone so far to ask it of her, he found that he really could not hear the sound of her breathing. The only sound at all in the room, besides Oscar’s own voice, was the click, clack of the typewriter. If he closed his eyes, it almost seemed as if he were pushing the keys himself. When he asked her to read back passages to check his progress, her voice was clear and perfectly <strong>inflected</strong>. Just listening to it was a joy.</p>
-<p>Through her voice, every passage seemed a <strong>majestic</strong> tale.</p>
-<p><em>So this is what has made them so popular.</em></p>
-<p>He finally seemed to gain a deep appreciation for the qualities of the Auto Memories Doll.</p>
-<p>But Oscar and Violet’s smooth progress halted abruptly on the fourth day. Several days passed without so much as a word written. Oscar was <strong>plagued</strong> with the writer’s most common <strong>affliction</strong>. Though the story seemed clear to him, the words would not spin together into the fabric they were meant to be.</p>
-<p>Long years of experience had taught Oscar what he must do in this situation. The answer was simple: stop writing. He was of the firm belief that no great writing was born when forced.</p>
-<p>He regretted having to make Violet wait.</p>
-<p>Violet, for her part, quickly and seriously complied with requests for any other type of work around the house, from cleaning to cooking. She seemed to have been designed with, first and <strong>foremost</strong>, a hardworking disposition. It had been quite some time since Oscar had eaten a home-cooked meal, still <strong>wafting up steam</strong> on service. He’d had many a meal delivered and occasionally even went out to eat, but such foods somehow paled in comparison with a simple meal prepared through the labors of a well-meaning novice.</p>
-<p>He ate unusual <strong>omelets</strong> whose every bite melted in his mouth. He ate a <strong>patty</strong> of hamburger mixed with tofu, presented on serving as “an exotic recipe carried from lands far to the East.” He ate fine <strong>pilafs</strong> of rice mixed with <strong>tangy</strong> sauces and flourishes of colorful vegetables. He ate seafood <strong>au gratin</strong>, a rare gem in this mountainous land. Violet inevitably balanced the meal with some sort of salad or soup on the side. Oscar was quite <strong>awed</strong> by it all.</p>
-<hr>
-<h1 id="C1P5"><a href="#C1P5" class="headerlink" title="[C1P5]"></a>[C1P5]</h1><p>At every meal, she gazed at him quietly and did not say a word.</p>
-<p>Even when he invited her to join him, she politely, yet firmly, refused. “Thank you, but I will take my own meal afterward.” He had seen her consume liquid that first day, but he had yet to see her eat solid food. Perhaps that was beyond her scope. He briefly fancied her <strong><u>guzzling down</u></strong> mineral oil during those meals she insisted taking in strict privacy. The thought of it spawned a series of surreal images in his mind.</p>
-<p><em>There’s really no need to exercise all this restraint. I wish you’d just sit down and have a meal together with me.</em></p>
-<p>Oscar <strong><u>mulled the words</u></strong> over in his mind but could never quite bring them to voice. Violet was nothing like his late wife. Yet Oscar often found himself watching the back of her slender frame as she worked in the kitchen, and when he did, he was filled with a strange sense of familiarity. If he stared too long, he’d be struck by an excess of <strong><u>melancholy</u></strong>, and tears would <strong><u>inexplicably</u></strong> <u>well</u> in his eyes. This addition of a new person in Oscar’s world had led him to quite an unexpected realization.</p>
-<p><em>I’ve been leading an ever-so-lonely life.</em></p>
-<p>The <strong><u>elation</u></strong> of meeting Violet at the doorway when she returned from some <strong><u>errand</u></strong>… The secure feeling that he was not alone in that house when he went to bed at night… The reality that Violet was there, always there, whenever he opened his eyes… All these things impressed upon him the extent of his previous isolation.</p>
-<p>He had his money, and he found nothing wanting in his lifestyle. But in truth, his comforts brought no sense of enrichment. In fact, they were hardly more than a thin, final sheet trying vainly to guard his <strong><u>downtrodden</u></strong> heart against any more abuse.</p>
-<p>Certainly, they were doing nothing to heal those wounds.</p>
-<p>Someone was there, and that someone–even if not a person with whom he was yet particularly close–was waking up in the morning in just the same place and at just the same time as he was.</p>
-<p>Such thoughts pierced the heart Oscar had kept tightly closed for so long.</p>
-<p>Violet was a <strong><u>ripple</u></strong> upon Oscar’s <strong><u>stagnant</u></strong> life. She brought no <strong><u>strife</u></strong>, but her very presence was a slight change to the waters of his lake. A cold, lifeless stone had struck the surface, and somehow it had brought a warm current to his <strong><u>monotony</u></strong>, to his <strong><u>sluggish</u></strong> pool. He <strong><u>feign</u></strong>ed not knowing whether this change was good or bad. But if pressed, he just might have been ready to admit the likelihood of it being for the better.</p>
-<p>At the very least, the melancholy <strong><u>unearth</u></strong>ed by Violet’s presence and the tears it <strong><u>wrought</u></strong> were somehow warmer than the feelings and tears he had <u>bled</u> before.</p>
-<p>When there were only three days left with Violet, Oscar finally lifted himself out of idleness. One certain scene had been responsible for this long stewing.</p>
-<p>Oscar had charged Violet with a tale of adventure and mystery. At its head was a young, lone heroine. Her travels far and wide were filled with faces and encounters of every type. And over the course of her journey, she became something more than she had been before.</p>
-<p>The template for this heroine was Oscar’s late daughter. At the end of the tale, she returned to the home she had left so long ago. And at that home, her elderly father sat waiting. Yet when the heroine appeared, now a splendid young woman so far beyond the little girl of the past, not even her own father could recognize her.</p>
-<p>With tear-stained cheeks, the heroine would <strong><u>plead</u></strong> with her father. “Don’t you remember?” And here she would repeat the promise she had made to him so long ago: the promise to dance across the fallen leaves strewn across the surface of their lake.</p>
-<p>“It is quite impossible for a human to walk across water.”</p>
-<p>“I need a visual to work with. Please. In the story, she’ll be able to do it because of help from the water spirit–the one whose protection she received during the journey.”</p>
-<p>“Even if that’s the case… I’m hardly suitable for this sort of thing. The girl of the story is lighthearted and charming. She’s sweetly innocent. She’s in complete contrast to me.”</p>
-<p>The novelist and the Auto Memories Doll had come to a head.</p>
-<p>It was all because of a request made by Oscar. He’d asked Violet to dress up like the heroine and to <u>splash</u> around in the water along the lakeshore next to his cottage. He’d already asked her to clean his house, to do his laundry, to take care of all his household chores. And now came this. It was as if he expected her to be outfitted for anything.</p>
-<p>Violet, who had until now played the part of the cool-headed working woman, had finally reached her limit. “You’re simply impossible.”</p>
-<p>“Your hair, it’s almost the same blonde as my daughter’s. If you were to let it down and to put on a summer dress, then it’d be just…”</p>
-<p>“Sir… my purpose, first and foremost, is to serve as a scribe. I am an Auto Memories Doll. I am neither your wife nor your mistress. I am not capable of acting as a substitute for anyone else.”</p>
-<p>“I, I know that. I’m not about to get any undue ideas about a young thing like you. It’s just that your… the way you look… I mean, if my daughter were still alive, she’d be just about your height, and… I’d just thought…”</p>
-<p>Violet, who had up to that point rejected the very idea earnestly, suddenly faltered. Her expression wavered visibly.</p>
-<p>“…I had assumed this was an expression of your <strong><u>peculiar</u></strong>… tastes. I had not realized you’d lost a daughter.”</p>
-<p>Violet chewed her lip. Her face betrayed a struggle of conscience.</p>
-<p>Over these past few days, Oscar had realized something about Violet. In the battle of good and evil, she clearly stood on the side of good.</p>
-<p>“I am an Auto Memories Doll… I exist to execute the desires of my clients… yet I feel as if this request is in conflict with my professional <strong><u>decorum</u></strong>…”</p>
-<p>Watching her mumble the pros and cons over by herself, Oscar felt a <strong><u>twinge</u></strong> of regret, yet he decided to try one final push.</p>
-<hr>
-<h1 id="C1P6"><a href="#C1P6" class="headerlink" title="[C1P6]"></a>[C1P6]</h1><p>“If I can just see that scene, of the daughter all grown up, coming home to fulfill her promise, I know I’ll be able to finally write it. I’m sure of it. I’ll be happy to make it up to you in any way I can. I’ll pay twice your original fee. This story is everything to me. If I can just write it, it’ll be a new beginning for me. A turning point in life. Please.”</p>
-<p>“But… I am most certainly not a… dress-up toy.”</p>
-<p>“If that’s how you feel, I’ll promise you right here: No pictures.”</p>
-<p>“You had intended to take pictures?!”</p>
-<p>“OK! No pictures! I’ll burn the image into my brain and use it to write the story. Violet, please.”</p>
-<p>For some moments afterward, Violet stood with a <strong><u>scrunched</u></strong> face and continued to mull the idea over, but in the end, she was beaten out by Oscar’s <strong><u>tenacity</u></strong>. One might have suspected she was of the type easily pressured into things.</p>
-<p>Oscar, so excited by their new understanding, broke his long <strong><u>reclusion</u></strong> by heading out to town to purchase fine clothes and an umbrella for Violet.</p>
-<p>He brought back a two-tone dress of white lace on top and blue on bottom, with a ribbon-belted waist. The umbrella was sky blue with white stripes, its <strong><u>canopy</u></strong> edged in <strong>frills</strong>. Violet seemed particularly pleased with the umbrella, and after he handed it to her she snapped it open and closed, open and closed, then <u><strong>twirled</strong></u> it around in her hands.</p>
-<p>“Haven’t you ever had an umbrella before?”</p>
-<p>“I have. But I had not known of ones as delightful as this.”</p>
-<p>“Is that so? You’re always dressed in such charming outfits. I’d thought following fashion was a hobby of yours.”</p>
-<p>“I merely dress according to the recommendations set forth by my superiors at the agency. I do not frequent dressmakers’ or other such shops myself.”</p>
-<p>It was as if she were a child dressed up in clothing chosen by her mother. A new thought struck Oscar. <em>Perhaps she’s really much younger than I’d guessed</em>. And suddenly Violet seemed to Oscar a fraction less a woman and a tad more a child.</p>
-<p>Now finished shopping, Oscar hurriedly motioned for Violet to change her clothes–before she could change her mind.</p>
-<p>It was early afternoon. The sky was mildly <strong><u>overcast</u></strong>. Rain seemed unlikely, yet its perfume hung in the air. A chill wind danced about, <strong><u>herald</u></strong>ing autumn, but not yet harsh enough to <strong><u>sting</u></strong>.</p>
-<p>Oscar had already gone outside to wait. He sat down in a wooden chair he’d carried right up to the side of the lake and began smoking a pipe.</p>
-<p>Since Violet’s arrival, he’d refrained from smoking out of a vague sense of consideration. Now, after that long fast, the smoke seemed to <strong><u>permeate</u></strong> all the way down to his belly. Several minutes had passed of him blowing rings that hung lazily in the air when came the plaintive screech of the drooping, unoiled front door.</p>
-<p>“I’m sorry to have kept you.”</p>
-<p>He twisted his neck to meet her exquisite voice.</p>
-<p>“No…”</p>
-<p>–<em>trouble at all, my dear</em>, he’d meant to say, but his breath had taken flight, leaving him alone with his words.</p>
-<p>With those unspoken words still caught in his throat, Oscar stared in <strong><u>awe</u></strong> at Violet. It was like he was seeing her for the first time all over again. With her hair let down, she had enough charm to steal time away from any eyes placed upon her. Her braided hair flowed gently down across her frame in a gentle curve. It was much longer than he’d thought. But, more than that–</p>
-<p><em>If she’d lived to this age, this is just how she’d look.</em></p>
-<p>He thought of all those years he should have been able to spend watching his daughter dressing up, playing pretend, and a burning feeling welled up from his chest.</p>
-<p>“Are you satisfied with the appearance of the clothing you selected for me?”</p>
-<p>She <strong><u>clutched</u></strong> the <strong><u>hem</u></strong> of her skirt in one hand and spun in place. It was as if she had floated down into this world of autumn colors from another realm. Such was the beauty of this <strong>divine-faced</strong> young woman.</p>
-<p>“If it pleases you, I will proceed to the lake so you may begin your observations… That is what you had in mind, correct? For the scene you would like to compose? Rather than simply have me walk around in this outfit, it would be preferable for you to see me on the surface of the water, if only for a few seconds. Sir, leave everything to me. My mobility is of the highest <strong><u>caliber</u></strong>. I can provide you with the scene you require, if only briefly.”</p>
-<p>Oscar, busy with half a dozen <strong>tugging</strong> emotions, simply nodded and gave faint murmurs of consent during all this <strong><u>discourse</u></strong>. Violet paid his condition no mind, delivering her words with her usual cool, matter-of-fact tone.</p>
-<p>The young woman before Oscar was someone quite different from his daughter. Though she had the same golden locks, there was no sweet sparkle in her eyes.</p>
-<p>Violet’s umbrella was closed. She <strong>grip</strong>ped it firmly in one hand and leveled it on her shoulder, then stood back and stared out across the water as if making careful calculations.</p>
-<p><u>The glory of autumn had <strong>withered</strong> and fallen</u>, its traces <strong><u>scatter</u></strong>ed about the surface of the lake. The wind came in short, <strong><u>erratic</u></strong> bursts, now blowing, now quiet. Violet wet one mechanical finger with the tip of her tongue and held it up to test the wind’s direction. Oscar watched her <strong>fretfully</strong>.</p>
-<p>Suddenly, Violet tensed. Her feet dug firmly into the ground with a <strong><u>crunch</u></strong>, and she turned to face Oscar bearing the slightest trace of a smile.</p>
-<p>“Worry not. I’ll see to it that everything goes precisely as you have hoped.”</p>
-<hr>
-<h1 id="C1P7"><a href="#C1P7" class="headerlink" title="[C1P7]"></a>[C1P7]</h1><p>As the last of those words rang clearly through the air, Violet began to move forward. There had been quite some distance between her and the lake, but in the blink of an eye, she had already passed before Oscar’s. She seemed to quite literally be moving as fast as the wind.</p>
-<p>At her final step before meeting the lake’s edge, the fleet-footed Auto Memories Doll kicked off with great force, <strong><u>gouging</u></strong> out marks in the earth where she had made this final escape from land. Her powerful legs lifted her unbelievably high into the air, and for a moment, it seemed as if she might just continue on her way up the stairway to heaven. Oscar’s mouth fell open as he observed her <strong><u>unworldly</u></strong> movements. Everything seemed to be happening in slow motion.</p>
-<p>On reaching the peak of her great leap, Violet raised her hand and the umbrella it had been holding high above her head. The <strong><u>canopy</u></strong> sprang open suddenly, like a flower blooming in the sky. The frills along its edge wavered <strong><u>enchantingly</u></strong>.</p>
-<p>As if on cue, the wind picked up again and swept Violet and her umbrella across the sky.</p>
-<p>The umbrella –and Violet’s skirt– <strong><u>billow</u></strong>ed gently while drifting downward. Here and there were flashes of white <strong><u>petticoat</u></strong>. At long last, the tip of Violet’s personal, <strong><u>meticulously</u></strong> kept lace-up boot touched gently against one leaf floating on the water.</p>
-<p>That moment. That instant. That single frame. The clear image burned into Oscar’s <strong><u>retinae</u></strong> with such precision it was as if he’d snapped a photograph after all. The arc of the umbrella, the fluttering of the skirt, the girl with her foot arched against the face of the lake. It was the work of a <strong><u>sorceress</u></strong>. To Oscar’s mind came the fateful day which had stopped his daughter’s heart, and the words his daughter had spoken to him then:</p>
-<p>“Someday.”</p>
-<p><em>Someday I’ll dance for you. On the lake, by our home now far away. When the leaves <strong>drift</strong> across the water in autumn.</em></p>
-<p>“Someday.”</p>
-<p><em>Someday I’ll dance for you.</em></p>
-<p>“Father.”</p>
-<p>That voice. Her voice. He thought he’d lost it long ago, but there it was, echoing through his mind. <em>You never knew it, but I’d wanted so badly to hear you call out to me. Another thousand times wouldn’t have been enough.</em></p>
-<p>“Someday I’ll dance for you.”</p>
-<p><em>“Father,” you’d say.</em></p>
-<p><em>In that sweet, frail voice.</em></p>
-<p>“Someday I’ll dance for you, Father.”</p>
-<p><em>Your voice was more soothing to my ears than any music.</em></p>
-<p>“Someday I’ll dance for you.”</p>
-<p><em>Yes, that’s just how it was. Just like that. With that voice. Trying in perfect innocence to bring a smile to my face. That’s how you said it.</em></p>
-<p><em>I’d forgotten your promise. I’d forgotten all about it. It’s been a long time–so very, very long–since I’ve been able to remember you. I’m so happy to see you again. To see you again… even if only as a dream. My darling. My daughter. My… My… …My one and only treasure, shared between my love and me.</em></p>
-<p><em>You must have known that you could never keep it. And yet you made your promise to me. That promise… your death… it <strong><u>withered</u></strong> me away into what I am now, and yet it let me live on. It stretched my life out this far. I <strong><u>stumbled</u></strong> onward, searching for a trace of you. And though I did so always full of regret, I have been granted this one instant. It is not you. But in that one instant, for me, she was you.</em></p>
-<p><em>One fleeting moment of <strong><u>serendipity</u></strong>, of reunion, of embrace. I’d wanted so badly to see this moment. Perhaps that is what kept me alive.</em></p>
-<p><em>You, whose name I had not even been able to <strong><u>mournfully</u></strong> whisper. I’d waited so long to see you. One more time, my darling. The last family left to me. Oh, how I’d waited. So long I had missed you. I loved you.</em></p>
-<p>Heavy with joy, he wanted to smile.</p>
-<p>“…Ohh… Ohh…” Only sobs escaped his lips.</p>
-<p>Tears streamed down Oscar’s face as if pushing themselves back into motion after having been frozen to a standstill.</p>
-<p>“…Ahhh… I can’t…”</p>
-<p>The tick-tock sound of a clock’s hands came to his ears. His newly <strong><u>thaw</u></strong>ed heart drummed loudly.</p>
-<p>“…so much… so much…”</p>
-<p>He raised his hands to cover his face and <strong><u>flinched</u></strong> when he found them to be full of wrinkles. How long had time been stopped for him since those two passed?</p>
-<p>“Oh, how I wish you hadn’t died…”</p>
-<p>He whispered in a voice mixed with sobs, his face a twisted mess.</p>
-<p>“That you’d stayed alive… stayed alive and grown up to be big…”</p>
-<p><em>I wanted to see you, grown into a beautiful young woman. I wanted to see you like that. I wanted to see it with my own eyes. Then I should have been the one to die first. Before you. In the end cared for by you. That’s how I should have wanted to die. Not me caring for you at your end. Not how we had it.</em></p>
-<p>“Oh, how I miss you…!”</p>
-<p>Oscar’s eyes overflowed with tears. They rolled down his cheeks before falling to the ground in large drops.</p>
-<p>And <u>into this tear-streaked world</u> <em>tore</em> the crashing sound of Violet sinking into the lake.</p>
-<p>Oscar’s brief, <u>glittering</u> moment went dark; just as quickly as it had returned, the sound of his daughter’s voice was lost to him once more.</p>
-<p>The image of her smile, too, fled from his mind like a soap bubble suddenly burst.</p>
-<p>Oscar had blocked out the world with the palms of his hands. Now he squeezed his eyes shut in further refusal. He tried desperately to cut off this world in which she was lost.</p>
-<p><em>Ah, it would be better for me to die here and now. No matter how long I mourn, they will never return. My heart, my breath, I beg of you to stop. My wife and my daughter are dead, and since they have left, life has been as death for me, too. So now, in this moment, I should like to have a bullet pierce me through.</em></p>
-<p><em>Like a flower, which can no longer live on once stripped of its <strong><u>petals</u></strong>. But this prayer repeated a hundred million times yet does not come true. I know, for already have I prayed a hundred million times.</em></p>
-<hr>
-<h1 id="C1P8"><a href="#C1P8" class="headerlink" title="[C1P8]"></a>[C1P8]</h1><p><em>Let me die. Let me die. Let me die. If you would leave me to live alone, rather I would die and be together. Not once had prayer alone brought blessings to him. Not even once!</em></p>
-<p>“Sir!”</p>
-<p>From the other side, from that shut out world, he heard a voice. It came from someone living in the same time as him. The voice was out of breath and drawing nearer.</p>
-<p><em>I’m… alive. I’m still alive. And with that life, I’m fighting to preserve, in some form, the ones I’ve loved and lost.</em></p>
-<p>Nothing is granted for prayer alone, but for Oscar, confronted by darkness which no light could pierce, to prayer was where he turned.</p>
-<p>“…O, God, please.”</p>
-<p><em>If I may not die now, then please, at least in the pages of my story, let that girl be happy. Let her be delighted by my tale. And let her be by my side. Let her be by my side for eternity. Even if only in that story. Even if as but an imaginary daughter. Please, let her be by my side.</em></p>
-<p>These things he had to beg.</p>
-<p>For in the meantime, his own life continued to stretch on.</p>
-<p>Oscar <strong><u>bawled</u></strong> in a manner <strong><u>unbecoming</u></strong> of his age. Before him appeared Violet, <strong><u>drenched</u></strong> head to toe after having dragged herself out of the lake. Water streamed off from her, and her carefully chosen outfit hung <strong><u>limp</u></strong> and ruined.</p>
-<p>But Violet herself seemed to be having more fun than she’d ever had before. One might have even thought the expression on her face worthy of being called a smile.</p>
-<p>“Were you able to see it? I believe it was three whole steps.”</p>
-<p><em>I couldn’t see anything for all the tears</em>, Oscar couldn’t bring himself to say.</p>
-<p>So instead, while trying to sniff away his running nose, he answered, “Yes.”</p>
-<p>“Yes, I saw you. Thank you, Violet Evergarden.”</p>
-<p>He uttered the words with heartfelt respect and gratitude.</p>
-<p>“Thank you for making my dream come true. Thank you. I feel as though I’ve witnessed a miracle. I do not believe there is a God, but if there is, surely it must be you.”</p>
-<p>Violet looked at him.</p>
-<p>“I am an Auto Memories Doll, sir.”</p>
-<p>She answered duly, neither denying nor affirming the existence of God.</p>
-<p>After that, Oscar drew a bath for Violet, who was completely drenched.</p>
-<p>She refused to show herself during meals. But every day she took a bath, and almost certainly she used the bedroom he was providing her to rest herself at night.</p>
-<p>She seemed very much human for being an <u>automaton</u>.</p>
-<p><em>Modern civilization is quite truly a wonder. And the advances of science are quite remarkable.</em></p>
-<p>It just wasn’t proper to let a girl sit around in wet clothes, even if she were mechanical. Having figured she’d need something to change into, Oscar picked up one of his own bathrobes, which he thought reasonably clean, and headed toward the bathroom. It had been so long since he’d had anyone else in the house using the bath that to knock on the door completely slipped his mind. He walked right in to find her not yet changed.</p>
-<p>“A… ah, s… so… rr… y? Huh?”</p>
-<p>Oscar was so overwhelmed he could hardly find words.</p>
-<p>“…What on earth?!”</p>
-<p>The image of the naked woman coursed through Oscar’s eyes. She was far more <strong><u>captivating</u></strong>, far more beautiful than any of the Renaissance <strong><u>nude</u></strong>s.</p>
-<p>Drips fell <strong><u>anew</u></strong> from her golden locks, these of bathwater. Her eyes sparkled that perfect blue which no brush would ever capture.</p>
-<p>Below them, her full lips, her delicate neck, her prominent <strong><u>collarbone</u></strong>, her round breasts, the feminine curves of her figure… In contrast, the artificial arms that extended from shoulder to fingertip on both sides of her body seemed alien, as if they’d just been stuck on.</p>
-<p>But everything else.</p>
-<p>Though covered in scars, every inch aside from those arms was clearly of flesh and blood.</p>
-<p>Every soft swell of her body told the story. This was no automaton, no doll–this was a human being. In the utter shock of his shattered beliefs, Oscar found his eyes scanning her naked form again and again.</p>
-<p>“…Sir.”</p>
-<p>Violet’s tone was harsh. Oscar, who had until now stood frozen in surprise with those eyes locked on her form, finally seemed to grasp the entirety of the situation he’d put himself in.</p>
-<p>“Ahhh! Aaaaaaaaahhhh! AaaaaaaaaaAaaaaaaahhh!!!”</p>
-<p>Ironically, after all this, the only scream to be heard came from Oscar himself.</p>
-<p>After all but emptying his lungs with the scream, Oscar, both red in the face and seemingly half to tears, demanded of Violet, “You were human all along?”</p>
-<p>Violet was wrapping a towel around herself as she answered. “Sir, you are really quite impossible.”</p>
-<p>As she uttered these words softly, with a slightly lowered gaze, there appeared the slightest touch of rose in her cheeks.</p>
-<p>“The Auto Memories Doll.”</p>
-<p>Some time had passed since that term was all the rage. The first one was created by Dr. Orlando, the world’s authority on automatons. It all began when his wife Molly, a novelist, complained of her clouding vision. Molly, having devoted most of her life to her words, was crestfallen as they faded away from her. Once reduced to blindness, it seemed as if her strength also was wasting away.</p>
-<p>Dr. Orlando could not bear to see his dear wife this way, and as such he devised the Auto Memories Doll. It was a contraption capable of recording a person’s spoken words: a “borrowed pen,” as it were.</p>
-<p>Some of Molly’s following works would even go on to win <strong><u>prestigious</u></strong> literary awards of worldwide renown. Dr. Holland’s invention was praised as an absolute necessity to the course of history. Though at the time he’d meant it merely as a creation for his dearest, his model quickly spread, and soon such dolls were acting to support myriad other people. Thus, Auto Memories Dolls became widely known, even available for rental at a modest price.</p>
-<p>…Add to that one more thing.</p>
-<p>People–living, breathing people–also worked as scribes, just like the Auto Memories Dolls. In fact, they even shared the same name:</p>
-<p>“Auto Memories Dolls.”</p>
-<p>Oscar first heard about it from his friend, after Violet’s departure. Apparently Violet was quite well-known across the industry.</p>
-<p>When Oscar revealed how he’d mistaken the woman for an automaton, his friend had had a great laugh. When the man finally contained himself, he looked at Oscar with an exasperated look on his face and said, “You really have been away from the world too long.”</p>
-<p>“Hah! A machine looking like that. Can you even imagine?”</p>
-<p>“How was I supposed to know? You all kept saying, ‘Automaton this, automaton that!’”</p>
-<p>“Our technology isn’t <em>that</em> far advanced. It’s just that we have ones that are actual automatons, too. They’re a bit more… <strong><u>quaint</u></strong> than Violet. Figured that wasn’t quite what an isolated shut-in like you needed. She doesn’t talk much, but she’s got some talent for fixing people up. Did a pretty good job with you, eh?”</p>
-<p>“…Yeah.”</p>
-<p>She was quiet, but yes. She was a very good girl.</p>
-<p>“Tell you what. I’ll send along another scribe to help you with your writing for the time being. The non-human kind this time. Just don’t expect anything <strong><u>on par with</u></strong> Violet Evergarden.”</p>
-<p>And, before long, a small package arrived at the lakeside house. Inside was a small doll, absolutely nothing like Violet Evergarden.</p>
-<p>It wore an adorable little dress and sat quietly on top of Oscar’s desk. It was a little typewriting automaton that recorded all of his words and put them down onto paper. Certainly a remarkable device.</p>
-<p>“Nothing like her, though.”</p>
-<p>Oscar smiled wryly. Staring <strong><u>blankly</u></strong> at his room, he felt as though he could just make out the face of the scribe now gone.</p>
-<p>“I miss you.” Had he said it aloud, he was sure her reply would come.</p>
-<p>“Simply impossible, sir.”</p>
-<p>In that clear, ringing voice.</p>
-<p>Her lips revealing the slightest trace of a smile on her otherwise straight face.</p>
-<p>Even without her at his side, he felt quite certain he could hear that voice.</p>
-]]></content>
-      <tags>
-        <tag>Violet Evergarden</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>植物图鉴</title>
     <url>/190421-shokubutsu-zukan/</url>
     <content><![CDATA[<p>第一章的植物是ヘクソカズラ。讲了独身女主河野さやか把男主いつき捡回家过上同居生活的日子。女主有钱，男主会整顿家务会做饭简直不能再完美好吧。男主属性可以期待发展。</p>
@@ -2872,38 +2010,6 @@
 ]]></content>
       <categories>
         <category>Book Report</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Tweet translation</title>
-    <url>/190329-tweet%20translation/</url>
-    <content><![CDATA[<p>When I first saw this tweet last night, I made up my mind to translate it.</p>
-<p><a href="https://mobile.twitter.com/akane29_o8o/status/1111281934288576514" target="_blank" rel="external">https://mobile.twitter.com/akane29_o8o/status/1111281934288576514</a></p>
-<blockquote>
-<p>考えすぎない<br>比べすぎない<br>無理はしない<br>君は君らしく。</p>
-</blockquote>
-<p>Simple words with deep love.</p>
-<hr>
-<blockquote>
-<p>non-pensively</p>
-<p>incomparably</p>
-<p>unexcessively</p>
-<p>EGOistically</p>
-</blockquote>
-<hr>
-<p>About 「考えすぎない」</p>
-<p>Searching for synonyms of ‘overthink’ but fail.</p>
-<p>Then get some inspiration from a forum: inordinately (over)contemplated (contemplative), pensive, introspective,</p>
-<hr>
-<p>Possible translation for the third word「無理」:</p>
-<p>unreasonable; unjust; impossible; unnatural; excessive; overwork</p>
-<p>Here personally prefer ‘excessive’</p>
-<hr>
-<p>Seems like I made up some new words lol</p>
-<p>translating is so hard.</p>
-]]></content>
-      <categories>
-        <category>translation</category>
       </categories>
   </entry>
   <entry>
@@ -3184,22 +2290,6 @@
 ]]></content>
       <categories>
         <category>Book Report</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Liz and blue bird</title>
-    <url>/190216-Liz-and-blue-bird/</url>
-    <content><![CDATA[<p>Liz and blue bird</p>
-<p>Which one of the two girls is actually Liz and which one is blue bird? It also happens in real life. Sometimes we think of ourselves to limit others. However, it is we ourselves that  build up the wall in our soul.</p>
-<p>The relationship between girls is hard to figure out its insight. There is too much hidden inside the easily-broken heart, albeit everything shows on the unintentional reaction and emotion.</p>
-<p>Violet Evergarden</p>
-<p>First attracted by its name. I was not good at memorizing the name of characters, esp. when it’s of katakana(foreigner’s name). But since the personality in this animation is clear, and the main story goes smoothly, I had no trouble dealing with them.</p>
-<p>Heroine Violet live from the love from Shousa. Shousa saved her life, gave her the beautiful name, Violet, treated her as a real person instead of a war machine, and most tragically, sacrificed his own life in the hope of a better life for her.</p>
-<p>I actually cried in the plot of Ann’s mother <em>send</em> a letter to Ann on her birthday every year. </p>
-<p>Some comments say that Violet looks like Saber with mechanic arm. To a certain degree I agree to this idea, but we should know that they have thoroughly different background and personality. </p>
-]]></content>
-      <categories>
-        <category>Movie Report</category>
       </categories>
   </entry>
   <entry>
