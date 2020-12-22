@@ -1,6 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>留德十年</title>
+    <url>/201222-ten-years-in-germany/</url>
+    <content><![CDATA[<p>这两天读完了季羡林先生的留德十年，略有感想。</p>
+<h1 id="语言的学习和研究"><a href="#语言的学习和研究" class="headerlink" title="语言的学习和研究"></a>语言的学习和研究</h1><p>以后养老退休的时候，我最想做的事情或许就是对文字——尤其是人说的话——进行研究。语言真的很神奇，人的情感用一两个字的差距就截然不同。 <del>毕竟我也是在高考志愿里面填了若干个语言专业的。</del></p>
+<p>但是和季羡林先生比起来，或许我想做的也算不上什么学问了。先生学习梵文和吐火罗文，对经典进行翻译补全，最重要的是从印度学和汉学中找到一串钥匙，打通两个世界的大门，这是对文化的研究了。因为语言是体现人的思想，宗教经典体现了宗教甚至国家观点，所以这背后的历史才是重点。</p>
+<h1 id="战争"><a href="#战争" class="headerlink" title="战争"></a>战争</h1><p>文中描写了二战时期的德国，本来以为会是许多恐惧和混乱，但是季先生笔下的哥廷根似乎是乱世中平静的一隅。虽说不知道有没有代表性，但是这很让人反省当下的混乱世界。</p>
+<h1 id="人"><a href="#人" class="headerlink" title="人"></a>人</h1><p>让我两天对这本书爱不释手并且一口气读完的可能就是文中描写的人们，友善的女房东，热爱毕生所学的和善教授，知音朋友，西伯利亚火车上的活泼的波兰女孩wala，几个例子就让人跃然纸上，仿佛自己也置身于哥廷根。</p>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>201218-knowledge-roadmap-of-chemical-engineering</title>
+    <url>/201218-knowledge-roadmap-of-chemical-engineering/</url>
+    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>The purpose of this article are as follows</p>
+<ol>
+<li>to provide a basic roadmap to the undergraduate students who are interested in, or currently taking chemical engineering program, but still not sure about what they will learn in the future.</li>
+<li>to give some insight of all the knowledge I have learned so far, and show the implicit connection.</li>
+</ol>
+<p>All the content are based on my own experience of the program I have been taking and there might be some mistakes and (many) typos. It might be partially representative but hope it helps a bit:)</p>
+<h1 id="What-major-courses-are-included-in-Chemical-Engineering-Program"><a href="#What-major-courses-are-included-in-Chemical-Engineering-Program" class="headerlink" title="What major courses are included in Chemical Engineering Program"></a>What major courses are included in Chemical Engineering Program</h1><p>Here we exclude some courses that are provided and shared by other program (e.g. Calculus, Organic Chemistry, Analytical Chemistry, etc.) but focus on the particular chemical engineering programs.</p>
+<p>The courses in the program I have taken are listed here</p>
+<blockquote>
+<p>Process and Product Design Principles</p>
+<p>Thermodynamics</p>
+<p>Fluid Mechanics (or Transport Phenomena I)</p>
+<p>Separation Process (or Unit Operation)</p>
+<p>Heat and Mass Transfer (or Transport Phenomena II)</p>
+<p>Process Control and Dynamics</p>
+<p>Chemical Reaction Engineering and Kinetics</p>
+<p>Process Design and Integration</p>
+<p>Plant Design and Economics</p>
+</blockquote>
+<h1 id="Introduction-and-personal-insight-to-each-course"><a href="#Introduction-and-personal-insight-to-each-course" class="headerlink" title="Introduction and personal insight to each course"></a>Introduction and personal insight to each course</h1><p>All the content can be simplified into four character 三传一反 <em>(Three Transport - Heat, Mass and Momentum, and One Reaction - Kinetics)</em></p>
+<h2 id="Part-1-Introductory-courses"><a href="#Part-1-Introductory-courses" class="headerlink" title="Part 1. Introductory courses"></a>Part 1. Introductory courses</h2><p>Before admitted to an chemical engineering program, one might first take an introductory course about it. The introductory course I took it mainly introduced mole/mass balance, some basic thermodynamics and diffusion. </p>
+<p><em>Process and Product Design Principles</em>, however, is again an introductory course, only introducing mass and energy balance (maybe a bit more complicated). <del>Actually nothing much interesting</del></p>
+<hr>
+<h2 id="Part-2-Chemical-Engineering-Principles"><a href="#Part-2-Chemical-Engineering-Principles" class="headerlink" title="Part 2.  Chemical Engineering Principles"></a>Part 2.  Chemical Engineering Principles</h2><p><em>World Ruled by Laws of Thermo</em></p>
+<p>The following courses can be explained in series because they are centered at Thermodynamics.</p>
+<p><strong><em>Thermodynamics</em></strong> is some knowledge from physical chemistry and mechanic engineering - but interpreted by chemical engineer for better application. Before reading the material, keep in heart that ‘We are doing all these for engineering purpose’ - which means some terms are actually designed for convenience instead of anything else. Rather than trying to grab everything in brain by first glance, use it and apply it.</p>
+<p>The four laws for thermodynamics rule the world, while the first and second law rule your academic life.</p>
+<p>First Law is <u>conversation</u>, or in short, <u>balance</u>, which we use everywhere. It can be applied for mass, heat and momentum.</p>
+<p>Second Law on the other hand, give a <u>direction</u> in time about how it will progress in the following time - it tells that the world prefer chaos more. </p>
+<p>The two laws together provide fundamentals to all the physical method for the following courses.</p>
+<p>By the way, here are a twins of concepts that may be confusing - enthalpy and entropy. </p>
+<p>Enthalpy is a measurement of heat. But different from internal energy, which is also a measurement of heat, enthalpy is more convenient. <em>Why? The course will give the answer</em></p>
+<p>Entropy on the other hand is a measurement of chaos, and all spontaneous events tend to increase the entropy. Higher entropy means stable and comfortable for molecules(if one is good enough, then the boss will not push him) and reduced disability to change (you know, everyone, every single molecule, are substantially lazy).</p>
+<p><em>For more detailed interpretation of thermodynamics, please check <a href="https://dori-min.github.io/archieve/200513-Thermodynamics/">my notes</a> here (Some Chinese included)</em></p>
+<hr>
+<p><strong><em>Fluid Mechanics</em></strong> and <strong><em>Heat and Mass Transfer</em></strong> are the two courses where we describe how we transfer heat, mass and momentum to the place we want by applying the first and second law of thermodynamics.</p>
+<p>For the first law, we usually write in the form of:</p>
+<script type="math/tex; mode=display">
+ACCUMULATION=IN-OUT+GENERATION</script><p>By the way, <u>steady state</u>, which we usually assume to be true in the following courses, means no ACCUMULATION with time passing, but there might be IN or OUT.</p>
+<p>The most representative expression is <u>Reynold Transport Theorem</u> but most famous one is <u>Bernoulli Equation</u>. For more about fluid mechanics, please check this note(to be added).</p>
+<p>The expression can be extremely complicated, since we have to use many fancy integration. If we are to simplify all the complicated terms and give a lot of smart assumptions, we come to this expression of conservation (take energy/heat as an example)</p>
+<script type="math/tex; mode=display">
+\frac{\partial T}{\partial t} = \alpha \triangledown^2T+\frac{\dot{q}}{\rho c}</script><p>The inversed triangle is called Laplace operator, which we might have learned in multivariable calculus. But we are not going to detail. The only thing is, it gives the <u>spatial distribution</u>. While the $\frac{\partial T}{\partial t} $ term gives <u>time axis</u>. $\frac{\dot{q}}{\rho c}$ indicates <u>external forces</u>.</p>
+<p>It is like we are given a Google Map App, it gives every location, but we need to decide the starting point and ending point (or even passing by point), which are called <u>boundary conditions</u>. Only in this way we can figure out our route.</p>
+<p>When it comes to Second Laws, wait, we don’t  want to always deal with the abstract <em>entropy</em>, but we want to know the direction and trend of changing, so here it comes:</p>
+<script type="math/tex; mode=display">
+Flux = - \frac{Driving\ Force}{Resistance}</script><p>Driving Force is the difference in temperature or concentration. Again, the world wants to homogenize all the things, so it struggle to remove every deviation. Any difference provides potential of changing, while uniform things remain uniform.</p>
+<p>Resistance is something quite real. Everything cannot move on that fast and hasty, just like our lives are full of various challenges. Resistance is there is slow down the transport.</p>
+<p>Flux is a vector (always perpendicular to the surface). It answers the magnitude and direction of the changing. </p>
+<ul>
+<li>Direction - Combined with second law we can reason that lower temp/conc are of higher entropy, second low prefer higher entropy, so it flows from higher to lower temp/conc.</li>
+<li>Magnitude - The larger the temp/conc difference, the faster the flux</li>
+</ul>
+<p>While the driving forces can be determined by differentiate the distribution, we can get everything we want.</p>
+<p>Back to our Map analogy, the driving force is when we hurry to school/work, and resistance is delaying buses. We obtain the ‘flux’, giving the <u>direction and velocity</u> (and thus the time) needed for the transport. We are now confident to get to anywhere throughout the world.</p>
+<hr>
+<p><strong><em>Separation Process</em></strong> </p>
+<p>We looked from a typically specific and very useful aspect - separation. Namely we have a mixture and we want to disjoin them. How can we separate things? We can base separation on </p>
+<ul>
+<li>size/density(centrifugation, filtering), </li>
+<li><strong>boiling point(evaporation and distillation),</strong> </li>
+<li><strong>solubility(absorption, extraction),</strong> </li>
+<li><strong>diffusivity(membrane separation),</strong></li>
+<li>etc.</li>
+</ul>
+<p>Before we have advanced separation techniques, we just put our mixture there, look up the properties that they have most significant difference, then apply corresponding method. </p>
+<p>We know that our total input should equals to our total output - that is again first law.</p>
+<p>We know that mixture - with high entropy - is already stable and seem not to separate automatically, so external force (like heat or absorbent) are added to perturb the (relative) quiescence. The unhappy components are trying to make themselves most comfortable, so given enough time, they move to another state different from initial state. This progress is actually so-called separation. And every process molecules struggle to find the comfortable state is again based on second law.</p>
+<p>If the process is conducted once, then it is called <u>simple stage separation</u>, which is simple but due to insufficient external forces. If we keep adding force and push them continuously, here comes <u>multi-stage separation</u>, which is more efficient.</p>
+<p>We can calculate everything, but for multi-stage, it is very complicated, since we have tons of first law and second law to solve. How to solve them in the easiest way. What’s more, how many stages do we need economically? </p>
+<p>The answer is graphical method - or <u>Mccabe-thesis method</u>.</p>
+<p>It is a graphical method to decide the optimal number of stages and configurations of all stages. The procedure is surprisingly simple - drawing zig-zag between operation line and equilibrium line.</p>
+<p>Operation line is obtained from mass balance - again here, first law of thermo. Equilibrium line is collected from experiments but theoretically based on second law. Then we are ruled by these two laws again.</p>
+<p>Before computers applied in industry, the most efficient approach is graphical method. Draw straight lines, read numbers or measure the length. It sounds simple, but saving tons of time and draft paper.</p>
+<hr>
+<p><strong><em>Chemical Reaction Engineering and Kinetics</em></strong></p>
+<p>Chemical engineering is originated but deviated from mechanical engineering, where whether chemical reactions takes place.</p>
+<p>tbc….</p>
+<h2 id="Part-3-Applications-and-Practices"><a href="#Part-3-Applications-and-Practices" class="headerlink" title="Part 3. Applications and Practices"></a>Part 3. Applications and Practices</h2><p><em>Process Control and Dynamics</em> </p>
+<p><em>Process Design and Integration(to be completed after finish this course)</em> </p>
+<p><em>Plant Design and Economics</em></p>
+<h2 id="Part-4-Electives"><a href="#Part-4-Electives" class="headerlink" title="Part 4. Electives"></a>Part 4. Electives</h2><p><em>Modeling</em></p>
+<p><em>Bioproduct and bioprocessing</em></p>
+]]></content>
+      <categories>
+        <category>Lecture Notes</category>
+      </categories>
+      <tags>
+        <tag>Chemical Engineering</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>How to answer &#39;Tell me about yourself&#39;</title>
     <url>/archieve/201019-lecture-tell-me-about-yourself/</url>
     <content><![CDATA[<h1 id="Why-they-ask-the-question"><a href="#Why-they-ask-the-question" class="headerlink" title="Why they ask the question"></a>Why they ask the question</h1><ol>
@@ -59,37 +166,6 @@
       <categories>
         <category>Lecture Note</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Injection Molding Platform</title>
-    <url>/archieve/200910-injection-molding-platform/</url>
-    <content><![CDATA[<h1 id="To-dos"><a href="#To-dos" class="headerlink" title="To-dos"></a>To-dos</h1><h2 id="app"><a href="#app" class="headerlink" title="app"></a>app</h2><ul>
-<li>[ ] all page design</li>
-<li>[ ] request information from server and database</li>
-</ul>
-<h2 id="database-amp-PHP"><a href="#database-amp-PHP" class="headerlink" title="database&amp;PHP"></a>database&amp;PHP</h2><ul>
-<li>[ ] basic learning</li>
-<li>[ ] datatype setting</li>
-</ul>
-<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><h2 id="WeChat-Mini-app"><a href="#WeChat-Mini-app" class="headerlink" title="WeChat Mini app"></a>WeChat Mini app</h2><p><strong><a href="https://www.w3cschool.cn/weixinapp/" target="_blank" rel="external">Official Documents</a></strong></p>
-<p><a href="https://blog.csdn.net/qq_26230421/article/details/94588674" target="_blank" rel="external">Preview images</a></p>
-<p><a href="https://blog.csdn.net/yytfjtyphoon/article/details/98189022" target="_blank" rel="external">read local text</a></p>
-<p><a href="https://developers.weixin.qq.com/minigame/dev/wxcloud/guide/database/add.html" target="_blank" rel="external">request information from sql</a> </p>
-<p><a href="https://cloud.tencent.com/developer/article/1380912" target="_blank" rel="external">another</a> </p>
-<p><a href="https://www.it120.cc/" target="_blank" rel="external">API factory</a></p>
-<p><a href="https://www.bilibili.com/video/BV1nE41117BQ" target="_blank" rel="external">Video tutorial</a></p>
-<h2 id="Learning"><a href="#Learning" class="headerlink" title="Learning"></a>Learning</h2><h3 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h3><p><a href="https://www.w3cschool.cn/javascript/js-output.html" target="_blank" rel="external">https://www.w3cschool.cn/javascript/js-output.html</a></p>
-<p><a href="https://www.w3cschool.cn/codecamp/list?pename=basic_javascript_camp" target="_blank" rel="external">https://www.w3cschool.cn/codecamp/list?pename=basic_javascript_camp</a></p>
-<h3 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h3><p><a href="https://www.w3cschool.cn/sql/sql-rcn831s0.html" target="_blank" rel="external">https://www.w3cschool.cn/sql/sql-rcn831s0.html</a></p>
-<h2 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a>PHP</h2><p><a href="https://blog.csdn.net/qq_36784628/article/details/106086034" target="_blank" rel="external">PHP notes</a></p>
-<blockquote>
-<p>REQUEST_METHOD</p>
-<p>GET 是从服务器获取数据<br>POST 向服务器发送所需要处理的数据<br>HEAD 获取与GET方法相应的头部信息<br>PUT 更新或者替换一个现有的资源<br>DELETE 删除一个服务器上的资源<br>TRACE 对传到服务器上的头部信息进行追踪<br>OPTION 获取该服务器支持的获取资源的http方法</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>Internet</tag>
-      </tags>
   </entry>
   <entry>
     <title>语基与语法整理</title>
@@ -171,43 +247,6 @@
       <tags>
         <tag>Korean</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>异度之刃决定版通关有感</title>
-    <url>/archieve/200627-Xenoblade-definitive-version/</url>
-    <content><![CDATA[<p><strong>（还没有开始相连的未来，大量剧透）</strong></p>
-<p>2020年真是JRPG文艺复兴的一年，先有FF7REMAKE第一章，再有异度之刃在ns上的复刻。异度之刃作为游戏本身是很优秀的，其中有不少有趣的成分引人入胜。</p>
-<p><strong>全部都是我非常个人的主观的解读。</strong></p>
-<h1 id="有趣的概念"><a href="#有趣的概念" class="headerlink" title="有趣的概念"></a>有趣的概念</h1><h2 id="双神与世界起源。"><a href="#双神与世界起源。" class="headerlink" title="双神与世界起源。"></a>双神与世界起源。</h2><p>巨神vs机神对应的自然文明（农耕文明）vs工业文明之间的对抗，仿佛对应的现代社会两种文明之间的互斥。游戏里巨神一刀斩了机神。但是游戏里面这两种文明是并列的，不分先后的（但是机神界是更加发达的），而现实中，工业是农业发展之后的产物，是有明显的生产力发展先后顺序的。</p>
-<h2 id="站在神的肩膀上"><a href="#站在神的肩膀上" class="headerlink" title="站在神的肩膀上"></a>站在神的肩膀上</h2><p>传统的游戏是二维铺开的，而异度之刃的地图设定在两神的身上，这点特别有趣。既把所有地图立体地结合在了一起，又能在不同地方看到两神不一样的景观，在坠落巨腕和机神界隔离墙外面可以看到很多两神的模样，有种真正的“我站在神的身上”的感觉。</p>
-<h2 id="以太与摩纳多"><a href="#以太与摩纳多" class="headerlink" title="以太与摩纳多"></a>以太与摩纳多</h2><p>以太这个概念其实不陌生。在化学的角度来说，有机化学刚刚开始发展的时候，人们不明白人体有机物发生特定生化反应的机理如何，所以认为有机物是有一种特殊的“生命力”才能促使反应进行的，这种“生命力”就命名为以太。也有说以太是电磁波传递媒介的说法。虽然这个观点早就过时了，但是“以太”一词里面包含着一种神秘的生命力，而摩纳多神剑就是所有以太的controller。</p>
-<p>梅纳斯献身的时候，所有的力量都进入了摩纳多，这种武器里面蕴含巨大能量和灵魂的设定在很多作品也看见过。</p>
-<h2 id="记忆空间与宇宙与计算机"><a href="#记忆空间与宇宙与计算机" class="headerlink" title="记忆空间与宇宙与计算机"></a>记忆空间与宇宙与计算机</h2><p>游戏的最后一个场景——记忆空间是在宇宙中进行的，这一点就把人从两神的传说拉回现实一般，最后解释了所谓世界的起源就是科学家克劳斯编程出来的创世计划，这个世界本没有神。</p>
-<p>真实存在的宇宙、木星、月亮、飞船和游戏中的两神世界通过计算机（阿尔维斯）结合在一起，有点像柯南的贝克街的亡灵的感觉。破次元的设定到最后让人恍然大悟。</p>
-<p>宇宙这个概念真的很酷，其中的浩瀚与神秘或许也是诸多宇宙探险电影火爆的原因。</p>
-<h2 id="霍姆斯、海恩塔、诺彭"><a href="#霍姆斯、海恩塔、诺彭" class="headerlink" title="霍姆斯、海恩塔、诺彭"></a>霍姆斯、海恩塔、诺彭</h2><p>所有海恩塔最后都会变成特雷西亚，而霍姆斯不会，所以老国王想要“稀释”这部分的基因，所以才立储梅莉亚。虽然说海恩塔脑袋上有翅膀而且活得长，但是从最后会变成特雷西亚的这点来，海恩塔没有霍姆斯“高级”（而且霍姆斯可以变成“费斯”操纵机神兵，但是不知道海恩塔可不可以）。</p>
-<p><em>如果用人的生物学解释，其实这样做似乎并不是很合理，如果是像人一样一对一对染色体，假设变特蕾西亚是显性基因，那么只能基因突变，外部刺激或许比杂交来的有效多了；假设变特蕾西亚是隐性基因，和霍姆斯杂交的话，那么霍姆斯不会变特蕾西亚就是显性，那杂交一代，后面一直和霍姆斯交配就好了。当然如果多倍体另当别论，那需要杂交的次数多就没话说。（突然困惑）</em></p>
-<p>这三个种族的聚集状态也特别有意思。霍姆斯是分散在殖民地里面，有士兵和军队，感觉是类似小城邦（连邦）文明；诺彭集中在原始林的边境村，有村长，村内联系紧密（力奇出来冒险的时候全村人砸他），但是从随处可见的诺彭商会来说，看得出来有很发达的商业文明；海恩塔则是帝国文明，有王位和继承，有比较发达的科技（各种传送塔、飞行器)。</p>
-<p>彭诺千年，海恩塔万年，他们看到的人生与变化是多么纷繁啊。</p>
-<p>顺带一提的是机神界隐居人村的感觉其实和殖6差不多。</p>
-<h1 id="广阔的地图"><a href="#广阔的地图" class="headerlink" title="广阔的地图"></a>广阔的地图</h1><p>异度之刃的地图一直都是一个亮点，但是没有导航就原地去世。</p>
-<p>殖民地9就仿佛一个真实的小镇，人们来去熙攘；巨神脚的广阔草原与奔跑的野马；还有最美丽的夜景——磷光之地、雪山、艾尔特海。</p>
-<p>让人感受到压力的机神界地图，就感觉像近代大工厂给人的感觉，冷酷压抑又令人窒息。不喜欢机神界的另外一个原因就是路太小了，机神兵又很大个子，有时候走位会卡住。</p>
-<p>有点恶心的令人颤抖的巨神胎内，紫色的光芒，黏糊糊的心脏，还有毛茸茸的地面，随处可见的血。</p>
-<p>监狱岛是很特别的一个地方，有一股神庙（竞技场部分）和哥特（外型）结合的感觉。</p>
-<h1 id="有深度的系统"><a href="#有深度的系统" class="headerlink" title="有深度的系统"></a>有深度的系统</h1><p>任务系统、战斗系统、宝石系统、羁绊系统，每个都可以搞上三天三夜。</p>
-<hr>
-<p><em>200916</em></p>
-<p>通关之后大概两个月，殖民地6复兴100%，五个区域好感五星，打过105。</p>
-<p>每一个NPC都有一段或长或短、或直接或曲折的故事。</p>
-<p>让我耿耿于怀的一个NPC，是在坠落巨臂食指的那个人，他要我去找天使之泪送给喜欢的人，天使之泪要在雷雨天气的食指指尖的天涯才有，但是有一只九十几级的巨龙白天在那里，当时四十级的我肯定不敢接近，刷了几十次天气才刷出来雷雨夜。</p>
-<p>但是当时可能着急通关，没有回去NPC查任务，应该后续还有一个限时任务是把天使之泪送给她，但是我没有做。</p>
-<p>于是，几十个小时的游戏后，在殖民地6接到了要找精力茄子的任务，找来来去找不到这个能给我精力茄子的NPC，才发现因为错过了这个限时任务，除非二周目，不然永远找不到她了。</p>
-<p>我再去食指的海边，那个人孤独地坐在那里，好在旁边有个荷姆斯经常安慰他。</p>
-<p>可是安慰也没用，我没去救她，她回不来的。</p>
-<p>包括很多二选一而支线任务。海恩塔的银一家，因为当时选择了邀请妹妹安到殖民地6，所以姐姐只能永远在磷光之地的姐妹石像下。</p>
-<p>这就是选择，人生充满选择。</p>
-]]></content>
   </entry>
   <entry>
     <title>日本語で韓国語を学ぶ</title>
@@ -1225,7 +1264,7 @@
 <p>但是，我们生活中哪里有那么多孤立系统，那没办法，对于open system，只好把inflow和outflow带来的熵变、还有所研究的系统以外的整个宇宙的熵变也考虑进去，这样我们才能算出来系统的熵变。</p>
 <p>关于system本身的熵变，可以假设system进行的是reversible(in this case, quasi-static)的过程，这样 就可以用W=PV计算功，再假设ideal gas，U也可以算出来，就可以算出Q，就可以算出S。</p>
 <p>这个时候就要考虑到系统以外的整个宇宙——也就是所谓的环境，对于系统来说也就是reservoir——的熵变。直接算是不可能的，因为公式里的$\delta Q$ 得要用 $d\underline{U}$ 算吧，$d\underline{U}=NC_VdT$，对那么大的环境（宇宙）来说，$N\rightarrow \infty, dT\rightarrow 0$，没有办法直接算。<br>所以看系统给环境多少Q。<br>但是系统算 $Q$ 是我们假设reversible了，但是环境我们怎么知道是不是reversible呢。于是这里在note里定义了环境是mechanical reversible，这样就可以保证系统的 $Q$ 可以代进去算了。</p>
-<p>至于inflow和outflow，就分别算$S<em>{in}n</em>{in}, S<em>{out}n</em>{out}$就好了<em>（题目会给）（装死.jpg）</em></p>
+<p>至于inflow和outflow，就分别算$S<em>{in}n</em>{in}$, $S<em>{out}n</em>{out}$就好了<em>（题目会给）（装死.jpg）</em></p>
 <h2 id="Exergy"><a href="#Exergy" class="headerlink" title="Exergy"></a>Exergy</h2><p>让我们先回到卡诺热机，为什么会有这个天花板在？有人就提出了，能量不仅有多少（量）也是有优劣（质）的。</p>
 <blockquote>
 <p>能量“质”的指标是根据它的做功能力来判断的，因此，可以根据能量转换能力将能量分为三种来行。</p>
@@ -1265,7 +1304,7 @@
 <p>（还有一个就是我们之前定义的三个equilibrium在这里终于派上用场！其实我们想要的就是N平衡也就是diffusional equilibrium）</p>
 <p>By the way we learn to read those complicated thermodynamics diagram. Mainly, P-T and P-V diagrams.</p>
 <h1 id="Mixture"><a href="#Mixture" class="headerlink" title="Mixture"></a>Mixture</h1><p>For <strong><u>mixture</u></strong>, we (1) define  $x_i, y_i$ for liquid and gas components respectively, and (2)develop another idealized model called ideal gas mixture. (3)Since the properties are not same each part of the mixture, we finally need to turn to <u>extensive properties</u>. We compare the <u>fundamental equations</u> we derive for extensive properties and those for intensive ones, we found that they are different by  $(U+PV-TS)dN$. We call molar $U+PV-TS$ by <u>Chemical potential</u><em>(we will explain what does it physically mean later)</em> Now we can express extensive properties with chemical potential, which is more convenient.</p>
-<p>Then, <u>how to find chemical potential for different states</u>.<br>We know that we can express it in U, G, A etc, holding different variable constant. In real situation, it is easiest for us to hold T and P constant (so we choose G), correspondingly, we can express chemical potential of ideal gas as $\mu^{ig}<em>{i} = G</em>{i}^{ig}+RTln(y_i)$ and similar form for ideal solution.<br>For gases, we have residual properties to compensate the difference from ideal gas. Similarly, for liquid, we have <u>excess properties</u> to compensate the difference from ideal solution.</p>
+<p>Then, <u>how to find chemical potential for different states</u>.<br>We know that we can express it in U, G, A etc, holding different variable constant. In real situation, it is easiest for us to hold T and P constant (so we choose G), correspondingly, we can express chemical potential of ideal gas as $ \mu^{ig}<em>{i} = G</em>{i}^{ig} + RTln(y_i) $ and similar form for ideal solution.<br>For gases, we have residual properties to compensate the difference from ideal gas. Similarly, for liquid, we have <u>excess properties</u> to compensate the difference from ideal solution.</p>
 <p>Finally, we are able to determine the properties of components of mixtures.</p>
 <p>Before ending, we will discuss about the physical meaning of chemical potential. In lecture notes, it write like this</p>
 <blockquote>
@@ -1325,61 +1364,6 @@
 ]]></content>
       <categories>
         <category>Lecture Note</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Internet 101</title>
-    <url>/archieve/200315-Khan-Acadamy-Internet101/</url>
-    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
-<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
-<li>data are divided in to Packets </li>
-<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
-<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
-</ol>
-<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
-<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
-<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
-<li>PC requests additional data(images,videos etc) that included in HTML </li>
-<li>Cookies are used to remember user information </li>
-<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
-<li>Servers need digital certificate to establish secured connection. </li>
-</ol>
-<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
-<p>Hackers’ methods: </p>
-<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
-]]></content>
-      <categories>
-        <category>Video Report</category>
-      </categories>
-      <tags>
-        <tag>Internet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Pocket World in Figures 2019</title>
-    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
-    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
-<blockquote>
-<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
-</blockquote>
-<p>top consumers are </p>
-<blockquote>
-<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
-</blockquote>
-<hr>
-<p>top producers and consumers ranking are the same </p>
-<blockquote>
-<p>1 US 2 China 3 EU28 4 Brazil</p>
-</blockquote>
-<hr>
-<p>Foreign direct investment 2016(million) </p>
-<blockquote>
-<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
-<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Book Report</category>
       </categories>
   </entry>
   <entry>
@@ -1449,11 +1433,65 @@
       </categories>
   </entry>
   <entry>
+    <title>Pocket World in Figures 2019</title>
+    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
+    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
+<blockquote>
+<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
+</blockquote>
+<p>top consumers are </p>
+<blockquote>
+<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
+</blockquote>
+<hr>
+<p>top producers and consumers ranking are the same </p>
+<blockquote>
+<p>1 US 2 China 3 EU28 4 Brazil</p>
+</blockquote>
+<hr>
+<p>Foreign direct investment 2016(million) </p>
+<blockquote>
+<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
+<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Internet 101</title>
+    <url>/archieve/200315-Khan-Acadamy-Internet101/</url>
+    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
+<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
+<li>data are divided in to Packets </li>
+<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
+<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
+</ol>
+<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
+<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
+<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
+<li>PC requests additional data(images,videos etc) that included in HTML </li>
+<li>Cookies are used to remember user information </li>
+<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
+<li>Servers need digital certificate to establish secured connection. </li>
+</ol>
+<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
+<p>Hackers’ methods: </p>
+<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
+]]></content>
+      <categories>
+        <category>Video Report</category>
+      </categories>
+      <tags>
+        <tag>Internet</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>My Online Bookmark</title>
     <url>/200229-online-bookmark/</url>
     <content><![CDATA[<p>Too many bookmarks saved in chrome bookmarks.</p>
 <p>Some are useful but not used for a long time.(i.e. less than once a week) In case I couldn’t find them after words, I am going to save them here.</p>
-<p>Last Updated: 200229</p>
 <h1 id="Ebooks"><a href="#Ebooks" class="headerlink" title="Ebooks"></a>Ebooks</h1><p><a href="http://www.haodoo.net/?M=hd&amp;P=welcome" target="_blank" rel="external">好读（繁中）</a></p>
 <p><a href="https://zh.wikibooks.org/wiki/Subject:%E7%B4%A2%E5%BC%95" target="_blank" rel="external">Subject:索引</a></p>
 <p><a href="https://kgbook.com/" target="_blank" rel="external">苦瓜书盘</a></p>
@@ -1503,6 +1541,9 @@
 <p><a href="http://www.papertime.cn/" target="_blank" rel="external">PaperTime论文时间</a></p>
 <p><a href="https://www.duplichecker.com/#opennewwindow" target="_blank" rel="external">Plagiarism checker Tool - 100% Free, Accurate and Immediate - DupliChecker</a></p>
 <p><a href="https://www.scribbr.com/apa-citation-generator/" target="_blank" rel="external">Free APA Citation Generator with APA Style Guide (No Ads)</a></p>
+<h1 id="SNS"><a href="#SNS" class="headerlink" title="SNS"></a>SNS</h1><p>(twitter)<a href="https://gab.com/" target="_blank" rel="external">Gab</a></p>
+<p>(twitter)<a href="https://parler.com/auth/access" target="_blank" rel="external">Parler</a></p>
+<p>(fb)<a href="https://mewe.com/" target="_blank" rel="external">MeWe</a></p>
 <h1 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h1><p>[Drama/music]<a href="http://www.btbtt.us/forum-index-fid-953-page-1.htm" target="_blank" rel="external">bt音乐下载</a></p>
 <p><a href="https://portableapps.com/" target="_blank" rel="external">PortableApps.com - Portable software for USB, portable, and cloud drives</a></p>
 <p><a href="https://tool.lu/urlconvert/" target="_blank" rel="external">下载地址链接转换工具 - 在线工具</a></p>
@@ -1639,30 +1680,6 @@
       </categories>
   </entry>
   <entry>
-    <title>How we go on</title>
-    <url>/archieve/191112-how-we-go-on/</url>
-    <content><![CDATA[<p>又名<strong>清水湾之殇</strong>。</p>
-<hr>
-<p>最近的事情本来应该不对我的正常生活造成影响，但是五天的“小长假”的的确确让我感受到了波及。</p>
-<p>首先关于所谓的正义和真相，我选择避而不谈。首先这种非物质的概念，我觉得是没有准确定义的。正在huma堂死磕以justice为主题的essay的我，在挣扎中也似乎感受到了一点prof的用心。而所谓真相，我觉得在这个媒体世界里是可遇不可求的东西，我曾经相信过一定会存在，但是马红事件又让我感慨颇深，有所改观，所以我更愿意相信<strong>“所有的真相都有立场”</strong>的观点。就像芥川龙之介的笔下一样，面对一个有政治色彩的事件，不同角度的人难以有所谓客观。就算是处于事件之外的人，也不可能没有自己的立场，不可能有绝对的中立，<strong>一切都代表着利益</strong>。</p>
-<p>这sem刚开学的时候，刚好在读《factfulness》，其中谈到了fear instinct。我颇以为然，并且认同社会状况是由这种普遍的fear instinct引起的。在十月之前我都抱有这样的态度。</p>
-<p>但是我错了。</p>
-<p>这不是单纯的fear instinct能够带来的结果。</p>
-<p>这背后复杂的政治、经济、文化原因当然是占据主导地位的。我贫乏的历史知识告诉我，一切的根本都是经济原因。但是偏偏这里经济并不是能被简单地化解的问题，这一点的比喻可以参考韩国。</p>
-<hr>
-<p>对我所处环境的影响直接发生在事件之后。</p>
-<p>虽然从开学以来每天晚上十点的口号已然是家常便饭，海报和文宣也倒是不看则罢。密尔说，捍卫言论自由，但是不得伤害他人。</p>
-<p>在PKU听法学院饶戈平教授的讲座的时候，他对所谓言论自由的定义对于我而言也是可以接受的——言论自由不是绝对的自由，而是法律约束下的自由。</p>
-<p>这点虽然在内地条件下没有能达到，但是在这个极端条件下更加没有实现的苗头，而且到了匪夷所思的地步，这是背道而驰的。</p>
-<p>话说回来，我本来对我所处的学校是极其信任的，甚至说这也是我选择的重要原因之一——这里的人们醉心学习，这里的人们不问世事。</p>
-<p>但是我又错了。</p>
-<p>我忘记了这些人是通过同一个考试选拔出来的，无论又多么浓厚的学术氛围，很多事情是难以改变的，比如出身、背景、社会条件。再加上这次事件的特殊性，直接导致这个我喜爱的地方，成为了硝烟弥漫的战场。</p>
-<p>在过去的事件，对于做出犹豫的人们来说，我一直极力劝他们加入这里，为了海景也好，学术氛围也好，科研水平也好，并且让他们相信这里会好，但是面对现在的情况，我只能报以惭愧的歉意。</p>
-<p>就算如此，如果让我再来一次，我也许还是会来。人生是没有后悔药的。</p>
-<p>我选择相信一切会好起来，起码在这个学校。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Linear algebra notes</title>
     <url>/archieve/191004-linear-algebra/</url>
     <content><![CDATA[<p>这两星期学linear algebra 学得有点懵逼，看了一下3b1b的视频，总结一下现在学到的知识。</p>
@@ -1751,8 +1768,8 @@
       </categories>
   </entry>
   <entry>
-    <title>Lecture on Graduate School</title>
-    <url>/archieve/191002-lecture-graduate-school/</url>
+    <title>Graduate School</title>
+    <url>/archieve/191002-graduate-school/</url>
     <content><![CDATA[<h1 id="Basics"><a href="#Basics" class="headerlink" title="Basics"></a>Basics</h1><ul>
 <li><p><strong>GPA</strong> </p>
 <pre><code>- US 3.0 average  -MPhil top 15%
@@ -1882,181 +1899,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Organic vocab</title>
-    <url>/archieve-vocab/vocab-organic/</url>
-    <content><![CDATA[<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Prefix</th>
-<th>Suffix</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>alkyl-</td>
-<td>-ane</td>
-</tr>
-<tr>
-<td>alkenyl-</td>
-<td>-ene</td>
-</tr>
-<tr>
-<td>alkynyl-</td>
-<td>-yne</td>
-</tr>
-<tr>
-<td>phenyl-</td>
-<td>-benzene</td>
-</tr>
-<tr>
-<td>benzyl-</td>
-<td>-toluene</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Prefix</th>
-<th>Suffix</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>halo-</td>
-<td>halide</td>
-</tr>
-<tr>
-<td>fluoro-</td>
-<td>fluoride</td>
-</tr>
-<tr>
-<td>chloro-</td>
-<td>chloride</td>
-</tr>
-<tr>
-<td>bromo-</td>
-<td>bromode</td>
-</tr>
-<tr>
-<td>iodo-</td>
-<td>iodide</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h1 id="3"><a href="#3" class="headerlink" title="3"></a>3</h1><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Prefix</th>
-<th>Suffix</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>haloformyl-</td>
-<td>-oyll halide</td>
-</tr>
-<tr>
-<td>hydroxy-</td>
-<td>oll</td>
-</tr>
-<tr>
-<td>keto, oxo</td>
-<td>-one</td>
-</tr>
-<tr>
-<td>aldo-</td>
-<td>-al</td>
-</tr>
-<tr>
-<td></td>
-<td>carbonate</td>
-</tr>
-<tr>
-<td>carboxy-</td>
-<td>-oic acid</td>
-</tr>
-<tr>
-<td>alkoxy-</td>
-<td><em>alkyl alkyl</em> ether</td>
-</tr>
-<tr>
-<td>alkoxy<u>carbonyl</u>-</td>
-<td><em>alkyl</em> alkan<u>oate</u></td>
-</tr>
-<tr>
-<td>hydroperoxy-</td>
-<td><em>alkyl</em> hydroperoxide</td>
-</tr>
-<tr>
-<td>peroxy-</td>
-<td>alkyl peroxide</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Prefix</th>
-<th>Suffix</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>carboxamido-</td>
-<td>-amide</td>
-</tr>
-<tr>
-<td>amino-</td>
-<td>-amine</td>
-</tr>
-<tr>
-<td>ammonio-</td>
-<td>-ammonium</td>
-</tr>
-<tr>
-<td>imono-</td>
-<td>-imine</td>
-</tr>
-<tr>
-<td>imido-</td>
-<td>-imide</td>
-</tr>
-<tr>
-<td>pyridyl</td>
-<td>pyridine</td>
-</tr>
-<tr>
-<td>phosphino-</td>
-<td>phosphane</td>
-</tr>
-</tbody>
-</table>
-</div>
-<blockquote>
-<p><strong>十以内 甲meth 乙eth 丙prop 丁but 戊pent 己hex 庚hept 辛oct 壬non 癸dec 单(一)mono 双bi 二di 三tri 四tetr 五pent 六hex 七hept 八oct 九non 十dec 除了甲乙丙丁和一二三四之外，后面几个是一样的。 举例：甲基methyl，乙醇ethanol，二丁基dibutyl，三乙基triethyl</strong></p>
-<p><strong>二十以内 十一undec</strong> 十二do<strong>dec</strong> 十三tri<strong>dec</strong> 十四tetra<strong>dec</strong> 十五penta<strong>dec  十六hexadec</strong> 十七hepta<strong>dec</strong> 十八octa<strong>dec</strong> 十九nona<strong>dec</strong> 二十ei<strong>cos 11~19的共同点是以dec</strong>（十）结尾，前面是个位数的词根，规律是19=9+10<br> 个位数除了一和二之外，其他数字都是由规律的词根。</p>
-<p><strong>三十以内 二十一heneicos</strong> 二十二do<strong>cos</strong> 二十三tri<strong>cos</strong> 二十四tetra<strong>cos</strong> 二十五penta<strong>cos 二十六hexacos</strong> 二十七hepta<strong>cos</strong> 二十八octa<strong>cos</strong> 二十九nona<strong>cos</strong> 三十tria<strong>cont 21~29的共同点是一cos</strong>（二十）结尾，前面加个位数，规律是29=9+20<br> 个位数中的一和十一里的不一样，变成了hen，而二依然是do</p>
-<p><strong>三十一~九十九 从这里开始就有规律了，是39=9+3×10 其中一hen 二do 三tri 四tetr 五pent 六hex 七hept 八oct 九non 十cont 所以三十八是octatriacont</strong>，四十四是tetratetra<strong>cont</strong>，七十二烷（如果有的话）是dohetpa<strong>cont</strong>ane</p>
-<p><strong>一百以上 这部分我不知道</strong></p>
-</blockquote>
-<p> <a href="https://www.zhihu.com/question/31004338" target="_blank" rel="external">https://www.zhihu.com/question/31004338</a></p>
-]]></content>
-      <categories>
-        <category>Vocab</category>
-      </categories>
-      <tags>
-        <tag>Chemistry</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>清单人生</title>
     <url>/archieve/190907-britt-marie-var-har/</url>
     <content><![CDATA[<blockquote>
@@ -2086,277 +1928,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Chemistry vocab</title>
-    <url>/archieve-vocab/vocab-chemistry/</url>
-    <content><![CDATA[<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Element</th>
-<th>English Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Co</td>
-<td>Cobalt</td>
-</tr>
-<tr>
-<td>Cd</td>
-<td>Cadmium</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Number</th>
-<th>prefix</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>mono</td>
-</tr>
-<tr>
-<td>2</td>
-<td>di</td>
-</tr>
-<tr>
-<td>3</td>
-<td>tri</td>
-</tr>
-<tr>
-<td>4</td>
-<td>tetra</td>
-</tr>
-<tr>
-<td>5</td>
-<td>petra</td>
-</tr>
-<tr>
-<td>6</td>
-<td>hexa</td>
-</tr>
-<tr>
-<td>7</td>
-<td>hepta</td>
-</tr>
-<tr>
-<td>8</td>
-<td>octa</td>
-</tr>
-<tr>
-<td>9</td>
-<td>nona</td>
-</tr>
-<tr>
-<td>10</td>
-<td>deca</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Cation</th>
-<th>English Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$K^+$</td>
-<td>Potassium</td>
-</tr>
-<tr>
-<td>$Cs^+$</td>
-<td>Cesium</td>
-</tr>
-<tr>
-<td>$Be^{2+}$</td>
-<td>Beryllium</td>
-</tr>
-<tr>
-<td>$Ba^{2+}$</td>
-<td>Barium</td>
-</tr>
-<tr>
-<td>$Mn^{2+}$</td>
-<td>Manganese(Ⅱ)</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Anion</th>
-<th>English Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$NH_4^+$</td>
-<td>Ammonium</td>
-</tr>
-<tr>
-<td>$NO_2^-$</td>
-<td>Nitrite</td>
-</tr>
-<tr>
-<td>$NO_3^-$</td>
-<td>Nitrate</td>
-</tr>
-<tr>
-<td>$SO_3^{2-}$</td>
-<td>Sulfite</td>
-</tr>
-<tr>
-<td>$SO_4^{2-}$</td>
-<td>Sulfate</td>
-</tr>
-<tr>
-<td>$OH^-$</td>
-<td>Hydroxide</td>
-</tr>
-<tr>
-<td>$CN^-$</td>
-<td>Cyanide</td>
-</tr>
-<tr>
-<td>$PO_4^{3-}$</td>
-<td>Phosphate</td>
-</tr>
-<tr>
-<td>$SCN^-$</td>
-<td>Thiocyanate</td>
-</tr>
-<tr>
-<td>$CO_3^{2-}$</td>
-<td>Carbonate</td>
-</tr>
-<tr>
-<td>$CIO^-$</td>
-<td>Hypochlorite</td>
-</tr>
-<tr>
-<td>$ClO_2^-$</td>
-<td>Chlorite</td>
-</tr>
-<tr>
-<td>$ClO_3^-$</td>
-<td>Chlorate</td>
-</tr>
-<tr>
-<td>$ClO_4^-$</td>
-<td>Perchlorate</td>
-</tr>
-<tr>
-<td>$MnO_4^-$</td>
-<td>Permanganate</td>
-</tr>
-<tr>
-<td>$Cr_2O_7^{2-}$</td>
-<td>Dichromate</td>
-</tr>
-<tr>
-<td>$CrO_4^{2-}$</td>
-<td>Chromate</td>
-</tr>
-<tr>
-<td>$O_2^{2-}$</td>
-<td>Peroxide</td>
-</tr>
-<tr>
-<td>$C_2O_4^{2-}$</td>
-<td>Oxalate</td>
-</tr>
-<tr>
-<td>$S_2O_3^{2-}$</td>
-<td>THiosulfate</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Anion</th>
-<th>English Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$HSO_4^-$</td>
-<td>Bisulfate/Hydrogen sulfate</td>
-</tr>
-<tr>
-<td>$HPO_4^{2-}$</td>
-<td>Hydrogon phosophate</td>
-</tr>
-<tr>
-<td>$H_2PO_4^{-}$</td>
-<td>Dihydrogon phosophate</td>
-</tr>
-<tr>
-<td>$HCO_3^-$</td>
-<td>Bicarbonate/Hyfrogen carbonate</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Acid</th>
-<th>English Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$HNO_3$</td>
-<td>Nitric acid</td>
-</tr>
-<tr>
-<td>$HNO_2$</td>
-<td>Nitrous acid</td>
-</tr>
-<tr>
-<td>$H_2SO_4$</td>
-<td>Sulfuric acid</td>
-</tr>
-<tr>
-<td>$H_2SO_3$</td>
-<td>Sulfurous acid</td>
-</tr>
-<tr>
-<td>$H_3PO_4$</td>
-<td>Phosphoric acid</td>
-</tr>
-<tr>
-<td>$C_2H_4O_2$</td>
-<td>Acetic acid</td>
-</tr>
-</tbody>
-</table>
-</div>
-]]></content>
-      <categories>
-        <category>Vocab</category>
-      </categories>
-      <tags>
-        <tag>Chemistry</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>小小小小的火</title>
     <url>/archieve/190221-a-little-fire/</url>
     <content><![CDATA[<p>伍女士的第二部作品，写作套路和前作无异，也是采用的倒叙的写作方式，讨论的重心也主要是青春期少年少女和他们的父母。<br>首先这一作在话题上又比上一作敏感了不少。关于“火”是什么，读到最后大家应该都明白“火”就是崭新的生命，是孕育的孩子。<br>关于内容和角色我也不想多说，每个人都刻画得很鲜明，像我这种不爱记人名的读者都能够了解到每个人的特征。<br>对于我来说，这本书又谈论的一些话题又引起了我的思考。<br>首先书中最大的孩子布莱恩也才刚刚申请完大学，两个小一点的孩子应该也才中学。在这样的年级别说是接触性了，就算是谈恋爱什么的，对于像我一样出身于比较保守的家庭和学校环境的人来说还是太早了。<br>我没有想象过自己谈恋爱会是什么样子，更不会想象拥有自己的孩子会是什么样的——由于一些童年阴影，我对小孩子是敬而远之。这也是我喜欢年轻的偶像们、比起BG更加喜欢百合作品（尽管某种程度上走向了禁忌的层面）的的原因。不过得知五年前喜欢的人现在已经生下了一个儿子的时候又不由得感慨了。<br>这大概也是欧美和日式作品的区别。可能对于我来说，我还是会更喜欢细腻而又敏感的存在，这样的存在是我高中三年最大的慰藉，也是我尚且短暂的人生中宝贵的体验。<br>还有另外一个话题，也是和前作《无声告白》一样让我陷入思考的，就是上一代的悲剧注定会延续到下一代，如果上一代没有阻止悲剧的延续的话。这种感觉让我回想到第一次读那部烂大街的《小时代》，思来想去其实都是上一代的问题（虽然本作中三个孩子倒是没有受到太多来自父母的负面影响，但是珀尔着实是被米娅影响着）。这个时候我又格外感谢我的父母。我大概从各种各样的地方稍微了解到他们并不是很明朗的过去，但是他们致力于让我获得一个安心安稳的成长环境，并且始终以我为中心。而且在听了许多别人的家庭故事的时候，我再次不由得感觉，有这样的父母应该是很难得的。<br>我致力于让生活变得简单。然后我找到了偶像和学习这样的平衡点，再加上适当的朋友们之间的互动，并且在这样的comfort zone里生活了三四年的时光。虽然说现在正是踏出comfort zone的必要且有效时期，但是我个人来说却依然想要在停留。大概就是让我感受到了这样的矛盾和思考。</p>
@@ -2364,43 +1935,6 @@
       <categories>
         <category>Book Report</category>
       </categories>
-  </entry>
-  <entry>
-    <title>190209</title>
-    <url>/archieve/190209-a-poem/</url>
-    <content><![CDATA[<p>打开窗户<br>是没有颜色的天空<br>是没有颜色的苍凉的海<br>如同几年前看到的那样<br>寂静无声的色彩</p>
-<p>是梦见了所有人的夜晚<br>是梦圆无望四点惊醒的清晨<br>是这样的一天的开始</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>181205</title>
-    <url>/archieve/181205-thinking/</url>
-    <content><![CDATA[<p>每个人都有自己认为绝对正确的事情。</p>
-<p>选择自己的生活方式并且不受到别人的干扰对于我自己来说才是最重要的。</p>
-<p>所以别人怎样是不重要的，最重要的是成为自己。</p>
-<p>就算是固步自封也好，墨守陈规也罢。</p>
-<p>safety zone里的世界的确很舒适。</p>
-<p>大概这是我脑子里突然想到的一个很重要的命题。</p>
-<hr>
-<p>不同人有不同的境遇罢了。</p>
-<p>所以看到别人的境况也不必羡慕，却也不必怜悯。</p>
-<p>因为那都不是我自己。</p>
-<p>我的过去造就了我的现在，我又从现在走向将来。</p>
-<p>一步步走下去其实正确答案就在自己的手里。</p>
-<p>好不容易到手的机会，现在停下来真的太可惜了。</p>
-<hr>
-<p>然后就是，我对现在的生活状况还算比较满意吧。</p>
-<p>お仕事と推し事都能如愿以偿地进行。</p>
-<p>并不是一点迷茫都没有，但是却能选择自己想要的东西。</p>
-<p>大概这样几年来的努力某种程度上也算有了回报。</p>
-<p>选择喜欢的偶像，选择喜欢的东西。</p>
-<p>以前想要去见面，熬半年一年都没法出头。</p>
-<p>杳无音讯一周又一周。</p>
-<p>以后如果还能这样下去那就是万幸了。</p>
-<hr>
-<p>结论：</p>
-<p>做自己喜欢的自己。</p>
-]]></content>
   </entry>
   <entry>
     <title>五本书的读后感</title>
