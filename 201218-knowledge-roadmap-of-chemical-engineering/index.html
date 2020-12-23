@@ -104,7 +104,7 @@ to provide a basic roadmap to the undergraduate students who are interested in, 
 <meta property="og:description" content="PrefaceThe purpose of this article are as follows
 
 to provide a basic roadmap to the undergraduate students who are interested in, or currently taking chemical engineering program, but still not sure">
-<meta property="og:updated_time" content="2020-12-21T07:40:07.484Z">
+<meta property="og:updated_time" content="2020-12-23T10:30:25.707Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="201218-knowledge-roadmap-of-chemical-engineering">
 <meta name="twitter:description" content="PrefaceThe purpose of this article are as follows
@@ -342,8 +342,8 @@ to provide a basic roadmap to the undergraduate students who are interested in, 
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2020-12-21T15:40:07+08:00">
-                2020-12-21
+              <time title="Post modified" itemprop="dateModified" datetime="2020-12-23T18:30:25+08:00">
+                2020-12-23
               </time>
             
           </span>
@@ -417,11 +417,11 @@ to provide a basic roadmap to the undergraduate students who are interested in, 
 <p>Process Design and Integration</p>
 <p>Plant Design and Economics</p>
 </blockquote>
-<h1 id="Introduction-and-personal-insight-to-each-course"><a href="#Introduction-and-personal-insight-to-each-course" class="headerlink" title="Introduction and personal insight to each course"></a>Introduction and personal insight to each course</h1><p>All the content can be simplified into four character 三传一反 <em>(Three Transport - Heat, Mass and Momentum, and One Reaction - Kinetics)</em></p>
+<h1 id="Introduction-and-personal-insight-to-each-course"><a href="#Introduction-and-personal-insight-to-each-course" class="headerlink" title="Introduction and personal insight to each course"></a>Introduction and personal insight to each course</h1><p>All the content can be simplified into four character in Chinese 三传一反 <em>(Three Transport - Heat, Mass and Momentum, and One Reaction - Kinetics)</em></p>
 <h2 id="Part-1-Introductory-courses"><a href="#Part-1-Introductory-courses" class="headerlink" title="Part 1. Introductory courses"></a>Part 1. Introductory courses</h2><p>Before admitted to an chemical engineering program, one might first take an introductory course about it. The introductory course I took it mainly introduced mole/mass balance, some basic thermodynamics and diffusion. </p>
 <p><em>Process and Product Design Principles</em>, however, is again an introductory course, only introducing mass and energy balance (maybe a bit more complicated). <del>Actually nothing much interesting</del></p>
 <hr>
-<h2 id="Part-2-Chemical-Engineering-Principles"><a href="#Part-2-Chemical-Engineering-Principles" class="headerlink" title="Part 2.  Chemical Engineering Principles"></a>Part 2.  Chemical Engineering Principles</h2><p><em>World Ruled by Laws of Thermo</em></p>
+<h2 id="Part-2-Chemical-Engineering-Principles"><a href="#Part-2-Chemical-Engineering-Principles" class="headerlink" title="Part 2.  Chemical Engineering Principles"></a>Part 2.  Chemical Engineering Principles</h2><p><em>~World Ruled by Laws of Thermo~</em></p>
 <p>The following courses can be explained in series because they are centered at Thermodynamics.</p>
 <p><strong><em>Thermodynamics</em></strong> is some knowledge from physical chemistry and mechanic engineering - but interpreted by chemical engineer for better application. Before reading the material, keep in heart that ‘We are doing all these for engineering purpose’ - which means some terms are actually designed for convenience instead of anything else. Rather than trying to grab everything in brain by first glance, use it and apply it.</p>
 <p>The four laws for thermodynamics rule the world, while the first and second law rule your academic life.</p>
@@ -475,12 +475,46 @@ Flux = - \frac{Driving\ Force}{Resistance}</script><p>Driving Force is the diffe
 <hr>
 <p><strong><em>Chemical Reaction Engineering and Kinetics</em></strong></p>
 <p>Chemical engineering is originated but deviated from mechanical engineering, where whether chemical reactions takes place.</p>
-<p>tbc….</p>
-<h2 id="Part-3-Applications-and-Practices"><a href="#Part-3-Applications-and-Practices" class="headerlink" title="Part 3. Applications and Practices"></a>Part 3. Applications and Practices</h2><p><em>Process Control and Dynamics</em> </p>
-<p><em>Process Design and Integration(to be completed after finish this course)</em> </p>
-<p><em>Plant Design and Economics</em></p>
-<h2 id="Part-4-Electives"><a href="#Part-4-Electives" class="headerlink" title="Part 4. Electives"></a>Part 4. Electives</h2><p><em>Modeling</em></p>
-<p><em>Bioproduct and bioprocessing</em></p>
+<p>Thermodynamics determine the farthest point we can reach - equilibrium point. But how long will it takes? A second, a week, or a year?</p>
+<p>Kinetics tells how fast the reaction goes on.</p>
+<p>The ultimate target of kinetics is to determine the reaction rate of a particular chemical reaction. The expression of rate that relates it with other parameters is called <u>rate law</u>.</p>
+<p>From the last few chapters of thermodynamics, we have learned that <u>elementary chemical reaction</u> follow a simple rate law that</p>
+<script type="math/tex; mode=display">
+rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ means ‘multiply all’. $k$ in the formula is a reaction constant. $C_i$ is the concentration for species $i$, while $\nu_i$ is the stoichiometric number of $i$ in the reaction</em></p>
+<p>Take the reaction $A+B\rightarrow C+D$ as and example. $rate = k \frac{C_C C_D}{C_A C_B}$</p>
+<p>But then another question comes - the concentration changes every single second, and how can we determine the time needed? Again and again, we have to take out our <u>first law</u>(most time in differential and integral form), and combine it with our rate law, to fine out the variable we hope to know </p>
+<p>Actually, time is only the variable that batch process hope to optimize. Besides batch, we have some continuous process, where time is not a factor for consideration in those cases. <em>(Continuous means the stream is always flowing, so we may need to consider flow rate instead of time)</em>. The well-known continuous processes are </p>
+<ul>
+<li>Continuous Stirred Tank Reactor(CSTR), </li>
+<li>Plugged Flow Reaction(PFR), and </li>
+<li>Packed Bed Reactor(PBR). </li>
+</ul>
+<p>Variables such as conversion, volume of reaction, and initial reactant concentration required can be determined by the combination of <u>rate law + first law</u>.</p>
+<p>There are many special cases we have to learn about. For example, difference between liquid phase &amp; gas phase is one of the most significant difference. If it is liquid phase, we have to consider viscosity. If it is gas phase reaction, then we have to consider Isothermal case, Pressure Drop case, etc.. Also, if it is bioreaction, the raw law could be different. But our core principal remains the same. </p>
+<h2 id="Part-3-Applications-and-Practices"><a href="#Part-3-Applications-and-Practices" class="headerlink" title="Part 3. Applications and Practices"></a>Part 3. Applications and Practices</h2><p><strong><em>Process Control and Dynamics</em></strong> </p>
+<p>This course is originally a 4k course, but the course code is changed to 3k now. Maybe it is because in the first several slide we still base our equation on first law. By the way, there is a similar course in electronic engineering.</p>
+<p>In many other chemical engineering courses we usually assume <u>steady state</u>, where we can use our equations and models to deal with various questions. </p>
+<p>However, here we have to face that most of our real-life process are unsteady. How to model and ultimately predict our process?</p>
+<p>A mathematical solution is here: Since it is very hard to obtain the function or relationship for original form (for example, concentration vs time), we can translate it to another form, in which we can recognize the function easily. Then we translate the recognized function back, and obtain the wanted model.</p>
+<p>The translation process is called Laplace Transform. We might have heard of it when learning differential equation or integration. Later you will find this course is full of Laplace transform. </p>
+<p>But don’t be scared of the complicated integration. We do not need to calculate the integration ourselves. Instead, a table is provided, which saves our life.</p>
+<p>After acquiring the method, we first deal with a single dynamic unit operation, then whole process, whose modeling process is a Laplace enclosed in another Laplace. So it is fair to say this course  is all about application of Laplace transform. </p>
+<p><strong><em>Process Design and Integration(to be completed after finish this course)</em></strong> </p>
+<p><strong><em>Plant Design and Economics</em></strong></p>
+<p>As a future engineer, we always have to keep in mind that we learn to apply knowledge. </p>
+<p>Factory is one of the most common form that theoretical knowledge is converted to economic value. We have to, we must learn about how it works, to accommodate ourselves in the real world.</p>
+<p>The first part is about economics, or rather call accounting. How to read the accounting table is the major topic. </p>
+<p>The second part is some detail about things to be considered with when it comes to a real factory. For example, Hazard Analysis(HAZOP or HAZEN), and pressure relief(how to minimize the loss when a real incident occur).</p>
+<p>Basically, as most of the 4k courses, it is a collection of some useful knowledge. This course is quite useful for students hope to commit to the industry, whether or not it is chemical engineering related.</p>
+<h2 id="Part-4-Electives"><a href="#Part-4-Electives" class="headerlink" title="Part 4. Electives"></a>Part 4. Electives</h2><p><strong><em>Modeling</em></strong></p>
+<p>Modeling is using a mathematical function to represent a real-life event. Modeling itself covers multiple disciplines, while considered to be rather useful especially in bioengineering.</p>
+<p>Modern modeling involves the powerful tool of computer, enabling the processing of huge amount of data. One of the important software is MATLAB. For machine learning, Python is more widely used while R for statistics.</p>
+<p>This course introduce several important models for chemical engineering, like first and second order ordinary differential equations(ODE), partial differential equation(PDE) and some statistics terminology. The principles are actually covered in all the other courses, while this course, from my point of view, mainly develop the programming and debugging skills, which is extremely important in this information technology era.</p>
+<p>But remember, <u>no model is perfect</u>.</p>
+<p><strong><em>Bioproduct and bioprocessing</em></strong></p>
+<p>This 4k course is another collection of knowledge about cells(culture) and their process&amp;product, from upstream (pre-processing and reaction) to downstream (separation and purification).</p>
+<p>The upstream part cover some kinetics, some thermo, some fluid mech to be considered. </p>
+<p>The downstream part is generally similar to the separation course. One of the exceptional point is cell lysis, where we disrupt the cell in order to take the intracellular product.</p>
 
       
     </div>
