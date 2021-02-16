@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Injection Molding</title>
+    <url>/210215-injection-molding/</url>
+    <content><![CDATA[<p>第一次组会之前自己补习一下控制论方面的知识，一边读 Injection molding 这本书一边总结一下。</p>
+<p>言语粗糙，非常混乱，只是疏通自己的思路。</p>
+<h1 id="1-1-4-3-Visco-elastic-model（P19）"><a href="#1-1-4-3-Visco-elastic-model（P19）" class="headerlink" title="1.1.4.3 Visco-elastic model（P19）"></a>1.1.4.3 Visco-elastic model（P19）</h1><p>其实这个最重要的不是这个数学表达，而是这个dual nature，又有spring的特点，又有damper的特点</p>
+<p>然后这个ode的sum那边是0，另外一边就变成了可以解的ode</p>
+<p>Maxwell和Voigt的两个model的区别在于串联还是并联spring和damper。两个都可以用ODE解出来</p>
+<h1 id="2-3-1-Model-Estimation-P45"><a href="#2-3-1-Model-Estimation-P45" class="headerlink" title="2.3.1 Model Estimation (P45)"></a>2.3.1 Model Estimation (P45)</h1><p>前面讲到了adaptive control里面的self-tuning regulator</p>
+<p>这里上面介绍了ARX model，下面介绍了怎么根据这个model进行adaptive control</p>
+<p>简单来说就是通过最小化e(t)^2（最小二乘法），然后得出了θ, K, P三个套娃表达式，套娃又有ROT的解法</p>
+<p>下面就是具体的pole-placement design（说实话我还不太理解这个是啥）</p>
+<p>作为一个perfect controler:</p>
+<p>input: $U_c$(target)， $y$(feed back output)，<br>output: u是controller output，<br>target: 找到最好的R, T, S，通过计算$Ru=TUc-sy$和输出u，使得y接近我们设定的$u_c$</p>
+<p>方程可以写成AR+BS=Ac（Ac可以说是Uc的另外一种写法，结合了Process dynamic）</p>
+<p>这事实上变成一个丢番图方程，需要用到欧几里得法（辗转相除法）。</p>
+<hr>
+<p>另外一个问题：刚刚我们讨论是perfect controller，但是我们的controller逃不开PID，PID里的I有一个<a href="https://dori-min.github.io/archieve/200528-process-dynamics-and-control/">integral windup问题</a>需要解决。</p>
+<p>对策：update when there is excitation。比如说θ(t)=θ(t-1)+blablabla</p>
+<h1 id="2-3-4-2-Adaptive-feed-forward-control"><a href="#2-3-4-2-Adaptive-feed-forward-control" class="headerlink" title="2.3.4.2 Adaptive feed forward control"></a>2.3.4.2 Adaptive feed forward control</h1><p>前面的方法有一个问题就是slow response，但是feed forward就可以解决这个问题</p>
+<p>然后给出了2.31这个feed forward controller这个式子，一个input是$U<em>c$(set point)，output是$u</em>{ff}$，中间的参数叫feed forward proportional gain $K<em>f$。简单来说就是$u</em>{ff}=K_fU_c$（然后还要考虑个time delay nd）。</p>
+<p>这样可以把原来的100ms的delay缩短到10ms。</p>
+<p>这里有injection molding的一个特殊性，比较与纯粹的adaptive feed back control，我们有预先设置好的set point， 所以我们可以每次改变set point之后刚刚开始运转的时候用feed forward来减少delay。</p>
+<h1 id="2-4-Model-Predictive-Control-MPC"><a href="#2-4-Model-Predictive-Control-MPC" class="headerlink" title="2.4 Model Predictive Control (MPC)"></a>2.4 Model Predictive Control (MPC)</h1><p>介绍了另外一种控制模型叫做MPC，MPC大概的方法就是根据过去的表现来最优化将来的控制。</p>
+<p>详细介绍了一种分支叫做GPC。</p>
+<p>其实这里的数学部分我没有特别看懂，大致的意思是有一个cost function，只要使得cost function最小化的u就是我们要的output。这让我联想到了image processing里面的snake还有expectation maximization。</p>
+<p>和上面说的pole placement control（ with feed forward to compensate initial slow response）对比，GPC有这些特点：</p>
+<ul>
+<li>GPC需要决定三个参数还有控制范围(horizon)，但是这些参数的决定没有很系统的方法，只有经验的ROT</li>
+<li>GPC计算时候需要计算矩阵的逆，矩阵大小会影响反应时间</li>
+<li>GPC可以用于复杂的模型，对nonlinear、multivariable也很适用</li>
+</ul>
+<p>对比pole placement control的优点</p>
+<ul>
+<li>pole对mismatch很敏感（例如对time delay的mismatch，一错就玩完），但是GPC相比起来比较robust（对各种温度各种材料都非常适用）</li>
+</ul>
+<h1 id="2-5-Fuzzy-Systems"><a href="#2-5-Fuzzy-Systems" class="headerlink" title="2.5 Fuzzy Systems"></a>2.5 Fuzzy Systems</h1><p><a href="https://youtu.be/Y8-2LdTQl0k" target="_blank" rel="external">一个关于Fuzzy logic的介绍视频</a>。</p>
+<p>很多时候信息不是越多越好，为了最优化做出决断的效率，把信息模糊化也是一个手段。</p>
+<p>这里用来V/P作为一个例子，先把pressure signal拉进来经过low pass filter，然后进行求导，可以组合出两个input给到controller，而controller可以直接从表格mapping出来一个output，这个output直接了断的告诉说现在这个情况是太大太小还是刚刚好。</p>
+<p>这里还需要注意的一个问题是false detection。</p>
+<p>（这里没有看得很详细，有需要回来补）</p>
+<h1 id="3-Learning-type-control"><a href="#3-Learning-type-control" class="headerlink" title="3 Learning type control"></a>3 Learning type control</h1><p>简单来说就是把error放在u(t)表达式里面，用PID来iteration不断减小e（也需要添加time delay，会多$t_d$，ξ，$h$这些参数）</p>
+<p>但是这个方法有缺陷，就是要调节learning rate，学太快怕太sensitive，学太慢收敛时间太长，所以就有optimal iterative learning control</p>
+<p>optimal的方法真的没怎么看懂，感觉顺序有点乱，大概的思路还是和前面的costing function类似，定义了一个quadratic performance index $J$，然后就求$J$关于$u$的偏导，得到一个$u$的表达式，</p>
+<p>最乱的最看不懂的地方是causal algorithm，先说明了一下求出来的这个表达式not causal，然后又说如果引入了x和y就causal了（但是我也不明白causal不causal对这个算法有什么影响，或许是为了整个理论数学上的严谨）。</p>
+<p>这里要注意的是，J和u的表达式中有weighting matrices R和Q是arbitrary matrices，两个对应的eigenvalue，λ和μ的比值ρ是影响这个系统的关键。如果ρ大就说明：</p>
+<ul>
+<li>first trial e0 reduce, quick convergence</li>
+<li>stronger feed forward action, less sensitive to variation of output</li>
+</ul>
+<p>另外注意λ和μ比较平行同增同减</p>
+]]></content>
+      <categories>
+        <category>Lecture Note</category>
+      </categories>
+      <tags>
+        <tag>Chemical Engineering</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Aspen Plus Notes</title>
     <url>/210209-aspen-plus/</url>
     <content><![CDATA[<p>The course <em>Process Design and Integration</em> requires the application of ASPEN PLUS. Some learning notes and mentioned ROTs are collected in this note.<br>Main tutorial video: <a href="https://www.bilibili.com/video/BV1bt4y1D7Yv" target="_blank" rel="external">Beginner</a> and <a href="https://www.bilibili.com/video/BV1tk4y1y7Ey?from=search&amp;seid=10810935578748957389" target="_blank" rel="external">Advanced</a> <em>(Very clear and highly recommended for beginners, delivered in Chinese)</em></p>
@@ -267,6 +326,18 @@
 <p>现在人类对HIV的了解已经非常深入，我们甚至对一百年来病毒为适应人类而做出的分子层面的改变都了如指掌。我们完全有可能在此基础上逐一去破坏这些适应性状。换句话说，防治艾滋病的未来，答案或许都藏在它的过去之中。</p>
 <p>最后，让我们回到“病毒”这个词本身。它原本就包含了两面性，一面是能给予生命的物质，另一面则代表致命的毒液。病毒在某种意义上的确是致命的，但它们也赋予了这个世界必不可少的创造力。创造和毁灭又一次完美地结合在一起。</p>
 </blockquote>
+<h1 id="博物馆里的极简中国史"><a href="#博物馆里的极简中国史" class="headerlink" title="博物馆里的极简中国史"></a>博物馆里的极简中国史</h1><p>历史有很多考究的方面，这本书的角度是器物，挑选了中国每个朝代的一个器物，不一定是尝试上最能代表性，但是作者把这些器物后面连接的经济政治文化都联系在了一起，有些额外的收获，算是一个挺有意思的历史读物。</p>
+<p>顺带一提，一开始想要读这本书纯粹是封面很可爱。</p>
+<blockquote>
+<p>青铜器刚制成时的颜色，是比黄铜色还浅一些的金黄色，光泽度非常好。只不过因为埋藏在地下，时间久了经过氧化，出土时变成了铜绿色，才有了青铜这个名称。如果进行除锈处理，还是可以还原成黄澄澄的色彩的。<br>矿石虽然产自南方的古铜矿，但商周青铜器是在北方铸造的。那么，这些铜矿原料从南方来到北方的历程，就构成了一部商周时代的历史。</p>
+<p>佛教源自印度，和所有宗教一样，它源自一种对死后世界的想象。这种去世后要去往的永恒之乡，在人们被社会生产压力击倒之际，就被当作可供歇息的避难所了。为了使这个现世的避难所显得真实可信，宗教艺术家们通过塑像的形式，把那些伟大的死者（祖先）栩栩如生地塑造、雕刻出来，让人们仿佛置身于一座不朽的万神殿中，成为永恒世界的一部分。</p>
+<p>佛教的价值与影响远不止这些。我们在下一章中，会继续谈到佛教观念在唐代以后的推广，以及它如何促进了茶叶的生产和瓷器制造业的发展，并最终推动了瓷都景德镇的出现。</p>
+<p>宋画三大精品：李唐《万壑松风图》、郭熙的《早春图》、范宽的《溪山行旅图》</p>
+<p>“有意思的是，真有文献记录了李唐的遭遇。据成书较晚的《南宋院画录》记载，李唐在逃往太行山的途中，并没有遇到神仙或奇迹，而是不幸被当地的盗贼抓住了。<br>说是盗贼，其实不过是一群在战乱中聚众自保的当地人，大约和梁山好汉有着一样的人生困境。他们并非乐意落草，而是有着一颗不知将去向何处的迷茫之心。<br>但这伙盗贼并不简单——就像梁山好汉中也有擅长绘画和书法的民间高手混迹于其中——盗贼打开了李唐的行李，没有发现什么金银财宝，却发现了颜料和纸笔……<br>我们不知道李唐眼中的山中幽径是什么模样，但可以借助《水浒传》中禁军教头林冲离开汴京，来到梁山脚下的惊鸿一瞥，来想象一下李唐的即目所见：</p>
+<p><em>银迷草舍，玉映茅檐。数十株老树杈枒，三五处小窗关闭。疏荆篱落，浑如腻粉轻铺；黄土绕墙，却似铅华布就。千团柳絮飘帘幕，万片鹅毛舞酒旗。</em></p>
+<p>这不就是一幅山水雪景图吗？如果有人递给李唐一副纸笔，他大概也能挥洒出一幅太行山水图来。尽管这不是《水浒传》里杜撰的故事，但情节惊人地相似。那个发现李唐真实身份的盗贼，虽没有“替天行道”之义，但也并不存打家劫舍之念。他没有夺走老画家所剩无几的行李，而是做出了一个惊人的决定。他不但放过了李唐，而且放弃了山贼这份看起来没有什么前途的事业。他和六十多岁的老画家一路结伴同行，渡过战火纷飞的长江，来到了杭州。<br>一个是满怀山水理想的宫廷画家，一个是真的隐藏在山水之中的盗贼，让他们两个相遇，大概是上天对这个时代开的最惊艳的玩笑。”</p>
+</blockquote>
+<h1 id="新食货志"><a href="#新食货志" class="headerlink" title="新食货志"></a>新食货志</h1><p>和上面的《博物馆里的极简中国史》还有《舌尖上的历史》也类似，不过这里选取的都是比较众所周知的了。</p>
 ]]></content>
       <categories>
         <category>book reports</category>
@@ -2332,6 +2403,61 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </categories>
   </entry>
   <entry>
+    <title>Pocket World in Figures 2019</title>
+    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
+    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
+<blockquote>
+<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
+</blockquote>
+<p>top consumers are </p>
+<blockquote>
+<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
+</blockquote>
+<hr>
+<p>top producers and consumers ranking are the same </p>
+<blockquote>
+<p>1 US 2 China 3 EU28 4 Brazil</p>
+</blockquote>
+<hr>
+<p>Foreign direct investment 2016(million) </p>
+<blockquote>
+<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
+<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Internet 101</title>
+    <url>/archieve/200315-Khan-Acadamy-Internet101/</url>
+    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
+<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
+<li>data are divided in to Packets </li>
+<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
+<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
+</ol>
+<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
+<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
+<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
+<li>PC requests additional data(images,videos etc) that included in HTML </li>
+<li>Cookies are used to remember user information </li>
+<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
+<li>Servers need digital certificate to establish secured connection. </li>
+</ol>
+<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
+<p>Hackers’ methods: </p>
+<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
+]]></content>
+      <categories>
+        <category>Video Report</category>
+      </categories>
+      <tags>
+        <tag>Internet</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>金融的逻辑</title>
     <url>/book%20reports/200315-Logic-of-Finance/</url>
     <content><![CDATA[<p>陈志武的《金融的逻辑》是找《市场的逻辑》这本书的时候顺便找到的。其中很多理论让我觉得很在理，比如说“养儿防老”和所谓的礼尚往来其实都是隐形的金融产品，等到我们的社会金融产业发达之后，这些不一定可靠的金融产品会被取代，到时候人们才是会真正注重情感的交流</p>
@@ -2396,61 +2522,6 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       <categories>
         <category>Book Report</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Pocket World in Figures 2019</title>
-    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
-    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
-<blockquote>
-<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
-</blockquote>
-<p>top consumers are </p>
-<blockquote>
-<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
-</blockquote>
-<hr>
-<p>top producers and consumers ranking are the same </p>
-<blockquote>
-<p>1 US 2 China 3 EU28 4 Brazil</p>
-</blockquote>
-<hr>
-<p>Foreign direct investment 2016(million) </p>
-<blockquote>
-<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
-<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Book Report</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Internet 101</title>
-    <url>/archieve/200315-Khan-Acadamy-Internet101/</url>
-    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
-<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
-<li>data are divided in to Packets </li>
-<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
-<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
-</ol>
-<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
-<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
-<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
-<li>PC requests additional data(images,videos etc) that included in HTML </li>
-<li>Cookies are used to remember user information </li>
-<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
-<li>Servers need digital certificate to establish secured connection. </li>
-</ol>
-<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
-<p>Hackers’ methods: </p>
-<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
-]]></content>
-      <categories>
-        <category>Video Report</category>
-      </categories>
-      <tags>
-        <tag>Internet</tag>
-      </tags>
   </entry>
   <entry>
     <title>My Online Bookmark</title>
