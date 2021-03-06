@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Chemical Engineering," />
+  <meta name="keywords" content="Chemical Engineering,Machine Learning," />
 
 
 
@@ -108,7 +108,7 @@ Max">
 1.1.4.3 Visco-elastic model（P19）其实这个最重要的不是这个数学表达，而是这个dual nature，又有spring的特点，又有damper的特点
 然后这个ode的sum那边是0，另外一边就变成了可以解的ode
 Max">
-<meta property="og:updated_time" content="2021-02-19T04:13:50.502Z">
+<meta property="og:updated_time" content="2021-03-03T04:07:25.235Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Injection Molding">
 <meta name="twitter:description" content="第一次组会之前自己补习一下控制论方面的知识，一边读 Injection molding 这本书一边总结一下。
@@ -348,8 +348,8 @@ Max">
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2021-02-19T12:13:50+08:00">
-                2021-02-19
+              <time title="Post modified" itemprop="dateModified" datetime="2021-03-03T12:07:25+08:00">
+                2021-03-03
               </time>
             
           </span>
@@ -465,8 +465,9 @@ Max">
 <p>最早把统计方法引入Process Control的人是Shewhart，他弄了一个Shewhart Chart，其实就是横坐标是sample number纵坐标是data然后列出来，但是因为注塑变量很多，所以单变量不好使，于是双变量就可以搞出来2D的multivariate Chart，以此类推。</p>
 <p>数学上的方法是Principla Component Analysis(PCA) &amp; Partial Least Square(PLS)。我们的data point可以存进叫做X的matrix里面，然后我们decompose一下这个matrix，有</p>
 <script type="math/tex; mode=display">
-X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相当于$X$的eigenvalue和eigenvector。如果按照大小顺序排列的话，eigenvalue比较大(e.g. $t_1$)的其实就是所谓是Principal Component(PC)，eigenvalue比较小的其实只是noise，所以我们可以</p>
-<p><em>PLS没看懂，稍后补充。</em></p>
+X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相当于$X$的eigenvalue和eigenvector。如果按照大小顺序排列的话，eigenvalue比较大(e.g. $t_1$)的其实就是所谓是Principal Component(PC)，eigenvalue比较小的其实只是noise，所以我们可以关注最大的。</p>
+<p>这个概念其实在学image processing的face recognization的时候也有讲过。<a href="https://youtu.be/FgakZw6K1QQ" target="_blank" rel="external">这个视频</a>也解释得不错。</p>
+<p>PLS就是把$X,Y$两个变量的PC拿出来做最小二乘，这样来建立两个set之间的联系。</p>
 <p>实际应用上，上面2D Control是2D，这里我们从2D到了3D，而这里除了批次和时间的第三个维度，就是不同的变量。 然而直接处理3D数据也很麻烦，所以我们还是展开到2D，用的是batch-wise unfolding（每一行都是一个batch的完整数据）</p>
 <h1 id="6-Phase-Based-SPM"><a href="#6-Phase-Based-SPM" class="headerlink" title="6 Phase-Based SPM"></a>6 Phase-Based SPM</h1><p>在上面的SPM的基础上，我们注意到注塑的流程是分不同阶段的，不同阶段需要控制的变量也不一样，也就是说在同一个批次内我们还要再分阶段。但是不同阶段的时间长度也可能不一样，那么我们要怎么样判断我们的data point是在哪个阶段呢。这里用的就是 k means clustering algorithm，<a href="https://youtu.be/4b5d3muPQmA" target="_blank" rel="external">这个介绍视频</a>很清楚地介绍了这个方法。</p>
 
@@ -487,6 +488,8 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
         <div class="post-tags">
           
             <a href="/tags/Chemical-Engineering/" rel="tag"># Chemical Engineering</a>
+          
+            <a href="/tags/Machine-Learning/" rel="tag"># Machine Learning</a>
           
         </div>
       
@@ -590,7 +593,7 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">41</span>
+                <span class="site-state-item-count">44</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -612,7 +615,7 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-count">14</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
