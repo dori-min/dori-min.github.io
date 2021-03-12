@@ -936,6 +936,26 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
       </categories>
   </entry>
   <entry>
+    <title>How to separate glucose and fructose</title>
+    <url>/archieve/201222-separation-of-glucose-and-fructose/</url>
+    <content><![CDATA[<p>My adored engineer talked abou this question during breakfast and invoked my interest so here are some information I found from internet.</p>
+<p>I am too lazy to make a formal IEEE/APA citation so simply links are referred.</p>
+<hr>
+<p>Before 1965 - LL extraction</p>
+<p>After 1965 - LC</p>
+<p><em>from <a href="https://chemistry.stackexchange.com/questions/57515/separating-glucose-and-fructose" target="_blank" rel="external">this Q&amp;A</a></em></p>
+<p><em>LC can rise the purity of fructose to around 80%, 90% now maybe.</em></p>
+<p><em>I usually mixed up adsorption and chromatography, while <u>adsorption</u> is with No chromatographic effect; Column is entirely saturated with the target<br>molecules before elution; and “on-off” process</em></p>
+<hr>
+<p>Utilizing different solubility in an ionic solution(still extraction)</p>
+<p><em>from <a href="https://patents.google.com/patent/US7942972B2/en" target="_blank" rel="external">this patent</a></em></p>
+]]></content>
+      <tags>
+        <tag>Chemical Engineering</tag>
+        <tag>Food Science and Engineering</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Knowledge Roadmap of Chemical Engineering Undergraduate Program</title>
     <url>/archieve/201218-knowledge-roadmap-of-chemical-engineering/</url>
     <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>The purpose of this article are as follows</p>
