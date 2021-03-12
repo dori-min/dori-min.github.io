@@ -108,7 +108,7 @@ Max">
 1.1.4.3 Visco-elastic model（P19）其实这个最重要的不是这个数学表达，而是这个dual nature，又有spring的特点，又有damper的特点
 然后这个ode的sum那边是0，另外一边就变成了可以解的ode
 Max">
-<meta property="og:updated_time" content="2021-03-03T04:07:25.235Z">
+<meta property="og:updated_time" content="2021-03-07T02:38:35.551Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Injection Molding">
 <meta name="twitter:description" content="第一次组会之前自己补习一下控制论方面的知识，一边读 Injection molding 这本书一边总结一下。
@@ -348,8 +348,8 @@ Max">
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2021-03-03T12:07:25+08:00">
-                2021-03-03
+              <time title="Post modified" itemprop="dateModified" datetime="2021-03-07T10:38:35+08:00">
+                2021-03-07
               </time>
             
           </span>
@@ -470,6 +470,9 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
 <p>PLS就是把$X,Y$两个变量的PC拿出来做最小二乘，这样来建立两个set之间的联系。</p>
 <p>实际应用上，上面2D Control是2D，这里我们从2D到了3D，而这里除了批次和时间的第三个维度，就是不同的变量。 然而直接处理3D数据也很麻烦，所以我们还是展开到2D，用的是batch-wise unfolding（每一行都是一个batch的完整数据）</p>
 <h1 id="6-Phase-Based-SPM"><a href="#6-Phase-Based-SPM" class="headerlink" title="6 Phase-Based SPM"></a>6 Phase-Based SPM</h1><p>在上面的SPM的基础上，我们注意到注塑的流程是分不同阶段的，不同阶段需要控制的变量也不一样，也就是说在同一个批次内我们还要再分阶段。但是不同阶段的时间长度也可能不一样，那么我们要怎么样判断我们的data point是在哪个阶段呢。这里用的就是 k means clustering algorithm，<a href="https://youtu.be/4b5d3muPQmA" target="_blank" rel="external">这个介绍视频</a>很清楚地介绍了这个方法。</p>
+<p>然后介绍了区分错误的几种可能。材料、传感器、check-ring（注塑机的前端的一个阀门）出现问题都会影响数据。</p>
+<p>另外一个问题是，如果每个batch的对应phase长度不一样怎么办。整体上来说是两个办法，一个是切短，一个是补长（投影），当然注意要每个phase单独拎出来看。</p>
+<p>这里有一个概念是NM normalization, 是Nomikos 和 Macgregor剔出来的一个 MPCA based process monitoring strategy，其实就是 $\tilde{x}<em>{i,j,k} = \frac{x</em>{i,j,k} - \bar{x}<em>{j,k}} {s</em>{j,k}}$，其中x bar是算术平均值，s是标准差</p>
 
       
     </div>
@@ -593,7 +596,7 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">44</span>
+                <span class="site-state-item-count">46</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -615,7 +618,7 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-count">16</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
