@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Machine Learning,Controlling Engineering," />
 
 
 
@@ -94,15 +94,22 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Dori-min">
-<meta property="og:url" content="dori-min.github.io/categories/Lecture-note/index.html">
+<meta name="description" content="The notes the summarized from the series of videos of MATLAB on YouTube.
+Applicationto any variable we cannot measure directly but can measure indirectly
+State estimator is for determined system, whil">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Karman Filter">
+<meta property="og:url" content="dori-min.github.io/archieve/210312-Karman-Filter/index.html">
 <meta property="og:site_name" content="Dori-min">
-<meta property="og:description">
+<meta property="og:description" content="The notes the summarized from the series of videos of MATLAB on YouTube.
+Applicationto any variable we cannot measure directly but can measure indirectly
+State estimator is for determined system, whil">
+<meta property="og:updated_time" content="2021-03-12T01:57:16.341Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Dori-min">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Karman Filter">
+<meta name="twitter:description" content="The notes the summarized from the series of videos of MATLAB on YouTube.
+Applicationto any variable we cannot measure directly but can measure indirectly
+State estimator is for determined system, whil">
 
 
 
@@ -131,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="dori-min.github.io/categories/Lecture-note/"/>
+  <link rel="canonical" href="dori-min.github.io/archieve/210312-Karman-Filter/"/>
 
 
 
 
 
-  <title>Category: Lecture note | Dori-min</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>Karman Filter | Dori-min</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -162,7 +169,7 @@
     
   
 
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-right  ">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -288,55 +295,201 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Lecture note<small>Category</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="dori-min.github.io/archieve/210312-Karman-Filter/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dori-min">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dori-min">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/210209-aspen-plus/" itemprop="url">
-              
-                <span itemprop="name">Aspen Plus Notes</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Karman Filter</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2021-02-09T16:35:47+08:00"
-              content="2021-02-09" >
-          02-09
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
 
-    </header>
-  </article>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Post modified</span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2021-03-12T09:57:16+08:00">
+                2021-03-12
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Video-Report/" itemprop="url" rel="index">
+                    <span itemprop="name">Video Report</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>The notes the summarized from <a href="https://www.youtube.com/watch?v=mwn8xhgNpFY" target="_blank" rel="external">the series of videos of MATLAB on YouTube</a>.</p>
+<h2 id="Application"><a href="#Application" class="headerlink" title="Application"></a>Application</h2><p>to any variable we cannot measure directly but can measure indirectly</p>
+<p>State estimator is for determined system, while Karman filter is for stochastic system</p>
+<h2 id="Symbol-definition"><a href="#Symbol-definition" class="headerlink" title="Symbol definition"></a>Symbol definition</h2><p>U - system input</p>
+<p>X - variables we want but can not be measured</p>
+<p>Y - variables we can measure</p>
+<p>Combining probability function (Gaussian) of prediction (with model uncertainty) and measurement  (with sensor noice)</p>
+<h2 id="Main-Function"><a href="#Main-Function" class="headerlink" title="Main Function"></a>Main Function</h2><p>Xhat = Xhat- + K <em> (y - C </em>  Xhat-)</p>
+<p>Xhat is posteriors estimate</p>
+<p>Xhat- is Predict, priori estimate</p>
+<p>K is Kalman gain. Extreme cases: if K=0, Xhat = Xhat-; if K=1, Xhat = y.</p>
+<h2 id="Algorithm-two-step-process"><a href="#Algorithm-two-step-process" class="headerlink" title="Algorithm(two step process)"></a>Algorithm(two step process)</h2><p>1.prediction<br>1.1 calculate priori estimate Xhat- $\hat{x}<em>k^- = A\hat{x}</em>{k-1} + B u_k$<br>1.2 Uncertainty $P_k^-$ is the variance of priori estimate</p>
+<p>\2. Update<br>2.1 calculate Kalman gain. $K = \frac{P_k^- C^T}{C P_k^- C^T +R}$</p>
+<p>Window = Only the previous step</p>
+<h2 id="Non-linear-state-estimator"><a href="#Non-linear-state-estimator" class="headerlink" title="Non-linear state estimator"></a>Non-linear state estimator</h2><p>Kalman is only defined for linear system.</p>
+<p>Gaussian error —-linear—-→ Gaussian</p>
+<p>Gaussian error —-linear—→ Non-Gaussian —→ may not converge</p>
+<h3 id="Solution-1"><a href="#Solution-1" class="headerlink" title="Solution 1"></a>Solution 1</h3><p>Extended Kalman filter EKF</p>
+<p>nonlinear-&gt;linear using intercept (locally linear)</p>
+<p>Drawbacks</p>
+<ul>
+<li>difficult to calculate Jacobians</li>
+<li>high computational cost</li>
+</ul>
+<h3 id="Solution-2"><a href="#Solution-2" class="headerlink" title="Solution 2"></a>Solution 2</h3><p>Unscented Kalman Filter</p>
+<p>select symmetric sigma(sample) points at probability distribution—→ calculate with nonlinear function —→ guess the empirical probability distribution</p>
+<h3 id="Solution-3"><a href="#Solution-3" class="headerlink" title="Solution 3"></a>Solution 3</h3><p>Particle Filter</p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Machine-Learning/" rel="tag"># Machine Learning</a>
+          
+            <a href="/tags/Controlling-Engineering/" rel="tag"># Controlling Engineering</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/archieve/210312-algorithm-collection/" rel="next" title="Logistic regression, ROC & AUC, P-value">
+                <i class="fa fa-chevron-left"></i> Logistic regression, ROC & AUC, P-value
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/book reports/210321-intimate-relationship/" rel="prev" title="亲密关系">
+                亲密关系 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -344,6 +497,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -366,8 +523,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -429,6 +595,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Application"><span class="nav-text">Application</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Symbol-definition"><span class="nav-text">Symbol definition</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Main-Function"><span class="nav-text">Main Function</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Algorithm-two-step-process"><span class="nav-text">Algorithm(two step process)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Non-linear-state-estimator"><span class="nav-text">Non-linear state estimator</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Solution-1"><span class="nav-text">Solution 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Solution-2"><span class="nav-text">Solution 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Solution-3"><span class="nav-text">Solution 3</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -535,10 +717,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
@@ -738,219 +920,6 @@
                     searchTextCount += searchTextCountInSlice;
                     return {
                       hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
-
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
-
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
-
-                  // sort slices in content by search text's count and hits' count
-
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
-
-                  // select top N slices in content
-
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
-
-                  // highlight title and content
-
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
-
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config("");
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-      all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
-</script>
-
-<script type="text/javascript" src="custom_mathjax_source">
-</script>
-<!-- End: Injected MathJax -->
-<!-- hexo-inject:end -->
-  
-
-
-  
-
-  
-
-</body>
-</html>
-          hits: hits,
                       start: start,
                       end: end,
                       searchTextCount: searchTextCountInSlice

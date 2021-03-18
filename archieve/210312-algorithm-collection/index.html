@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Machine Learning,Statistic," />
 
 
 
@@ -94,15 +94,19 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Dori-min">
-<meta property="og:url" content="dori-min.github.io/categories/Lecture-note/index.html">
+<meta name="description" content="The following are notes when viewing StatQuest’s videos. StatQuest is recommended for anyone like me in need of statistic knowledge but have not taken systematic statistic training.
+Intro Machine lear">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Logistic regression, ROC & AUC, P-value">
+<meta property="og:url" content="dori-min.github.io/archieve/210312-algorithm-collection/index.html">
 <meta property="og:site_name" content="Dori-min">
-<meta property="og:description">
+<meta property="og:description" content="The following are notes when viewing StatQuest’s videos. StatQuest is recommended for anyone like me in need of statistic knowledge but have not taken systematic statistic training.
+Intro Machine lear">
+<meta property="og:updated_time" content="2021-03-18T06:39:38.448Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Dori-min">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Logistic regression, ROC & AUC, P-value">
+<meta name="twitter:description" content="The following are notes when viewing StatQuest’s videos. StatQuest is recommended for anyone like me in need of statistic knowledge but have not taken systematic statistic training.
+Intro Machine lear">
 
 
 
@@ -131,13 +135,13 @@
 
 
 
-  <link rel="canonical" href="dori-min.github.io/categories/Lecture-note/"/>
+  <link rel="canonical" href="dori-min.github.io/archieve/210312-algorithm-collection/"/>
 
 
 
 
 
-  <title>Category: Lecture note | Dori-min</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>Logistic regression, ROC & AUC, P-value | Dori-min</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -162,7 +166,7 @@
     
   
 
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-right  ">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -288,55 +292,239 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Lecture note<small>Category</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="dori-min.github.io/archieve/210312-algorithm-collection/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dori-min">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dori-min">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/210209-aspen-plus/" itemprop="url">
-              
-                <span itemprop="name">Aspen Plus Notes</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Logistic regression, ROC & AUC, P-value</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2021-02-09T16:35:47+08:00"
-              content="2021-02-09" >
-          02-09
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
 
-    </header>
-  </article>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Post modified</span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2021-03-18T14:39:38+08:00">
+                2021-03-18
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Video-Report/" itemprop="url" rel="index">
+                    <span itemprop="name">Video Report</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>The following are notes when viewing StatQuest’s videos. <a href="https://www.youtube.com/user/joshstarmer" target="_blank" rel="external">StatQuest</a> is recommended for anyone like me in need of statistic knowledge but have not taken systematic statistic training.</p>
+<h1 id="Intro-Machine-learning"><a href="#Intro-Machine-learning" class="headerlink" title="Intro Machine learning"></a><a href="https://www.youtube.com/watch?v=Gv9_4yMHFhI" target="_blank" rel="external">Intro Machine learning</a></h1><ul>
+<li>all about making prediction and classification.</li>
+<li>Training data &amp; testing data - Fit the training well but making poor predictions is called Bias-Variance Tradeoff</li>
+</ul>
+<h1 id="Cross-Validation"><a href="#Cross-Validation" class="headerlink" title="Cross Validation"></a><a href="https://www.youtube.com/watch?v=fSytzGwwBVw" target="_blank" rel="external">Cross Validation</a></h1><ul>
+<li>allow us to compare different machine learning methods and know how well they are doing </li>
+<li>first 25% for training, rest testing &lt;- which 25%?</li>
+<li>use different 25% each time  four-fold arbitrary </li>
+<li>usual: ten-fold</li>
+</ul>
+<h1 id="Logistic-regression"><a href="#Logistic-regression" class="headerlink" title="Logistic regression"></a><a href="https://www.youtube.com/watch?v=yIYKR4sgzI8" target="_blank" rel="external">Logistic regression</a></h1><p>regression for logistic (boolean)</p>
+<p>- probability curve</p>
+<h1 id="Selectivity-and-Specificity"><a href="#Selectivity-and-Specificity" class="headerlink" title="Selectivity and Specificity"></a>Selectivity and Specificity</h1><ul>
+<li>Sensitivity(判真) = True Positive / ( True Positives + False Negatives)</li>
+<li>Specificity(辨假) = False Positive / (False Positives + True Negatives)</li>
+<li>Precision = True Positive / ( True Positives + False Positives)</li>
+</ul>
+<p>*true/false compare actual vs predicted, positive/negative is predicted result</p>
+<p>Receiver Operator Characteristic (ROC) &amp; Area under the curve(AUC)</p>
+<p>- set a threshold at the logistic regression</p>
+<p>- threshold = 0.1 = false positive</p>
+<p>- threshold = 0.9 = false negative</p>
+<p>- confusion matrix too complicated for comparing different threshold</p>
+<h1 id="ROC-amp-AUC"><a href="#ROC-amp-AUC" class="headerlink" title="ROC &amp; AUC"></a><a href="https://www.youtube.com/watch?v=4jRBRDbJemM" target="_blank" rel="external">ROC &amp; AUC</a></h1><p>ROC graph = true positive rate (sensitivity) vs false positive rate(=1-specificity)</p>
+<p>AUC of ROC larger suggesting the curve better</p>
+<h1 id="P-value"><a href="#P-value" class="headerlink" title="P-value"></a>P-value</h1><ul>
+<li>probability of [generating events of equal or rarer probability]</li>
+</ul>
+<p>比如说在一个高斯分布pdf里面，某一个值k对应的p value是 可能性（纵坐标）小于p的两个tail面积和，如果k敲好是mean，那么p value就等于1</p>
+<h1 id="Probability-vs-Likelihood"><a href="#Probability-vs-Likelihood" class="headerlink" title="Probability vs Likelihood"></a><a href="https://www.youtube.com/watch?v=pYxNSUDSFH4" target="_blank" rel="external">Probability vs Likelihood</a></h1><ul>
+<li>Probabilities are areas under fixed distribution</li>
+<li>Likelihoods are y-axis values for fixed data pointes with distributions that can be move</li>
+</ul>
+<h1 id="Angel-theory-in-game-theory"><a href="#Angel-theory-in-game-theory" class="headerlink" title="Angel theory in game theory"></a><a href="https://www.youtube.com/watch?v=sxiKlOK3EJY&amp;ab_channel=CodeParade" target="_blank" rel="external">Angel theory in game theory</a></h1><p><em>挺好奇这个结果，证明出来是天使会赢，就算魔鬼知道天使每一步要怎么走</em></p>
+<h1 id="SVM"><a href="#SVM" class="headerlink" title="SVM"></a>SVM</h1><p>support vector machine</p>
+<p>pick threshold and classify x (not good)</p>
+<p>find the midpoint of edge</p>
+<p>margin = each edge to threshold</p>
+<ol>
+<li><p>Maximal margin classifier (maximize margin) sensitive to outlier in training data</p>
+</li>
+<li><p>Soft margin classifier (using cross-validation) = support vector classifier</p>
+</li>
+</ol>
+<p>observation(test data) on the edge and within the soft margin are called <strong><em>support vectors\</em></strong></p>
+<p>if many overlapping-&gt;</p>
+<ol>
+<li>SVM</li>
+</ol>
+<p>e.g.</p>
+<blockquote>
+<p>x-axis = dosage<br>y-axis = dosage^2<br>draw a line to classify</p>
+<p>(the transform → Kernel Function/ Radial Kernel(for infinite dimensions, behaves like Nearest Neighbor model); Radial Basis Function(RBF)Kernel)</p>
+</blockquote>
+<p>algorithm:</p>
+<blockquote>
+<ol>
+<li>start with data in low dimension</li>
+<li>move data to higher dimension</li>
+<li>find a support vector classifier to separate in two group</li>
+</ol>
+</blockquote>
+<h1 id="Unfinished"><a href="#Unfinished" class="headerlink" title="Unfinished"></a>Unfinished</h1><h2 id="RDA-redundancy-analysis"><a href="#RDA-redundancy-analysis" class="headerlink" title="RDA redundancy analysis"></a>RDA redundancy analysis</h2><h2 id="CCA-Canonical-Correlation-Analysis"><a href="#CCA-Canonical-Correlation-Analysis" class="headerlink" title="CCA Canonical Correlation Analysis"></a>CCA Canonical Correlation Analysis</h2><p><a href="https://www.cnblogs.com/pinard/p/6288716.html" target="_blank" rel="external">https://www.cnblogs.com/pinard/p/6288716.html</a></p>
+<h2 id="MDS-Multidimensional-scaling"><a href="#MDS-Multidimensional-scaling" class="headerlink" title="MDS Multidimensional scaling"></a>MDS Multidimensional scaling</h2><h2 id="Sliding-mode-control"><a href="#Sliding-mode-control" class="headerlink" title="Sliding mode control"></a><a href="https://youtu.be/BZbCdjbPTs4" target="_blank" rel="external">Sliding mode control</a></h2><p>想法很好，感觉image里面坐adaptive filter的时候也学过类似的，也就是用梯度（垂直于线）+控制方向的矢量和，但是有一个问题是这里要到达稳态，而我们的批次过程里面是不想稳态的，这个GT的prof讲课挺好的。</p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Machine-Learning/" rel="tag"># Machine Learning</a>
+          
+            <a href="/tags/Statistic/" rel="tag"># Statistic</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/book reports/210306-the-universe-in-zero-words/" rel="next" title="无言的宇宙">
+                <i class="fa fa-chevron-left"></i> 无言的宇宙
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/archieve/210312-Karman-Filter/" rel="prev" title="Karman Filter">
+                Karman Filter <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -344,6 +532,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -366,8 +558,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -429,6 +630,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro-Machine-learning"><span class="nav-text">Intro Machine learning</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Cross-Validation"><span class="nav-text">Cross Validation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Logistic-regression"><span class="nav-text">Logistic regression</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Selectivity-and-Specificity"><span class="nav-text">Selectivity and Specificity</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ROC-amp-AUC"><span class="nav-text">ROC & AUC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P-value"><span class="nav-text">P-value</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Probability-vs-Likelihood"><span class="nav-text">Probability vs Likelihood</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Angel-theory-in-game-theory"><span class="nav-text">Angel theory in game theory</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SVM"><span class="nav-text">SVM</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Unfinished"><span class="nav-text">Unfinished</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#RDA-redundancy-analysis"><span class="nav-text">RDA redundancy analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CCA-Canonical-Correlation-Analysis"><span class="nav-text">CCA Canonical Correlation Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MDS-Multidimensional-scaling"><span class="nav-text">MDS Multidimensional scaling</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sliding-mode-control"><span class="nav-text">Sliding mode control</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -535,10 +752,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
@@ -738,219 +955,6 @@
                     searchTextCount += searchTextCountInSlice;
                     return {
                       hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
-
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
-
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
-
-                  // sort slices in content by search text's count and hits' count
-
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
-
-                  // select top N slices in content
-
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
-
-                  // highlight title and content
-
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
-
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config("");
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-      all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
-</script>
-
-<script type="text/javascript" src="custom_mathjax_source">
-</script>
-<!-- End: Injected MathJax -->
-<!-- hexo-inject:end -->
-  
-
-
-  
-
-  
-
-</body>
-</html>
-          hits: hits,
                       start: start,
                       end: end,
                       searchTextCount: searchTextCountInSlice
