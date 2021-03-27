@@ -1,21 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>如何开启高效工作的一天</title>
+    <url>/210327-efficient-working-day/</url>
+    <content><![CDATA[<p>今天看到这个<a href="https://youtu.be/P4bQEvuNapk" target="_blank" rel="external">视频</a>有点感触。</p>
+<p>先说说视频里面的启示。</p>
+<ol>
+<li>每天第一件事是列任务</li>
+<li>工作和生活分开</li>
+<li>减少打扰和multitask</li>
+<li>保持运动和阅读</li>
+</ol>
+<hr>
+<p>先说说我在家的工作。</p>
+<p>关于第一点，因为我本人会偶尔赖床（真的是偶尔），所以前一天晚上列好第二天的任务会成为我起床的动力。我的任务一般都不会很详细，但是我最近都会允许自己完不成……这点一定是要改的。</p>
+<p>第二点的话，虽然我现实没有什么接触的生活，不过我还是有娱乐的，的确要明确把两者有明确的区分。</p>
+<p>第三点我其实做的很不好，查微信和别的通讯的次数比我想象的高。对于必须要集中精力完成的部分，我会集中精力去完成，但是这个学期我太多任务是没有办法单纯一个人去思考和完成，所以就不得不导致任务进度和聊天窗口的来回切换。</p>
+<p>但是希望每次打开聊天窗口都会明确自己的目的。</p>
+<p>最近学习很多方面都不顺心，以前觉得自己单打独斗能走天下，但是现在也依靠了别人很多，无论在知识上还是情感上。非常感谢在知识和情感上给予我重大帮助的我的同学朋友们。</p>
+<p>作者提到了使用notion，不过我觉得工具是一个方面，适合自己的最重要，我觉得现在我使用的GitHub Page工作流很称心如意。Typora写字虽然有图片插入上的不变，不过少了很多打扰的选项。Markdown现在也越来越习惯。</p>
+]]></content>
+      <categories>
+        <category>Video Report</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Quality Control</title>
+    <url>/210325-quality-control/</url>
+    <content><![CDATA[<h1 id="Quality-Measurement-Macroscopic-definition-and-goals"><a href="#Quality-Measurement-Macroscopic-definition-and-goals" class="headerlink" title="Quality Measurement - Macroscopic definition and goals"></a><a href="https://wiki.mbalib.com/wiki/%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86%E5%AD%A6" target="_blank" rel="external">Quality Measurement</a> - Macroscopic definition and goals</h1><h2 id="6-sigma"><a href="#6-sigma" class="headerlink" title="6 sigma"></a><a href="https://wiki.mbalib.com/wiki/%E5%85%AD%E8%A5%BF%E6%A0%BC%E7%8E%9B" target="_blank" rel="external">6 sigma</a></h2><p>Core: Measure Product, Analyze Defect, Reduce <strong>DPMO(Defects Per Million Opportunities)</strong>. <u>Statistical</u> method employed.</p>
+<h2 id="Industries-that-strict-on-quality"><a href="#Industries-that-strict-on-quality" class="headerlink" title="Industries that strict on quality"></a>Industries that strict on quality</h2><p>越小不代表一定要越高的合格率，最重要的是“一定不能出错”的行业</p>
+<p>汽车</p>
+<p>婴儿奶粉（任何婴儿制品）</p>
+<p>医药</p>
+]]></content>
+      <tags>
+        <tag>Controlling Engineering</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>山茶文具店</title>
+    <url>/book%20reports/210323-tsubaki-stationer/</url>
+    <content><![CDATA[<p>这本书是算是最近比较热门、评分也比较高的日本治愈系书，茶色封面也有一股复古的味道。舞台是镰仓，第一人称的“我”波波是的职业是给人代笔。</p>
+<p>本书还有续作《闪闪发光的生活》，但是一开头就是婚后生活，看到评价说后续作品就没有特别有趣了。再加上我个人其实不是特别中意这种闲散的写作风格，所以看了一点就选择弃了。</p>
+<p><em>说到日常风，其实我特别喜欢漫画《四叶妹妹》的日常感，但是也正因为如此只有实在没事干的时候才会拿出来看看，就算如此看到可爱的四叶妹妹也会让我感到至于，但是不会成为我一直捧着看的理由。大概本作给我的感觉也是类似，而且本作的QP妹妹我也是代四叶妹妹的。</em></p>
+<h1 id="代笔与情感线"><a href="#代笔与情感线" class="headerlink" title="代笔与情感线"></a>代笔与情感线</h1><p>说到代笔这个主题就不得不提到大名鼎鼎的京阿尼动画《紫罗兰永恒花园》（下称“京紫”），原著小说动画电影在我心中都有很高地位。与本书相比在表达主旨上有相似之处：本书讲波波从忤逆千代（祖母）通过给人代笔不断感悟生活，到最后明白感悟亲情珍贵；京紫的主旨是原来无情的杀人工具Violet Evergarden在替人写信中逐渐明白爱的意义，并且实现对少佐的爱的升华。其实大同小异，不过风格迥然不同。</p>
+<p>不过京紫是用的打字机，而本文还有一个书写的过程。我猜想打字机是更加符合京紫的近世设定，再加上女主的机械手臂，有蒸汽朋克感。</p>
+<h1 id="纸质与信息化"><a href="#纸质与信息化" class="headerlink" title="纸质与信息化"></a>纸质与信息化</h1><p>最近也在看up主“芒果冰”的《中国网游史》的节目，其中有一期（应该是番外）说到up主考究过去的网游发展其实是困难重重，因为一个论坛关闭甚至是一个群的解散都会导致大量的珍贵资源和信息消失在茫茫大海，而相比之下过去的杂志因为有心人的收藏整理反倒成了研究更早时期的游戏发展的重要参考资料。在那期节目结尾up主呼吁我们尽可能去保留纸质版备份。本地硬盘备份和网络备份都非常重要。</p>
+<p>说实话我自己也已经白纸黑字写字了，在努力实现无纸化的同时，我也在信息上努力进行断舍离，最近整理用了10年的笔记软件的时候更是如此。我的原则是，自己创作的文字是将来对过去的自己的重要理解组成部分，所以就算再弱智也不会轻易删除。对于重要的好书，还是会购买实体版收藏。</p>
+<h1 id="匠人精神"><a href="#匠人精神" class="headerlink" title="匠人精神"></a>匠人精神</h1><p>日本还是那么喜欢匠人精神，这里的文具店和对文具的考究就是其中之一，对于不同笔墨和纸质的讲究的确是细致入微，其实想想近年来日本一些流行的文库作品也都有匠人的影子，比如写调琴的《羊钢与森林》，写音乐的《蜜蜂与远雷》，在一个方面的专精代表着专注的心血<del>和逼格</del>，这种人设更加讨喜。</p>
+<h1 id="摘抄"><a href="#摘抄" class="headerlink" title="摘抄"></a>摘抄</h1><blockquote>
+<p>即使写得一手靓字，如果别人完全看不懂，就无法称得上是精粹，反而会变成一种庸俗。</p>
+<p>“比方说，为了表达内心的感谢，我们会带一盒糕点给对方。这种时候，通常会去自己觉得好吃的店家买来送人，不是吗？也许有人很擅长自己做，会带亲手制作的糕点；但是，买来的糕点难道就无法表达诚意吗？”</p>
+<p>事到如今，我并不打算吹皱一池春水。我们已经有二十多年没见面，只是想告诉她，我身体很健康。</p>
+<p>“也有客人委托我写一封平淡无奇的信。</p>
+<p>“你可以为我写很普通的信吗？”</p>
+<p>园田先生很委婉地说。</p>
+<p>“我只想告诉她，我还活着。””<br>园田先生有自己的生活，那个世界里并没有樱女士；而樱女士也没有选择成为“园田樱”的人生。</p>
+<p>这或许会是封充满体贴的信，充满为了避免双方越线、为了自律，也为了不影响对方的体贴。</p>
+<p>第一次认真思考死亡这件事，于是发现：原来自己还惦记着樱女士。</p>
+<p>立如芍药，坐如牡丹，行如百合。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
     <title>常见手机/电脑问题疑难解答</title>
     <url>/210318-common-trouble-shooting/</url>
     <content><![CDATA[<p>把我个人碰到两次或者以上的问题收集一下，以防将来再碰到的时候忘记怎么解决。</p>
 <h1 id="OneNote相关"><a href="#OneNote相关" class="headerlink" title="OneNote相关"></a>OneNote相关</h1><h2 id="同步-无法登录问题"><a href="#同步-无法登录问题" class="headerlink" title="同步/ 无法登录问题"></a>同步/ 无法登录问题</h2><ol>
-<li>Fiddler 4</li>
-<li>局域网代理/整机代理</li>
+<li>Fiddler 4（一开始只是勾选了onenote，但是不行，就全选了）</li>
+<li>局域网代理/整机代理，ssr/netchX based的不行，最后用了clash，同步成功）</li>
 </ol>
 <h2 id="笔记本无法打开"><a href="#笔记本无法打开" class="headerlink" title="笔记本无法打开"></a>笔记本无法打开</h2><p> 在网页版中打开，然后点“在桌面版本中打开”</p>
 <h1 id="Surface-Pen-校正"><a href="#Surface-Pen-校正" class="headerlink" title="Surface Pen 校正"></a>Surface Pen 校正</h1><p>从控制面板进入笔选项。</p>
 <p><img src="https://i.loli.net/2021/03/18/yxHNJtbopPGZW7u.png" alt="image.png"></p>
+<h1 id="声卡和摄像头驱动一起掉"><a href="#声卡和摄像头驱动一起掉" class="headerlink" title="声卡和摄像头驱动一起掉"></a>声卡和摄像头驱动一起掉</h1><p><a href="https://www.lifewire.com/how-to-delete-the-upperfilters-and-lowerfilters-registry-values-2619222" target="_blank" rel="external">https://www.lifewire.com/how-to-delete-the-upperfilters-and-lowerfilters-registry-values-2619222</a></p>
+<h1 id="无法显示网络列表"><a href="#无法显示网络列表" class="headerlink" title="无法显示网络列表"></a>无法显示网络列表</h1><p>打开services</p>
+<p><img src="https://i.loli.net/2021/03/23/sbe8HQ4M6UXIwkK.png" alt="image.png"></p>
 ]]></content>
   </entry>
   <entry>
     <title>亲密关系</title>
-    <url>/book%20reports/210321-intimate-relationship/</url>
+    <url>/book%20reports/210312-intimate-relationship/</url>
     <content><![CDATA[<h1 id="读后感悟"><a href="#读后感悟" class="headerlink" title="读后感悟"></a>读后感悟</h1><p>最近读书偷懒，这本书的内容又非常翔实，所以整体读书跨度超过了两个星期，感觉受益匪浅。</p>
 <p>起初是想要给写文阅读一些系统的理论支撑，读下来不仅收获了丰富的素材，对自己、家庭、社会的理解得到了不同程度的提升。</p>
 <p>当然毕竟内容比较多，读得其实也算比较粗略，如果将来处于某一段关系之中再回来阅读学习，可能会有不一样的感受和体会。</p>
@@ -724,6 +792,11 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
     <title>简短读书报告合集（2021上半年合集）</title>
     <url>/210201-book-reports/</url>
     <content><![CDATA[<p>虽然说着开卷有益，但是不是所有的书都让自己感想颇丰，所以这些书就单独列出来，简单写一些想法就好。</p>
+<h1 id="伊凡伊里奇之死"><a href="#伊凡伊里奇之死" class="headerlink" title="伊凡伊里奇之死"></a>伊凡伊里奇之死</h1><p><em>写于2020年9月3日</em></p>
+<p>短篇小说，A4排版也才六十四页。<br>倒叙的手法回顾了伊凡的一生。最后大段大段描写死前的痛苦震撼人心。<br>中间出现的令人恍然一新的农村小伙，痛苦中人都需要光，他就是光，是年轻的，生机勃勃的希望。成为他晚年生活几乎是唯一的希望。<br>因为对妻子只有一时迷恋，妻子也只重视利益，孩子死过几个，所以对孩子的感情也不如对工作，热爱的法官与审讯官工作，到头来与医生一样，在伊凡眼里都是骗子，都是骗子。<br>从这部作品可以讨论的几个点——职业、婚姻，最重要的是，死亡。<br>职业，人赖以维生，从中获得薪水，还有乐趣（如果可能有的话），还有别人的态度（无论好坏）。薪水要多少才是足够？虽然肯定是越多越好，但是能够做到抚养后代、养老和财富自由也并非需要阿伏伽德罗常数一般的数字。<br>婚姻。我个人的婚姻观中，恋爱是浪漫与罗曼蒂克的理想化，而婚姻更加强调的是“过日子”，因为这带有法律意义和道德成分。伊凡结婚的时候考虑到了对方的容貌与家庭背景，但是没有考虑“过日子”。或许东西方婚姻观的不同，从我个人的角度来说，婚姻次数是越少越好，减少麻烦，但是自由的婚姻文化中，结婚离婚很多次似乎也并非罕见。虽然我没有生过什么大病，但是也对病痛时的无助有一点小小的感悟。但是所谓的“爱”的定义在我这里还是一个未知数，我只对本能的好感和喜欢有清晰的描述，其他可能都知识荷尔蒙的释放或者是神经电位的变化。<br>生死，伊凡死得痛苦的原因，就是他对自己的生痛恨不已，因为不知道自己为什么生，也就不知道自己为什么死。说实话，我对死亡没有怎么深入的思考，但是碌碌无为地死或者有未竟之事而死，总归来说是有遗憾的。可能年纪小，没有经历过痛不欲生。</p>
+<h1 id="独立，从一个人旅行开始"><a href="#独立，从一个人旅行开始" class="headerlink" title="独立，从一个人旅行开始"></a>独立，从一个人旅行开始</h1><p><em>写于2020年9月</em></p>
+<p>读完了新井一二三的《独立，从一个人旅行开始》。<br>几年前在书店看到她执笔的《你一定想知道的日本名词的故事》，作为日语学习者还是看了了挺有意思的，不过最后没有买下来。</p>
+<p>作者的中文写作流畅而舒服，没有让人觉得生涩，也没有复杂绚丽的辞藻，全部都是最淳朴的白描。从中学高中时代靠着周游券一个人在日本国内旅行，到大学之后到中国，再到加拿大多伦多，以及东欧之旅，布拉格与匈牙利那一段让我有了想要去旅行的心情。然后是从香港到订婚回国，再带着孩子到冲绳与台湾，半年没有出远门的后疫情时代，看到这本书格外地想要再度去旅行了。<br>我和作者一样喜欢一个人出行的无拘无束。但是作者很擅长与当地人交流，而我不是很擅长，这点可能是最大的不一样吧。</p>
 <h1 id="Four-Laws-that-Drive-the-Universe"><a href="#Four-Laws-that-Drive-the-Universe" class="headerlink" title="Four Laws that Drive the Universe"></a>Four Laws that Drive the Universe</h1><p>《当下的启蒙》里面提到热力学第二定律的重要性的时候提到了这本书。本来以为是用热力学和其他数学或者物理知识一起解释社会科学的，但是打开才发现是一本完全硬核的热力学教程。</p>
 <p>去年的这个时候我刚好在学热力学，一些学习感想也写在了另外一篇文章里面。我觉得让我“开窍”了的内容是我读到关于勒让德变化相关的内容的时候。不过这本书倒是想办法从原理上解释。</p>
 <p>因为本书比较硬核，又让我回味起了被热力学支配的恐惧，但是作为入门来说，比起课本和讲义的讲解作为补充资料也未尝不可。或许可以考虑推荐给学习热力学的学弟学妹们。</p>
@@ -1177,7 +1250,8 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
 <li>to give some insight of all the knowledge I have learned so far, and show the implicit connection.</li>
 </ol>
 <p>All the content are based on my own experience of the program I have been taking and there might be some mistakes and (many) typos. It might be partially representative but hope it helps a bit:)</p>
-<p>If you could read Chinese, I highly recommend reading <a href="https://zhuanlan.zhihu.com/p/26627391" target="_blank" rel="external">this column</a>. <a href="https://www.zhihu.com/column/chemicalengineeringnotes" target="_blank" rel="external">The other work</a> of the author are also inspiring.</p>
+<p>If you could read Chinese, I highly recommend reading <a href="https://zhuanlan.zhihu.com/p/26627391" target="_blank" rel="external">this column</a>. <a href="https://www.zhihu.com/column/chemicalengineeringnotes" target="_blank" rel="external">Other work</a> of the author are also inspiring.</p>
+<p>210322: <a href="http://facstaff.cbu.edu/rprice/lectures/" target="_blank" rel="external">These lecture note</a> is quite helpful for Chem Eng students.</p>
 <h1 id="What-major-courses-are-included-in-Chemical-Engineering-Program"><a href="#What-major-courses-are-included-in-Chemical-Engineering-Program" class="headerlink" title="What major courses are included in Chemical Engineering Program"></a>What major courses are included in Chemical Engineering Program</h1><p>Here we exclude some courses that are provided and shared by other program (e.g. Calculus, Organic Chemistry, Analytical Chemistry, etc.) but focus on the particular chemical engineering programs.</p>
 <p>The core courses in the program I have taken are listed here</p>
 <blockquote>
@@ -2899,6 +2973,33 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </categories>
   </entry>
   <entry>
+    <title>Pocket World in Figures 2019</title>
+    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
+    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
+<blockquote>
+<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
+</blockquote>
+<p>top consumers are </p>
+<blockquote>
+<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
+</blockquote>
+<hr>
+<p>top producers and consumers ranking are the same </p>
+<blockquote>
+<p>1 US 2 China 3 EU28 4 Brazil</p>
+</blockquote>
+<hr>
+<p>Foreign direct investment 2016(million) </p>
+<blockquote>
+<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
+<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Internet 101</title>
     <url>/archieve/200315-Khan-Acadamy-Internet101/</url>
     <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
@@ -2925,33 +3026,6 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       <tags>
         <tag>Internet</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Pocket World in Figures 2019</title>
-    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
-    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
-<blockquote>
-<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
-</blockquote>
-<p>top consumers are </p>
-<blockquote>
-<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
-</blockquote>
-<hr>
-<p>top producers and consumers ranking are the same </p>
-<blockquote>
-<p>1 US 2 China 3 EU28 4 Brazil</p>
-</blockquote>
-<hr>
-<p>Foreign direct investment 2016(million) </p>
-<blockquote>
-<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
-<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Book Report</category>
-      </categories>
   </entry>
   <entry>
     <title>金融的逻辑</title>
@@ -3053,17 +3127,19 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
 <p><a href="https://edition.cnn.com/cnn10" target="_blank" rel="external">CNN 10 - CNN</a></p>
 <p><a href="https://esl.culips.com/" target="_blank" rel="external">Learn English for everyday use | Culips ESL Podcast</a></p>
 <p><a href="https://www.thisamericanlife.org/" target="_blank" rel="external">This is american life</a></p>
-<h1 id="Movie-TV-resources-Drama-Video-download"><a href="#Movie-TV-resources-Drama-Video-download" class="headerlink" title="Movie/TV resources/Drama//Video download"></a>Movie/TV resources/Drama//Video download</h1><p><a href="https://eztv.io/" target="_blank" rel="external">EZTV - TV Torrents Online Series Download | Official</a></p>
+<h1 id="Movie-Drama-Video"><a href="#Movie-Drama-Video" class="headerlink" title="Movie/Drama/Video"></a>Movie/Drama/Video</h1><p><a href="https://eztv.io/" target="_blank" rel="external">EZTV - TV Torrents Online Series Download | Official</a></p>
 <p><a href="http://www.shokdown.com/" target="_blank" rel="external">舒克高清视频下载 - 视频下载|高清下载|批量下载</a></p>
 <p><a href="http://downloadperiscopevideos.com/" target="_blank" rel="external">Scopedown - Download videos from Periscope</a></p>
-<p><a href="https://hubcap.video/" target="_blank" rel="external">Hubcap - Online Screen Recording</a></p>
-<h2 id="Youtube"><a href="#Youtube" class="headerlink" title="Youtube"></a>Youtube</h2><p><a href="http://www.clipconverter.cc/" target="_blank" rel="external">YouTube to MP4 &amp; MP3 Converter and Video Download - ClipConverter.cc</a></p>
+<p><a href="http://www.clipconverter.cc/" target="_blank" rel="external">YouTube to MP4 &amp; MP3 Converter and Video Download - ClipConverter.cc</a></p>
+<h2 id="Online-Screen-Recording"><a href="#Online-Screen-Recording" class="headerlink" title="Online Screen Recording"></a>Online Screen Recording</h2><p><a href="https://hubcap.video/" target="_blank" rel="external">Hubcap - Online Screen Recording</a></p>
+<p><a href="https://www.panopto.com/" target="_blank" rel="external">Panopto</a></p>
+<p><a href="https://recordscreen.io/" target="_blank" rel="external">recordscreen</a></p>
 <h1 id="Music-Resources"><a href="#Music-Resources" class="headerlink" title="Music Resources"></a>Music Resources</h1><p><a href="http://www.guqiankun.com/tools/fivesing" target="_blank" rel="external">5sing音乐解析下载</a></p>
 <p><a href="http://www.360doc.com/content/15/0207/17/5587937_447043703.shtml" target="_blank" rel="external">《网易云音乐》MP3网址外链转换</a></p>
 <p><a href="https://downloads.khinsider.com/" target="_blank" rel="external">Video Game Music Downloads - Free MP3 OST downloads - Game Soundtracks for download</a></p>
 <h1 id="Travel"><a href="#Travel" class="headerlink" title="Travel"></a>Travel</h1><p><a href="http://travel.rakuten.co.jp/?scid=wi_grp_gmx_trv_ich_top_grptab1" target="_blank" rel="external">楽天トラベル: 宿・ホテル予約 国内旅行・海外旅行 予約サイト</a></p>
 <p><a href="http://www.jalan.net/" target="_blank" rel="external">宿・ホテル予約</a></p>
-<h1 id="Picture-Photograph-editing"><a href="#Picture-Photograph-editing" class="headerlink" title="Picture/Photograph editing"></a>Picture/Photograph editing</h1><p><a href="http://www.asqql.com/g/" target="_blank" rel="external">gif动态图片制作</a></p>
+<h1 id="Picture-Photo-editing"><a href="#Picture-Photo-editing" class="headerlink" title="Picture/Photo editing"></a>Picture/Photo editing</h1><p><a href="http://www.asqql.com/g/" target="_blank" rel="external">gif动态图片制作</a></p>
 <p><a href="https://docsmall.com/gif-compress" target="_blank" rel="external">GIF压缩 - docsmall在线GIF压缩,GIF压缩工具,GIF压缩软件</a></p>
 <p><a href="https://www.photopea.com/" target="_blank" rel="external">Photopea | Online Image Editor</a></p>
 <p><a href="https://www.gaoding.com/koutu" target="_blank" rel="external">【抠图】在线抠图软件_ps抠图证件照换底色-稿定设计</a></p>
