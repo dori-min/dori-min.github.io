@@ -89,8 +89,8 @@
 </ol>
 ]]></content>
       <tags>
-        <tag>Machine Learning</tag>
         <tag>Controlling Engineering</tag>
+        <tag>Machine Learning</tag>
       </tags>
   </entry>
   <entry>
@@ -355,8 +355,8 @@
         <category>Video Report</category>
       </categories>
       <tags>
-        <tag>Machine Learning</tag>
         <tag>Controlling Engineering</tag>
+        <tag>Machine Learning</tag>
       </tags>
   </entry>
   <entry>
@@ -1336,6 +1336,34 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
       </categories>
   </entry>
   <entry>
+    <title>20~21 fall学期总结</title>
+    <url>/archieve/201222-summary-of-20-21-fall/</url>
+    <content><![CDATA[<p>简单回顾一下几节课吧。</p>
+<p>对自己说一声辛苦了。</p>
+<h1 id="数据建模"><a href="#数据建模" class="headerlink" title="数据建模"></a>数据建模</h1><p>一开始因为机器学习reg不进去的时候无奈之下reg了这门课，一开始真的心情很沉重，然后头两周的东西又很简单，就搞得我毫无学习动力。</p>
+<p>到了quiz惨重了一次之后开始认真看video，刚好也到了难点，感觉有在努力看代码写代码。midterm到达人生巅峰。后来又开始散养，final project我自己觉得是挺辣鸡的，instructor给个好龟就万岁了。</p>
+<p>本来就是冲着龟来，后来还真的学到了不少东西，越发觉得Henry男神，算是敬佩到五体投地了。而且这个课，我真的应该就在这个时间上，这样对下面热质传递，还有对图像处理的matlab使用有莫大的帮助（或者说是相辅相成）。塞翁失马，焉知非福，所以很多事情走完了回头看是好的，一开始不要太着急难过，只要努力去学就能贯通。</p>
+<h1 id="分离工程"><a href="#分离工程" class="headerlink" title="分离工程"></a>分离工程</h1><p>课程内容课件内容都很丰富，midterm同样是人生巅峰，final炸了估计连一个1sd都没有。但是这节课的内容算是理论和实践的重要结合，因为在热力学我们只学习了理论，这里相当于提供了很多很大很广泛实用的example，回头看热力学的很多东西似乎就从应用的角度讲得通了。</p>
+<p>但是说实话，很多图像方法也让我怀疑人生，毕竟现在都是计算机的年代，不过图像法是可以提供一个很好的思路和算法的。</p>
+<h1 id="热质传递"><a href="#热质传递" class="headerlink" title="热质传递"></a>热质传递</h1><p>新来的prof不熟悉怎么教课是可以理解的，所以改动的syllabus，20%mean，这些我都可以理解，但是我不敢苟同的是教书的角度——从居高临下的角度，是很难教会的。因为一个人理解了、接触得多、融会贯通，不代表别人有相同的经验，所以很多东西看上去很straight forward，但是实际上并非如此。这一点我更欣赏下面图像处理的教授。</p>
+<p>话说回来，内容上这门课的内容还是有很多启发的，尤其是对于“传递”的本质有了更多的理解的体会。</p>
+<h1 id="Bioprocess-and-bioproduct"><a href="#Bioprocess-and-bioproduct" class="headerlink" title="Bioprocess and bioproduct"></a>Bioprocess and bioproduct</h1><p>这个不知道中文怎么说才合适，但是作为4k课，应该不是期待像2k 3k那样有一个贯穿始末的principle，4k的课更多是对一个更深层次领域的介绍，所以这门课像是一个对bioprocess世界方方面面的collection，内容很杂很多，最后还因为时间不够很rush。但是这届细碎的知识点，尤其是那些计算，说有用，其实也不然。我觉得更多就是给我们一个方向和概念，当我们真正遇到问题的时候，这些教材内容给我们的是一个启发。</p>
+<p>但是话说回来，很多东西没有道理可讲，是这样就是这样，这可能是目前的生物领域我不太喜欢的方面。我还是喜欢建立在数学推导之上的演算世界。</p>
+<h1 id="图像处理"><a href="#图像处理" class="headerlink" title="图像处理"></a>图像处理</h1><p>这门课是本学期的一个惊喜，刚刚还出了个不错的龟。</p>
+<p>这个prof的讲课真的特别好。具体可以列几点：</p>
+<p>第一，他会在意所有没有相关背景的人，从最基础的开始讲。比如说matlab的基本使用操作，pixel的定义和概念，集合的一些概念。像我这个cs门外汉很多概念是不懂的，但是全程下来其实要听懂是没有特别大压力的。更何况是有机器学习和计算机视觉基础的人。</p>
+<p>第二，他会用很多的小例子来解释概念，很多算法听上去很难理解，比如snake，但是他的例子非常好懂。有些例子会让概念更复杂，有些会让概念更简单，他的例子属于后者。</p>
+<p>第三，他对自己的讲义把握得好。有些人不知道哪里搞的讲义，其实是不完全清楚里面出现的东西的顺序的。但是他可以把握到，比如讲到一个算法，他会先到后面给大家看一下成果，然后再回来讲算法，这样虽然呈现顺序和讲义顺序不一样，但是讲义顺序是更加时间顺序的，所以复习的时候也不会觉得乱七八糟。虽然讲义不少，但是每一页的字数安排很合理，不会说让人看着特别吃力。</p>
+<p>第四，每节课开头都会有对上节课的回顾和复习，同时几乎每节课都会提前下课一点，比起每次什么都讲不完最后要rush的好多了。</p>
+<p>话说回来，4k仍然是collection，其实没有说完全学了一个体系，但是却对image processing这个广泛的topic有了一定的了解，其实也是挺有趣的，毕竟生活中难免拍照。</p>
+<h1 id="分化实验"><a href="#分化实验" class="headerlink" title="分化实验"></a>分化实验</h1><p>三个实验+ e report（plot一定要有单位）+oral quiz（侥幸得了20，其实没有完全回答正确）</p>
+<p><em>2021年出完了龟补充一下，真的是受宠若惊，ceng真的好龟（是我之前太不努力了）</em></p>
+]]></content>
+      <tags>
+        <tag>Semester Review</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>How to separate glucose and fructose</title>
     <url>/archieve/201222-separation-of-glucose-and-fructose/</url>
     <content><![CDATA[<p>My adored engineer talked abou this question during breakfast and invoked my interest so here are some information I found from internet.</p>
@@ -1481,6 +1509,152 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       <tags>
         <tag>Chemical Engineering</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>报考建议</title>
+    <url>/archieve/201123-uni-life-in-hk/</url>
+    <content><![CDATA[<p>汇总一些关于港校申请基于个人经验的分享。</p>
+<h1 id="港校-vs-内地大学"><a href="#港校-vs-内地大学" class="headerlink" title="港校 vs 内地大学"></a>港校 vs 内地大学</h1><ol>
+<li><p>学习与学术</p>
+<ul>
+<li>知识：内地大学对基础知识要求比港校更高、更扎实（例如高数、大物）。<ul>
+<li>授课：授课的生动/有趣因教授而异，自学能力也很重要。</li>
+<li>教授：港校教授回复学生更频繁更快，更容易建立和教授的联系。港科大的工科教授比例本地、内地、国际大概各三分之一，商学院似乎国际更多，理学院似乎内地更多。</li>
+<li>接触科研机会：相较于同等学校差不多。</li>
+<li>读研：港校认知度比985高一些，对于重视出身的学校有优势。英语教学对标化考试也有一点帮助。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>生活</p>
+<ul>
+<li>语言：英语必须流利，但是广东话掌握最好，重要程度不及英语。</li>
+<li>社会环境：相较于去年情况不算恶劣，但是处于社会仍旧处于不稳定状况</li>
+<li>消费：相较于内地大学开销大很多，快递和外卖没有内地方便。</li>
+<li>住宿：（以港科为例）住宿条件与卫生条件比较内地大学较好，但是由于没有门禁时间，存在喧哗扰民现象</li>
+<li>内地生：一年就读港科大的内地本科生生大约占当年的10%（约200人）。内地生社交与社团一般自成体系，和本地生的互通比较少。内地生在港校属于成绩的上游。</li>
+</ul>
+</li>
+</ol>
+<h1 id="港校对比"><a href="#港校对比" class="headerlink" title="港校对比"></a>港校对比</h1><ol>
+<li><p>港大</p>
+<ul>
+<li>位处港岛，有港铁，一个半小时到罗湖。去往市中心（中环、尖沙咀）较方便。</li>
+<li>舍堂文化比较厉害，有条件可租房</li>
+<li>开设学科比港科大多，对于老一辈的知名度高于港科大。</li>
+<li>人文与政治气息相对港科大浓厚</li>
+<li>优势学科有医科、商科。<br><em>舍堂文化 - 以住宿的舍堂为社团进行的社团生活</em></li>
+</ul>
+</li>
+<li><p>港科大</p>
+<ul>
+<li>位处九龙和新界交汇处，没有港铁直达，需要转乘大巴/小巴，一个半小时到罗湖。去往市中心（中环、尖沙咀）不方便。</li>
+<li>有一点舍堂文化，若入住国际生较多的舍堂则无，大三大四不保证舍位，可能需要租房</li>
+<li>政治气息略弱于港大</li>
+<li>主要是理工商三个学院，香港本地录取线商&gt;工&gt;理，优势学科是商科（计量金融）、工科（计算机科学）。</li>
+</ul>
+</li>
+</ol>
+<h1 id="申请建议"><a href="#申请建议" class="headerlink" title="申请建议"></a>申请建议</h1><ol>
+<li><p>经济条件：港校开销总体是大的，包括但不限于学费、日常消费、住宿租房。</p>
+</li>
+<li><p>专业报考：港校开设专业不同。</p>
+<p> 对于港科大来说，如果倾向理工科，建议直接报大类（理学院/工学院），大一之后再选择专业；如果倾向商科，由于商学院排名高、入学竞争较大，如果要提高成功率，建议填报理学院/工学院，在大一结束后选择Technology &amp; Management五年制双学位<em>（有绩点要求，但是绩点门槛难度低于直接报考商学院）</em>。</p>
+</li>
+<li><p>申请难度：由于社会因素，录取分数相较之前（大约是交复浙线）有急剧下降，现在大概在中流985录取线左右。校长推荐更容易获得全额/半额奖学金。</p>
+</li>
+<li><p>社会因素：仍然处于一个不稳定的时期，尽管学校加强了安保来避免大规模混乱，鉴于内地生都主要和内地生交流，但是仍然可以显著地感受到本地和内地生之间的分化。</p>
+</li>
+</ol>
+<h1 id="面试准备"><a href="#面试准备" class="headerlink" title="面试准备"></a>面试准备</h1><ol>
+<li><p>自我介绍 1.5min （彩虹屁准备）</p>
+<ul>
+<li>多夸自己</li>
+</ul>
+</li>
+<li><p>为什么选择这个学校</p>
+<ul>
+<li>硬件：风景好，facilities好，professor强</li>
+<li>软件：social networking好，社团有趣，就业好，自由、发挥空间大</li>
+</ul>
+</li>
+<li><p>为什么选择香港</p>
+<ul>
+<li>独特的历史文化背景</li>
+<li>毗邻深圳，从小对香港了解</li>
+</ul>
+</li>
+<li><p>为什么想读这个专业</p>
+<p><em>非固定，可转专业，可转院，加粗为热门，建议以<strong><u>应用</u></strong>导向夸</em></p>
+<p><em>International Research Enrichment Track</em></p>
+<ul>
+<li>Mathematics<pre><code> - &lt;u&gt;**Data Science and Technology**&lt;/u&gt;
+ - **&lt;u&gt;Mathematics and Economics&lt;/u&gt;**
+ - Applied Mathematics Track
+ - **&lt;u&gt;Computer Science Track&lt;/u&gt;**
+ - General Mathematics Track
+ - Mathematics and Physics Track
+ - Pure Mathematics Track
+ - **&lt;u&gt;Statistics and Financial Mathematics Track&lt;/u&gt;**
+</code></pre></li>
+<li>Physics<pre><code> - Honors Physics Option
+ - Physics and Mathematics Option
+</code></pre></li>
+<li>Chemistry<pre><code> - Biomolecular Chemistry Option
+ - Environmental and Analytical Chemistry Option
+ - Materials Chemistry Option
+ - Pure Chemistry Option
+</code></pre></li>
+<li>Life Science<pre><code> - Biological Science *(Macro)*
+ - **&lt;u&gt;Biochemistry and Cell Biology *(Micro)*&lt;/u&gt;**
+ - Biotechnology *(more on product)*
+ - **&lt;u&gt;Biotechnology and Business&lt;/u&gt;**
+</code></pre></li>
+<li>Ocean Science <em>(Derived from Life Science)</em></li>
+<li>Dual Degree &amp; Interdisciplinary Program Office (IPO)<pre><code> - IIM(Individualized Interdisciplinary Major)
+ - Environmental Management and Technology
+ - Biotechnology and General Business Management
+</code></pre></li>
+</ul>
+</li>
+</ol>
+<ol>
+<li><p>面试其他</p>
+<ul>
+<li>关于抢话：如果和别人因为讲话撞在一起了，不用很慌张，其实本来在一般说话中就是正常现象，现在是online，完全可以甩锅给网络延迟（即使网络是非常通畅的，没人care是不是真的延迟）说一下Sorry it is a bit lagging here, but I want to talk about xxxx然后顺利抢话<pre><code>    - 不过总是抢也不好，一般心里要预留1s左右延迟时间，撞了可以说you first让对方先讲，如果对方有一点点犹豫还都可以先把话题抢过来。
+</code></pre></li>
+<li>关于leadership：小组中通常有三种角色——leader, contributor, summarizer<pre><code>    - 个人建议leader随缘，不用刻意，如果觉得这个话题自己了解比较多hold得住就可以抢一下；
+    - 更多考虑contributor角色，提出一些有趣有用的观点想法
+    - summarizer也同样可行，如果因为现场紧张脑子转不过来想不出什么新观点的话，可以把前面几个人的观点paraphrase一下总结出共同点或者不同点，或者附和别人，表示对观点的肯定，也能为小组讨论做出贡献
+</code></pre></li>
+<li>关于考虑问题的思路和角度——分类讨论<pre><code>    - 科学的领域：数理化生信+基础医学
+    - 技术的应用：农业、工业、第三产业/服务业
+              - 农业例子：精准农业（precision agriculture）
+                      - 工业例子：半导体产业（semi-conductor）
+                  - 第三产业：金融衍生品（derivatives)，物流与物联网（The Internet of Things，IOT）
+    - 对社会的影响：经济、政治、文化、法律
+             - 经济：宏观政策 &amp; 个体企业经营
+         - 政治：中央政策 &amp; 地方政策
+           - 文化：大众文化 &amp; 亚文化 &amp; 小众潮流
+    - 其他分类讨论：好坏都考虑，对国家地区分类（欧亚美非），对时间分类（过去现在将来的不同现状带来的不同可能性）
+</code></pre></li>
+</ul>
+</li>
+<li><p>面试前准备</p>
+<ul>
+<li>确认网络畅通连接zoom，保持网络畅通</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>面试前整理一下房间背景<ul>
+<li>这两天尽量用英语表达自己的所思所想，看一看新闻</li>
+<li>自我介绍多练练，最好练到下意识能完整说出来（以防刚刚开始面试的时候紧张）</li>
+<li>最后——睡一个好觉，莫慌， 大家水平都差不多。</li>
+</ul>
+</li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>How to answer &#39;Tell me about yourself&#39;</title>
@@ -2296,6 +2470,95 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </categories>
   </entry>
   <entry>
+    <title>Korean grammar Repository</title>
+    <url>/korean/repository/200617-Korean-grammar-repository/</url>
+    <content><![CDATA[<p><em>放置一些杂乱没有进入自己的体系的语法</em></p>
+<h1 id="1-敬語"><a href="#1-敬語" class="headerlink" title="1 敬語"></a>1 敬語</h1><p>母音で終わる場合　語幹＋시다  (e.g. 하다→하시다)<br>「ㄹ」で終わる場合　(e.g. 살다→사시디)</p>
+<p>子音で終わる場合　語幹＋으시다  (e.g. 있다→있으시다)<br>「ㅂ」で終わる場合  (e.g.돕다→돕으시다→도브시다→도우시다)</p>
+<p>시다→세요(してください)</p>
+<h1 id="2-間接話法・伝聞・引用文"><a href="#2-間接話法・伝聞・引用文" class="headerlink" title="2 間接話法・伝聞・引用文"></a>2 間接話法・伝聞・引用文</h1><p><u>○○そうです</u><br>简化only</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>動詞(e.g. 가다, 결혼하다)</th>
+<th>形容詞(e.g.재미있다 , 에쁘다)</th>
+<th>名詞(e.g.천재,벙인)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>過去完了</td>
+<td>갔<u><strong>았</strong></u>대요<br>결혼했<u><strong>었</strong></u>네요</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>過去</td>
+<td>갔대요<br>결혼<strong>했</strong>대요</td>
+<td>재미있<strong><u>었</u></strong>대요<br>에쁘<strong><u>대요</u></strong></td>
+<td>천재<strong><u>였대요</u></strong><br>벙인<strong><u>이었대요</u></strong></td>
+</tr>
+<tr>
+<td>現在</td>
+<td>있대요<br>결혼<strong>한</strong>대요</td>
+<td>재미있<strong><u>대요</u></strong><br>에쁘<strong><u>대요</u></strong></td>
+<td>천재<strong><u>래요</u></strong><br>벙인<strong><u>이래요</u></strong></td>
+</tr>
+<tr>
+<td>未来</td>
+<td>名詞化<br><strong><u>갈</u></strong> 거래요<br>결혼<strong><u>할</u></strong>거래요</td>
+<td>재미있<strong>을</strong> <strong>거래</strong>요<br>에쁘<strong>거래</strong>요</td>
+<td>천재<strong><u>일 거래요</u></strong><br>벙인<u><strong>일 거래요</strong></u></td>
+</tr>
+<tr>
+<td>意志</td>
+<td>라<u><strong>겠</strong></u>대요<br>결혼하<u><strong>겠</strong></u>대요</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>疑問：<br>뭐랬어요,뭐래요-&gt;뭐내요<br>언제에요-&gt;언제내요<br>어디에요-&gt;어디대요<br>뭐였습니까-&gt;뭐였내요<br>올 거에요-&gt;올거내요</p>
+<p>命令：<br>앉으세요-&gt;앉으래요<br>反対：앉지 마세요-&gt;앉지 말래요<br>행복하게  주세요 -&gt; 행복하게 해 잘했어요<br>공부하래요</p>
+<h1 id="3-希望・願望の表現"><a href="#3-希望・願望の表現" class="headerlink" title="3 希望・願望の表現"></a>3 希望・願望の表現</h1><p>～したい    ＝    ~고 십다</p>
+<p>～したらいいなと思う    ＝    았/었/였으면 좋겠다 </p>
+<p>～のを願う・望む    ＝    ~ 기를 바라다</p>
+<h1 id="4-可能形"><a href="#4-可能形" class="headerlink" title="4 可能形"></a>4 可能形</h1><p>母音で終わる場合：語幹＋ㄹ＋수 +있/없 +습니다 </p>
+<p>29 助词</p>
+<p>は＝을<em>（子音で終わる場合）</em>/늘<em>（母音で終わる場合）</em>  <em>再述</em></p>
+<p>が＝이（<em>子音で終わる場合）</em>/가<em>（母音で終わる場合）</em> <em>新情報，初述</em></p>
+<h1 id="初级语法"><a href="#初级语法" class="headerlink" title="初级语法"></a>初级语法</h1><p><em>from Zhihu</em></p>
+<ul>
+<li><strong>连接语尾（13个）</strong></li>
+</ul>
+<p><strong>-고：</strong>表示并列；表示在前面事实的情况之下进行后面的行为。<br><strong>-지만：</strong>表示对立转折。虽然 …但是。<br><strong>-아/어서/여서(계기)：</strong>表示两种行为在时间上是先后进行的。<br><strong>-아/어서/여서(이유)：</strong>表示原因、理由。<br><strong>-(으)니까：</strong>表示原因。<em>＝ですから</em><br><strong>-(으)ㄴ데：</strong>表示提示说明；表示轻微的转折；表示原因或根据。<br><strong>-거나：</strong>表示在罗列的多种情况中任选一个。<em>=でも</em><br><strong>-는데：</strong>表示对某事先提示相关背景情况，后面再做详细说明。<em>だが</em><br><strong>-(으)러：</strong>表示动作的目的。<br><strong>-(으)려고：</strong>表示意图。<br><strong>-(으)면서：</strong>表示两种以上的动作或状态并存 。<br><strong>-(으)면：</strong>表示条件或假设。<br><strong>-게：</strong>表示前一分句是后一分句的目的、标准、方式或程度。</p>
+<ul>
+<li><strong>终结语尾（19个）</strong></li>
+</ul>
+<p><strong>-ㅂ/습니까：</strong>尊敬阶直说法疑问式终结语尾<br><strong>-ㅂ/습니다：</strong>尊敬阶直说法陈述式终结语尾<br><strong>-아/어요(평서형)：</strong>准敬阶直说法陈述式终结词尾<br><strong>-아/어요(의문형)：</strong>准敬阶直说法疑问式终结词尾<br><strong>-아/어요(청유형)：</strong>准敬阶直说法共动式终结词尾<br><strong>-(이)지요?：</strong>准敬阶直说法终结形词位，用于疑问句，提问人已经知道，只是想再次确认。<br><strong>-지요：</strong>准敬阶直说法终结形词位，用于陈述句，说话人向对方叙述自己的意见或者提出建议。<br><strong>-고요：</strong>表示除了前面已叙述的内容外，还要补充叙述或询问其他内容。<br><strong>-(으)ㄹ까요：</strong>表示询问对方的意向、意见或提出自己的建议。<br><strong>-(으)ㄹ래요：</strong>表示询问对方对某件事或某种选择的意向、意见。<br><strong>-(으)ㅂ시다：</strong>表示要求对方一起做事；表示要求对方做事。<br><strong>-(으)세요：</strong>表示介绍、疑问、命令、请求或拜托对方做某事。<br><strong>-(으)십시오：</strong>尊敬阶终结词尾，表示命令。<br><strong>-(으)ㄹ게요：</strong>表示说话人要做某事的意图或向对方承诺做某事。<br><strong>-아/어서요：</strong>表示原因、理由。<br><strong>-(으)니까요：</strong>表示原因。<br><strong>-(으)ㄴ데(요)：</strong>表示对看到的情况略感惊讶或因意外而感叹。<br><strong>-(는)군요：</strong>表示感叹或确认。<br><strong>-네요：</strong>表示话者希望听者对自己的想法或感受作出确认。</p>
+<ul>
+<li><strong>惯用型（30个）</strong></li>
+</ul>
+<p><strong>-지 않다：</strong>用于动词或形容词词干后表否定。<br><strong>-지 못하다：</strong>用于动词词干后表否定。<br><strong>-지 말다：</strong>用于动词词干后表禁止。<br><strong>-고 싶다：</strong>表示愿望或意图，“想要……”。<br><strong>-(으)ㄴ/는 것 같다：</strong>表示说话人对某种事实或状况的推测。<br><strong>-(으)ㄹ 것 같다：</strong>表示说话人对某种事实或状况的推测。<br><strong>-(으)ㄴ 후에：</strong>“……之后”<br><strong>-(으)ㄹ 때：</strong>表示某种行为进行或某种状态持续的时候，“……的时候”。<br><strong>-기 전에：</strong>“……之前”<br><strong>-기 때문에：</strong> 表示理由、原因。<br><strong>-기 위해(서)：</strong>表示目的，“为了……”。<br><strong>-(으)ㄴ 지：</strong>表示疑问。<br><strong>-(으)러 가다：</strong>表示动作的目的，“去（做某事）…..”。<br><strong>-(으)러 오다：</strong>表示动作的目的，“来（做某事）…..”。<br><strong>-(으)려고 하다：</strong>表示目的或意图。<br><strong>-(으)ㄹ 수 있다：</strong>表示有能力或有可能，“能、会”。<br><strong>-(으)ㄹ 수 없다：</strong>表示没有能力或不可能，“不能、不会”。<br><strong>-아/어/여도 되다：</strong>表示允许做某事，“可以……”。<br><strong>-아/어/여야 되다：</strong>表示当为性，“必须、应该……”。<br><strong>-아/어/여야 하다：</strong>表示当为性，“必须、应该……”。<br><strong>-아/어/여 보다：</strong>表示尝试或经历，“试着……”。<br><strong>-아/어/여 주다：</strong>表示为别人做某事，“为、给、帮……”。<br><strong>-기로 하다：</strong>表示决定或约定做某事。<br><strong>-는 게 좋겠다：</strong>第一人称做主语时表示说话人的想法或打算；第二、三人称做主语时表示说话人的建议，“最后…..”。<br><strong>-았/었/였으면 좋겠다：</strong>表示说话人的愿望，“如果……就好了”。<br><strong>-(으)ㄴ 적이 있다：</strong>“曾经做过……”<br><strong>-(으)ㄴ 적이 없다：</strong>“未曾做过……”<br><strong>-(으)ㄹ까 봐：</strong>表示担心发生某事。<br><strong>-(으)ㄹ까 하다：</strong>表示说话人要做某事的意图或打算。<br><strong>-게 되다：</strong> 表示某种状况形成，或从一种状况变化到另一种状况。</p>
+<hr>
+<ul>
+<li><strong>助词（27个）</strong></li>
+</ul>
+<p><strong>에(장소)：</strong>表示人或物存在的位置。<br><strong>에(시간)：</strong>表示移动的目的地或到达的地点。<br><strong>에서：</strong>表示动作进行的场所；表示行为、状态的出发点或起点。<br><strong>서：</strong>“에서”的缩略形。<br><strong>에게：</strong>表示给予，“给…..”。<br><strong>한테：</strong>与“에게”意思相同，表示给予，“给…..”。（口语）<br><strong>께：</strong>“에게”的敬语，用于需要尊敬的对象。<br><strong>하고：</strong>表示并列连接两个对象，“和、跟”。（口语）<br><strong>(이)랑：</strong>表示并列连接两个对象，“和、跟”。（口语）<br><strong>와/과：</strong>表示并列连接两个对象，“和、跟”。<br><strong>으로：</strong>表示方向，去向。<br><strong>에게서：</strong>表示行动的出发点或出处。<br><strong>한테서：</strong>表示行动的出发点或出处。（口语）<br><strong>보다：</strong>表示比较的对象。<br><strong>처럼：</strong>表示比较或比喻的对象。<br><strong>까지：</strong>表示范围的终点或界限，“到……”。<br><strong>도：</strong>表示包含或补充添加，“也、还”。<br><strong>마다：</strong>表示全部包括，“每”。<br><strong>만：</strong>表示限定，“只、就”。<br><strong>밖에：</strong>表示没有其他的选择余地或可能性，“只”。<br><strong>부터：</strong>表示行为、状态在时间或位置上的起点，“从……”。<br><strong>은/는：</strong>表示句子的主题或要说明的对象。<br><strong>(이)나：</strong>表示从所列举的两个对象中选择一个；表示数量超出了预想的程度；表示大概的数量或陈谷，“大概、左右”。<br><strong>이/가：</strong>表示其前面的名词、代词或数量词在句子中作主语。<br><strong>께서：</strong>当需要尊敬的对象做主语是，要用“께서”代替“이/가”。<br><strong>을/를：</strong>表示其前面的名词、代词或数量词在句子中作宾语。<br><strong>의：</strong>示其前面的名词、代词或数量词在句子中作定语，“的”。</p>
+<hr>
+<ul>
+<li><strong>其他（10个）</strong></li>
+</ul>
+<p><strong>-았/었/였-：</strong>过去时制<br><strong>-겠-：</strong>将来时制<br><strong>-(으)시：</strong>表示对主体的尊敬。<br><strong>-(은)ㄴ：</strong>过去时定语词尾。<br><strong>-는：</strong>现在时定语词尾。<br><strong>-(으)ㄹ：</strong>将来时、或表推测定语词尾。<br><strong>-음/ㅁ：</strong>使其前面的内容在句子中用作名词，强调事实性。<br><strong>-기：</strong>使其前面的内容在句子中用作名词，强调过程性。<br><strong>안：</strong>用于动词或形容词前表示否定。<br><strong>못：</strong>用于动词前表示否定。</p>
+]]></content>
+      <tags>
+        <tag>Korean</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Korean grammar basic</title>
     <url>/korean/200616-Korean-grammar-basic/</url>
     <content><![CDATA[<h1 id="0-基本の基本"><a href="#0-基本の基本" class="headerlink" title="0  基本の基本"></a>0  基本の基本</h1><h2 id="です"><a href="#です" class="headerlink" title="です"></a>です</h2><pre><code>母音で終わる場合＋에요
@@ -2931,6 +3194,56 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </tags>
   </entry>
   <entry>
+    <title>19~20 Spring 学期总结</title>
+    <url>/archieve/200525-summary-of-19-20-spring/</url>
+    <content><![CDATA[<p>本来想在所有考完之后再做一个所有课的repo，不过今天考完了4130有感就提前写一下。</p>
+<p>目前结束了的有分化、有机和刚刚考完的工厂设计与经济。</p>
+<hr>
+<h1 id="分析化学"><a href="#分析化学" class="headerlink" title="分析化学"></a>分析化学</h1><p>最后的考试基本还是达到预期，就是“我能学进去这么多了，我也就考这么多”，因为的确这门课我没有get到太多的内容。唯一要感谢的就是他早早结束了final，减轻复习压力。</p>
+<hr>
+<h1 id="有机化学"><a href="#有机化学" class="headerlink" title="有机化学"></a>有机化学</h1><p>感觉也是类似，最后的几个章节过得比较快，很多东西都没记熟，但是偏偏有机就是要记得牢才能熟能生巧的学科，但是总体来说，翻看自己的笔记，还是有挺多收获，起码和高中的很多知识串起来了。</p>
+<p><em>最后final的分数还是比较满意的，合成做对了，选择题也没有错那么多，虽然网上看85以上就有绝对龟A+，最后给到A（最后只给了俩A+）也满意了</em></p>
+<hr>
+<h1 id="工厂设计与经济"><a href="#工厂设计与经济" class="headerlink" title="工厂设计与经济"></a>工厂设计与经济</h1><p>的前半部分经济没有学懂，期中考试翻车；本来想着期末偏工程的部分要翻盘回来，但是感觉考试时间还是紧，好不容易MC终于突破60~70%的魔咒，从来都是要磨到最后三十秒才交的我这次提前五分钟就交了，结果也比较理想。<br>到了大题就开始吃紧——看到第一题是经济，果断跳过；<br>第二题是pressure relief，除了第二问比较陌生（但是也可以抄课件的内容）没有什么问题，第三题看着我就蒙了，因为这里我做的练习的确不多，只是看了答案都是代公式，但是我一直在纠结到底用哪个公式（plume/puff，which stability）然后又不明白在问什么，先跳过了。<br>第四题hazop就是写写写，感觉还行，小插曲是中途笔芯没了；<br>第五题的event tree比较懵的点是occur B times a year，要说one in XXX times我还能理解，但是这种表述是什么含义，在这一点又纠结了。第二问是经济，是我不擅长的部分，到最后要考虑Time value还是没算出来，到最后只剩下十分钟回去第三题的（这里的一个错误决策就是耗时间在最后一题第二问的经济，毕竟一个大题是20分，一个小题是10分，其实是不划算的，而且比起经济题目我应该更擅长工程类题目）所以收场的感觉就是时间分配不是很好，要是再多半小时可能plume/puff能做出来。所以说这门课还是有不少遗憾的吧，还是有没有学懂的地方。<br>做不到问心无愧，因为不能说尽了全力，只能说吸取教训再接再厉。</p>
+<hr>
+<h1 id="流程动态与控制"><a href="#流程动态与控制" class="headerlink" title="流程动态与控制"></a>流程动态与控制</h1><p><strong>拉普拉斯套娃</strong></p>
+<p>应该是这学期学的最顺的课。一开始两节课觉得“这也太无聊了吧”，从拉普拉斯开始慢慢进入动态的世界，到各种TF，再到controller。</p>
+<p>这堂课最好的点在于，上课内容、作业、考试都是一脉相承，没有脱节，所以学起来就比较轻松，实属难得，最后final也不是很难，可能容错率会比较低。</p>
+<hr>
+<h1 id="热力学"><a href="#热力学" class="headerlink" title="热力学"></a>热力学</h1><p><em>记得积heat capacity里的T噢</em></p>
+<p>我觉得我没有“那么”用心——水着看过了很多video，但是第一次独立做对作业还是很欣喜的。教授是厉害的教授，可能是因为我水过了video，所以我对整套体系的理解其实并没有很顺利，中间经历了很多次卡壳，和隔壁流体力学相比，热力学的概念多样而且复杂，要把这些概念整理明白要工夫。也多亏了每堂课的quiz，所以虽然有卡壳但是也不是特别拖沓地学，总归来说还是挺好的一门课。而且像这门课这么完整的答案和例题实属难得（对比起来别的课的答案就写的跟什么一样）。</p>
+<p>最后final没考好，只过mean一点点点，主要炸的是化学平衡——本来我以为我最擅长的部分，只能说可惜吧。</p>
+<hr>
+<h1 id="流体力学"><a href="#流体力学" class="headerlink" title="流体力学"></a>流体力学</h1><p>一门不知道怎么说的课。一开始还在兴致勃勃听课，还在努力预习，到一般多就开始走自己的路了。上课、作业、考试完全是三回事。期中特别简单。期末就很魔鬼。魔鬼的地方在于：<br>1、其实主要就是control volume的概念，虽然平时都有强调，但是我不确定他这么教大家能不能真的明白怎么做，反正我是没明白；<br>2、作业只是代代数字，考试基本不用算什么数字，脱节很大。</p>
+<p>考试目前除了第一part的成绩，我觉得还算可以。最后大题我能写出结果的有四道半，这是多亏了从隔壁部门流体力学拿来的题目。因为我们自己给的pastpaper的答案太烂了，不仅错误百出，而且完全看不懂。隔壁的虽然也不如热力学那样天衣无缝，但是总归对CV一类问题的解答是有启发的，而且和final有一两道题目有特别相近的。</p>
+<p>毕竟到最后已经没有什么时间曲做系统的复习了，只能做exam oriented的学习，我觉得对此流体力学的应用效果是最明显的。我想这也是个考试的诀窍吧。</p>
+<p><em>200612：心心念念终于出龟了，这学期唯一一个A+我死而无憾（？）了</em></p>
+<hr>
+<h1 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h1><p>reg这门课就经历了“wl第10→进不去→实在进不去→狠心drop再reg”，开学之前看完了video，正式课上了两堂而已，但是lab和assignment都有好好做，起码99%内容都是独立做出来的，所以感觉自己debug能力之类的还是有。</p>
+<p>做到pp傻眼，因为很多概念不清楚，不过幸好这次没有MC和TF，所以逃过一劫，写大题的时候有时间分配上面的失策，下次注意吧。<em>出分补充一下：Pastpaper真的很重要！</em></p>
+<h1 id="Appendix-流体力学串讲"><a href="#Appendix-流体力学串讲" class="headerlink" title="Appendix 流体力学串讲"></a>Appendix 流体力学串讲</h1><p><em>复习的时候瞎写的</em></p>
+<p>流体力学串讲。实在需要整理了。</p>
+<p>两个核心，Mass Balance(Conservation)和Energy Balance。<br>思路：由静到动，2D&amp;3D。</p>
+<p>2 液体性质 3 液体压力——都是静态<br>4 kinematics 开始动起来了，但是也只是单纯研究速度和加速度<br>4.4祭出了大杀器RTT，RTT最重要的一点就是把CS和CV联系起来<br>其实我觉得CV是好测的，因为CS是会动的，CV你就搁那儿就好</p>
+<p>5其实就是用RTT把EB和MB表达一遍<br>然后伯努利横空出世。<br>伯努利的本质其实就是EB。<br>EB是个很大的饼，表达方式千百样，要看最适合眼下问题的是什么样。<br>伯努利就是最适合流体——为了流体应运而生的一种表达方式。<br>然后伯努利的各种变形，尤其是head形式，最重要的是为了应用和测量方便，参考之前说的head。</p>
+<blockquote>
+<p>以前一直不理解head这个概念是什么意思<br>现在似乎明白了<br>因为伯努利的能量形式，能量，看不见摸不到测不了<br>压力计其实也是转换<br>还不如来个直接的 head，长度单位，拿个管子一查，拿个尺子量一量就有了<br>妙啊</p>
+<p>我上初中的时候经常有这个问题——为什么存在【压强】的概念，压力不好用吗。 第一，无法测量，对于固体来说压力好理解，但是对于流体来说，流体压力的本质是流体分子的不断碰撞，这是很难测量的。<br>第二，可视化具体说明，针能扎得深是因为压强大，根据初中一系列海绵方块实验，压强是可以看到的。</p>
+</blockquote>
+<p>6Momentum。<br>其实动量是个很神奇的东西。<br>他是牛顿第二定律的另外一种表达形式，但是它存在一个“守恒”在里面。<br>就像我们不会有加速度守恒，也没有力的守恒，但是存在了动量守恒，真实不可思议。</p>
+<p>说到动量不让它转一转感觉过不去，毕竟大多数化工机械都是旋转的pump啦turbine啦，所以这里要讨论一下旋转的情况。</p>
+<p>7的dimensional analysis要不是看了油管影片真的是学的没头没脑。其实也是一个简化运算的过程。老板肯定希望省事的，最后model和prototype的similarity也是应用的体现。</p>
+<p>8 Internal flow我们终于终于进到管子里面啦，在管子里就和在外面不一样啦分laminar turbulent，会有各种摩擦 loss，这就很好理解啦。</p>
+<p>附赠一个copy的流体力学重点内容list：</p>
+<blockquote>
+<p>1.一些物理量：压强、粘性、应力、应变率、涡量…….<br>2.参考系和守恒律：欧拉参考系、雷诺输运定理、质量守恒、动量守恒、能量守恒……<br>3.控制方程：积分和微分形式的Navier-Stokes方程，以及相应的某些简化（不可压假设、无粘假设、定常假设……），边界条件的物理意义……<br>4.无量纲参数：雷诺数、马赫数……..<br>5.可压缩流动相关：激波、膨胀波、Laval喷管……<br>6.某些经典问题：边界层理论、湍流的雷诺平均……</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>Semester Review</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Thermodynamics</title>
     <url>/archieve/200513-Thermodynamics/</url>
     <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>有些东西【只是数学关系】。<br>有些东西比起【数学形式】更加需要思考【物理意义】.</p>
@@ -3067,6 +3380,16 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </tags>
   </entry>
   <entry>
+    <title>Internship briefing session</title>
+    <url>/archieve/200407-internship-briefing/</url>
+    <content><![CDATA[<p>Company Provided:</p>
+<p><a href="https://phasescientific.com/?lang=zh-hant" target="_blank" rel="external">Phase Scientific (biotech)</a> </p>
+<p><a href="http://www.taronsolutions.com/index.html" target="_blank" rel="external">Taron Solutions (biopharmaceutical)</a></p>
+<p><a href="https://aecom.com/" target="_blank" rel="external">AECOM (infrastructure)</a></p>
+<p><a href="http://www.irescglobal.com/" target="_blank" rel="external">IRECS (safety and risk)</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>C++ Notes(pointer)</title>
     <url>/archieve/200315-C-plus-plus/</url>
     <content><![CDATA[<h1 id="PBV-amp-PBR"><a href="#PBV-amp-PBR" class="headerlink" title="PBV &amp; PBR"></a>PBV &amp; PBR</h1><p>PBV - value is captured during the definition of function </p>
@@ -3084,6 +3407,33 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
 ]]></content>
       <categories>
         <category>Lecture Note</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Pocket World in Figures 2019</title>
+    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
+    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
+<blockquote>
+<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
+</blockquote>
+<p>top consumers are </p>
+<blockquote>
+<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
+</blockquote>
+<hr>
+<p>top producers and consumers ranking are the same </p>
+<blockquote>
+<p>1 US 2 China 3 EU28 4 Brazil</p>
+</blockquote>
+<hr>
+<p>Foreign direct investment 2016(million) </p>
+<blockquote>
+<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
+<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
       </categories>
   </entry>
   <entry>
@@ -3113,33 +3463,6 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       <tags>
         <tag>Internet</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Pocket World in Figures 2019</title>
-    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
-    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
-<blockquote>
-<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
-</blockquote>
-<p>top consumers are </p>
-<blockquote>
-<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
-</blockquote>
-<hr>
-<p>top producers and consumers ranking are the same </p>
-<blockquote>
-<p>1 US 2 China 3 EU28 4 Brazil</p>
-</blockquote>
-<hr>
-<p>Foreign direct investment 2016(million) </p>
-<blockquote>
-<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
-<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Book Report</category>
-      </categories>
   </entry>
   <entry>
     <title>金融的逻辑</title>
@@ -3664,6 +3987,19 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </categories>
   </entry>
   <entry>
+    <title>常用vps命令</title>
+    <url>/%E5%B8%B8%E7%94%A8vps%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<blockquote>
+<p>wget –no-check-certificate  <a href="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh" target="_blank" rel="external">https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh</a></p>
+<p>chmod +x shadowsocks.sh</p>
+<p>./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log</p>
+</blockquote>
+<p>安装libsodium - 用于chacha</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">yum -y groupinstall &quot;Development Tools&quot;</span><br><span class="line">wget https://github.com/jedisct1/libsodium/releases/download/1.0.15/libsodium-1.0.15.tar.gz</span><br><span class="line">tar xf libsodium-1.0.15.tar.gz &amp;&amp; cd libsodium-1.0.15</span><br><span class="line">./configure &amp;&amp; make -j2 &amp;&amp; make install</span><br><span class="line">echo /usr/local/lib &gt; /etc/ld.so.conf.d/usr_local_lib.conf</span><br><span class="line">ldconfig</span><br></pre></td></tr></table></figure>
+<p>备用参考：<a href="https://doubibackup.com/z2a4lk3l-3.html" target="_blank" rel="external">https://doubibackup.com/z2a4lk3l-3.html</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>植物图鉴</title>
     <url>/book%20reports/190421-shokubutsu-zukan/</url>
     <content><![CDATA[<p>第一章的植物是ヘクソカズラ。讲了独身女主河野さやか把男主いつき捡回家过上同居生活的日子。女主有钱，男主会整顿家务会做饭简直不能再完美好吧。男主属性可以期待发展。</p>
@@ -3678,12 +4014,60 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </categories>
   </entry>
   <entry>
+    <title>Tweet translation</title>
+    <url>/archieve/190329-tweet%20translation/</url>
+    <content><![CDATA[<p>When I first saw this tweet last night, I made up my mind to translate it.</p>
+<p><a href="https://mobile.twitter.com/akane29_o8o/status/1111281934288576514" target="_blank" rel="external">https://mobile.twitter.com/akane29_o8o/status/1111281934288576514</a></p>
+<blockquote>
+<p>考えすぎない<br>比べすぎない<br>無理はしない<br>君は君らしく。</p>
+</blockquote>
+<p>Simple words with deep love.</p>
+<hr>
+<blockquote>
+<p>non-pensively</p>
+<p>incomparably</p>
+<p>unexcessively</p>
+<p>EGOistically</p>
+</blockquote>
+<hr>
+<p>About 「考えすぎない」</p>
+<p>Searching for synonyms of ‘overthink’ but fail.</p>
+<p>Then get some inspiration from a forum: inordinately (over)contemplated (contemplative), pensive, introspective,</p>
+<hr>
+<p>Possible translation for the third word「無理」:</p>
+<p>unreasonable; unjust; impossible; unnatural; excessive; overwork</p>
+<p>Here personally prefer ‘excessive’</p>
+<hr>
+<p>Seems like I made up some new words lol</p>
+<p>translating is so hard.</p>
+]]></content>
+      <categories>
+        <category>translation</category>
+      </categories>
+  </entry>
+  <entry>
     <title>小小小小的火</title>
     <url>/book%20reports/190221-a-little-fire/</url>
     <content><![CDATA[<p>伍女士的第二部作品，写作套路和前作无异，也是采用的倒叙的写作方式，讨论的重心也主要是青春期少年少女和他们的父母。<br>首先这一作在话题上又比上一作敏感了不少。关于“火”是什么，读到最后大家应该都明白“火”就是崭新的生命，是孕育的孩子。<br>关于内容和角色我也不想多说，每个人都刻画得很鲜明，像我这种不爱记人名的读者都能够了解到每个人的特征。<br>对于我来说，这本书又谈论的一些话题又引起了我的思考。<br>首先书中最大的孩子布莱恩也才刚刚申请完大学，两个小一点的孩子应该也才中学。在这样的年级别说是接触性了，就算是谈恋爱什么的，对于像我一样出身于比较保守的家庭和学校环境的人来说还是太早了。<br>我没有想象过自己谈恋爱会是什么样子，更不会想象拥有自己的孩子会是什么样的——由于一些童年阴影，我对小孩子是敬而远之。这也是我喜欢年轻的偶像们、比起BG更加喜欢百合作品（尽管某种程度上走向了禁忌的层面）的的原因。不过得知五年前喜欢的人现在已经生下了一个儿子的时候又不由得感慨了。<br>这大概也是欧美和日式作品的区别。可能对于我来说，我还是会更喜欢细腻而又敏感的存在，这样的存在是我高中三年最大的慰藉，也是我尚且短暂的人生中宝贵的体验。<br>还有另外一个话题，也是和前作《无声告白》一样让我陷入思考的，就是上一代的悲剧注定会延续到下一代，如果上一代没有阻止悲剧的延续的话。这种感觉让我回想到第一次读那部烂大街的《小时代》，思来想去其实都是上一代的问题（虽然本作中三个孩子倒是没有受到太多来自父母的负面影响，但是珀尔着实是被米娅影响着）。这个时候我又格外感谢我的父母。我大概从各种各样的地方稍微了解到他们并不是很明朗的过去，但是他们致力于让我获得一个安心安稳的成长环境，并且始终以我为中心。而且在听了许多别人的家庭故事的时候，我再次不由得感觉，有这样的父母应该是很难得的。<br>我致力于让生活变得简单。然后我找到了偶像和学习这样的平衡点，再加上适当的朋友们之间的互动，并且在这样的comfort zone里生活了三四年的时光。虽然说现在正是踏出comfort zone的必要且有效时期，但是我个人来说却依然想要在停留。大概就是让我感受到了这样的矛盾和思考。</p>
 ]]></content>
       <categories>
         <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Liz and blue bird and Violet Evergarden</title>
+    <url>/archieve/190216-Liz-and-blue-bird/</url>
+    <content><![CDATA[<p>Liz and blue bird</p>
+<p>Which one of the two girls is actually Liz and which one is blue bird? It also happens in real life. Sometimes we think of ourselves to limit others. However, it is we ourselves that  build up the wall in our soul.</p>
+<p>The relationship between girls is hard to figure out its insight. There is too much hidden inside the easily-broken heart, albeit everything shows on the unintentional reaction and emotion.</p>
+<p>Violet Evergarden</p>
+<p>First attracted by its name. I was not good at memorizing the name of characters, esp. when it’s of katakana(foreigner’s name). But since the personality in this animation is clear, and the main story goes smoothly, I had no trouble dealing with them.</p>
+<p>Heroine Violet live from the love from Shousa. Shousa saved her life, gave her the beautiful name, Violet, treated her as a real person instead of a war machine, and most tragically, sacrificed his own life in the hope of a better life for her.</p>
+<p>I actually cried in the plot of Ann’s mother <em>send</em> a letter to Ann on her birthday every year. </p>
+<p>Some comments say that Violet looks like Saber with mechanic arm. To a certain degree I agree to this idea, but we should know that they have thoroughly different background and personality. </p>
+]]></content>
+      <categories>
+        <category>Movie Report</category>
       </categories>
   </entry>
   <entry>
