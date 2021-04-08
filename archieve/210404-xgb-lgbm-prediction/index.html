@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Machine Learning,Controlling Engineering," />
 
 
 
@@ -94,37 +94,24 @@
 
 
 
-<meta name="description" content="把我个人碰到两次或者以上的问题收集一下，以防将来再碰到的时候忘记怎么解决。
-OneNote相关同步/ 无法登录问题
-Fiddler 4（一开始只是勾选了onenote，但是不行，就全选了）
-局域网代理/整机代理，ssr/netchX based的不行，最后用了clash，同步成功）
-
-笔记本无法打开 在网页版中打开，然后点“在桌面版本中打开”
-Surface Pen 校正从控制面板进入笔选项。">
+<meta name="description" content="又名Boosting学习碎碎念。
+这是一篇非正式的总结，主要记录一下工作流程和大量吐槽，通过写下来的形式进行总结方便以后参考不吐不快。
+前提起因是不知道要在组会上说什么想起来以前在学图像处理的时候学到过AdaBoost，想着能不能运用到现在的注塑流程上，就去检索了一下AdaBoost和process的关键词，居然真的有一篇，于是就把这个内容加在组会周报告里了。顺带吐槽一下这篇，这篇的weak le">
 <meta property="og:type" content="article">
-<meta property="og:title" content="常见手机/电脑问题疑难解答">
-<meta property="og:url" content="dori-min.github.io/210318-common-trouble-shooting/index.html">
+<meta property="og:title" content="使用集成算法对注塑数据进行预测">
+<meta property="og:url" content="dori-min.github.io/archieve/210404-xgb-lgbm-prediction/index.html">
 <meta property="og:site_name" content="Dori-min">
-<meta property="og:description" content="把我个人碰到两次或者以上的问题收集一下，以防将来再碰到的时候忘记怎么解决。
-OneNote相关同步/ 无法登录问题
-Fiddler 4（一开始只是勾选了onenote，但是不行，就全选了）
-局域网代理/整机代理，ssr/netchX based的不行，最后用了clash，同步成功）
-
-笔记本无法打开 在网页版中打开，然后点“在桌面版本中打开”
-Surface Pen 校正从控制面板进入笔选项。">
-<meta property="og:image" content="https://i.loli.net/2021/03/18/yxHNJtbopPGZW7u.png">
-<meta property="og:image" content="https://i.loli.net/2021/03/23/sbe8HQ4M6UXIwkK.png">
-<meta property="og:updated_time" content="2021-03-24T05:13:01.683Z">
+<meta property="og:description" content="又名Boosting学习碎碎念。
+这是一篇非正式的总结，主要记录一下工作流程和大量吐槽，通过写下来的形式进行总结方便以后参考不吐不快。
+前提起因是不知道要在组会上说什么想起来以前在学图像处理的时候学到过AdaBoost，想着能不能运用到现在的注塑流程上，就去检索了一下AdaBoost和process的关键词，居然真的有一篇，于是就把这个内容加在组会周报告里了。顺带吐槽一下这篇，这篇的weak le">
+<meta property="og:image" content="https://i.loli.net/2021/04/03/7z5oAK8TIurxUjf.png">
+<meta property="og:updated_time" content="2021-04-06T10:56:37.799Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="常见手机/电脑问题疑难解答">
-<meta name="twitter:description" content="把我个人碰到两次或者以上的问题收集一下，以防将来再碰到的时候忘记怎么解决。
-OneNote相关同步/ 无法登录问题
-Fiddler 4（一开始只是勾选了onenote，但是不行，就全选了）
-局域网代理/整机代理，ssr/netchX based的不行，最后用了clash，同步成功）
-
-笔记本无法打开 在网页版中打开，然后点“在桌面版本中打开”
-Surface Pen 校正从控制面板进入笔选项。">
-<meta name="twitter:image" content="https://i.loli.net/2021/03/18/yxHNJtbopPGZW7u.png">
+<meta name="twitter:title" content="使用集成算法对注塑数据进行预测">
+<meta name="twitter:description" content="又名Boosting学习碎碎念。
+这是一篇非正式的总结，主要记录一下工作流程和大量吐槽，通过写下来的形式进行总结方便以后参考不吐不快。
+前提起因是不知道要在组会上说什么想起来以前在学图像处理的时候学到过AdaBoost，想着能不能运用到现在的注塑流程上，就去检索了一下AdaBoost和process的关键词，居然真的有一篇，于是就把这个内容加在组会周报告里了。顺带吐槽一下这篇，这篇的weak le">
+<meta name="twitter:image" content="https://i.loli.net/2021/04/03/7z5oAK8TIurxUjf.png">
 
 
 
@@ -153,13 +140,13 @@ Surface Pen 校正从控制面板进入笔选项。">
 
 
 
-  <link rel="canonical" href="dori-min.github.io/210318-common-trouble-shooting/"/>
+  <link rel="canonical" href="dori-min.github.io/archieve/210404-xgb-lgbm-prediction/"/>
 
 
 
 
 
-  <title>常见手机/电脑问题疑难解答 | Dori-min</title>
+  <title>使用集成算法对注塑数据进行预测 | Dori-min</title>
   
 
 
@@ -324,7 +311,7 @@ Surface Pen 校正从控制面板进入笔选项。">
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="dori-min.github.io/210318-common-trouble-shooting/">
+    <link itemprop="mainEntityOfPage" href="dori-min.github.io/archieve/210404-xgb-lgbm-prediction/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Dori-min">
@@ -341,7 +328,7 @@ Surface Pen 校正从控制面板进入笔选项。">
 
         
         
-          <h1 class="post-title" itemprop="name headline">常见手机/电脑问题疑难解答</h1>
+          <h1 class="post-title" itemprop="name headline">使用集成算法对注塑数据进行预测</h1>
         
 
         <div class="post-meta">
@@ -357,8 +344,8 @@ Surface Pen 校正从控制面板进入笔选项。">
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2021-03-24T13:13:01+08:00">
-                2021-03-24
+              <time title="Post modified" itemprop="dateModified" datetime="2021-04-06T18:56:37+08:00">
+                2021-04-06
               </time>
             
           </span>
@@ -391,17 +378,30 @@ Surface Pen 校正从控制面板进入笔选项。">
       
 
       
-        <p>把我个人碰到两次或者以上的问题收集一下，以防将来再碰到的时候忘记怎么解决。</p>
-<h1 id="OneNote相关"><a href="#OneNote相关" class="headerlink" title="OneNote相关"></a>OneNote相关</h1><h2 id="同步-无法登录问题"><a href="#同步-无法登录问题" class="headerlink" title="同步/ 无法登录问题"></a>同步/ 无法登录问题</h2><ol>
-<li>Fiddler 4（一开始只是勾选了onenote，但是不行，就全选了）</li>
-<li>局域网代理/整机代理，ssr/netchX based的不行，最后用了clash，同步成功）</li>
+        <p><del>又名Boosting学习碎碎念。</del></p>
+<p>这是一篇非正式的总结，主要记录一下工作流程<del>和大量吐槽</del>，通过写下来的形式进行总结方便以后参考<del>不吐不快</del>。</p>
+<h1 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h1><p>起因是<del>不知道要在组会上说什么</del>想起来以前在学图像处理的时候学到过AdaBoost，想着能不能运用到现在的注塑流程上，就去检索了一下AdaBoost和process的关键词，居然真的有一篇，于是就把这个内容加在组会周报告里了。<em>顺带吐槽一下这篇，这篇的weak learner是神经网络，这不是把model搞死吗。</em></p>
+<p>按照我本人的惯例，算法一定还是要考虑实际应用的，所以就<del>灵光一动</del>脑子一抽想到这个结合Internal Model Control的这个线上控制办法，教授看了一眼好像也可行，于是提到了simulink实现。</p>
+<p><img src="https://i.loli.net/2021/04/03/7z5oAK8TIurxUjf.png" alt></p>
+<p>去年上完modeling就带着悲痛欲绝的情绪卸载了MATLAB<del>悲痛欲绝中又装上了aspen</del>，于是我时隔四个月把MATLAB装回来了。<del>于是D盘只剩下了1G，甚至还差点冲动消费买新电脑</del>。</p>
+<p>首先simulink之前的接触约等于0，于是看了一些小教程先搭一点东西出来，然后勉勉强强把IMC搭建出来，但是关键就是如何把boosting的算法应用上去。我一开始<strong>不知道boosting也可以做regression</strong>于是就扯了一下用PID作为weak controller然后集成成一个Strong Controller。但是在思考dimension的时候还是受阻不知道怎么去实现自己的想法 <del>（是我的脑袋真的不够用）</del> 。</p>
+<p>这个时候想起来了教授的话，大意就是<strong><u>我们可以学习各种各样的算法，但是最后我们要回到我们的过程上</u></strong>。</p>
+<p>那就好呗，我本质也不是码农，对算法的理解只是辅助性的，我的本质专长是对过程、产品、还有热力学构建的世界的理解，我还是要回到我们的落脚点。</p>
+<blockquote>
+<p>总之，代码实现能力（想法→代码）不足是事实，而代码作为以后工作学习的重要工具，是一门语言，就像学习一门外语一样，就算不能像真正的码农一样精准优美，但是磕磕巴巴也得要会表达出自己的意思，只借助翻译app是无力的。</p>
+</blockquote>
+<p>再加上我和教授商量之后决定把中心转到Quality Control(QA)上，于是 <del>我把IMC杀了</del> 就把任务改成了：用boosting算法来预测产品质量。<del>其实是挖坑了虽然填不全还是象征性填一下</del></p>
+<h1 id="Boosting的Python尝试"><a href="#Boosting的Python尝试" class="headerlink" title="Boosting的Python尝试"></a>Boosting的Python尝试</h1><p>在处理自己的数据之前先拿别的数据集来联手一下，想起来之前的workshop里面的dataset比较顺眼就拿出来用了，而且还有现成的预处理还有LGBM代码。然后自己又加上了XGB代码尝试了一下。</p>
+<h1 id="数据预处理"><a href="#数据预处理" class="headerlink" title="数据预处理"></a>数据预处理</h1><p>其实这部分也可以用python来做，但是我才发现MATLAB也有类似jupyter的live script，非常适合这种数据类工作。<del>还有就是numpy和pandas有点忘了</del></p>
+<h2 id="选择哪些数据？"><a href="#选择哪些数据？" class="headerlink" title="选择哪些数据？"></a>选择哪些数据？</h2><p>围绕着我的核心QA，这里我选择的input variable是注塑注射和保压过程的实际压力和实际注射速度（至于怎么从手动input到实际，这个是controlling关心的），output选了sensor1（capacitance）。<em>我们可以假设传感器测得的电容里面是蕴含产品信息的，获得这个input output relationship可以间接控制产品质量</em>。</p>
+<h2 id="数据对齐"><a href="#数据对齐" class="headerlink" title="数据对齐"></a>数据对齐</h2><p>对着文档看手上的数据，感觉一个大问题是时间不怎么对齐。有的说10ms，结果数据里面是20ms，32mn，最后还是以数据集里面为准，取了最小公倍数测量间隔160ms。</p>
+<p><em>更新：原因找到了，因为不同阶段是有次序的filling后面接着才packing，所以事实上中间是有间隔的，我直接连续着用当然是不行的。所以我选择直接用general的数据，对齐了很多</em></p>
+<h1 id="回归与模型检验"><a href="#回归与模型检验" class="headerlink" title="回归与模型检验"></a>回归与模型检验</h1><p>基本上都是运用的之前的尝试里面的代码，输出了一些结果。XGB的结果略好于LGBM。</p>
+<p>目前的问题：</p>
+<ol>
+<li>没有模型可视化，只能看到一个最后的mse (mean squared error)来比较</li>
+<li>没有调参，模型不一定是最佳的</li>
 </ol>
-<h2 id="笔记本无法打开"><a href="#笔记本无法打开" class="headerlink" title="笔记本无法打开"></a>笔记本无法打开</h2><p> 在网页版中打开，然后点“在桌面版本中打开”</p>
-<h1 id="Surface-Pen-校正"><a href="#Surface-Pen-校正" class="headerlink" title="Surface Pen 校正"></a>Surface Pen 校正</h1><p>从控制面板进入笔选项。</p>
-<p><img src="https://i.loli.net/2021/03/18/yxHNJtbopPGZW7u.png" alt="image.png"></p>
-<h1 id="声卡和摄像头驱动一起掉"><a href="#声卡和摄像头驱动一起掉" class="headerlink" title="声卡和摄像头驱动一起掉"></a>声卡和摄像头驱动一起掉</h1><p><a href="https://www.lifewire.com/how-to-delete-the-upperfilters-and-lowerfilters-registry-values-2619222" target="_blank" rel="external">https://www.lifewire.com/how-to-delete-the-upperfilters-and-lowerfilters-registry-values-2619222</a></p>
-<h1 id="无法显示网络列表"><a href="#无法显示网络列表" class="headerlink" title="无法显示网络列表"></a>无法显示网络列表</h1><p>打开services</p>
-<p><img src="https://i.loli.net/2021/03/23/sbe8HQ4M6UXIwkK.png" alt="image.png"></p>
 
       
     </div>
@@ -417,6 +417,14 @@ Surface Pen 校正从控制面板进入笔选项。">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Machine-Learning/" rel="tag"># Machine Learning</a>
+          
+            <a href="/tags/Controlling-Engineering/" rel="tag"># Controlling Engineering</a>
+          
+        </div>
+      
 
       
       
@@ -426,8 +434,8 @@ Surface Pen 校正从控制面板进入笔选项。">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/book reports/210312-intimate-relationship/" rel="next" title="亲密关系">
-                <i class="fa fa-chevron-left"></i> 亲密关系
+              <a href="/archieve/210327-efficient-working-day/" rel="next" title="如何开启高效工作的一天">
+                <i class="fa fa-chevron-left"></i> 如何开启高效工作的一天
               </a>
             
           </div>
@@ -436,8 +444,8 @@ Surface Pen 校正从控制面板进入笔选项。">
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/book reports/210323-tsubaki-stationer/" rel="prev" title="山茶文具店">
-                山茶文具店 <i class="fa fa-chevron-right"></i>
+              <a href="/book reports/210330-enlightment-now/" rel="prev" title="当下的启蒙">
+                当下的启蒙 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -517,7 +525,7 @@ Surface Pen 校正从控制面板进入笔选项。">
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">53</span>
+                <span class="site-state-item-count">54</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -574,7 +582,7 @@ Surface Pen 校正从控制面板进入笔选项。">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#OneNote相关"><span class="nav-text">OneNote相关</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#同步-无法登录问题"><span class="nav-text">同步/ 无法登录问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#笔记本无法打开"><span class="nav-text">笔记本无法打开</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Surface-Pen-校正"><span class="nav-text">Surface Pen 校正</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#声卡和摄像头驱动一起掉"><span class="nav-text">声卡和摄像头驱动一起掉</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#无法显示网络列表"><span class="nav-text">无法显示网络列表</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前提"><span class="nav-text">前提</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Boosting的Python尝试"><span class="nav-text">Boosting的Python尝试</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据预处理"><span class="nav-text">数据预处理</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#选择哪些数据？"><span class="nav-text">选择哪些数据？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据对齐"><span class="nav-text">数据对齐</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#回归与模型检验"><span class="nav-text">回归与模型检验</span></a></li></ol></div>
             
 
           </div>

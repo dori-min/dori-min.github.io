@@ -102,7 +102,7 @@ Intro Machine lear">
 <meta property="og:site_name" content="Dori-min">
 <meta property="og:description" content="The following are notes when viewing StatQuest’s videos. StatQuest is recommended for anyone like me in need of statistic knowledge but have not taken systematic statistic training.
 Intro Machine lear">
-<meta property="og:updated_time" content="2021-03-18T06:39:38.448Z">
+<meta property="og:updated_time" content="2021-04-04T02:52:12.714Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Logistic regression, ROC & AUC, P-value">
 <meta name="twitter:description" content="The following are notes when viewing StatQuest’s videos. StatQuest is recommended for anyone like me in need of statistic knowledge but have not taken systematic statistic training.
@@ -339,8 +339,8 @@ Intro Machine lear">
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2021-03-18T14:39:38+08:00">
-                2021-03-18
+              <time title="Post modified" itemprop="dateModified" datetime="2021-04-04T10:52:12+08:00">
+                2021-04-04
               </time>
             
           </span>
@@ -458,6 +458,27 @@ Intro Machine lear">
 <li>find a support vector classifier to separate in two group</li>
 </ol>
 </blockquote>
+<h1 id="Neural-Network"><a href="#Neural-Network" class="headerlink" title="Neural Network"></a>Neural Network</h1><h2 id="Idea-of-NN"><a href="#Idea-of-NN" class="headerlink" title="Idea of NN"></a>Idea of NN</h2><p>Super curve fitting machine through combination of different <strong>weight</strong> and <strong>bias</strong> of a number of <strong>Activation function</strong></p>
+<h2 id="Components-of-NN"><a href="#Components-of-NN" class="headerlink" title="Components of NN"></a>Components of NN</h2><p>Input nodes</p>
+<p>Hidden layers(decided before performing NN)</p>
+<p> Activation function (sigmoid, Relu, soft plus)</p>
+<p> softplus: $f(x) = ln ( 1+ e^x)$</p>
+<p> sigmoid curve: $f(x) = \frac{e^x}{e^x + 1}$</p>
+<p> Relu: $f(x) = max(0,x)$</p>
+<p>Output nodes</p>
+<h2 id="How-to-determine-weight-and-bias-back-propagation"><a href="#How-to-determine-weight-and-bias-back-propagation" class="headerlink" title="How to determine weight and bias - back-propagation"></a>How to determine weight and bias - back-propagation</h2><p>core idea: Sum of Squared Error(SSR), Gradient Descent, Chain Rule</p>
+<p>Q: What is the target for fitting and obtaining weight &amp; bias: minimize SSR</p>
+<p>A: Gradient Descent(calculating derivative and step toward minimum of derivative) <em>[of course we can calculate a derivative spectrum, but that cost too much time and calculation.]</em></p>
+<p> e.g. when only one bias b unknown, we calculate $\frac{d SSR }{ d b}$</p>
+<hr>
+<p>Q: How to calculate $\frac{d SSR }{ d b}$</p>
+<p>A: SSR = sum of (observed - predicted)^2</p>
+<p> predicted = weight * input + b</p>
+<p> therefore, we can apply <strong>Chain Rule</strong></p>
+<p> $\frac{d SSR }{ d b} = \frac{d SSR }{ d predicted} \frac{d predicted }{ d b}$ </p>
+<p> where, d SSR / d predicted = -2 * (observed - predicted), d predicted / d b = 1</p>
+<p> so, d SSR / d b = -2 <em> (observed - predicted) </em> 1</p>
+<p> similar approach can be applied to calculate weight.</p>
 <h1 id="Unfinished"><a href="#Unfinished" class="headerlink" title="Unfinished"></a>Unfinished</h1><h2 id="RDA-redundancy-analysis"><a href="#RDA-redundancy-analysis" class="headerlink" title="RDA redundancy analysis"></a>RDA redundancy analysis</h2><h2 id="CCA-Canonical-Correlation-Analysis"><a href="#CCA-Canonical-Correlation-Analysis" class="headerlink" title="CCA Canonical Correlation Analysis"></a>CCA Canonical Correlation Analysis</h2><p><a href="https://www.cnblogs.com/pinard/p/6288716.html" target="_blank" rel="external">https://www.cnblogs.com/pinard/p/6288716.html</a></p>
 <h2 id="MDS-Multidimensional-scaling"><a href="#MDS-Multidimensional-scaling" class="headerlink" title="MDS Multidimensional scaling"></a>MDS Multidimensional scaling</h2><h2 id="Sliding-mode-control"><a href="#Sliding-mode-control" class="headerlink" title="Sliding mode control"></a><a href="https://youtu.be/BZbCdjbPTs4" target="_blank" rel="external">Sliding mode control</a></h2><p>想法很好，感觉image里面坐adaptive filter的时候也学过类似的，也就是用梯度（垂直于线）+控制方向的矢量和，但是有一个问题是这里要到达稳态，而我们的批次过程里面是不想稳态的，这个GT的prof讲课挺好的。</p>
 
@@ -583,7 +604,7 @@ Intro Machine lear">
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">53</span>
+                <span class="site-state-item-count">54</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -640,7 +661,7 @@ Intro Machine lear">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro-Machine-learning"><span class="nav-text">Intro Machine learning</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Cross-Validation"><span class="nav-text">Cross Validation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Logistic-regression"><span class="nav-text">Logistic regression</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Selectivity-and-Specificity"><span class="nav-text">Selectivity and Specificity</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ROC-amp-AUC"><span class="nav-text">ROC & AUC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P-value"><span class="nav-text">P-value</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Probability-vs-Likelihood"><span class="nav-text">Probability vs Likelihood</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Angel-theory-in-game-theory"><span class="nav-text">Angel theory in game theory</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SVM"><span class="nav-text">SVM</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Unfinished"><span class="nav-text">Unfinished</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#RDA-redundancy-analysis"><span class="nav-text">RDA redundancy analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CCA-Canonical-Correlation-Analysis"><span class="nav-text">CCA Canonical Correlation Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MDS-Multidimensional-scaling"><span class="nav-text">MDS Multidimensional scaling</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sliding-mode-control"><span class="nav-text">Sliding mode control</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro-Machine-learning"><span class="nav-text">Intro Machine learning</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Cross-Validation"><span class="nav-text">Cross Validation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Logistic-regression"><span class="nav-text">Logistic regression</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Selectivity-and-Specificity"><span class="nav-text">Selectivity and Specificity</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ROC-amp-AUC"><span class="nav-text">ROC & AUC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P-value"><span class="nav-text">P-value</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Probability-vs-Likelihood"><span class="nav-text">Probability vs Likelihood</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Angel-theory-in-game-theory"><span class="nav-text">Angel theory in game theory</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SVM"><span class="nav-text">SVM</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Neural-Network"><span class="nav-text">Neural Network</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Idea-of-NN"><span class="nav-text">Idea of NN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Components-of-NN"><span class="nav-text">Components of NN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#How-to-determine-weight-and-bias-back-propagation"><span class="nav-text">How to determine weight and bias - back-propagation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Unfinished"><span class="nav-text">Unfinished</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#RDA-redundancy-analysis"><span class="nav-text">RDA redundancy analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CCA-Canonical-Correlation-Analysis"><span class="nav-text">CCA Canonical Correlation Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MDS-Multidimensional-scaling"><span class="nav-text">MDS Multidimensional scaling</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sliding-mode-control"><span class="nav-text">Sliding mode control</span></a></li></ol></li></ol></div>
             
 
           </div>
