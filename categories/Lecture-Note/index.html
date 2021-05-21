@@ -307,7 +307,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/210209-aspen-plus/" itemprop="url">
+            <a class="post-title-link" href="/archieve/210209-aspen-plus/" itemprop="url">
               
                 <span itemprop="name">Aspen Plus Notes</span>
               
@@ -382,7 +382,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">54</span>
+                <span class="site-state-item-count">57</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -933,7 +933,22 @@
 
 </body>
 </html>
- while (index.length != 0) {
+index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
                         item = index[index.length - 1];
                         position = item.position;
                         word = item.word;
