@@ -433,8 +433,8 @@
         <category>Book Report</category>
       </categories>
       <tags>
-        <tag>Psychology</tag>
         <tag>Sociology</tag>
+        <tag>Psychology</tag>
       </tags>
   </entry>
   <entry>
@@ -3278,6 +3278,61 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </categories>
   </entry>
   <entry>
+    <title>Internet 101</title>
+    <url>/archieve/200315-Khan-Acadamy-Internet101/</url>
+    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
+<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
+<li>data are divided in to Packets </li>
+<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
+<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
+</ol>
+<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
+<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
+<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
+<li>PC requests additional data(images,videos etc) that included in HTML </li>
+<li>Cookies are used to remember user information </li>
+<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
+<li>Servers need digital certificate to establish secured connection. </li>
+</ol>
+<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
+<p>Hackers’ methods: </p>
+<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
+]]></content>
+      <categories>
+        <category>Video Report</category>
+      </categories>
+      <tags>
+        <tag>Internet</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pocket World in Figures 2019</title>
+    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
+    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
+<blockquote>
+<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
+</blockquote>
+<p>top consumers are </p>
+<blockquote>
+<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
+</blockquote>
+<hr>
+<p>top producers and consumers ranking are the same </p>
+<blockquote>
+<p>1 US 2 China 3 EU28 4 Brazil</p>
+</blockquote>
+<hr>
+<p>Foreign direct investment 2016(million) </p>
+<blockquote>
+<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
+<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
     <title>金融的逻辑</title>
     <url>/book%20reports/200315-Logic-of-Finance/</url>
     <content><![CDATA[<p>陈志武的《金融的逻辑》是找《市场的逻辑》这本书的时候顺便找到的。其中很多理论让我觉得很在理，比如说“养儿防老”和所谓的礼尚往来其实都是隐形的金融产品，等到我们的社会金融产业发达之后，这些不一定可靠的金融产品会被取代，到时候人们才是会真正注重情感的交流</p>
@@ -3344,61 +3399,6 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </categories>
   </entry>
   <entry>
-    <title>Internet 101</title>
-    <url>/archieve/200315-Khan-Acadamy-Internet101/</url>
-    <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
-<h1 id="How-are-data-transmitted-perfectly"><a href="#How-are-data-transmitted-perfectly" class="headerlink" title="How are data transmitted perfectly?"></a><a href="https://t.co/QAs2jxM6mY?amp=1" target="_blank" rel="external">How are data transmitted perfectly?</a></h1><ol>
-<li>data are divided in to Packets </li>
-<li>Packets are transimitted in the CHEAPEST way through Routers and reassembled at destination </li>
-<li>TCP(Transmission Control Prortocal) is to ensure the integrity of the data.</li>
-</ol>
-<h1 id="How-people-browse-a-webpage"><a href="#How-people-browse-a-webpage" class="headerlink" title="How people browse a webpage?"></a><a href="https://t.co/NeoF9cZZ5u?amp=1" target="_blank" rel="external">How people browse a webpage?</a></h1><ol>
-<li>PC uses URL(Uniform Resourse Locator) to connect the server sends request to server in HTTP(HyperText Transmission Protocol) </li>
-<li>Server sends back the HTML(HyperText Markup Language) which contains the context of the webpage</li>
-<li>PC requests additional data(images,videos etc) that included in HTML </li>
-<li>Cookies are used to remember user information </li>
-<li>SSL(Secure Socket Layer) and TSL(Transport Layer Security) are used to protect the transmission, or HTTPS(S for security).</li>
-<li>Servers need digital certificate to establish secured connection. </li>
-</ol>
-<h1 id="Cybersecurity"><a href="#Cybersecurity" class="headerlink" title="Cybersecurity"></a>Cybersecurity</h1><p>Public Key for Encryption<br>and Private Key for Decryption</p>
-<p>Hackers’ methods: </p>
-<p>1 Virus<br>2 DDOS(Distributed Denial-of-Service)  Useless info makes server go haywire<br>3 Phishing(Sounds like Fishing) scam</p>
-]]></content>
-      <categories>
-        <category>Video Report</category>
-      </categories>
-      <tags>
-        <tag>Internet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Pocket World in Figures 2019</title>
-    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
-    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
-<blockquote>
-<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
-</blockquote>
-<p>top consumers are </p>
-<blockquote>
-<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
-</blockquote>
-<hr>
-<p>top producers and consumers ranking are the same </p>
-<blockquote>
-<p>1 US 2 China 3 EU28 4 Brazil</p>
-</blockquote>
-<hr>
-<p>Foreign direct investment 2016(million) </p>
-<blockquote>
-<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
-<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Book Report</category>
-      </categories>
-  </entry>
-  <entry>
     <title>My Online Bookmark</title>
     <url>/200229-online-bookmark/</url>
     <content><![CDATA[<p>Too many bookmarks saved in chrome bookmarks.</p>
@@ -3435,7 +3435,7 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
 <h2 id="Korean"><a href="#Korean" class="headerlink" title="Korean"></a>Korean</h2><p><a href="http://www.kampoo.com/" target="_blank" rel="external">韓国旅行：おすすめの個人韓国観光情報、韓国語講座、韓国製品紹介サイト (kampoo.com)</a></p>
 <p><a href="https://www.hangul-note.info/" target="_blank" rel="external">ハングルノート｜韓国語の単語や例文・翻訳の語学勉強ブログ (hangul-note.info)</a></p>
 <p><a href="https://m80126colin.github.io/blog/articles/語言/韓文/初級韓文/korean-01/" target="_blank" rel="external">[初級韓文][01] 韓文活用變化、不規則變化 | 天然呆 (m80126colin.github.io)</a></p>
-<h1 id="Movie-Drama-Video"><a href="#Movie-Drama-Video" class="headerlink" title="Movie/Drama/Video"></a>Movie/Drama/Video</h1><p><a href="https://eztv.io/" target="_blank" rel="external">EZTV - TV Torrents Online Series Download | Official</a></p>
+<h1 id="Movie-Drama-Video"><a href="#Movie-Drama-Video" class="headerlink" title="Movie / Drama / Video"></a>Movie / Drama / Video</h1><p><a href="https://eztv.io/" target="_blank" rel="external">EZTV - TV Torrents Online Series Download | Official</a></p>
 <p><a href="http://www.shokdown.com/" target="_blank" rel="external">舒克高清视频下载 - 视频下载|高清下载|批量下载</a></p>
 <p><a href="http://downloadperiscopevideos.com/" target="_blank" rel="external">Scopedown - Download videos from Periscope</a></p>
 <p><a href="http://www.clipconverter.cc/" target="_blank" rel="external">YouTube to MP4 &amp; MP3 Converter and Video Download - ClipConverter.cc</a></p>
@@ -3445,13 +3445,14 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
 <h1 id="Music-Resources"><a href="#Music-Resources" class="headerlink" title="Music Resources"></a>Music Resources</h1><p><a href="http://www.guqiankun.com/tools/fivesing" target="_blank" rel="external">5sing音乐解析下载</a></p>
 <p><a href="http://www.360doc.com/content/15/0207/17/5587937_447043703.shtml" target="_blank" rel="external">《网易云音乐》MP3网址外链转换</a></p>
 <p><a href="https://downloads.khinsider.com/" target="_blank" rel="external">Video Game Music Downloads - Free MP3 OST downloads - Game Soundtracks for download</a></p>
-<h1 id="Travel"><a href="#Travel" class="headerlink" title="Travel"></a>Travel</h1><p><a href="http://travel.rakuten.co.jp/?scid=wi_grp_gmx_trv_ich_top_grptab1" target="_blank" rel="external">楽天トラベル: 宿・ホテル予約 国内旅行・海外旅行 予約サイト</a></p>
-<p><a href="http://www.jalan.net/" target="_blank" rel="external">宿・ホテル予約</a></p>
+<p><a href="http://www.jalan.net/" target="_blank" rel="external">http://www.jalan.net/</a>)</p>
 <h1 id="Picture-Photo-editing"><a href="#Picture-Photo-editing" class="headerlink" title="Picture/Photo editing"></a>Picture/Photo editing</h1><p><a href="http://www.asqql.com/g/" target="_blank" rel="external">gif动态图片制作</a></p>
 <p><a href="https://docsmall.com/gif-compress" target="_blank" rel="external">GIF压缩 - docsmall在线GIF压缩,GIF压缩工具,GIF压缩软件</a></p>
 <p><a href="https://www.photopea.com/" target="_blank" rel="external">Photopea | Online Image Editor</a></p>
 <p><a href="https://www.gaoding.com/koutu" target="_blank" rel="external">【抠图】在线抠图软件_ps抠图证件照换底色-稿定设计</a></p>
 <p><a href="https://ps.gaoding.com/#/" target="_blank" rel="external">【在线PS】PS软件网页版，ps在线图片处理工具-稿定PS</a></p>
+<h1 id="Travel"><a href="#Travel" class="headerlink" title="Travel"></a>Travel</h1><p><a href="http://travel.rakuten.co.jp/?scid=wi_grp_gmx_trv_ich_top_grptab1" target="_blank" rel="external">楽天トラベル: 宿・ホテル予約 国内旅行・海外旅行 予約サイト</a></p>
+<p>[宿・ホテル予約](</p>
 <h1 id="Paper-Essay"><a href="#Paper-Essay" class="headerlink" title="Paper/Essay"></a>Paper/Essay</h1><p><a href="https://www.paperyy.com/" target="_blank" rel="external">免费论文查重_PaperYY论文检测</a></p>
 <p><a href="http://www.papercool.com/freeActivity.html" target="_blank" rel="external">免费活动</a></p>
 <p><a href="http://www.papertime.cn/" target="_blank" rel="external">PaperTime论文时间</a></p>
@@ -3475,9 +3476,12 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
 <p> 开罐游戏 <a href="http://www.tomolasido.net/akr_old.html" target="_blank" rel="external">tomoLaSiDo -あける。</a></p>
 <p><a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="external">清华大学开源软件镜像站</a></p>
 <p><a href="http://www.mohu.org/info/lshort-cn.pdf" target="_blank" rel="external">LaTex</a></p>
-<h2 id="Online-Compiler"><a href="#Online-Compiler" class="headerlink" title="Online Compiler"></a>Online Compiler</h2><p><a href="https://repl.it" target="_blank" rel="external">Repl.it</a> (need login, UI is good)</p>
+<h1 id="Online-Compiler"><a href="#Online-Compiler" class="headerlink" title="Online Compiler"></a>Online Compiler</h1><p><a href="https://repl.it" target="_blank" rel="external">Repl.it</a> (need login, UI is good)</p>
 <p><a href="https://www.onlinegdb.com/online_c++_compiler" target="_blank" rel="external">Online C++ Compiler - online editor (onlinegdb.com)</a></p>
 <p><a href="https://onecompiler.com/cpp" target="_blank" rel="external">C++ - OneCompiler - Write, run and share C++ code online</a></p>
+<h1 id="Idol"><a href="#Idol" class="headerlink" title="Idol"></a>Idol</h1><p><a href="https://ameblo.jp/rokechi48/" target="_blank" rel="external">对象外对象内</a></p>
+<p><a href="https://muranokuma.cocolog-nifty.com/blog/" target="_blank" rel="external">AKB48グループ・坂道シリーズ データ部屋</a></p>
+<p><a href="https://w.atwiki.jp/skemobame/" target="_blank" rel="external">SKE48 モバメまとめwiki</a></p>
 <h1 id="Past-Courses"><a href="#Past-Courses" class="headerlink" title="Past Courses"></a><em>Past Courses</em></h1><p><a href="http://www.math.ust.hk/~amoy/math1013/" target="_blank" rel="external">Math 1013</a></p>
 <p><a href="http://www.math.ust.hk/~tklam/Math1013/download.html" target="_blank" rel="external">Math1013-L1-L2 Calculus II</a></p>
 <p><a href="http://mawjj.people.ust.hk/math1013" target="_blank" rel="external">MATH1013 – Ariel‘s Homepage</a></p>
