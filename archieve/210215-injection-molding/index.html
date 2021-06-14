@@ -108,7 +108,7 @@ Max">
 1.1.4.3 Visco-elastic model（P19）其实这个最重要的不是这个数学表达，而是这个dual nature，又有spring的特点，又有damper的特点
 然后这个ode的sum那边是0，另外一边就变成了可以解的ode
 Max">
-<meta property="og:updated_time" content="2021-03-07T02:38:35.551Z">
+<meta property="og:updated_time" content="2021-05-26T00:36:51.041Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Injection Molding">
 <meta name="twitter:description" content="第一次组会之前自己补习一下控制论方面的知识，一边读 Injection molding 这本书一边总结一下。
@@ -348,8 +348,8 @@ Max">
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2021-03-07T10:38:35+08:00">
-                2021-03-07
+              <time title="Post modified" itemprop="dateModified" datetime="2021-05-26T08:36:51+08:00">
+                2021-05-26
               </time>
             
           </span>
@@ -410,6 +410,7 @@ Max">
 <p>然后这个ode的sum那边是0，另外一边就变成了可以解的ode</p>
 <p>Maxwell和Voigt的两个model的区别在于串联还是并联spring和damper。两个都可以用ODE解出来</p>
 <h1 id="2-3-1-Model-Estimation-P45"><a href="#2-3-1-Model-Estimation-P45" class="headerlink" title="2.3.1 Model Estimation (P45)"></a>2.3.1 Model Estimation (P45)</h1><p>前面讲到了adaptive control里面的self-tuning regulator</p>
+<p>补充一下<a href="https://www.mathworks.com/help/ident/ref/arx.html#mw_cd0ce121-eb6d-41d6-bd75-33251f3242ee" target="_blank" rel="external">ARX model</a> （AutoRegressssive with EXtra input）（linear）还有<a href="https://www.mathworks.com/help/ident/ug/what-are-nonlinear-arx-models.html" target="_blank" rel="external">non linear ARX model</a>。</p>
 <p>这里上面介绍了ARX model，下面介绍了怎么根据这个model进行adaptive control</p>
 <p>简单来说就是通过最小化e(t)^2（最小二乘法），然后得出了θ, K, P三个套娃表达式，套娃又有ROT的解法</p>
 <p>下面就是具体的pole-placement design（说实话我还不太理解这个是啥）</p>
@@ -596,7 +597,7 @@ X=\sum{t_j p^T_j}</script><p>这里t和p是orthogonal的，$t_j,p_j$其实就相
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">57</span>
+                <span class="site-state-item-count">60</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
