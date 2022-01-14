@@ -170,24 +170,29 @@
 <thead>
 <tr>
 <th>Technology Name</th>
-<th>Compatible Raw <br>Material Form</th>
-<th>Typical Application</th>
+<th>Compatible Raw Material Form</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Glass blowing</td>
 <td>soda lime glass*</td>
-<td></td>
 </tr>
 <tr>
 <td>Lampworking</td>
 <td>borosilicate / soda lime</td>
-<td></td>
 </tr>
 <tr>
 <td>Clay throwing</td>
-<td>earthenware, stoneware, <br>porcelain</td>
+<td>earthenware, stoneware, porcelain</td>
+</tr>
+<tr>
+<td>Ceramic slip casting</td>
+<td>earthenware, terracotta<em>赤陶</em>, <br>creamware, stoneware</td>
+</tr>
+<tr>
+<td>Press molding ceramics</td>
+<td>earthenware, stoneware,  porcelain</td>
 </tr>
 </tbody>
 </table>
@@ -195,7 +200,69 @@
 <p>Glass blowing includes Studio ~ (600℃, low cost but slow) and Machine ~ (1100 ~ 1500 ℃, higher tooling cost but fast，including press+blow/blow+blow)<br>*soda lime glass = silica sand + soda ash + limestone + other additives</p>
 <p>Lamp working / Flameworking: glass in formed into hollow shapes. Borosilicate glass 800 ~ 1200 ℃</p>
 <p>Clay throwing / turning</p>
-]]></content>
+<p>Ceramic slip casting: clay forms a layer of shell on mold unsolidified part poured out. Forming hollow shape with identical thickness. (need manual labor)</p>
+<p>Press molding ceramics, which includes jiggering process (with blade) and ram press process (with pile of clay), usually made vitreous by glazing (bcs pottery brittle and porous)</p>
+<h2 id="Wood-and-Paper"><a href="#Wood-and-Paper" class="headerlink" title="Wood and Paper"></a>Wood and Paper</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Technology Name</th>
+<th>Compatible Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CNC machining</td>
+<td>Any material</td>
+</tr>
+<tr>
+<td>Wood laminating</td>
+<td>wood + adhesive</td>
+</tr>
+<tr>
+<td>Steam bending</td>
+<td>hardwood</td>
+</tr>
+<tr>
+<td>Paper pulp molding</td>
+<td>waste material</td>
+</tr>
+<tr>
+<td>Composite laminating</td>
+<td>Carbon fibers + plastics</td>
+</tr>
+<tr>
+<td>Compression molding <br>DMC &amp; SMC Processes</td>
+<td>thermosetting material</td>
+</tr>
+<tr>
+<td>Filament winding</td>
+<td>Carbon fiber</td>
+</tr>
+<tr>
+<td>3D thermal laminating</td>
+<td>Fiber + PET</td>
+</tr>
+<tr>
+<td>Rapid prototyping</td>
+<td>Resin etc</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>CNC (Computer numerical control) includes 3-axis / 5-axis etc. CAD data transferred onto workpiece</p>
+<p>For adhesive, urea-formaldehyde for indoor and phenol-formaldehyde for exterior</p>
+<p>Main product/application of paper pulp molding: egg boxes, fruit packaging …</p>
+<p>Composite laminating produces light and robust products, including wet lay-up, pre-impregnated and resin transfer molding (RTM, also known as resin infusion)</p>
+<blockquote>
+<p>Wet Lay-up Process Introduction <a href="https://youtu.be/6j2ErRs6LCM" target="_blank" rel="external">https://youtu.be/6j2ErRs6LCM</a><br>How to Make Prepreg Carbon Fibre Parts (XPREG® XC110) <a href="https://youtu.be/HfrFaKDsJxc" target="_blank" rel="external">https://youtu.be/HfrFaKDsJxc</a><br>Resin Transfer Moulding <a href="https://youtu.be/1u-2GvhghQA" target="_blank" rel="external">https://youtu.be/1u-2GvhghQA</a> <a href="https://youtu.be/NzpHCjL_AnE" target="_blank" rel="external">https://youtu.be/NzpHCjL_AnE</a></p>
+</blockquote>
+<p>DMC = dough molding compound (also known as bulk ~, BMC), SMC = sheet ~. These processes bridge the gap between composite laminating and injection molding.</p>
+<p>Filament winding provides continuous hollow profile by wind carbon fiber around a mandrel.</p>
+<p>Rapid prototyping is a collection of prototyping skills, including <a href="https://youtu.be/yW4EbCWaJHE" target="_blank" rel="external">stereolithography (SLA)</a>, <a href="https://youtu.be/9I354lmxazs" target="_blank" rel="external">Selective laser sintering (SLS)</a> , Direct metal laser sintering (SMLS). <em>very widely used as 3D printing technology, also unmentioned <a href="https://youtu.be/WHO6G67GJbM" target="_blank" rel="external">FDM</a></em>. Also, <a href="https://youtu.be/9zdQj5gDGes" target="_blank" rel="external">this video (in Chinese)</a> is very good review of FDM and SLA technology.</p>
+<p><img src="https://s2.loli.net/2022/01/13/Q4S5duzj9BwpvYC.png" alt></p>
+<p>via <a href="https://formlabs.com/blog/fdm-vs-sla-vs-sls-how-to-choose-the-right-3d-printing-technology/" target="_blank" rel="external">3D Printing Technology Comparison: FDM vs. SLA vs. SLS</a>. </p>
+<h1 id="Part-2-Cutting-Technology"><a href="#Part-2-Cutting-Technology" class="headerlink" title="Part 2 Cutting Technology"></a>Part 2 Cutting Technology</h1>]]></content>
       <categories>
         <category>Book Report</category>
       </categories>
@@ -741,7 +808,8 @@
 <p>柯希莫·皮奥瓦斯科·迪·隆多—生活在树上—始终热爱大地—升入天空</p>
 <p>我想使它们成为关于人如何实现自我的经验的三部曲：在《不存在的骑士》中争取生存，在《分成两半的子爵》中追求不受社会摧残的完整人生，《树上的男爵》中有一条通向完整的道路，这是通过对个人的自我抉择矢志不移的努力而达到的非个人主义的完整—这三个故事代表通向自由的三个阶段。同时我希望它们是三篇如人们所说的“开放性”的小说，首先遵循人物的发展逻辑，它们作为故事是站得住脚的，但是我希望在读者中引发的未曾预料的提问与回答过程中开始它们真正的生命。我希望它们被看成是现代人的祖先家系图，在其中的每一张脸上有我们身边人们的某些特征，你们的，我自己的。</p>
 </blockquote>
-<h1 id="魔鬼数学"><a href="#魔鬼数学" class="headerlink" title="魔鬼数学"></a>魔鬼数学</h1>]]></content>
+<p><em>魔鬼数学 读了一点弃了，中学生看还可以，但是已经学完微积分线性代数统计学的大学生看就有点没意思了。中文译名里面的副标题的“大数据”纯粹是一个吸引眼球的词汇罢了。</em></p>
+]]></content>
       <categories>
         <category>Book Report</category>
       </categories>
@@ -5540,6 +5608,33 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       </categories>
   </entry>
   <entry>
+    <title>Pocket World in Figures 2019</title>
+    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
+    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
+<blockquote>
+<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
+</blockquote>
+<p>top consumers are </p>
+<blockquote>
+<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
+</blockquote>
+<hr>
+<p>top producers and consumers ranking are the same </p>
+<blockquote>
+<p>1 US 2 China 3 EU28 4 Brazil</p>
+</blockquote>
+<hr>
+<p>Foreign direct investment 2016(million) </p>
+<blockquote>
+<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
+<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Internet 101</title>
     <url>/archieve/200315-Khan-Acadamy-Internet101/</url>
     <content><![CDATA[<h1 id="IP-and-DNS"><a href="#IP-and-DNS" class="headerlink" title="IP and DNS"></a><a href="https://www.khanacademy.org/computing/computer-science/internet-intro/internet-works-intro/v/the-internet-ip-addresses-and-dns" target="_blank" rel="external">IP and DNS</a></h1><p>IP = Internet Protocol<br>iPv4: xxx<em>4 (numbers)<br>iPv6: xxxx</em>6 (numbers and char)<br>DNS = Domain Name System<br>Hackers do DNS Spoofing user ask DNS about the IP of a website (e.g. <a href="https://t.co/GawVnW3Q5v?amp=1" target="_blank" rel="external">http://google.com</a>)<br>then user turn to Internet Service Provider(ISP) to get the content</p>
@@ -5566,33 +5661,6 @@ rate = k \prod C_i^{\nu_i}</script><p><em>The symbol looks similar to $\Pi$ mean
       <tags>
         <tag>Internet</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Pocket World in Figures 2019</title>
-    <url>/archieve/200315-Pocket-world-in-figures-2019/</url>
-    <content><![CDATA[<p>China keeps the largest producer and consumer in many aspects Interestingly, for sugar top producers are: </p>
-<blockquote>
-<p>1 Brazil 39k 2 India 24.8k 3 EU28 15k 4 China ~10k 5 Thailand 6 US </p>
-</blockquote>
-<p>top consumers are </p>
-<blockquote>
-<p>1 India 24.7k 2 EU28  3 China 16k 4 Brazil 5 US 6 Indonesia</p>
-</blockquote>
-<hr>
-<p>top producers and consumers ranking are the same </p>
-<blockquote>
-<p>1 US 2 China 3 EU28 4 Brazil</p>
-</blockquote>
-<hr>
-<p>Foreign direct investment 2016(million) </p>
-<blockquote>
-<p>inflows 1 US 2 UK  3 China 13k  4 HK 11k </p>
-<p>outflows 1 US 2 China 18k 3 Netherlands 4 Japan 5 Canada 5 HK 6k</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Book Report</category>
-      </categories>
   </entry>
   <entry>
     <title>金融的逻辑</title>
