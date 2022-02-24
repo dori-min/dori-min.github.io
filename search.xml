@@ -21,13 +21,6 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/book-reports/%E6%80%9D%E6%83%B3%E6%9C%AC%E8%B4%A8note/</url>
-    <content><![CDATA[<p>。</p>
-<p>s</p>
-]]></content>
-  </entry>
-  <entry>
     <title>成长的边界</title>
     <url>/book-reports/220219-range/</url>
     <content><![CDATA[<p>看这本书的契机是，在读<a href="https://dori-min.github.io/book-reports/220202-language-mind-thought-blank-slate/">《语言本能》</a>的时候平克提到Manfreed Clyne和David Epstein在研究音乐与运动控制，这两个话题分开起来其实都很有意思，合在一起更有趣了，然后就看了David Epstein的TED演讲 <a href="https://www.ted.com/talks/david_epstein_are_athletes_really_getting_faster_better_stronger" target="_blank" rel="external">Are athletes really getting faster, better, stronger?</a> 以及本书《成长的边界》。</p>
@@ -653,8 +646,8 @@
       </categories>
       <tags>
         <tag>Linguistics</tag>
-        <tag>Philosophy</tag>
         <tag>Cognitive Science</tag>
+        <tag>Philosophy</tag>
       </tags>
   </entry>
   <entry>
@@ -1241,6 +1234,31 @@
       </categories>
   </entry>
   <entry>
+    <title>语言哲学</title>
+    <url>/book-reports/220107-philosophy-of-language/</url>
+    <content><![CDATA[<h1 id="读后感"><a href="#读后感" class="headerlink" title="读后感"></a>读后感</h1><p>一开始读这本书是想要拓宽自己在语言方面的认知，上学期粗浅学习的隐喻也让我对这方面有了更多的兴趣。陈嘉映的文笔的确舒服流畅，一本教材居然也就很顺利地读了下来。哲学的确有一部分概念让我觉得费解，需要更多地思考，但是因为和语言联系在了一起，所以有显得平易了许多。一天读一两个章节，也认真地读了一个星期，像是学完了一门课。很多笔记是因为格式的问题没有都摘录，把<a href="https://u.pcloud.link/publink/show?code=XZTlj3XZktB6BxeNTKYtXqOFejpwP0HCu7YX" target="_blank" rel="external">标记过的pdf放个外链在这里</a>，方便以后回顾。</p>
+<p>过往读书都是短平快的东西，学习理工科的我也反思过对哲思的缺乏，这些问题看上去遥远深邃，但是又是那么重要，也难怪phd都是叫哲学博士。</p>
+<h1 id="重要人物与重要概念"><a href="#重要人物与重要概念" class="headerlink" title="重要人物与重要概念"></a>重要人物与重要概念</h1><p>索绪尔：施指&amp;所指，任意性原则（概念是任意划分的结果），共时性（静态）&amp;历时性（演化），结构主义语言学</p>
+<p>弗雷格：意义&amp;指称[专称&amp;概念]（&amp;直观），函式（一阶、二阶），语句命题</p>
+<p>罗素：逻辑原子&amp;亲知，罗素悖论，指称和特称</p>
+<p>维特根斯坦（早期）：《逻辑哲学论》世界是事实的总和而不是对象的总和；图象论（原子命题、名称、对象），简单命题（不可再拆分，关于这一点有一些批判），不可说（逻辑形式等）【什么是逻辑形式？】</p>
+<p>维也纳学派：意义的可证实原则，卡尔纳普，人工语言</p>
+<p>维特斯根坦（后期）：《哲学研究》语言游戏，意义&amp;使用（意义的工具性），家族相似，私有语言，自然语言</p>
+<p>日常语言学派：莱尔（日常语言，误解表达）、奥斯汀（语言分析）、言语行为（施行、记述）、概念结构（如何对概念进行分类）</p>
+<p>蒯因：整体主义，《经验主义的两个教条》，儿童语言学习和观察句（被批判），本体论承诺，不确定性。戴维森：成真条件意义。</p>
+<p>乔姆斯基：语法的作用：生成句子（创造性），转换——生成语法，深层结构和表层结构，（天生的）语言能力，遵行规则</p>
+<p>专名（这一章比较散）：专名和指称的意义问题，指称的描述性，克里普克，可能世界</p>
+<p>隐喻与隐含：塞尔，莱柯夫&amp;约翰森，语言的形式化，语境，蕴含entailment</p>
+<p>语言与现实：信号与语言，词和句（哪个是意义的最小单位），可能性（方的圆），内在关系与必然真理（概念必然&amp;逻辑必然）</p>
+]]></content>
+      <categories>
+        <category>Book Report</category>
+      </categories>
+      <tags>
+        <tag>Philosophy</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>工艺全书 Manufacturing Processes for Design Professionals</title>
     <url>/book-reports/220107-manufacturing-processes-for-design-professionals/</url>
     <content><![CDATA[<p>This book itself is a dictionary for manufacturing processes. I am not going to copy every single detail, but taking down the information that I feel important.</p>
@@ -1705,31 +1723,6 @@
       <categories>
         <category>Book Report</category>
       </categories>
-  </entry>
-  <entry>
-    <title>语言哲学</title>
-    <url>/book-reports/220107-philosophy-of-language/</url>
-    <content><![CDATA[<h1 id="读后感"><a href="#读后感" class="headerlink" title="读后感"></a>读后感</h1><p>一开始读这本书是想要拓宽自己在语言方面的认知，上学期粗浅学习的隐喻也让我对这方面有了更多的兴趣。陈嘉映的文笔的确舒服流畅，一本教材居然也就很顺利地读了下来。哲学的确有一部分概念让我觉得费解，需要更多地思考，但是因为和语言联系在了一起，所以有显得平易了许多。一天读一两个章节，也认真地读了一个星期，像是学完了一门课。很多笔记是因为格式的问题没有都摘录，把<a href="https://u.pcloud.link/publink/show?code=XZTlj3XZktB6BxeNTKYtXqOFejpwP0HCu7YX" target="_blank" rel="external">标记过的pdf放个外链在这里</a>，方便以后回顾。</p>
-<p>过往读书都是短平快的东西，学习理工科的我也反思过对哲思的缺乏，这些问题看上去遥远深邃，但是又是那么重要，也难怪phd都是叫哲学博士。</p>
-<h1 id="重要人物与重要概念"><a href="#重要人物与重要概念" class="headerlink" title="重要人物与重要概念"></a>重要人物与重要概念</h1><p>索绪尔：施指&amp;所指，任意性原则（概念是任意划分的结果），共时性（静态）&amp;历时性（演化），结构主义语言学</p>
-<p>弗雷格：意义&amp;指称[专称&amp;概念]（&amp;直观），函式（一阶、二阶），语句命题</p>
-<p>罗素：逻辑原子&amp;亲知，罗素悖论，指称和特称</p>
-<p>维特根斯坦（早期）：《逻辑哲学论》世界是事实的总和而不是对象的总和；图象论（原子命题、名称、对象），简单命题（不可再拆分，关于这一点有一些批判），不可说（逻辑形式等）【什么是逻辑形式？】</p>
-<p>维也纳学派：意义的可证实原则，卡尔纳普，人工语言</p>
-<p>维特斯根坦（后期）：《哲学研究》语言游戏，意义&amp;使用（意义的工具性），家族相似，私有语言，自然语言</p>
-<p>日常语言学派：莱尔（日常语言，误解表达）、奥斯汀（语言分析）、言语行为（施行、记述）、概念结构（如何对概念进行分类）</p>
-<p>蒯因：整体主义，《经验主义的两个教条》，儿童语言学习和观察句（被批判），本体论承诺，不确定性。戴维森：成真条件意义。</p>
-<p>乔姆斯基：语法的作用：生成句子（创造性），转换——生成语法，深层结构和表层结构，（天生的）语言能力，遵行规则</p>
-<p>专名（这一章比较散）：专名和指称的意义问题，指称的描述性，克里普克，可能世界</p>
-<p>隐喻与隐含：塞尔，莱柯夫&amp;约翰森，语言的形式化，语境，蕴含entailment</p>
-<p>语言与现实：信号与语言，词和句（哪个是意义的最小单位），可能性（方的圆），内在关系与必然真理（概念必然&amp;逻辑必然）</p>
-]]></content>
-      <categories>
-        <category>Book Report</category>
-      </categories>
-      <tags>
-        <tag>Philosophy</tag>
-      </tags>
   </entry>
   <entry>
     <title>魔鬼辞典</title>
@@ -4324,8 +4317,8 @@
         <category>Video Report</category>
       </categories>
       <tags>
-        <tag>Machine Learning</tag>
         <tag>Statistics</tag>
+        <tag>Machine Learning</tag>
       </tags>
   </entry>
   <entry>
