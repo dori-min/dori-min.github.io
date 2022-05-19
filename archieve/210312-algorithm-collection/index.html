@@ -97,14 +97,14 @@
 <meta name="description" content="The following are notes when viewing StatQuest’s videos. StatQuest is recommended for anyone like me in need of statistic knowledge but have not taken systematic statistic training.
 Intro Machine lear">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Logistic regression, ROC & AUC, P-value">
+<meta property="og:title" content="Machine Learning">
 <meta property="og:url" content="dori-min.github.io/archieve/210312-algorithm-collection/index.html">
 <meta property="og:site_name" content="Dori-min">
 <meta property="og:description" content="The following are notes when viewing StatQuest’s videos. StatQuest is recommended for anyone like me in need of statistic knowledge but have not taken systematic statistic training.
 Intro Machine lear">
-<meta property="og:updated_time" content="2022-01-12T15:19:39.757Z">
+<meta property="og:updated_time" content="2022-05-19T08:59:29.513Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Logistic regression, ROC & AUC, P-value">
+<meta name="twitter:title" content="Machine Learning">
 <meta name="twitter:description" content="The following are notes when viewing StatQuest’s videos. StatQuest is recommended for anyone like me in need of statistic knowledge but have not taken systematic statistic training.
 Intro Machine lear">
 
@@ -141,7 +141,7 @@ Intro Machine lear">
 
 
 
-  <title>Logistic regression, ROC & AUC, P-value | Dori-min</title>
+  <title>Machine Learning | Dori-min</title>
   
 
 
@@ -323,7 +323,7 @@ Intro Machine lear">
 
         
         
-          <h1 class="post-title" itemprop="name headline">Logistic regression, ROC & AUC, P-value</h1>
+          <h1 class="post-title" itemprop="name headline">Machine Learning</h1>
         
 
         <div class="post-meta">
@@ -339,8 +339,8 @@ Intro Machine lear">
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2022-01-12T23:19:39+08:00">
-                2022-01-12
+              <time title="Post modified" itemprop="dateModified" datetime="2022-05-19T16:59:29+08:00">
+                2022-05-19
               </time>
             
           </span>
@@ -424,14 +424,12 @@ Intro Machine lear">
 <h1 id="P-value"><a href="#P-value" class="headerlink" title="P-value"></a>P-value</h1><ul>
 <li>probability of [generating events of equal or rarer probability]</li>
 </ul>
-<p>比如说在一个高斯分布pdf里面，某一个值k对应的p value是 可能性（纵坐标）小于p的两个tail面积和，如果k敲好是mean，那么p value就等于1</p>
+<p><em>比如说在一个高斯分布pdf里面，某一个值k对应的p value是 可能性（纵坐标）小于p的两个tail面积和，如果k恰好是mean，那么p value就等于1</em></p>
 <h1 id="Probability-vs-Likelihood"><a href="#Probability-vs-Likelihood" class="headerlink" title="Probability vs Likelihood"></a><a href="https://www.youtube.com/watch?v=pYxNSUDSFH4" target="_blank" rel="external">Probability vs Likelihood</a></h1><ul>
 <li>Probabilities are areas under fixed distribution</li>
 <li>Likelihoods are y-axis values for fixed data pointes with distributions that can be move</li>
 </ul>
-<h1 id="Angel-theory-in-game-theory"><a href="#Angel-theory-in-game-theory" class="headerlink" title="Angel theory in game theory"></a><a href="https://www.youtube.com/watch?v=sxiKlOK3EJY&amp;ab_channel=CodeParade" target="_blank" rel="external">Angel theory in game theory</a></h1><p><em>挺好奇这个结果，证明出来是天使会赢，就算魔鬼知道天使每一步要怎么走</em></p>
-<h1 id="SVM"><a href="#SVM" class="headerlink" title="SVM"></a>SVM</h1><p>support vector machine</p>
-<p>pick threshold and classify x (not good)</p>
+<h1 id="Support-Vector-Machine-SVM"><a href="#Support-Vector-Machine-SVM" class="headerlink" title="Support Vector Machine (SVM)"></a>Support Vector Machine (SVM)</h1><p>pick threshold and classify x (not good)</p>
 <p>find the midpoint of edge</p>
 <p>margin = each edge to threshold</p>
 <ol>
@@ -481,6 +479,7 @@ Intro Machine lear">
 <p> similar approach can be applied to calculate weight.</p>
 <h1 id="Unfinished"><a href="#Unfinished" class="headerlink" title="Unfinished"></a>Unfinished</h1><h2 id="RDA-redundancy-analysis"><a href="#RDA-redundancy-analysis" class="headerlink" title="RDA redundancy analysis"></a>RDA redundancy analysis</h2><h2 id="CCA-Canonical-Correlation-Analysis"><a href="#CCA-Canonical-Correlation-Analysis" class="headerlink" title="CCA Canonical Correlation Analysis"></a>CCA Canonical Correlation Analysis</h2><p><a href="https://www.cnblogs.com/pinard/p/6288716.html" target="_blank" rel="external">https://www.cnblogs.com/pinard/p/6288716.html</a></p>
 <h2 id="MDS-Multidimensional-scaling"><a href="#MDS-Multidimensional-scaling" class="headerlink" title="MDS Multidimensional scaling"></a>MDS Multidimensional scaling</h2><h2 id="Sliding-mode-control"><a href="#Sliding-mode-control" class="headerlink" title="Sliding mode control"></a><a href="https://youtu.be/BZbCdjbPTs4" target="_blank" rel="external">Sliding mode control</a></h2><p>想法很好，感觉image里面坐adaptive filter的时候也学过类似的，也就是用梯度（垂直于线）+控制方向的矢量和，但是有一个问题是这里要到达稳态，而我们的批次过程里面是不想稳态的，这个GT的prof讲课挺好的。</p>
+<h2 id="Angel-theory-in-game-theory"><a href="#Angel-theory-in-game-theory" class="headerlink" title="Angel theory in game theory"></a><a href="https://www.youtube.com/watch?v=sxiKlOK3EJY&amp;ab_channel=CodeParade" target="_blank" rel="external">Angel theory in game theory</a></h2><p><em>挺好奇这个结果，证明出来是天使会赢，就算魔鬼知道天使每一步要怎么走</em></p>
 
       
     </div>
@@ -604,7 +603,7 @@ Intro Machine lear">
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">87</span>
+                <span class="site-state-item-count">85</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -615,7 +614,7 @@ Intro Machine lear">
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -661,7 +660,7 @@ Intro Machine lear">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro-Machine-learning"><span class="nav-text">Intro Machine learning</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Cross-Validation"><span class="nav-text">Cross Validation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Logistic-regression"><span class="nav-text">Logistic regression</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Selectivity-and-Specificity"><span class="nav-text">Selectivity and Specificity</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ROC-amp-AUC"><span class="nav-text">ROC & AUC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P-value"><span class="nav-text">P-value</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Probability-vs-Likelihood"><span class="nav-text">Probability vs Likelihood</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Angel-theory-in-game-theory"><span class="nav-text">Angel theory in game theory</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SVM"><span class="nav-text">SVM</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Neural-Network"><span class="nav-text">Neural Network</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Idea-of-NN"><span class="nav-text">Idea of NN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Components-of-NN"><span class="nav-text">Components of NN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#How-to-determine-weight-and-bias-back-propagation"><span class="nav-text">How to determine weight and bias - back-propagation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Unfinished"><span class="nav-text">Unfinished</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#RDA-redundancy-analysis"><span class="nav-text">RDA redundancy analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CCA-Canonical-Correlation-Analysis"><span class="nav-text">CCA Canonical Correlation Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MDS-Multidimensional-scaling"><span class="nav-text">MDS Multidimensional scaling</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sliding-mode-control"><span class="nav-text">Sliding mode control</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro-Machine-learning"><span class="nav-text">Intro Machine learning</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Cross-Validation"><span class="nav-text">Cross Validation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Logistic-regression"><span class="nav-text">Logistic regression</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Selectivity-and-Specificity"><span class="nav-text">Selectivity and Specificity</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ROC-amp-AUC"><span class="nav-text">ROC & AUC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P-value"><span class="nav-text">P-value</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Probability-vs-Likelihood"><span class="nav-text">Probability vs Likelihood</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Support-Vector-Machine-SVM"><span class="nav-text">Support Vector Machine (SVM)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Neural-Network"><span class="nav-text">Neural Network</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Idea-of-NN"><span class="nav-text">Idea of NN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Components-of-NN"><span class="nav-text">Components of NN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#How-to-determine-weight-and-bias-back-propagation"><span class="nav-text">How to determine weight and bias - back-propagation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Unfinished"><span class="nav-text">Unfinished</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#RDA-redundancy-analysis"><span class="nav-text">RDA redundancy analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CCA-Canonical-Correlation-Analysis"><span class="nav-text">CCA Canonical Correlation Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MDS-Multidimensional-scaling"><span class="nav-text">MDS Multidimensional scaling</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sliding-mode-control"><span class="nav-text">Sliding mode control</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Angel-theory-in-game-theory"><span class="nav-text">Angel theory in game theory</span></a></li></ol></li></ol></div>
             
 
           </div>

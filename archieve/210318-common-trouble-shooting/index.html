@@ -116,7 +116,7 @@ Surface Pen 校正从控制面板进入笔选项。">
 <meta property="og:image" content="https://i.loli.net/2021/03/23/sbe8HQ4M6UXIwkK.png">
 <meta property="og:image" content="https://i.loli.net/2021/10/31/RPaikW5M9uYl7oQ.png">
 <meta property="og:image" content="https://i.loli.net/2021/10/31/aYzfMTEp1qiv5hy.png">
-<meta property="og:updated_time" content="2022-05-01T03:51:51.927Z">
+<meta property="og:updated_time" content="2022-05-19T08:54:14.664Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="常见手机/电脑问题疑难解答">
 <meta name="twitter:description" content="把我个人碰到两次或者以上的问题收集一下，以防将来再碰到的时候忘记怎么解决。
@@ -359,8 +359,8 @@ Surface Pen 校正从控制面板进入笔选项。">
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2022-05-01T11:51:51+08:00">
-                2022-05-01
+              <time title="Post modified" itemprop="dateModified" datetime="2022-05-19T16:54:14+08:00">
+                2022-05-19
               </time>
             
           </span>
@@ -402,6 +402,13 @@ Surface Pen 校正从控制面板进入笔选项。">
 <h1 id="Surface-Pen-校正"><a href="#Surface-Pen-校正" class="headerlink" title="Surface Pen 校正"></a>Surface Pen 校正</h1><p>从控制面板进入笔选项。</p>
 <p><img src="https://i.loli.net/2021/03/18/yxHNJtbopPGZW7u.png" alt="image.png | 400" style="zoom:50%;"></p>
 <h1 id="声卡和摄像头驱动一起掉"><a href="#声卡和摄像头驱动一起掉" class="headerlink" title="声卡和摄像头驱动一起掉"></a>声卡和摄像头驱动一起掉</h1><p><a href="https://www.lifewire.com/how-to-delete-the-upperfilters-and-lowerfilters-registry-values-2619222" target="_blank" rel="external">https://www.lifewire.com/how-to-delete-the-upperfilters-and-lowerfilters-registry-values-2619222</a></p>
+<blockquote>
+<ul>
+<li>Open Registry Editor and go to <strong>HKEY_LOCAL_MACHINE</strong> &gt; <strong>System</strong> &gt; <strong>CurrentControlSet</strong> &gt; <strong>Control</strong> &gt; <strong>Class</strong>.</li>
+<li>Determine the Class GUID for the hardware device that you’re seeing the error code for, then select the corresponding subkey.</li>
+<li>Right-click <strong>UpperFilters</strong> and <strong>LowerFilters</strong>, and select <strong>Delete</strong> and <strong>Yes</strong> to confirm.</li>
+</ul>
+</blockquote>
 <h1 id="无法显示网络列表"><a href="#无法显示网络列表" class="headerlink" title="无法显示网络列表"></a>无法显示网络列表</h1><p>打开services</p>
 <p><img src="https://i.loli.net/2021/03/23/sbe8HQ4M6UXIwkK.png" alt="image.png" style="zoom:50%;"></p>
 <h1 id="开始菜单无法正确显示图标"><a href="#开始菜单无法正确显示图标" class="headerlink" title="开始菜单无法正确显示图标"></a>开始菜单无法正确显示图标</h1><p>原因：资源管理器缓存错误</p>
@@ -413,7 +420,7 @@ Surface Pen 校正从控制面板进入笔选项。">
 <h1 id="新电脑为家庭中文版-无法修改显示语言为英文"><a href="#新电脑为家庭中文版-无法修改显示语言为英文" class="headerlink" title="新电脑为家庭中文版 无法修改显示语言为英文"></a>新电脑为家庭中文版 无法修改显示语言为英文</h1><p>思路1：买专业版code升级，但是害怕tb的不靠谱</p>
 <p>思路2：家庭版可以设置语言，<a href="https://www.zhihu.com/question/277665467/answer/396354621" target="_blank" rel="external">这个高赞回答</a>是可以用的，如果激活失败，尝试重启即可。</p>
 <h1 id="打开浏览器显示代理服务器问题"><a href="#打开浏览器显示代理服务器问题" class="headerlink" title="打开浏览器显示代理服务器问题"></a>打开浏览器显示代理服务器问题</h1><p>这个是因为梯子，关电脑的时候要记得先下梯子。</p>
-<p>如果忘记下了，去 IE | Internet Option | Connection | Lan Setting | Proxy Server 那个勾取消就好。</p>
+<p>如果忘记下了，去 <strong>IE | Internet Option | Connection | Lan Setting | Proxy Server</strong> 那个勾取消就好。</p>
 <h1 id="Zotero同步到OneDrive方法"><a href="#Zotero同步到OneDrive方法" class="headerlink" title="Zotero同步到OneDrive方法"></a>Zotero同步到OneDrive方法</h1><p>直接修改保存目录会出现警告</p>
 <p>安全方法：</p>
 <p>cmd （管理员）<br>mklink j/ “<em><u>C盘storage 目录（要删掉）</u></em>“ “<em><u>onedrive目录</u></em>“</p>
@@ -426,6 +433,14 @@ Surface Pen 校正从控制面板进入笔选项。">
 <li>或者下载DirectX Web Setup 可以一次性解决</li>
 </ol>
 <h1 id="windows应用商店0x800704cf错误的解决办法"><a href="#windows应用商店0x800704cf错误的解决办法" class="headerlink" title="windows应用商店0x800704cf错误的解决办法"></a>windows应用商店0x800704cf错误的解决办法</h1><p><a href="https://www.bilibili.com/read/cv5485235" target="_blank" rel="external">https://www.bilibili.com/read/cv5485235</a></p>
+<blockquote>
+<p>那么，出现这个问题的原因就是：</p>
+<p>当你关闭代理软件后，系统的代理源出现了问题。默认的代理源是ie代理设置，你使用的其他软件把这个代理源修改为别的了，所以系统无法通过代理连接到windows商店服务器。</p>
+<hr>
+<p>解决办法：</p>
+<p>使用管理员权限打开命令提示符，输入：</p>
+<p>netsh winhttp import proxy source=ie </p>
+</blockquote>
 
       
     </div>
@@ -541,7 +556,7 @@ Surface Pen 校正从控制面板进入笔选项。">
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">87</span>
+                <span class="site-state-item-count">85</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -552,7 +567,7 @@ Surface Pen 校正从控制面板进入笔选项。">
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>

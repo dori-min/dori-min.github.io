@@ -100,7 +100,7 @@
 <meta property="og:url" content="dori-min.github.io/archieve/210209-aspen-plus/index.html">
 <meta property="og:site_name" content="Dori-min">
 <meta property="og:description" content="The course Process Design and Integration requires the application of ASPEN PLUS. Some learning notes and mentioned ROTs are collected in this note.Main tutorial video: Beginner and Advanced (Very cle">
-<meta property="og:updated_time" content="2022-01-12T15:17:43.654Z">
+<meta property="og:updated_time" content="2022-05-19T09:05:41.845Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Aspen Plus Notes">
 <meta name="twitter:description" content="The course Process Design and Integration requires the application of ASPEN PLUS. Some learning notes and mentioned ROTs are collected in this note.Main tutorial video: Beginner and Advanced (Very cle">
@@ -336,8 +336,8 @@
               
                 <span class="post-meta-item-text">Post modified</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2022-01-12T23:17:43+08:00">
-                2022-01-12
+              <time title="Post modified" itemprop="dateModified" datetime="2022-05-19T17:05:41+08:00">
+                2022-05-19
               </time>
             
           </span>
@@ -404,7 +404,7 @@
 <p>RESET if any error</p>
 <p>be careful about stream | component | mole/mass | flow/frac |</p>
 <hr>
-<p><em>updated on 210406</em> <em>一些血肉教训</em></p>
+<p><em>updated on 210406</em> <del><em>一些血肉教训</em></del></p>
 <ol>
 <li>For RadFrac, <strong>Azeotrope</strong> is much harder to converge. If any possible azeotropic system, try <strong><u>Strongly non-ideal liquid</u></strong> (rmb azeotrope cannot be dealt with DSTWU)</li>
 <li>If it takes a long time (i.e. longer then a few seconds), then there is probably warning/error</li>
@@ -468,8 +468,9 @@
 <li>bad initialization - method: copy the stream components for the current unconverged result to the initial component value</li>
 </ol>
 <blockquote>
+<p>原文地址：<a href="https://bbs.mahoupao.com/thread-83978-1-1.html" target="_blank" rel="external">https://bbs.mahoupao.com/thread-83978-1-1.html</a></p>
 <p>循环收不收敛，是数学算法的范畴，但往往都是工艺上出了问题，比如流量、温度、组成等与实际差的太大造成不收敛。<br>至于数学算法，当今处理迭代计算最先进的算法就那么几种，可以换着试试。<br>建模初期往往不需要将循环物流接上去，可人工虚拟一股物流，让模型收敛后，再考虑撤除虚拟物流，将循环物流接入。<br>以上为个人观点。</p>
-<p>在模拟有循环的流程时，首先按流程顺序模拟好每一个模块，在每一模块模拟好之后，将需要循环的物料进行循环。通常在进行循环时会出现不收敛和很多错误与警告（在有几个精馏塔时错误和警告数最多，流程越难收敛）。以下是模拟循环的步骤。<br>1、将需要循环的物料连接一个分流器Fsplit分出一部分物料（因反应中有惰性组分产生，如果不进行分流放空就会造成惰性组分在循环中积累导致循环不收敛），一般分出的物料较少。将另一股物料连接到循环的起始点。<br>2、我们首先将收敛方法的迭代次数增加到较大的值，根据自己的情况自己设置，我一般是设为300次。<br>3、根据最初的反应物料进料量和循环反应物的量计算出循环时反应物的进料量（计算精确一点，最好到小数点后两位，此计算值较为准确），循环不收敛或产物的产量和自己设计的不同时只需微调进料量即可。<br>4、对于只有一个塔的循环，先将塔换为DSTWU模块进行设计计算，结果收敛后再换为RadFrac模块计算。<br>5、对于有多个精馏塔的循环，首先全部换为DSTWU模块进行设计计算，在计算结果收敛和达到自己设计的产量后再将DSTWU模块每次一个（将循环流程内的DSTWU模块一个换为RadFrac模块，计算收敛和产量达预定值时再换下一个）的换为RadFrac模块进行设计计算。<br>6、如果循环很难收敛，我们考虑改变收敛方法，一般布洛伊顿拟牛顿法（Broyden）最易收敛。<br>7、对于具体不收敛情况，我们只需微调精料量和精馏塔的回流比（根据具体情况进行调节，有的只要调节小数点后两位的值流程有可能有很大变化）。<br>8、根据个人经验，小数点后的最后一位数设置为偶数比设置为奇数流程更易收敛。<br>以上仅为个人循环模拟时的经验，仅供参考。有什么不妥之处还望高手指出，大家相互交流，相互学习，共同进步。<br>- 本文出自马后炮化工论坛，原文地址：<a href="https://bbs.mahoupao.com/thread-83978-1-1.html" target="_blank" rel="external">https://bbs.mahoupao.com/thread-83978-1-1.html</a></p>
+<p>在模拟有循环的流程时，首先按流程顺序模拟好每一个模块，在每一模块模拟好之后，将需要循环的物料进行循环。通常在进行循环时会出现不收敛和很多错误与警告（在有几个精馏塔时错误和警告数最多，流程越难收敛）。以下是模拟循环的步骤。<br>1、将需要循环的物料连接一个分流器Fsplit分出一部分物料（因反应中有惰性组分产生，如果不进行分流放空就会造成惰性组分在循环中积累导致循环不收敛），一般分出的物料较少。将另一股物料连接到循环的起始点。<br>2、我们首先将收敛方法的迭代次数增加到较大的值，根据自己的情况自己设置，我一般是设为300次。<br>3、根据最初的反应物料进料量和循环反应物的量计算出循环时反应物的进料量（计算精确一点，最好到小数点后两位，此计算值较为准确），循环不收敛或产物的产量和自己设计的不同时只需微调进料量即可。<br>4、对于只有一个塔的循环，先将塔换为DSTWU模块进行设计计算，结果收敛后再换为RadFrac模块计算。<br>5、对于有多个精馏塔的循环，首先全部换为DSTWU模块进行设计计算，在计算结果收敛和达到自己设计的产量后再将DSTWU模块每次一个（将循环流程内的DSTWU模块一个换为RadFrac模块，计算收敛和产量达预定值时再换下一个）的换为RadFrac模块进行设计计算。<br>6、如果循环很难收敛，我们考虑改变收敛方法，一般布洛伊顿拟牛顿法（Broyden）最易收敛。<br>7、对于具体不收敛情况，我们只需微调精料量和精馏塔的回流比（根据具体情况进行调节，有的只要调节小数点后两位的值流程有可能有很大变化）。<br>8、根据个人经验，小数点后的最后一位数设置为偶数比设置为奇数流程更易收敛。</p>
 </blockquote>
 <h1 id="Examples-and-Exercises"><a href="#Examples-and-Exercises" class="headerlink" title="Examples and Exercises"></a>Examples and Exercises</h1><p>The main reference book is <em>Chemical Engineering Process Simulation Practice - Aspen Plus Instruction (Yilan Sun)</em></p>
 <p>Here are the recording of troubleshooting and learning summary.</p>
@@ -496,7 +497,9 @@
 <li><strong>Block | RADFRAC | Specifications | Design Specification</strong> (add a specific target)</li>
 <li><strong>Block | RADFRAC | Specifications | Vary </strong> (Add an independent variable to reach the target)</li>
 </ol>
+<blockquote>
 <p><em>对于宽沸程物系，要在Convergence | Convergence | Advanced 把adsorber的no改成yes，然后把maximum iteration改成200</em></p>
+</blockquote>
 <h2 id="Ex-7-1-Distillation-column-of-water-and-methanol"><a href="#Ex-7-1-Distillation-column-of-water-and-methanol" class="headerlink" title="Ex 7.1 Distillation column of water and methanol"></a>Ex 7.1 Distillation column of water and methanol</h2><ol>
 <li>Method | Parameters ??? -&gt; automatically filled after filling the simulation part</li>
 <li>initial number of plates of column? pressure? -&gt; I had 20 plates and same pressure as feed first(OK actually operation pressure given but I missed it)</li>
@@ -537,17 +540,32 @@
 </li>
 </ol>
 <h1 id="Problems-encountered"><a href="#Problems-encountered" class="headerlink" title="Problems encountered"></a>Problems encountered</h1><p>除去light gas（H2&amp;PY）</p>
-<p> 粗分离用FLASH</p>
-<p> absorber用水回收AC的时候会带PY</p>
-<p> 解决办法：flash+absorber+radrac distillation column</p>
+<ul>
+<li><p> 粗分离用FLASH</p>
+</li>
+<li><p> absorber用水回收AC的时候会带PY</p>
+</li>
+<li><p> 解决办法：flash+absorber+radrac distillation column</p>
+</li>
+</ul>
 <p>除去DE</p>
-<p> C2主要负责除去DE（在共沸点上方温度，DE沸点小于AC，底部收获AC）</p>
-<p> 解决办法：在前面就purge掉</p>
+<ul>
+<li><p> C2主要负责除去DE（在共沸点上方温度，DE沸点小于AC，底部收获AC）</p>
+</li>
+<li><p> 解决办法：在前面就purge掉</p>
+</li>
+</ul>
 <p>水和IPA回收</p>
-<p> C1和FLASH2</p>
-<p> 解决办法：column分离AC和IPA,H2O，再column分离IPA和H2O</p>
+<ul>
+<li><p> C1和FLASH2</p>
+</li>
+<li><p> 解决办法：column分离AC和IPA,H2O，再column分离IPA和H2O</p>
+</li>
+</ul>
 <p>能量</p>
-<p> COMP用太多能量，只能用COMP的原因是因为有PY没办法轻松降温液化，要避免用COMP必须要除去PY</p>
+<ul>
+<li> COMP用太多能量，只能用COMP的原因是因为有PY没办法轻松降温液化，要避免用COMP必须要除去PY</li>
+</ul>
 
       
     </div>
@@ -669,7 +687,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">87</span>
+                <span class="site-state-item-count">85</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -680,7 +698,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
