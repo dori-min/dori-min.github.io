@@ -94,24 +94,21 @@
 
 
 
-<meta name="description" content="This is a collection of Excel tricks that I collect in case of future use.
-Some good YouTube Channels that introduce excel tricks: PAPAYA(In Chinese), MyOnlineTrainingHub
-updated 230222
+<meta name="description" content="This is a collection of Excel tricks that I collect in case of future use. Some good YouTube Channels that introduce excel tricks: PAPAYA(In Chinese), MyOnlineTrainingHub
+updated 230224
 FunctionsCount">
 <meta property="og:type" content="article">
 <meta property="og:title" content="My Excel Cheatsheet">
 <meta property="og:url" content="https://dori-min.github.io/archive/210804-excel-cheatsheet/index.html">
 <meta property="og:site_name" content="Dori-min">
-<meta property="og:description" content="This is a collection of Excel tricks that I collect in case of future use.
-Some good YouTube Channels that introduce excel tricks: PAPAYA(In Chinese), MyOnlineTrainingHub
-updated 230222
+<meta property="og:description" content="This is a collection of Excel tricks that I collect in case of future use. Some good YouTube Channels that introduce excel tricks: PAPAYA(In Chinese), MyOnlineTrainingHub
+updated 230224
 FunctionsCount">
-<meta property="og:updated_time" content="2023-02-22T19:14:51.625Z">
+<meta property="og:updated_time" content="2023-02-25T01:05:26.653Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Excel Cheatsheet">
-<meta name="twitter:description" content="This is a collection of Excel tricks that I collect in case of future use.
-Some good YouTube Channels that introduce excel tricks: PAPAYA(In Chinese), MyOnlineTrainingHub
-updated 230222
+<meta name="twitter:description" content="This is a collection of Excel tricks that I collect in case of future use. Some good YouTube Channels that introduce excel tricks: PAPAYA(In Chinese), MyOnlineTrainingHub
+updated 230224
 FunctionsCount">
 
 
@@ -349,7 +346,7 @@ FunctionsCount">
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-08-04T20:49:31+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-08-04T08:49:31-04:00">
                 2021-08-04
               </time>
             
@@ -409,17 +406,16 @@ FunctionsCount">
       
 
       
-        <p>This is a collection of Excel tricks that I collect in case of future use.</p>
-<p>Some good YouTube Channels that introduce excel tricks: <a href="https://www.youtube.com/@papayaclass/videos" target="_blank" rel="external">PAPAYA(In Chinese)</a>, <a href="https://www.youtube.com/c/MyOnlineTrainingHub/videos" target="_blank" rel="external">MyOnlineTrainingHub</a></p>
-<p><em>updated 230222</em></p>
+        <p>This is a collection of Excel tricks that I collect in case of future use. Some good YouTube Channels that introduce excel tricks: <a href="https://www.youtube.com/@papayaclass/videos" target="_blank" rel="external">PAPAYA(In Chinese)</a>, <a href="https://www.youtube.com/c/MyOnlineTrainingHub/videos" target="_blank" rel="external">MyOnlineTrainingHub</a></p>
+<p><em>updated 230224</em></p>
 <h1 id="Functions"><a href="#Functions" class="headerlink" title="Functions"></a>Functions</h1><h2 id="Count-Sum-Lookup"><a href="#Count-Sum-Lookup" class="headerlink" title="Count / Sum / Lookup"></a>Count / Sum / Lookup</h2><p><strong>XLOOKUP</strong> <em>for looking up value and return a corresponding cell, both EXACT and FUZZY match</em><br>similar function: LOOKUP / VLOOKUP / HLOOKUP</p>
 <p><strong>OFFSET</strong>(A1, 3, -5)    <em>Start from Cell A1. Move right 3 and move down -5 (up 5)</em></p>
-<p><strong>SUMIF</strong>(A:A, “&gt;”&amp;C3, B:B)  <em>B:B is the array to be added, C3 is the cell to refer to</em><br>similar functions: SUBTOTAL / SUMIF(S) / SUMPRODUCT / COUNTIF(S)</p>
+<p><strong>SUMIF</strong>(A:A, “&gt;”&amp;C3, B:B)  <em>B:B is the array to be added, C3 is the cell to refer to</em><br>similar functions: SUBTOTAL / SUMIF(S) / SUMPRODUCT / COUNTIF(S)<br><em>SUM(COUNTIF(range,”&gt;”&amp;{lower_limit,upper_limit})\</em>{1,-1})*</p>
 <p><strong>D-Series</strong> DSUM / DCOUNT(A) / DAVERAGE / DGET(alternatives of LOOKUP series) / DPRODUCT / DMAX / DMIN / DVAR(P) / DSTDEV(P) <em>D means database, dealing with an existing database</em></p>
 <p><strong>AGGREGATE</strong> <em>can do sum/count/average when encountering ERROR, NA, hidden rows</em></p>
 <p>Some simple functions also listed here in case forgotten<strong>AND</strong>() and <strong>OR</strong>(), <strong>UNIQUE</strong>() </p>
 <hr>
-<h2 id="Manipulation"><a href="#Manipulation" class="headerlink" title="Manipulation"></a>Manipulation</h2><p><strong>LET</strong>(Var1,Val1, Expression)</p>
+<h2 id="Manipulation"><a href="#Manipulation" class="headerlink" title="Manipulation"></a>Manipulation</h2><p><strong>LET</strong>(Var1,Val1, Expression) <em>to retrieve the value of variable can call for calculation immediately</em></p>
 <p><strong>LAMBDA</strong>(Var1, Expression)(Val1) <em>should be defined in <u>Name Manager</u> to be called like a function</em></p>
 <blockquote>
 <p>Differences between <strong>LET</strong> and <strong>LAMBDA</strong>: <strong>LET</strong> is more of a customized expression with local variable defined at the beginning, while <strong>LAMBDA</strong> is more like a function in programming language - function is set first then values of variables are passed to the function. This characteristic enable the <em>Recursion</em> for <strong>LAMBDA</strong>. <a href="https://youtu.be/JPoJs3Q9lV4" target="_blank" rel="external">e.g.</a></p>
@@ -441,6 +437,8 @@ FunctionsCount">
 <p>For large amount of data, go to <strong>Power Query</strong> first, or you need, Python Numpy/Pandas or MATLAB.</p>
 <p>Data | <strong>Text-to-Columns</strong></p>
 <p>Recording Macros is a good approach for repeated operations, which can be later turned into VBA scripts (redundance exists).</p>
+<h1 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>Q:<br>How to <strong>COUNTIF</strong> multiple sections without helper column/row?</p>
+<p>A:<br>If odd/even columns:<br><strong>SUM((range)*( MOD(COLUMN(range),2)=1 )</strong><br>Similarly, <strong>SUMPRODUCT</strong> can be used for summing odd/even rows:<br><strong>SUMPRODUCT((range)*(MOD(ROW(range),2)=1)</strong><br>If multi-irregular region:<br><strong>SUM(COUNTIF(INDIRECT({“region1”,”region2”,”region3”}),criteria))</strong><br>See <a href="https://exceljet.net/formulas/countif-with-non-contiguous-range" target="_blank" rel="external">this link</a> for another approach with <strong>VSTACK</strong> function.</p>
 <h1 id="Better-Layout"><a href="#Better-Layout" class="headerlink" title="Better Layout"></a>Better Layout</h1><p>Some of personal experience for better layout in excel:</p>
 <ul>
 <li>Hide borders</li>
@@ -639,7 +637,7 @@ FunctionsCount">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Functions"><span class="nav-text">Functions</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Count-Sum-Lookup"><span class="nav-text">Count / Sum / Lookup</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Manipulation"><span class="nav-text">Manipulation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Finance-Regression-Prediction"><span class="nav-text">Finance / Regression / Prediction</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Operations-Skills"><span class="nav-text">Operations / Skills</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Better-Layout"><span class="nav-text">Better Layout</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Extensions"><span class="nav-text">Extensions</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#More-on-Excel-learning"><span class="nav-text">More on Excel learning</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Functions"><span class="nav-text">Functions</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Count-Sum-Lookup"><span class="nav-text">Count / Sum / Lookup</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Manipulation"><span class="nav-text">Manipulation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Finance-Regression-Prediction"><span class="nav-text">Finance / Regression / Prediction</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Operations-Skills"><span class="nav-text">Operations / Skills</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Q-amp-A"><span class="nav-text">Q&A</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Better-Layout"><span class="nav-text">Better Layout</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Extensions"><span class="nav-text">Extensions</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#More-on-Excel-learning"><span class="nav-text">More on Excel learning</span></a></li></ol></div>
             
 
           </div>
